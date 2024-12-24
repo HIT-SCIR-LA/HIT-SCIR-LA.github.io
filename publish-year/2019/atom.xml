@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - 2019</title>
+    <link rel="self" type="application/atom+xml" href="/publish-year/2019/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2019-01-01T00:00:00+00:00</updated>
+    <id>/publish-year/2019/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A corpus-free state2seq user simulator for task-oriented dialogue</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-a-corpus-free-state2seq-user-simulator-for-task-oriented-dialogue/"/>
+        <id>/publications/2019-a-corpus-free-state2seq-user-simulator-for-task-oriented-dialogue/</id>
+        
+        <content type="html" xml:base="/publications/2019-a-corpus-free-state2seq-user-simulator-for-task-oriented-dialogue/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Key-Phrase Aware End2end Neural Response Generation Model</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-a-key-phrase-aware-end2end-neural-response-generation-model/"/>
+        <id>/publications/2019-a-key-phrase-aware-end2end-neural-response-generation-model/</id>
+        
+        <content type="html" xml:base="/publications/2019-a-key-phrase-aware-end2end-neural-response-generation-model/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Span-Extraction Dataset for Chinese Machine Reading Comprehension</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-a-span-extraction-dataset-for-chinese-machine-reading-comprehension/"/>
+        <id>/publications/2019-a-span-extraction-dataset-for-chinese-machine-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2019-a-span-extraction-dataset-for-chinese-machine-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding/"/>
+        <id>/publications/2019-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2019-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>An evaluation of chinese human-computer dialogue technology</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-an-evaluation-of-chinese-human-computer-dialogue-technology/"/>
+        <id>/publications/2019-an-evaluation-of-chinese-human-computer-dialogue-technology/</id>
+        
+        <content type="html" xml:base="/publications/2019-an-evaluation-of-chinese-human-computer-dialogue-technology/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Contextual recurrent units for cloze-style reading comprehension</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-contextual-recurrent-units-for-cloze-style-reading-comprehension/"/>
+        <id>/publications/2019-contextual-recurrent-units-for-cloze-style-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2019-contextual-recurrent-units-for-cloze-style-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cross-Lingual BERT Transformation for Zero-Shot Dependency Parsing</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-cross-lingual-bert-transformation-for-zero-shot-dependency-parsing/"/>
+        <id>/publications/2019-cross-lingual-bert-transformation-for-zero-shot-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2019-cross-lingual-bert-transformation-for-zero-shot-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cross-Lingual Machine Reading Comprehension</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-cross-lingual-machine-reading-comprehension/"/>
+        <id>/publications/2019-cross-lingual-machine-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2019-cross-lingual-machine-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Deep contextualized word embeddings for universal dependency parsing</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-deep-contextualized-word-embeddings-for-universal-dependency-parsing/"/>
+        <id>/publications/2019-deep-contextualized-word-embeddings-for-universal-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2019-deep-contextualized-word-embeddings-for-universal-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Entity-Consistent End-to-end Task-Oriented Dialogue System with KB Retriever</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-entity-consistent-end-to-end-task-oriented-dialogue-system-with-kb-retriever/"/>
+        <id>/publications/2019-entity-consistent-end-to-end-task-oriented-dialogue-system-with-kb-retriever/</id>
+        
+        <content type="html" xml:base="/publications/2019-entity-consistent-end-to-end-task-oriented-dialogue-system-with-kb-retriever/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-generating-natural-language-adversarial-examples-through-probability-weighted-word-saliency/"/>
+        <id>/publications/2019-generating-natural-language-adversarial-examples-through-probability-weighted-word-saliency/</id>
+        
+        <content type="html" xml:base="/publications/2019-generating-natural-language-adversarial-examples-through-probability-weighted-word-saliency/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>HIT-SCIR at MRP 2019 A Unified Pipeline for Meaning Representation Parsing via Efficient Training and Effective Encoding</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-hit-scir-at-mrp-2019-a-unified-pipeline-for-meaning-representation-parsing-via-efficient-training-and-effective-encoding/"/>
+        <id>/publications/2019-hit-scir-at-mrp-2019-a-unified-pipeline-for-meaning-representation-parsing-via-efficient-training-and-effective-encoding/</id>
+        
+        <content type="html" xml:base="/publications/2019-hit-scir-at-mrp-2019-a-unified-pipeline-for-meaning-representation-parsing-via-efficient-training-and-effective-encoding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Improving machine reading comprehension via adversarial training</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-improving-machine-reading-comprehension-via-adversarial-training/"/>
+        <id>/publications/2019-improving-machine-reading-comprehension-via-adversarial-training/</id>
+        
+        <content type="html" xml:base="/publications/2019-improving-machine-reading-comprehension-via-adversarial-training/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Learning semantic hierarchies A continuous vector space approach</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/"/>
+        <id>/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/</id>
+        
+        <content type="html" xml:base="/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pre-training with whole word masking for chinese bert</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-pre-training-with-whole-word-masking-for-chinese-bert/"/>
+        <id>/publications/2019-pre-training-with-whole-word-masking-for-chinese-bert/</id>
+        
+        <content type="html" xml:base="/publications/2019-pre-training-with-whole-word-masking-for-chinese-bert/"></content>
+        
+    </entry>
+</feed>

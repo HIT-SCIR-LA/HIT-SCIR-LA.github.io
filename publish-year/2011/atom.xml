@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - 2011</title>
+    <link rel="self" type="application/atom+xml" href="/publish-year/2011/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2011-01-01T00:00:00+00:00</updated>
+    <id>/publish-year/2011/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Graph-based Method for Entity Linking</title>
+        <published>2011-01-01T00:00:00+00:00</published>
+        <updated>2011-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2011-a-graph-based-method-for-entity-linking/"/>
+        <id>/publications/2011-a-graph-based-method-for-entity-linking/</id>
+        
+        <content type="html" xml:base="/publications/2011-a-graph-based-method-for-entity-linking/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>HIT Approaches to Entity Linking at TAC 2011</title>
+        <published>2011-01-01T00:00:00+00:00</published>
+        <updated>2011-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2011-hit-approaches-to-entity-linking-at-tac-2011/"/>
+        <id>/publications/2011-hit-approaches-to-entity-linking-at-tac-2011/</id>
+        
+        <content type="html" xml:base="/publications/2011-hit-approaches-to-entity-linking-at-tac-2011/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Improving Chinese POS Tagging with Dependency Parsing</title>
+        <published>2011-01-01T00:00:00+00:00</published>
+        <updated>2011-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2011-improving-chinese-pos-tagging-with-dependency-parsing/"/>
+        <id>/publications/2011-improving-chinese-pos-tagging-with-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2011-improving-chinese-pos-tagging-with-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Joint Models for Chinese POS Tagging and Dependency Parsing</title>
+        <published>2011-01-01T00:00:00+00:00</published>
+        <updated>2011-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2011-joint-models-for-chinese-pos-tagging-and-dependency-parsing/"/>
+        <id>/publications/2011-joint-models-for-chinese-pos-tagging-and-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2011-joint-models-for-chinese-pos-tagging-and-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The data paper a mechanism to incentivize data publishing in biodiversity science</title>
+        <published>2011-01-01T00:00:00+00:00</published>
+        <updated>2011-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2011-the-data-paper-a-mechanism-to-incentivize-data-publishing-in-biodiversity-science/"/>
+        <id>/publications/2011-the-data-paper-a-mechanism-to-incentivize-data-publishing-in-biodiversity-science/</id>
+        
+        <content type="html" xml:base="/publications/2011-the-data-paper-a-mechanism-to-incentivize-data-publishing-in-biodiversity-science/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Word Sense Disambiguation Corpora Acquisition via Confirmation Code</title>
+        <published>2011-01-01T00:00:00+00:00</published>
+        <updated>2011-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2011-word-sense-disambiguation-corpora-acquisition-via-confirmation-code/"/>
+        <id>/publications/2011-word-sense-disambiguation-corpora-acquisition-via-confirmation-code/</id>
+        
+        <content type="html" xml:base="/publications/2011-word-sense-disambiguation-corpora-acquisition-via-confirmation-code/"></content>
+        
+    </entry>
+</feed>

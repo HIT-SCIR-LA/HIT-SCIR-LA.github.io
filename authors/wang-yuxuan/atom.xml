@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Wang Yuxuan</title>
+    <link rel="self" type="application/atom+xml" href="/authors/wang-yuxuan/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-01-01T00:00:00+00:00</updated>
+    <id>/authors/wang-yuxuan/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Simple and Effective Graph-to-Graph Annotation Conversion</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-simple-and-effective-graph-to-graph-annotation-conversion/"/>
+        <id>/publications/2022-simple-and-effective-graph-to-graph-annotation-conversion/</id>
+        
+        <content type="html" xml:base="/publications/2022-simple-and-effective-graph-to-graph-annotation-conversion/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Closer Look into the Robustness of Neural Dependency Parsers Using Better Adversarial Examples</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-a-closer-look-into-the-robustness-of-neural-dependency-parsers-using-better-adversarial-examples/"/>
+        <id>/publications/2021-a-closer-look-into-the-robustness-of-neural-dependency-parsers-using-better-adversarial-examples/</id>
+        
+        <content type="html" xml:base="/publications/2021-a-closer-look-into-the-robustness-of-neural-dependency-parsers-using-better-adversarial-examples/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Character-Level Syntax Infusion in Pre-Trained Models for Chinese Semantic Role Labeling</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-character-level-syntax-infusion-in-pre-trained-models-for-chinese-semantic-role-labeling/"/>
+        <id>/publications/2021-character-level-syntax-infusion-in-pre-trained-models-for-chinese-semantic-role-labeling/</id>
+        
+        <content type="html" xml:base="/publications/2021-character-level-syntax-infusion-in-pre-trained-models-for-chinese-semantic-role-labeling/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Understanding Patient Query with Weak Supervision from Doctor Response</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-understanding-patient-query-with-weak-supervision-from-doctor-response/"/>
+        <id>/publications/2021-understanding-patient-query-with-weak-supervision-from-doctor-response/</id>
+        
+        <content type="html" xml:base="/publications/2021-understanding-patient-query-with-weak-supervision-from-doctor-response/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>From static to dynamic word representations a survey</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-from-static-to-dynamic-word-representations-a-survey/"/>
+        <id>/publications/2020-from-static-to-dynamic-word-representations-a-survey/</id>
+        
+        <content type="html" xml:base="/publications/2020-from-static-to-dynamic-word-representations-a-survey/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cross-Lingual BERT Transformation for Zero-Shot Dependency Parsing</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-cross-lingual-bert-transformation-for-zero-shot-dependency-parsing/"/>
+        <id>/publications/2019-cross-lingual-bert-transformation-for-zero-shot-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2019-cross-lingual-bert-transformation-for-zero-shot-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Deep contextualized word embeddings for universal dependency parsing</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-deep-contextualized-word-embeddings-for-universal-dependency-parsing/"/>
+        <id>/publications/2019-deep-contextualized-word-embeddings-for-universal-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2019-deep-contextualized-word-embeddings-for-universal-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>HIT-SCIR at MRP 2019 A Unified Pipeline for Meaning Representation Parsing via Efficient Training and Effective Encoding</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-hit-scir-at-mrp-2019-a-unified-pipeline-for-meaning-representation-parsing-via-efficient-training-and-effective-encoding/"/>
+        <id>/publications/2019-hit-scir-at-mrp-2019-a-unified-pipeline-for-meaning-representation-parsing-via-efficient-training-and-effective-encoding/</id>
+        
+        <content type="html" xml:base="/publications/2019-hit-scir-at-mrp-2019-a-unified-pipeline-for-meaning-representation-parsing-via-efficient-training-and-effective-encoding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Towards Better UD Parsing Deep Contextualized Word Embeddings Ensemble and Treebank Concatenation</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/"/>
+        <id>/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/</id>
+        
+        <content type="html" xml:base="/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The HIT-SCIR System for End-to-End Parsing of Universal Dependencies</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/"/>
+        <id>/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/</id>
+        
+        <content type="html" xml:base="/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Transition-based chinese semantic dependency graph parsing</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-transition-based-chinese-semantic-dependency-graph-parsing/"/>
+        <id>/publications/2016-transition-based-chinese-semantic-dependency-graph-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2016-transition-based-chinese-semantic-dependency-graph-parsing/"></content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - He Kun</title>
+    <link rel="self" type="application/atom+xml" href="/authors/he-kun/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-01-01T00:00:00+00:00</updated>
+    <id>/authors/he-kun/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Learning-based Hybrid Local Search for the Hard-label Textual Attack</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/"/>
+        <id>/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/</id>
+        
+        <content type="html" xml:base="/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-generating-natural-language-adversarial-examples-through-probability-weighted-word-saliency/"/>
+        <id>/publications/2019-generating-natural-language-adversarial-examples-through-probability-weighted-word-saliency/</id>
+        
+        <content type="html" xml:base="/publications/2019-generating-natural-language-adversarial-examples-through-probability-weighted-word-saliency/"></content>
+        
+    </entry>
+</feed>

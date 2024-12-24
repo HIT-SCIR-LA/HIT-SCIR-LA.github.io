@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+
+<div class="container">
+  <section class="section">
+    
+    <p class="title">
+      新闻列表
+    </p>
+    
+
+    
+    
+    
+
+    
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创｜EMNLP 2020 融合自训练和自监督方法的无监督文本顺滑研究
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创｜EMNLP 2020 融合自训练和自监督方法的无监督文本顺滑研究.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        本文录用于EMNLP 2020。在自然语言处理中，顺滑任务的目是识别出话语中自带的不流畅现象。本文融合了自训练和自监督两种学习方法，探索无监督的文本顺滑方法。实验结果表明，本方法在不使用有标注数据进行训练的情况下，取得了非常不错的性能。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创｜EMNLP 2020 融合自训练和自监督方法的无监督文本顺滑研究.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650799668&amp;idx=1&amp;sn=1f1f4474d1c1da6c85ca7a8d6faebdc6&amp;chksm=8f476bdfb830e2c995a39ee071011862425811bfad6d6ebdbac6914fa5977ba3f52b997027d4&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创｜EMNLP 2020 融合自训练和自监督方法的无监督文本顺滑研究</a>
+              
+            </h3>
+            本文录用于EMNLP 2020。在自然语言处理中，顺滑任务的目是识别出话语中自带的不流畅现象。本文融合了自训练和自监督两种学习方法，探索无监督的文本顺滑方法。实验结果表明，本方法在不使用有标注数据进行训练的情况下，取得了非常不错的性能。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2020-10-15">2020-10-15</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2020-10-15">2020-10-15</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR九篇长文被EMNLP 2020及子刊录用
+          
+        </h3>
+      </header>
+
+      
+
+      <div class="card-content is-hidden-tablet">
+        EMNLP 2020（2020 Conference on Empirical Methods in Natural Language Processing）将于2020年11月16日至20日以在线会议的形式举办。EMNLP是计算语言学和自...
+      </div>
+
+      <article class="media">
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;3457.html">哈工大SCIR九篇长文被EMNLP 2020及子刊录用</a>
+              
+            </h3>
+            EMNLP 2020（2020 Conference on Empirical Methods in Natural Language Processing）将于2020年11月16日至20日以在线会议的形式举办。EMNLP是计算语言学和自...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-fa-biao/">
+                  <span class="tag is-primary">
+                    论文发表
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2020-10-05">2020-10-05</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2020-10-05">2020-10-05</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR六篇文章被COLING 2020录用
+          
+        </h3>
+      </header>
+
+      
+
+      <div class="card-content is-hidden-tablet">
+        COLING 2020, the 28th International Conference on Computational Linguistics将于2020年12月8日至13日在线举行。COLING是自然语言处理领域的重要国际会议，每...
+      </div>
+
+      <article class="media">
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;3466.html">哈工大SCIR六篇文章被COLING 2020录用</a>
+              
+            </h3>
+            COLING 2020, the 28th International Conference on Computational Linguistics将于2020年12月8日至13日在线举行。COLING是自然语言处理领域的重要国际会议，每...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-fa-biao/">
+                  <span class="tag is-primary">
+                    论文发表
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2020-10-05">2020-10-05</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2020-10-05">2020-10-05</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创 | ACL20 让模型“事半功倍”，探究少样本序列标注方法
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | ACL20 让模型“事半功倍”，探究少样本序列标注方法.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        少样本学习是近年来的热点，但是针对对话等NLP具体问题的研究仍然方兴未艾。本文从对话语义槽标记问题入手，首次研究了少样本序列标注问题。我们提出坍缩依赖迁移机制和L-TapNet模型，取得了14.64 F1的大幅提升。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | ACL20 让模型“事半功倍”，探究少样本序列标注方法.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650799160&amp;idx=1&amp;sn=9ca0faa748852b33e4985baeecacbc58&amp;chksm=8f4769d3b830e0c5626033eae77888a0a2dcd0c37ba53cd7e1bc4868cad3820d0c770dd0c756&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创 | ACL20 让模型“事半功倍”，探究少样本序列标注方法</a>
+              
+            </h3>
+            少样本学习是近年来的热点，但是针对对话等NLP具体问题的研究仍然方兴未艾。本文从对话语义槽标记问题入手，首次研究了少样本序列标注问题。我们提出坍缩依赖迁移机制和L-TapNet模型，取得了14.64 F1的大幅提升。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2020-08-03">2020-08-03</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2020-08-03">2020-08-03</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创 | ACL20 用于多领域端到端任务型对话系统的动态融合网络
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | ACL20 用于多领域端到端任务型对话系统的动态融合网络.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        本文录用于ACL2020。本文首次将 shared-private 应用在了多领域端到端对话任务中，并成功将表示用于query知识库提高性能，还提出了动态融合网络，有效地捕捉了领域间更细粒度的相关性，在低资源情况下也取得了很好的效果。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | ACL20 用于多领域端到端任务型对话系统的动态融合网络.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650799085&amp;idx=1&amp;sn=fad43de3b79c2ada041348a6c43b8fbe&amp;chksm=8f476e06b830e710691ad0a225e9352856ece3d5f9a50fb99e806ebf1db13da87474d63aef5a&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创 | ACL20 用于多领域端到端任务型对话系统的动态融合网络</a>
+              
+            </h3>
+            本文录用于ACL2020。本文首次将 shared-private 应用在了多领域端到端对话任务中，并成功将表示用于query知识库提高性能，还提出了动态融合网络，有效地捕捉了领域间更细粒度的相关性，在低资源情况下也取得了很好的效果。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2020-07-24">2020-07-24</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2020-07-24">2020-07-24</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创 | ACL20 基于图注意力网络的多粒度机器阅读理解文档建模
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | ACL20 基于图注意力网络的多粒度机器阅读理解文档建模.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        本文录用于ACL2020。在本文中，针对NQ数据集的两个粒度答案的特点，我们提出了基于BERT和图注意力网络的多粒度机器阅读理解框架，通过联合训练考虑NQ两个粒度答案之间的依赖关系，并且在NQ数据集上验证了方法的有效性。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | ACL20 基于图注意力网络的多粒度机器阅读理解文档建模.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650798875&amp;idx=1&amp;sn=41b76c0e11bf8573e43375158bef28a6&amp;chksm=8f476ef0b830e7e6c33837cb189bd20cc2e90e9184a2ae22887e1c61741acffc7262fd4b19ec&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创 | ACL20 基于图注意力网络的多粒度机器阅读理解文档建模</a>
+              
+            </h3>
+            本文录用于ACL2020。在本文中，针对NQ数据集的两个粒度答案的特点，我们提出了基于BERT和图注意力网络的多粒度机器阅读理解框架，通过联合训练考虑NQ两个粒度答案之间的依赖关系，并且在NQ数据集上验证了方法的有效性。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2020-06-30">2020-06-30</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2020-06-30">2020-06-30</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创 | ACL20 基于对话图谱的开放域多轮对话策略学习
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | ACL20 基于对话图谱的开放域多轮对话策略学习.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        本文录用于ACL2020。本文提出用图的形式捕捉对话转移规律作为先验信息，用于辅助开放域多轮对话策略学习，还提出了一个基于对话图的策略学习框架来指导回复生成。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | ACL20 基于对话图谱的开放域多轮对话策略学习.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650798761&amp;idx=1&amp;sn=7350e76d0ceba659ef9d06c4f74adfbc&amp;chksm=8f476f42b830e654ba0097031b4da60c66298583934e3315e5c6f05fb05687f771e46bf50fbf&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创 | ACL20 基于对话图谱的开放域多轮对话策略学习</a>
+              
+            </h3>
+            本文录用于ACL2020。本文提出用图的形式捕捉对话转移规律作为先验信息，用于辅助开放域多轮对话策略学习，还提出了一个基于对话图的策略学习框架来指导回复生成。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2020-06-17">2020-06-17</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2020-06-17">2020-06-17</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          LTP 4.0！单模型完成6项自然语言处理任务
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2020&#x2F;06&#x2F;ltp2.png" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        语言技术平台（Language Technology Platform, LTP）是哈工大社会计算与信息检索研究中心（HIT-SCIR）历时多年研发的一整套高效、高精度的中文自然语言处理开源基础技术平台。该平台集词法分析（分词、词性标注、命...
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2020&#x2F;06&#x2F;ltp2.png" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;3375.html">LTP 4.0！单模型完成6项自然语言处理任务</a>
+              
+            </h3>
+            语言技术平台（Language Technology Platform, LTP）是哈工大社会计算与信息检索研究中心（HIT-SCIR）历时多年研发的一整套高效、高精度的中文自然语言处理开源基础技术平台。该平台集词法分析（分词、词性标注、命...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/gong-cheng-xiang-mu/">
+                  <span class="tag is-primary">
+                    工程项目
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2020-06-15">2020-06-15</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2020-06-15">2020-06-15</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          ACL 2010-2020研究趋势总结
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/ACL 2010-2020研究趋势总结.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        哈工大SCIR车万翔教授受邀在AIS（ACL-IJCAI-SIGIR）2020顶会论文预讲会上介绍了ACL会议近年来的研究趋势，特整理成幻灯片配文字版，希望对相关领域的研究者有所帮助！
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/ACL 2010-2020研究趋势总结.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650798431&amp;idx=1&amp;sn=d10bf49e2e8e4e429cc2f97cc7fdc754&amp;chksm=8f476cb4b830e5a23ecd6d546ea4675d3305b099fe14924e36274b832c3bff4625fe56a96cd5&amp;token=728330758&amp;lang=zh_CN#rd">ACL 2010-2020研究趋势总结</a>
+              
+            </h3>
+            哈工大SCIR车万翔教授受邀在AIS（ACL-IJCAI-SIGIR）2020顶会论文预讲会上介绍了ACL会议近年来的研究趋势，特整理成幻灯片配文字版，希望对相关领域的研究者有所帮助！
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/xue-shu-jiao-liu/">
+                  <span class="tag is-primary">
+                    学术交流
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2020-05-26">2020-05-26</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2020-05-26">2020-05-26</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创 | AAAI20 基于Goal(话题)的开放域多轮对话规划
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | AAAI20 基于Goal(话题)的开放域多轮对话规划.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        本文录用于AAAI2020，提出了一种基于话题的开放域多轮对话规划方法，并将该任务分为两个子任务：话题和深入话题聊天。该模型在用户兴趣一致性、对话一致性和知识准确性方面优于最新的基线。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | AAAI20 基于Goal(话题)的开放域多轮对话规划.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650798336&amp;idx=1&amp;sn=42bbadff6022af1a3ac8f570ceed0c6e&amp;chksm=8f476cebb830e5fde3e492290146b8768b806dcd4ebb66d52bfc1523a79eb5caed2bcc2d02bf&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创 | AAAI20 基于Goal(话题)的开放域多轮对话规划</a>
+              
+            </h3>
+            本文录用于AAAI2020，提出了一种基于话题的开放域多轮对话规划方法，并将该任务分为两个子任务：话题和深入话题聊天。该模型在用户兴趣一致性、对话一致性和知识准确性方面优于最新的基线。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2020-05-19">2020-05-19</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2020-05-19">2020-05-19</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+    
+
+    
+    
+
+    
+
+    
+    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+      
+      <a class="pagination-previous" href="&#x2F;news&#x2F;page&#x2F;7&#x2F;">‹ Previous</a>
+      
+      
+      <a class="pagination-next" href="&#x2F;news&#x2F;page&#x2F;9&#x2F;">Next ›</a>
+      
+      <ul class="pagination-list">
+        
+
+        
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;">1</a></li>
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        
+
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;7&#x2F;">7</a></li>
+        
+        <li><a class="pagination-link is-current" aria-current="page">8</a></li>
+        
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;9&#x2F;">9</a></li>
+
+        
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;12&#x2F;">12</a></li>
+        
+
+        
+      </ul>
+    </nav>
+    
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

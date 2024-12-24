@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+<div class="container">
+  <section class="hero">
+    <div class="hero-body">
+      
+      <p class="title">
+        
+        NAACL
+        
+      </p>
+      
+
+      
+      
+      
+
+      
+
+
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Parsing Tweets into Universal Dependencies
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), 965--975, 2018. </p>
+    <p>Liu, Yijia  and Zhu, Yi  and Che, Wanxiang  and Qin, Bing  and Schneider, Nathan  and Smith, Noah A.</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Parsing Tweets into Universal Dependencies
+          
+        </h3>
+        <p>Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), 965--975, 2018. </p>
+        <p>Liu, Yijia  and Zhu, Yi  and Che, Wanxiang  and Qin, Bing  and Schneider, Nathan  and Smith, Noah A.</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;naacl&#x2F;">
+          <span class="tag is-success">
+            NAACL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2018&#x2F;">
+          <span class="tag is-warning">
+            2018
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-yijia&#x2F;">
+          <span class="tag is-danger">
+            Liu Yijia
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhu-yi&#x2F;">
+          <span class="tag is-danger">
+            Zhu Yi
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;N18-1088">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/liu2018parsing.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+
+
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Transition-Based Syntactic Linearization
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the 2015 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, 113--122, 2015. </p>
+    <p>Liu, Yijia  and Zhang, Yue  and Che, Wanxiang  and Qin, Bing</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Transition-Based Syntactic Linearization
+          
+        </h3>
+        <p>Proceedings of the 2015 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, 113--122, 2015. </p>
+        <p>Liu, Yijia  and Zhang, Yue  and Che, Wanxiang  and Qin, Bing</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;naacl&#x2F;">
+          <span class="tag is-success">
+            NAACL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2015&#x2F;">
+          <span class="tag is-warning">
+            2015
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-yijia&#x2F;">
+          <span class="tag is-danger">
+            Liu Yijia
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-yue&#x2F;">
+          <span class="tag is-danger">
+            Zhang Yue
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;N15-1012">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/liu2015transition.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+
+
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Named Entity Recognition with Bilingual Constraints
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the 2013 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, 52--62, 2013. </p>
+    <p>Che, Wanxiang  and Wang, Mengqiu  and Manning, Christopher D.  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Named Entity Recognition with Bilingual Constraints
+          
+        </h3>
+        <p>Proceedings of the 2013 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, 52--62, 2013. </p>
+        <p>Che, Wanxiang  and Wang, Mengqiu  and Manning, Christopher D.  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;naacl&#x2F;">
+          <span class="tag is-success">
+            NAACL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2013&#x2F;">
+          <span class="tag is-warning">
+            2013
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;wang-mengqiu&#x2F;">
+          <span class="tag is-danger">
+            Wang Mengqiu
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;manning-christopher-d&#x2F;">
+          <span class="tag is-danger">
+            Manning Christopher D.
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;N13-1006">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/che2013named.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+
+
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Improving Semantic Role Labeling with Word Sense
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Human Language Technologies: The 2010 Annual Conference of the North {A}merican Chapter of the Association for Computational Linguistics, 246--249, 2010. </p>
+    <p>Che, Wanxiang  and Liu, Ting  and Li, Yongqiang</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Improving Semantic Role Labeling with Word Sense
+          
+        </h3>
+        <p>Human Language Technologies: The 2010 Annual Conference of the North {A}merican Chapter of the Association for Computational Linguistics, 246--249, 2010. </p>
+        <p>Che, Wanxiang  and Liu, Ting  and Li, Yongqiang</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;naacl&#x2F;">
+          <span class="tag is-success">
+            NAACL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2010&#x2F;">
+          <span class="tag is-warning">
+            2010
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-ting&#x2F;">
+          <span class="tag is-danger">
+            Liu Ting
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;li-yongqiang&#x2F;">
+          <span class="tag is-danger">
+            Li Yongqiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;N10-1030">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/che2010improving.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+
+
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Language Specific Issue and Feature Exploration in Chinese Event Extraction
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of Human Language Technologies: The 2009 Annual Conference of the North {A}merican Chapter of the Association for Computational Linguistics, Companion Volume: Short Papers, 209--212, 2009. </p>
+    <p>Chen, Zheng  and Ji, Heng</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Language Specific Issue and Feature Exploration in Chinese Event Extraction
+          
+        </h3>
+        <p>Proceedings of Human Language Technologies: The 2009 Annual Conference of the North {A}merican Chapter of the Association for Computational Linguistics, Companion Volume: Short Papers, 209--212, 2009. </p>
+        <p>Chen, Zheng  and Ji, Heng</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;naacl&#x2F;">
+          <span class="tag is-success">
+            NAACL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2009&#x2F;">
+          <span class="tag is-warning">
+            2009
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;chen-zheng&#x2F;">
+          <span class="tag is-danger">
+            Chen Zheng
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;ji-heng&#x2F;">
+          <span class="tag is-danger">
+            Ji Heng
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;N09-2053">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/chen2009language.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+
+
+
+      
+    </div>
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

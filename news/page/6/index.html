@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+
+<div class="container">
+  <section class="section">
+    
+    <p class="title">
+      新闻列表
+    </p>
+    
+
+    
+    
+    
+
+    
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR《自然语言处理：基于预训练模型的方法》一书出版
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR《自然语言处理：基于预训练模型的方法》一书出版.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        由哈工大社会计算与信息检索研究中心（SCIR）多位学者编写的《自然语言处理：基于预训练模型的方法》一书正式出版。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR《自然语言处理：基于预训练模型的方法》一书出版.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650802766&amp;idx=1&amp;sn=765101455ebb2e49a1e3b66494c50075&amp;chksm=8cb89fa5bbcf16b30746b7262909d9a9bfe4d5b9a4d4712d28e2941689e960c43a9dc8be91a4&amp;token=728330758&amp;lang=zh_CN#rd">哈工大SCIR《自然语言处理：基于预训练模型的方法》一书出版</a>
+              
+            </h3>
+            由哈工大社会计算与信息检索研究中心（SCIR）多位学者编写的《自然语言处理：基于预训练模型的方法》一书正式出版。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/shu-ji-chu-ban/">
+                  <span class="tag is-primary">
+                    书籍出版
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-07-19">2021-07-19</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-07-19">2021-07-19</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创@ACL Findings | 基于高质量对抗样本的依存分析器鲁棒性探究
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@ACL Findings | 基于高质量对抗样本的依存分析器鲁棒性探究.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        现有的针对依存分析任务的对抗攻击基本都集中于攻击方法本身，而忽略了较低的对抗样本质量。为了解决该问题，我们提出了一种方法，使用更多生成方法和更严格的过滤器来生成高质量的对抗样本，并使用对抗学习和模型融合方法有效提高了分析器的鲁棒性。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@ACL Findings | 基于高质量对抗样本的依存分析器鲁棒性探究.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650802667&amp;idx=1&amp;sn=195715aeb94394172296bb35ccb8b2d4&amp;chksm=8cb89c00bbcf1516295d7ed3a9cc693f9c5f1dd2fdce43a6b4ddac4089bed757050f1e6d8454&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创@ACL Findings | 基于高质量对抗样本的依存分析器鲁棒性探究</a>
+              
+            </h3>
+            现有的针对依存分析任务的对抗攻击基本都集中于攻击方法本身，而忽略了较低的对抗样本质量。为了解决该问题，我们提出了一种方法，使用更多生成方法和更严格的过滤器来生成高质量的对抗样本，并使用对抗学习和模型融合方法有效提高了分析器的鲁棒性。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-07-09">2021-07-09</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-07-09">2021-07-09</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创@ACL 2021 | 基于一致性正则的跨语言微调方法
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@ACL 2021 | 基于一致性正则的跨语言微调方法.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        本文录用于ACL 2021。跨语言微调指通过在源语言标注数据微调跨语言模型，使得任务的监督信息能够迁移到其他目标语言。本文提出了xTune方法，通过两种一致性正则来更好地利用跨语言增广数据，从而提升多种下游任务中跨语言微调的性能。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@ACL 2021 | 基于一致性正则的跨语言微调方法.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650802524&amp;idx=1&amp;sn=42fad4a54ec8ddbbdf1bb9c53ea56ca5&amp;chksm=8cb89cb7bbcf15a1647313b3a5cb431f7b9eadddc650a9d84a5805a309942e7dfad96433c994&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创@ACL 2021 | 基于一致性正则的跨语言微调方法</a>
+              
+            </h3>
+            本文录用于ACL 2021。跨语言微调指通过在源语言标注数据微调跨语言模型，使得任务的监督信息能够迁移到其他目标语言。本文提出了xTune方法，通过两种一致性正则来更好地利用跨语言增广数据，从而提升多种下游任务中跨语言微调的性能。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-06-22">2021-06-22</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-06-22">2021-06-22</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          第二届THUNLP &amp; HIT-SCIR学术联谊会成功举办
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2021&#x2F;06&#x2F;0d244bbfc8620a8f436c38d7f837ad09-300x200.png" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        2021年5月31日，清华大学自然语言处理与社会人文计算实验室（THUNLP）与哈尔滨工业大学社会计算与信息检索研究中心（HIT-SCIR）第二届学术联谊会于北京成功举办。清华THUNLP孙茂松、刘洋、刘知远以及哈工大SCIR刘挺、秦兵、车...
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2021&#x2F;06&#x2F;0d244bbfc8620a8f436c38d7f837ad09-300x200.png" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;3619.html">第二届THUNLP &amp; HIT-SCIR学术联谊会成功举办</a>
+              
+            </h3>
+            2021年5月31日，清华大学自然语言处理与社会人文计算实验室（THUNLP）与哈尔滨工业大学社会计算与信息检索研究中心（HIT-SCIR）第二届学术联谊会于北京成功举办。清华THUNLP孙茂松、刘洋、刘知远以及哈工大SCIR刘挺、秦兵、车...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/xue-shu-jiao-liu/">
+                  <span class="tag is-primary">
+                    学术交流
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-06-07">2021-06-07</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-06-07">2021-06-07</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR博士生覃立波获得第八届百度奖学金
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2021&#x2F;05&#x2F;950a4dde47e536e4bdb25b0b456a3d45-300x196.png" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        2021年5月20日，第八届百度奖学金颁奖典礼在北京隆重举行。第八届百度奖学金吸引了来自国内外知名高校的百余名申请者。通过对报名者的资格审核及学术和综合能力的评估，哈工大社会计算与信息检索研究中心(SCIR)博士生覃立波与其他九位来自清华大...
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2021&#x2F;05&#x2F;950a4dde47e536e4bdb25b0b456a3d45-300x196.png" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;3597.html">哈工大SCIR博士生覃立波获得第八届百度奖学金</a>
+              
+            </h3>
+            2021年5月20日，第八届百度奖学金颁奖典礼在北京隆重举行。第八届百度奖学金吸引了来自国内外知名高校的百余名申请者。通过对报名者的资格审核及学术和综合能力的评估，哈工大社会计算与信息检索研究中心(SCIR)博士生覃立波与其他九位来自清华大...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/xue-sheng-huo-jiang/">
+                  <span class="tag is-primary">
+                    学生获奖
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-05-24">2021-05-24</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-05-24">2021-05-24</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          YEF2021演讲实录｜哈尔滨工业大学车万翔：自然语言处理新范式
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/YEF2021演讲实录｜哈尔滨工业大学车万翔：自然语言处理新范式.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        哈尔滨工业大学社会计算与信息检索研究中心车万翔教授受邀在中国计算机学会青年精英大会（CCF YEF）2021的“思想秀”环节，以《自然语言处理新范式》为题介绍了自然语言处理的昨天和今天，并展望了明天！本文整理了报告的主要内容。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/YEF2021演讲实录｜哈尔滨工业大学车万翔：自然语言处理新范式.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650801625&amp;idx=1&amp;sn=4be8105a445c3eda34ab1c62d6585071&amp;chksm=8cb89032bbcf1924ed81c7220839ff91fa58de271f21359382e097884e7d5ba5bca1d638175f&amp;token=728330758&amp;lang=zh_CN#rd">YEF2021演讲实录｜哈尔滨工业大学车万翔：自然语言处理新范式</a>
+              
+            </h3>
+            哈尔滨工业大学社会计算与信息检索研究中心车万翔教授受邀在中国计算机学会青年精英大会（CCF YEF）2021的“思想秀”环节，以《自然语言处理新范式》为题介绍了自然语言处理的昨天和今天，并展望了明天！本文整理了报告的主要内容。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/xue-shu-jiao-liu/">
+                  <span class="tag is-primary">
+                    学术交流
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-05-14">2021-05-14</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-05-14">2021-05-14</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR 14篇长文被ACL 2021主会&#x2F;Findings和IJCAI 2021录用
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR 14篇长文被ACL 2021主会_Findings和IJCAI 2021录用.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        哈尔滨工业大学社会计算与信息检索研究中心有9篇长文被ACL 2021主会录用，1篇长文被IJCAI 2021录用，4篇长文被Findings of ACL录用。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR 14篇长文被ACL 2021主会_Findings和IJCAI 2021录用.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650801297&amp;idx=1&amp;sn=31b20506f74ab4f4154d65a219ca05e5&amp;chksm=8cb8917abbcf186ca615a5249b768da5d4d7cb682db33b77e22d08a7053c9c3dcfe26a36edaf&amp;token=728330758&amp;lang=zh_CN#rd">哈工大SCIR 14篇长文被ACL 2021主会&#x2F;Findings和IJCAI 2021录用</a>
+              
+            </h3>
+            哈尔滨工业大学社会计算与信息检索研究中心有9篇长文被ACL 2021主会录用，1篇长文被IJCAI 2021录用，4篇长文被Findings of ACL录用。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-fa-biao/">
+                  <span class="tag is-primary">
+                    论文发表
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-05-07">2021-05-07</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-05-07">2021-05-07</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创 | N-LTP：基于预训练模型的中文自然语言处理平台
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | N-LTP：基于预训练模型的中文自然语言处理平台.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        自然语言处理（NLP）工具包种类繁多 ，但用于中文NLP任务的高性能和高效率工具包相对较少。为此我们推出了用于中文NLP任务的神经自然语言处理工具包LTP，支持六大NLP任务，在效率和性能上都取得了不错的效果。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | N-LTP：基于预训练模型的中文自然语言处理平台.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650801067&amp;idx=1&amp;sn=2c21d7d8ce0e1ac17a4f209d2ed76dc6&amp;chksm=8cb89640bbcf1f564af5f762164a52f0d46d33a0d307ca4c306518873c7490e8ab922a37fd21&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创 | N-LTP：基于预训练模型的中文自然语言处理平台</a>
+              
+            </h3>
+            自然语言处理（NLP）工具包种类繁多 ，但用于中文NLP任务的高性能和高效率工具包相对较少。为此我们推出了用于中文NLP任务的神经自然语言处理工具包LTP，支持六大NLP任务，在效率和性能上都取得了不错的效果。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-04-30">2021-04-30</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-04-30">2021-04-30</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创 | 车万翔教授团队最新综述：对话系统中口语语言理解研究的新进展与新领域
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | 车万翔教授团队最新综述：对话系统中口语语言理解研究的新进展与新领域.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        在本文中，我们整理了近十年来SLU领域的相关进展，内容主要包含三个方面：（1）最近SLU领域进展的全面总结；（2）复杂情景下研究的挑战和机遇；（3）SLU全面的代码，数据集等资源。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | 车万翔教授团队最新综述：对话系统中口语语言理解研究的新进展与新领域.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650800836&amp;idx=1&amp;sn=bdf6a8aee814f6bbcbe8fdf4d86f7b82&amp;chksm=8cb8972fbbcf1e391ddf77409be213d5510daf4a707f9f65580958aa4dd31c0d8c1066c1f21a&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创 | 车万翔教授团队最新综述：对话系统中口语语言理解研究的新进展与新领域</a>
+              
+            </h3>
+            在本文中，我们整理了近十年来SLU领域的相关进展，内容主要包含三个方面：（1）最近SLU领域进展的全面总结；（2）复杂情景下研究的挑战和机遇；（3）SLU全面的代码，数据集等资源。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-04-11">2021-04-11</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-04-11">2021-04-11</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创@ICASSP 2021 | 首次探索中文词信息增强中文口语语言理解!
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@ICASSP 2021 | 首次探索中文词信息增强中文口语语言理解!.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        本文录用于ICASSP 2021，在本文中作者提出了一个多层次的单词适配器，首次向中文口语语言理解中引入中文单词信息，实现了不同级别任务的词信息表示定制化。在两个公开的中文数据集上进行的实验表明，模型达到了当前最佳的性能。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@ICASSP 2021 | 首次探索中文词信息增强中文口语语言理解!.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650800667&amp;idx=1&amp;sn=583faa3fdc6fbacf1348112615a4db48&amp;chksm=8cb897f0bbcf1ee6fe7dea18d095c59a1df1ab92803b5df5b6550513d77efca1b47bdeee5363&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创@ICASSP 2021 | 首次探索中文词信息增强中文口语语言理解!</a>
+              
+            </h3>
+            本文录用于ICASSP 2021，在本文中作者提出了一个多层次的单词适配器，首次向中文口语语言理解中引入中文单词信息，实现了不同级别任务的词信息表示定制化。在两个公开的中文数据集上进行的实验表明，模型达到了当前最佳的性能。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-03-26">2021-03-26</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-03-26">2021-03-26</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+    
+
+    
+    
+
+    
+
+    
+    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+      
+      <a class="pagination-previous" href="&#x2F;news&#x2F;page&#x2F;5&#x2F;">‹ Previous</a>
+      
+      
+      <a class="pagination-next" href="&#x2F;news&#x2F;page&#x2F;7&#x2F;">Next ›</a>
+      
+      <ul class="pagination-list">
+        
+
+        
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;">1</a></li>
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        
+
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;5&#x2F;">5</a></li>
+        
+        <li><a class="pagination-link is-current" aria-current="page">6</a></li>
+        
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;7&#x2F;">7</a></li>
+
+        
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;12&#x2F;">12</a></li>
+        
+
+        
+      </ul>
+    </nav>
+    
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

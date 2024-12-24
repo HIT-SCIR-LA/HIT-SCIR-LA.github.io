@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+
+<div class="container">
+  <section class="section">
+    
+    <p class="title">
+      新闻列表
+    </p>
+    
+
+    
+    
+    
+
+    
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR 8篇长文被 COLING 2025录用
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR 8篇长文被 COLING 2025录用.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        哈尔滨工业大学社会计算与信息检索研究中心有8篇长文被COLING 2025录用。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR 8篇长文被 COLING 2025录用.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;MCApZ3uiHJknP4kS7NsnFw">哈工大SCIR 8篇长文被 COLING 2025录用</a>
+              
+            </h3>
+            哈尔滨工业大学社会计算与信息检索研究中心有8篇长文被COLING 2025录用。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-fa-biao/">
+                  <span class="tag is-primary">
+                    论文发表
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2024-12-09">2024-12-09</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2024-12-09">2024-12-09</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          今天，哈工大再获国家表彰！
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/今天，哈工大再获国家表彰！.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        哈尔滨工业大学社会计算与信息检索研究中心博士毕业生曲咏措姆创办的“曲拥措姆志愿服务工作室”荣获全国民族团结进步模范集体。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/今天，哈工大再获国家表彰！.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;Hjw7GNXU3Xv6gq-phIXGGg">今天，哈工大再获国家表彰！</a>
+              
+            </h3>
+            哈尔滨工业大学社会计算与信息检索研究中心博士毕业生曲咏措姆创办的“曲拥措姆志愿服务工作室”荣获全国民族团结进步模范集体。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/xue-sheng-huo-jiang/">
+                  <span class="tag is-primary">
+                    学生获奖
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2024-09-30">2024-09-30</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2024-09-30">2024-09-30</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR 9篇论文被 NeurIPS 2024录用
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR 9篇论文被 NeurIPS 2024录用.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        神经信息处理系统大会（NeurlPS）是机器学习领域最权威的会议之一，是中国计算机学会推荐的 A 类会议。哈尔滨工业大学社会计算与信息检索研究中心有9篇论文被录用，其中2篇被接收为oral，1篇被接收为spotlight。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR 9篇论文被 NeurIPS 2024录用.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;TIdJkNoCOC9V9-nhshtyMA">哈工大SCIR 9篇论文被 NeurIPS 2024录用</a>
+              
+            </h3>
+            神经信息处理系统大会（NeurlPS）是机器学习领域最权威的会议之一，是中国计算机学会推荐的 A 类会议。哈尔滨工业大学社会计算与信息检索研究中心有9篇论文被录用，其中2篇被接收为oral，1篇被接收为spotlight。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-fa-biao/">
+                  <span class="tag is-primary">
+                    论文发表
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2024-09-29">2024-09-29</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2024-09-29">2024-09-29</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR 14篇长文被EMNLP 2024主会&#x2F;Findings录用
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR 14篇长文被EMNLP 2024主会_Findings录用.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        EMNLP是自然语言处理领域顶级国际会议之一，CCF B类会议。​哈尔滨工业大学社会计算与信息检索研究中心有14篇长文被录用，其中7篇被主会录用，7篇被Findings of EMNLP录用。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR 14篇长文被EMNLP 2024主会_Findings录用.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;vngsOKWvQqFW4nDEXkbdFA">哈工大SCIR 14篇长文被EMNLP 2024主会&#x2F;Findings录用</a>
+              
+            </h3>
+            EMNLP是自然语言处理领域顶级国际会议之一，CCF B类会议。​哈尔滨工业大学社会计算与信息检索研究中心有14篇长文被录用，其中7篇被主会录用，7篇被Findings of EMNLP录用。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-fa-biao/">
+                  <span class="tag is-primary">
+                    论文发表
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2024-09-25">2024-09-25</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2024-09-25">2024-09-25</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大发布“珠算”代码大模型
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大发布“珠算”代码大模型.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        目前开源代码大模型提升编程能力的同时会严重损害通用语言能力。为此，哈工大赛尔实验室推出了“珠算”代码大模型，以2.7B参数在代码与通用语言平均性能上超越了3B及以下代码大模型，希望通过开放权重、训练细节及微调适配平台与插件，助力开源社区发展
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大发布“珠算”代码大模型.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;T24_U-aR1WuwQh9iDjCWCg">哈工大发布“珠算”代码大模型</a>
+              
+            </h3>
+            目前开源代码大模型提升编程能力的同时会严重损害通用语言能力。为此，哈工大赛尔实验室推出了“珠算”代码大模型，以2.7B参数在代码与通用语言平均性能上超越了3B及以下代码大模型，希望通过开放权重、训练细节及微调适配平台与插件，助力开源社区发展
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/gong-cheng-xiang-mu/">
+                  <span class="tag is-primary">
+                    工程项目
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2024-09-17">2024-09-17</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2024-09-17">2024-09-17</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大开源“活字3.5”对话大模型
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大开源“活字3.5”对话大模型.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        哈工大社会计算与信息检索研究中心（HIT-SCIR）发布了活字3.5对话大模型，新版模型在中英文知识、数学推理、代码生成、指令遵循能力、内容安全性等诸多方面实现了性能提升。我们希望该开源项目能够有助于推动自然语言处理技术的研究和应用。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大开源“活字3.5”对话大模型.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;y0oIvh5dncVzDnFdm323Eg">哈工大开源“活字3.5”对话大模型</a>
+              
+            </h3>
+            哈工大社会计算与信息检索研究中心（HIT-SCIR）发布了活字3.5对话大模型，新版模型在中英文知识、数学推理、代码生成、指令遵循能力、内容安全性等诸多方面实现了性能提升。我们希望该开源项目能够有助于推动自然语言处理技术的研究和应用。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/gong-cheng-xiang-mu/">
+                  <span class="tag is-primary">
+                    工程项目
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2024-09-12">2024-09-12</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2024-09-12">2024-09-12</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR车万翔教授当选ACL 2025程序委员会主席
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR车万翔教授当选ACL 2025程序委员会主席.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        近日，国际计算语言学学会(Association for Computational Linguistics, ACL)选举产生了第63届ACL学术年会程序委员会主席，哈工大社会计算与信息检索研究中心车万翔教授成功当选。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR车万翔教授当选ACL 2025程序委员会主席.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;qGnv0tKZO-bF39sFRjBKVw">哈工大SCIR车万翔教授当选ACL 2025程序委员会主席</a>
+              
+            </h3>
+            近日，国际计算语言学学会(Association for Computational Linguistics, ACL)选举产生了第63届ACL学术年会程序委员会主席，哈工大社会计算与信息检索研究中心车万翔教授成功当选。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/jiao-shi-biao-zhang/">
+                  <span class="tag is-primary">
+                    教师表彰
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2024-08-20">2024-08-20</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2024-08-20">2024-08-20</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          新闻 | 第三届HIT-SCIR&amp;THUNLP&amp;FudanNLP学术联谊会成功举办
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/新闻 | 第三届HIT-SCIR&THUNLP&FudanNLP学术联谊会成功举办.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        2024年7月17日，第三届哈尔滨工业大学社会计算与信息检索研究中心（HIT-SCIR）、清华大学自然语言处理与社会人文计算实验室（THUNLP）、复旦大学自然语言处理实验室（FudanNLP）三校学术联谊会于哈尔滨成功举办。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/新闻 | 第三届HIT-SCIR&THUNLP&FudanNLP学术联谊会成功举办.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;3l7HAdBpYMRerZLsGkHWQQ">新闻 | 第三届HIT-SCIR&amp;THUNLP&amp;FudanNLP学术联谊会成功举办</a>
+              
+            </h3>
+            2024年7月17日，第三届哈尔滨工业大学社会计算与信息检索研究中心（HIT-SCIR）、清华大学自然语言处理与社会人文计算实验室（THUNLP）、复旦大学自然语言处理实验室（FudanNLP）三校学术联谊会于哈尔滨成功举办。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/xue-shu-jiao-liu/">
+                  <span class="tag is-primary">
+                    学术交流
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2024-07-23">2024-07-23</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2024-07-23">2024-07-23</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔笔记 | 大模型上下文长度扩展中的检索增强技术简述
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔笔记 | 大模型上下文长度扩展中的检索增强技术简述.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        基于Transformer的语言模型在众多自然语言处理任务上都取得了十分优异的成绩，在一些任务上已经达到SOTA的效果。但是，经过预训练后，模型能够较好处理的序列长度就固定下来。而当前的众多场景往往需要处理很长的上下文（如：大的代码仓库、书...
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔笔记 | 大模型上下文长度扩展中的检索增强技术简述.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;S69fHfDIjfTL9maYS9HrXQ">赛尔笔记 | 大模型上下文长度扩展中的检索增强技术简述</a>
+              
+            </h3>
+            基于Transformer的语言模型在众多自然语言处理任务上都取得了十分优异的成绩，在一些任务上已经达到SOTA的效果。但是，经过预训练后，模型能够较好处理的序列长度就固定下来。而当前的众多场景往往需要处理很长的上下文（如：大的代码仓库、书...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2024-06-29">2024-06-29</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2024-06-29">2024-06-29</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创@COLING24 ｜即插即用！自动提取领域相关特征提升泛化能力
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@COLING24 ｜即插即用！自动提取领域相关特征提升泛化能力.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        现有的跨域文本分类方法往往忽视了领域感知特征的重要性，只关注提取领域不变特征或任务无关特征。我们提出的自监督蒸馏方法通过在目标域中利用未标记数据来捕获领域感知特征，从而提高模型在目标域上的性能。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@COLING24 ｜即插即用！自动提取领域相关特征提升泛化能力.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;bM3Um5wMMjgCNlSEwdYgtw">赛尔原创@COLING24 ｜即插即用！自动提取领域相关特征提升泛化能力</a>
+              
+            </h3>
+            现有的跨域文本分类方法往往忽视了领域感知特征的重要性，只关注提取领域不变特征或任务无关特征。我们提出的自监督蒸馏方法通过在目标域中利用未标记数据来捕获领域感知特征，从而提高模型在目标域上的性能。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2024-06-04">2024-06-04</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2024-06-04">2024-06-04</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+    
+
+    
+    
+
+    
+
+    
+    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+      
+      
+      <a class="pagination-next" href="&#x2F;news&#x2F;page&#x2F;2&#x2F;">Next ›</a>
+      
+      <ul class="pagination-list">
+        
+        <li><a class="pagination-link is-current" aria-current="page">1</a></li>
+        
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;2&#x2F;">2</a></li>
+
+        
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;12&#x2F;">12</a></li>
+        
+
+        
+      </ul>
+    </nav>
+    
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

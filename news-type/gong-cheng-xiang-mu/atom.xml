@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - 工程项目</title>
+    <link rel="self" type="application/atom+xml" href="/news-type/gong-cheng-xiang-mu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-09-17T00:00:00+00:00</updated>
+    <id>/news-type/gong-cheng-xiang-mu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>哈工大发布“珠算”代码大模型</title>
+        <published>2024-09-17T00:00:00+00:00</published>
+        <updated>2024-09-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-fa-bu-zhu-suan-dai-ma-da-mo-xing/"/>
+        <id>/news/ha-gong-da-fa-bu-zhu-suan-dai-ma-da-mo-xing/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-fa-bu-zhu-suan-dai-ma-da-mo-xing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大开源“活字3.5”对话大模型</title>
+        <published>2024-09-12T00:00:00+00:00</published>
+        <updated>2024-09-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-kai-yuan-huo-zi-3-5-dui-hua-da-mo-xing/"/>
+        <id>/news/ha-gong-da-kai-yuan-huo-zi-3-5-dui-hua-da-mo-xing/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-kai-yuan-huo-zi-3-5-dui-hua-da-mo-xing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大开源“活字”对话大模型3.0版本</title>
+        <published>2024-02-15T00:00:00+00:00</published>
+        <updated>2024-02-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-kai-yuan-huo-zi-dui-hua-da-mo-xing-3-0ban-ben/"/>
+        <id>/news/ha-gong-da-kai-yuan-huo-zi-dui-hua-da-mo-xing-3-0ban-ben/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-kai-yuan-huo-zi-dui-hua-da-mo-xing-3-0ban-ben/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>HIT-SCIR发布首个中文扩词表增量预训练混合专家模型Chinese-Mixtral-8x7B</title>
+        <published>2024-01-18T00:00:00+00:00</published>
+        <updated>2024-01-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/hit-scirfa-bu-shou-ge-zhong-wen-kuo-ci-biao-zeng-liang-yu-xun-lian-hun-he-zhuan-jia-mo-xing-chinese-mixtral-8x7b/"/>
+        <id>/news/hit-scirfa-bu-shou-ge-zhong-wen-kuo-ci-biao-zeng-liang-yu-xun-lian-hun-he-zhuan-jia-mo-xing-chinese-mixtral-8x7b/</id>
+        
+        <content type="html" xml:base="/news/hit-scirfa-bu-shou-ge-zhong-wen-kuo-ci-biao-zeng-liang-yu-xun-lian-hun-he-zhuan-jia-mo-xing-chinese-mixtral-8x7b/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大开源“活字”对话大模型</title>
+        <published>2023-08-06T00:00:00+00:00</published>
+        <updated>2023-08-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-kai-yuan-huo-zi-dui-hua-da-mo-xing/"/>
+        <id>/news/ha-gong-da-kai-yuan-huo-zi-dui-hua-da-mo-xing/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-kai-yuan-huo-zi-dui-hua-da-mo-xing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大自然语言处理研究所公开《ChatGPT调研报告》，内测哈工大“活字”对话大模型</title>
+        <published>2023-05-04T00:00:00+00:00</published>
+        <updated>2023-05-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-zi-ran-yu-yan-chu-li-yan-jiu-suo-gong-kai-chatgptdiao-yan-bao-gao-nei-ce-ha-gong-da-huo-zi-dui-hua-da-mo-xing/"/>
+        <id>/news/ha-gong-da-zi-ran-yu-yan-chu-li-yan-jiu-suo-gong-kai-chatgptdiao-yan-bao-gao-nei-ce-ha-gong-da-huo-zi-dui-hua-da-mo-xing/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-zi-ran-yu-yan-chu-li-yan-jiu-suo-gong-kai-chatgptdiao-yan-bao-gao-nei-ce-ha-gong-da-huo-zi-dui-hua-da-mo-xing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>语言技术平台（LTP）推出 v4.2 版本！</title>
+        <published>2022-08-22T00:00:00+00:00</published>
+        <updated>2022-08-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/yu-yan-ji-shu-ping-tai-ltp-tui-chu-v4-2-ban-ben/"/>
+        <id>/news/yu-yan-ji-shu-ping-tai-ltp-tui-chu-v4-2-ban-ben/</id>
+        
+        <content type="html" xml:base="/news/yu-yan-ji-shu-ping-tai-ltp-tui-chu-v4-2-ban-ben/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>LTP 4.0！单模型完成6项自然语言处理任务</title>
+        <published>2020-06-15T00:00:00+00:00</published>
+        <updated>2020-06-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ltp-4-0-dan-mo-xing-wan-cheng-6xiang-zi-ran-yu-yan-chu-li-ren-wu/"/>
+        <id>/news/ltp-4-0-dan-mo-xing-wan-cheng-6xiang-zi-ran-yu-yan-chu-li-ren-wu/</id>
+        
+        <content type="html" xml:base="/news/ltp-4-0-dan-mo-xing-wan-cheng-6xiang-zi-ran-yu-yan-chu-li-ren-wu/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>语言技术平台（LTP）有新家啦！</title>
+        <published>2017-07-18T00:00:00+00:00</published>
+        <updated>2017-07-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/yu-yan-ji-shu-ping-tai-ltp-you-xin-jia-la/"/>
+        <id>/news/yu-yan-ji-shu-ping-tai-ltp-you-xin-jia-la/</id>
+        
+        <content type="html" xml:base="/news/yu-yan-ji-shu-ping-tai-ltp-you-xin-jia-la/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大讯飞联合实验室研制的文本顺滑技术成功接入“讯飞听见”系统</title>
+        <published>2017-01-10T00:00:00+00:00</published>
+        <updated>2017-01-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-xun-fei-lian-he-shi-yan-shi-yan-zhi-de-wen-ben-shun-hua-ji-shu-cheng-gong-jie-ru-xun-fei-ting-jian-xi-tong/"/>
+        <id>/news/ha-gong-da-xun-fei-lian-he-shi-yan-shi-yan-zhi-de-wen-ben-shun-hua-ji-shu-cheng-gong-jie-ru-xun-fei-ting-jian-xi-tong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-xun-fei-lian-he-shi-yan-shi-yan-zhi-de-wen-ben-shun-hua-ji-shu-cheng-gong-jie-ru-xun-fei-ting-jian-xi-tong/"></content>
+        
+    </entry>
+</feed>

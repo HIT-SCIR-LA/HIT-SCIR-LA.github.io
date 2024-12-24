@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Huang Yongguang</title>
+    <link rel="self" type="application/atom+xml" href="/authors/huang-yongguang/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2007-01-01T00:00:00+00:00</updated>
+    <id>/authors/huang-yongguang/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A fast clustering algorithm for abnormal and short texts</title>
+        <published>2007-01-01T00:00:00+00:00</published>
+        <updated>2007-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2007-a-fast-clustering-algorithm-for-abnormal-and-short-texts/"/>
+        <id>/publications/2007-a-fast-clustering-algorithm-for-abnormal-and-short-texts/</id>
+        
+        <content type="html" xml:base="/publications/2007-a-fast-clustering-algorithm-for-abnormal-and-short-texts/"></content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - 2004</title>
+    <link rel="self" type="application/atom+xml" href="/publish-year/2004/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2004-01-01T00:00:00+00:00</updated>
+    <id>/publish-year/2004/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A New Chinese Natural Language Understanding Architecture Based on Multilayer Search Mechanism</title>
+        <published>2004-01-01T00:00:00+00:00</published>
+        <updated>2004-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2004-a-new-chinese-natural-language-understanding-architecture-based-on-multilayer-search-mechanism/"/>
+        <id>/publications/2004-a-new-chinese-natural-language-understanding-architecture-based-on-multilayer-search-mechanism/</id>
+        
+        <content type="html" xml:base="/publications/2004-a-new-chinese-natural-language-understanding-architecture-based-on-multilayer-search-mechanism/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Similar Chinese sentence retrieval based on improved edit-distance</title>
+        <published>2004-01-01T00:00:00+00:00</published>
+        <updated>2004-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2004-similar-chinese-sentence-retrieval-based-on-improved-edit-distance/"/>
+        <id>/publications/2004-similar-chinese-sentence-retrieval-based-on-improved-edit-distance/</id>
+        
+        <content type="html" xml:base="/publications/2004-similar-chinese-sentence-retrieval-based-on-improved-edit-distance/"></content>
+        
+    </entry>
+</feed>

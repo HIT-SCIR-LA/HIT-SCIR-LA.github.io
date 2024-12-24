@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+<div class="container">
+  <section class="hero">
+    <div class="hero-body">
+      
+      <p class="title">
+        
+        教师表彰
+        
+      </p>
+      
+
+      
+      
+      
+
+      
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="/images/news/哈工大SCIR车万翔教授当选ACL 2025程序委员会主席.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-scirche-mo-xiang-jiao-shou-dang-xuan-acl-2025cheng-xu-wei-yuan-hui-zhu-xi&#x2F;">哈工大SCIR车万翔教授当选ACL 2025程序委员会主席</a></h3>
+              近日，国际计算语言学学会(Association for Computational Linguistics, ACL)选举产生了第63届ACL学术年会程序委员会主席，哈工大社会计算与信息检索研究中心车万翔教授成功当选。
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2024-08-20">2024-08-20</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;12&#x2F;Wanxiang-Che.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-scirche-mo-xiang-jiao-shou-ru-xuan-2019nian-du-long-jiang-xue-zhe-qing-nian-xue-zhe&#x2F;">哈工大SCIR车万翔教授入选2019年度“龙江学者”青年学者</a></h3>
+              据黑龙江省教育厅官网消息，2019年“龙江学者”评聘人选正式公示。经各高校报名推荐、资格审查、通讯评审和会议评审等程序，最终确定了59人为2019年“龙江学者”评聘人选，哈尔滨工业大学社会计算与信息检索研究中心车万翔教授成功入选青年学者。
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2019-12-23">2019-12-23</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;03&#x2F;455e09ae579b2b1f5f958b1dd37759e8.png">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;zhu-he-wo-zhong-xin-che-mo-xiang-lao-shi-jin-sheng-jiao-shou&#x2F;">祝贺我中心车万翔老师晋升教授</a></h3>
+              经哈尔滨工业大学计算机学院教授评审，校人力资源委员会审议，校长办公会审批，哈工大社会计算与信息检索研究中心车万翔老师被聘任为教授职称，聘任时间从2017年12月31日起。祝贺车老师，并预祝他取得更大的成绩！
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2018-03-21">2018-03-21</time>
+          </div>
+        </article>
+      </div>
+      
+      
+
+      
+    </div>
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

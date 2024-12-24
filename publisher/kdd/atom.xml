@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - KDD</title>
+    <link rel="self" type="application/atom+xml" href="/publisher/kdd/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-01T00:00:00+00:00</updated>
+    <id>/publisher/kdd/atom.xml</id>
+    <entry xml:lang="en">
+        <title>MetricPrompt Prompting Model as a Relevance Metric for Few-shot Text Classification</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-metricprompt-prompting-model-as-a-relevance-metric-for-few-shot-text-classification/"/>
+        <id>/publications/2023-metricprompt-prompting-model-as-a-relevance-metric-for-few-shot-text-classification/</id>
+        
+        <content type="html" xml:base="/publications/2023-metricprompt-prompting-model-as-a-relevance-metric-for-few-shot-text-classification/"></content>
+        
+    </entry>
+</feed>

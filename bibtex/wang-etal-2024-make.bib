@@ -1,0 +1,24 @@
+@inproceedings{wang-etal-2024-make,
+ abstract = {Existing speculative decoding methods typically require additional model structure and training processes to assist the model for draft token generation. This makes the migration of acceleration methods to the new model more costly and more demanding on device memory. To address this problem, we propose the Make Some Noise (MSN) training framework as a replacement for the supervised fine-tuning stage of the large language model. The training method simply introduces some noise at the input for the model to learn the denoising task. It significantly enhances the parallel decoding capability of the model without affecting the original task capability. In addition, we propose a tree-based retrieval-augmented Jacobi (TR-Jacobi) decoding strategy to further improve the inference speed of MSN models. Experiments in both the general and code domains have shown that MSN can improve inference speed by 2.3-2.7x times without compromising model performance. The MSN model also achieves comparable acceleration ratios to the SOTA model with additional model structure on Spec-Bench.},
+ address = {Miami, Florida, USA},
+ author = {Wang, Yixuan  and
+Luo, Xianzhen  and
+Wei, Fuxuan  and
+Liu, Yijun  and
+Zhu, Qingfu  and
+Zhang, Xuanyu  and
+Yang, Qing  and
+Xu, Dongliang  and
+Che, Wanxiang},
+ booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing},
+ doi = {10.18653/v1/2024.emnlp-main.718},
+ editor = {Al-Onaizan, Yaser  and
+Bansal, Mohit  and
+Chen, Yun-Nung},
+ month = {November},
+ pages = {12914--12926},
+ publisher = {Association for Computational Linguistics},
+ title = {Make Some Noise: Unlocking Language Model Parallel Inference Capability through Noisy Training},
+ url = {https://aclanthology.org/2024.emnlp-main.718},
+ year = {2024}
+}

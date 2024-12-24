@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Qin Bing</title>
+    <link rel="self" type="application/atom+xml" href="/authors/qin-bing/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2020-01-01T00:00:00+00:00</updated>
+    <id>/authors/qin-bing/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Exploring segment representations for neural semi-Markov conditional random fields</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-exploring-segment-representations-for-neural-semi-markov-conditional-random-fields/"/>
+        <id>/publications/2020-exploring-segment-representations-for-neural-semi-markov-conditional-random-fields/</id>
+        
+        <content type="html" xml:base="/publications/2020-exploring-segment-representations-for-neural-semi-markov-conditional-random-fields/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Revisiting Pre-Trained Models for Chinese Natural Language Processing</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-revisiting-pre-trained-models-for-chinese-natural-language-processing/"/>
+        <id>/publications/2020-revisiting-pre-trained-models-for-chinese-natural-language-processing/</id>
+        
+        <content type="html" xml:base="/publications/2020-revisiting-pre-trained-models-for-chinese-natural-language-processing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cross-Lingual Machine Reading Comprehension</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-cross-lingual-machine-reading-comprehension/"/>
+        <id>/publications/2019-cross-lingual-machine-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2019-cross-lingual-machine-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Deep contextualized word embeddings for universal dependency parsing</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-deep-contextualized-word-embeddings-for-universal-dependency-parsing/"/>
+        <id>/publications/2019-deep-contextualized-word-embeddings-for-universal-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2019-deep-contextualized-word-embeddings-for-universal-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Learning semantic hierarchies A continuous vector space approach</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/"/>
+        <id>/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/</id>
+        
+        <content type="html" xml:base="/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Pre-training with whole word masking for chinese bert</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-pre-training-with-whole-word-masking-for-chinese-bert/"/>
+        <id>/publications/2019-pre-training-with-whole-word-masking-for-chinese-bert/</id>
+        
+        <content type="html" xml:base="/publications/2019-pre-training-with-whole-word-masking-for-chinese-bert/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>An AMR Aligner Tuned by Transition-based Parser</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/"/>
+        <id>/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/</id>
+        
+        <content type="html" xml:base="/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Distilling Knowledge for Search-based Structured Prediction</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-distilling-knowledge-for-search-based-structured-prediction/"/>
+        <id>/publications/2018-distilling-knowledge-for-search-based-structured-prediction/</id>
+        
+        <content type="html" xml:base="/publications/2018-distilling-knowledge-for-search-based-structured-prediction/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Parsing Tweets into Universal Dependencies</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-parsing-tweets-into-universal-dependencies/"/>
+        <id>/publications/2018-parsing-tweets-into-universal-dependencies/</id>
+        
+        <content type="html" xml:base="/publications/2018-parsing-tweets-into-universal-dependencies/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Benben A Chinese Intelligent Conversational Robot</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2017-benben-a-chinese-intelligent-conversational-robot/"/>
+        <id>/publications/2017-benben-a-chinese-intelligent-conversational-robot/</id>
+        
+        <content type="html" xml:base="/publications/2017-benben-a-chinese-intelligent-conversational-robot/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Transition-Based Syntactic Linearization</title>
+        <published>2015-01-01T00:00:00+00:00</published>
+        <updated>2015-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2015-transition-based-syntactic-linearization/"/>
+        <id>/publications/2015-transition-based-syntactic-linearization/</id>
+        
+        <content type="html" xml:base="/publications/2015-transition-based-syntactic-linearization/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Learning Semantic Hierarchies via Word Embeddings</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-learning-semantic-hierarchies-via-word-embeddings/"/>
+        <id>/publications/2014-learning-semantic-hierarchies-via-word-embeddings/</id>
+        
+        <content type="html" xml:base="/publications/2014-learning-semantic-hierarchies-via-word-embeddings/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sentence Compression for Target-Polarity Word Collocation Extraction</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-sentence-compression-for-target-polarity-word-collocation-extraction/"/>
+        <id>/publications/2014-sentence-compression-for-target-polarity-word-collocation-extraction/</id>
+        
+        <content type="html" xml:base="/publications/2014-sentence-compression-for-target-polarity-word-collocation-extraction/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Appraisal expression recognition with syntactic path for sentence sentiment classification</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-appraisal-expression-recognition-with-syntactic-path-for-sentence-sentiment-classification/"/>
+        <id>/publications/2010-appraisal-expression-recognition-with-syntactic-path-for-sentence-sentiment-classification/</id>
+        
+        <content type="html" xml:base="/publications/2010-appraisal-expression-recognition-with-syntactic-path-for-sentence-sentiment-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Interactive Gated Decoder for Machine Reading Comprehension</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-interactive-gated-decoder-for-machine-reading-comprehension/"/>
+        <id>/publications/2010-interactive-gated-decoder-for-machine-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2010-interactive-gated-decoder-for-machine-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>搜索引擎：信息检索实践</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"/>
+        <id>/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/</id>
+        
+        <content type="html" xml:base="/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Multilingual Dependency-based Syntactic and Semantic Parsing</title>
+        <published>2009-01-01T00:00:00+00:00</published>
+        <updated>2009-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2009-multilingual-dependency-based-syntactic-and-semantic-parsing/"/>
+        <id>/publications/2009-multilingual-dependency-based-syntactic-and-semantic-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2009-multilingual-dependency-based-syntactic-and-semantic-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Cascaded Syntactic and Semantic Dependency Parsing System</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-a-cascaded-syntactic-and-semantic-dependency-parsing-system/"/>
+        <id>/publications/2008-a-cascaded-syntactic-and-semantic-dependency-parsing-system/</id>
+        
+        <content type="html" xml:base="/publications/2008-a-cascaded-syntactic-and-semantic-dependency-parsing-system/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Introduction to Information Retrieval System</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-introduction-to-information-retrieval-system/"/>
+        <id>/publications/2008-introduction-to-information-retrieval-system/</id>
+        
+        <content type="html" xml:base="/publications/2008-introduction-to-information-retrieval-system/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>信息检索系统导论</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/"/>
+        <id>/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/</id>
+        
+        <content type="html" xml:base="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Similar Chinese sentence retrieval based on improved edit-distance</title>
+        <published>2004-01-01T00:00:00+00:00</published>
+        <updated>2004-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2004-similar-chinese-sentence-retrieval-based-on-improved-edit-distance/"/>
+        <id>/publications/2004-similar-chinese-sentence-retrieval-based-on-improved-edit-distance/</id>
+        
+        <content type="html" xml:base="/publications/2004-similar-chinese-sentence-retrieval-based-on-improved-edit-distance/"></content>
+        
+    </entry>
+</feed>

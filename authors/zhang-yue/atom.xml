@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Zhang Yue</title>
+    <link rel="self" type="application/atom+xml" href="/authors/zhang-yue/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2098-01-01T00:00:00+00:00</updated>
+    <id>/authors/zhang-yue/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Deep Learning in Lexical Analysis and Parsing</title>
+        <published>2098-01-01T00:00:00+00:00</published>
+        <updated>2098-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-deep-learning-in-lexical-analysis-and-parsing/"/>
+        <id>/publications/2018-deep-learning-in-lexical-analysis-and-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2018-deep-learning-in-lexical-analysis-and-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Modularized Pre-Training for End-to-End Task-Oriented Dialogue</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/"/>
+        <id>/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/</id>
+        
+        <content type="html" xml:base="/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Dynamic Fusion Network for Multi-Domain End-to-end Task-Oriented Dialog</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-dynamic-fusion-network-for-multi-domain-end-to-end-task-oriented-dialog/"/>
+        <id>/publications/2020-dynamic-fusion-network-for-multi-domain-end-to-end-task-oriented-dialog/</id>
+        
+        <content type="html" xml:base="/publications/2020-dynamic-fusion-network-for-multi-domain-end-to-end-task-oriented-dialog/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Multi-domain spoken language understanding using domain-and task-aware parameterization</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-multi-domain-spoken-language-understanding-using-domain-and-task-aware-parameterization/"/>
+        <id>/publications/2020-multi-domain-spoken-language-understanding-using-domain-and-task-aware-parameterization/</id>
+        
+        <content type="html" xml:base="/publications/2020-multi-domain-spoken-language-understanding-using-domain-and-task-aware-parameterization/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Deep Learning in Lexical Analysis and Parsing</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2017-deep-learning-in-lexical-analysis-and-parsing/"/>
+        <id>/publications/2017-deep-learning-in-lexical-analysis-and-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2017-deep-learning-in-lexical-analysis-and-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Transition-Based Disfluency Detection using LSTMs</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2017-transition-based-disfluency-detection-using-lstms/"/>
+        <id>/publications/2017-transition-based-disfluency-detection-using-lstms/</id>
+        
+        <content type="html" xml:base="/publications/2017-transition-based-disfluency-detection-using-lstms/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Transition-Based Syntactic Linearization</title>
+        <published>2015-01-01T00:00:00+00:00</published>
+        <updated>2015-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2015-transition-based-syntactic-linearization/"/>
+        <id>/publications/2015-transition-based-syntactic-linearization/</id>
+        
+        <content type="html" xml:base="/publications/2015-transition-based-syntactic-linearization/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A semantics oriented grammar for chinese treebanking</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-a-semantics-oriented-grammar-for-chinese-treebanking/"/>
+        <id>/publications/2014-a-semantics-oriented-grammar-for-chinese-treebanking/</id>
+        
+        <content type="html" xml:base="/publications/2014-a-semantics-oriented-grammar-for-chinese-treebanking/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Character-Level Chinese Dependency Parsing</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-character-level-chinese-dependency-parsing/"/>
+        <id>/publications/2014-character-level-chinese-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2014-character-level-chinese-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Domain Adaptation for CRF-based Chinese Word Segmentation using Free Annotations</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-domain-adaptation-for-crf-based-chinese-word-segmentation-using-free-annotations/"/>
+        <id>/publications/2014-domain-adaptation-for-crf-based-chinese-word-segmentation-using-free-annotations/</id>
+        
+        <content type="html" xml:base="/publications/2014-domain-adaptation-for-crf-based-chinese-word-segmentation-using-free-annotations/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Type-Supervised Domain Adaptation for Joint Segmentation and POS-Tagging</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-type-supervised-domain-adaptation-for-joint-segmentation-and-pos-tagging/"/>
+        <id>/publications/2014-type-supervised-domain-adaptation-for-joint-segmentation-and-pos-tagging/</id>
+        
+        <content type="html" xml:base="/publications/2014-type-supervised-domain-adaptation-for-joint-segmentation-and-pos-tagging/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chinese Parsing Exploiting Characters</title>
+        <published>2013-01-01T00:00:00+00:00</published>
+        <updated>2013-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2013-chinese-parsing-exploiting-characters/"/>
+        <id>/publications/2013-chinese-parsing-exploiting-characters/</id>
+        
+        <content type="html" xml:base="/publications/2013-chinese-parsing-exploiting-characters/"></content>
+        
+    </entry>
+</feed>

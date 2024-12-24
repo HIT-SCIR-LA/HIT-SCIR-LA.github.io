@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Wang Shijin</title>
+    <link rel="self" type="application/atom+xml" href="/authors/wang-shijin/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-01-01T00:00:00+00:00</updated>
+    <id>/authors/wang-shijin/atom.xml</id>
+    <entry xml:lang="en">
+        <title>ExpMRC explainability evaluation for machine reading comprehension</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-expmrc-explainability-evaluation-for-machine-reading-comprehension/"/>
+        <id>/publications/2022-expmrc-explainability-evaluation-for-machine-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2022-expmrc-explainability-evaluation-for-machine-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>InterHT Knowledge Graph Embeddings by Interaction between Head and Tail Entities</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-interht-knowledge-graph-embeddings-by-interaction-between-head-and-tail-entities/"/>
+        <id>/publications/2022-interht-knowledge-graph-embeddings-by-interaction-between-head-and-tail-entities/</id>
+        
+        <content type="html" xml:base="/publications/2022-interht-knowledge-graph-embeddings-by-interaction-between-head-and-tail-entities/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Multilingual multi-aspect explainability analyses on machine reading comprehension models</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-multilingual-multi-aspect-explainability-analyses-on-machine-reading-comprehension-models/"/>
+        <id>/publications/2022-multilingual-multi-aspect-explainability-analyses-on-machine-reading-comprehension-models/</id>
+        
+        <content type="html" xml:base="/publications/2022-multilingual-multi-aspect-explainability-analyses-on-machine-reading-comprehension-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Overview of CTC 2021 Chinese Text Correction for Native Speakers</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-overview-of-ctc-2021-chinese-text-correction-for-native-speakers/"/>
+        <id>/publications/2022-overview-of-ctc-2021-chinese-text-correction-for-native-speakers/</id>
+        
+        <content type="html" xml:base="/publications/2022-overview-of-ctc-2021-chinese-text-correction-for-native-speakers/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Teaching machines to read answer and explain</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-teaching-machines-to-read-answer-and-explain/"/>
+        <id>/publications/2022-teaching-machines-to-read-answer-and-explain/</id>
+        
+        <content type="html" xml:base="/publications/2022-teaching-machines-to-read-answer-and-explain/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Adversarial Training for Machine Reading Comprehension with Virtual Embeddings</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-adversarial-training-for-machine-reading-comprehension-with-virtual-embeddings/"/>
+        <id>/publications/2021-adversarial-training-for-machine-reading-comprehension-with-virtual-embeddings/</id>
+        
+        <content type="html" xml:base="/publications/2021-adversarial-training-for-machine-reading-comprehension-with-virtual-embeddings/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Bilingual Alignment Pre-Training for Zero-Shot Cross-Lingual Transfer</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-bilingual-alignment-pre-training-for-zero-shot-cross-lingual-transfer/"/>
+        <id>/publications/2021-bilingual-alignment-pre-training-for-zero-shot-cross-lingual-transfer/</id>
+        
+        <content type="html" xml:base="/publications/2021-bilingual-alignment-pre-training-for-zero-shot-cross-lingual-transfer/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Dynamic Connected Networks for Chinese Spelling Check</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-dynamic-connected-networks-for-chinese-spelling-check/"/>
+        <id>/publications/2021-dynamic-connected-networks-for-chinese-spelling-check/</id>
+        
+        <content type="html" xml:base="/publications/2021-dynamic-connected-networks-for-chinese-spelling-check/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Sentence Cloze Dataset for Chinese Machine Reading Comprehension</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-a-sentence-cloze-dataset-for-chinese-machine-reading-comprehension/"/>
+        <id>/publications/2020-a-sentence-cloze-dataset-for-chinese-machine-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2020-a-sentence-cloze-dataset-for-chinese-machine-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Revisiting Pre-Trained Models for Chinese Natural Language Processing</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-revisiting-pre-trained-models-for-chinese-natural-language-processing/"/>
+        <id>/publications/2020-revisiting-pre-trained-models-for-chinese-natural-language-processing/</id>
+        
+        <content type="html" xml:base="/publications/2020-revisiting-pre-trained-models-for-chinese-natural-language-processing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>TextBrewer An Open-Source Knowledge Distillation Toolkit for Natural Language Processing</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-textbrewer-an-open-source-knowledge-distillation-toolkit-for-natural-language-processing/"/>
+        <id>/publications/2020-textbrewer-an-open-source-knowledge-distillation-toolkit-for-natural-language-processing/</id>
+        
+        <content type="html" xml:base="/publications/2020-textbrewer-an-open-source-knowledge-distillation-toolkit-for-natural-language-processing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Span-Extraction Dataset for Chinese Machine Reading Comprehension</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-a-span-extraction-dataset-for-chinese-machine-reading-comprehension/"/>
+        <id>/publications/2019-a-span-extraction-dataset-for-chinese-machine-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2019-a-span-extraction-dataset-for-chinese-machine-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Contextual recurrent units for cloze-style reading comprehension</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-contextual-recurrent-units-for-cloze-style-reading-comprehension/"/>
+        <id>/publications/2019-contextual-recurrent-units-for-cloze-style-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2019-contextual-recurrent-units-for-cloze-style-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cross-Lingual Machine Reading Comprehension</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-cross-lingual-machine-reading-comprehension/"/>
+        <id>/publications/2019-cross-lingual-machine-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2019-cross-lingual-machine-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Improving machine reading comprehension via adversarial training</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-improving-machine-reading-comprehension-via-adversarial-training/"/>
+        <id>/publications/2019-improving-machine-reading-comprehension-via-adversarial-training/</id>
+        
+        <content type="html" xml:base="/publications/2019-improving-machine-reading-comprehension-via-adversarial-training/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chinese Grammatical Error Diagnosis using Statistical and Prior Knowledge driven Features with Probabilistic Ensemble Enhancement</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/"/>
+        <id>/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/</id>
+        
+        <content type="html" xml:base="/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Interactive Gated Decoder for Machine Reading Comprehension</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-interactive-gated-decoder-for-machine-reading-comprehension/"/>
+        <id>/publications/2010-interactive-gated-decoder-for-machine-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2010-interactive-gated-decoder-for-machine-reading-comprehension/"></content>
+        
+    </entry>
+</feed>

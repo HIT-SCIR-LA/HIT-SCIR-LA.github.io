@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - 论文推荐</title>
+    <link rel="self" type="application/atom+xml" href="/news-type/lun-wen-tui-jian/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-06-29T00:00:00+00:00</updated>
+    <id>/news-type/lun-wen-tui-jian/atom.xml</id>
+    <entry xml:lang="en">
+        <title>赛尔笔记 | 大模型上下文长度扩展中的检索增强技术简述</title>
+        <published>2024-06-29T00:00:00+00:00</published>
+        <updated>2024-06-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-bi-ji-da-mo-xing-shang-xia-wen-chang-du-kuo-zhan-zhong-de-jian-suo-zeng-qiang-ji-shu-jian-shu/"/>
+        <id>/news/sai-er-bi-ji-da-mo-xing-shang-xia-wen-chang-du-kuo-zhan-zhong-de-jian-suo-zeng-qiang-ji-shu-jian-shu/</id>
+        
+        <content type="html" xml:base="/news/sai-er-bi-ji-da-mo-xing-shang-xia-wen-chang-du-kuo-zhan-zhong-de-jian-suo-zeng-qiang-ji-shu-jian-shu/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@COLING24 ｜即插即用！自动提取领域相关特征提升泛化能力</title>
+        <published>2024-06-04T00:00:00+00:00</published>
+        <updated>2024-06-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-coling24-ji-cha-ji-yong-zi-dong-ti-qu-ling-yu-xiang-guan-te-zheng-ti-sheng-fan-hua-neng-li/"/>
+        <id>/news/sai-er-yuan-chuang-coling24-ji-cha-ji-yong-zi-dong-ti-qu-ling-yu-xiang-guan-te-zheng-ti-sheng-fan-hua-neng-li/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-coling24-ji-cha-ji-yong-zi-dong-ti-qu-ling-yu-xiang-guan-te-zheng-ti-sheng-fan-hua-neng-li/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@COLING24 ｜无需标注即可增强模型 COT 能力</title>
+        <published>2024-05-13T00:00:00+00:00</published>
+        <updated>2024-05-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-coling24-wu-xu-biao-zhu-ji-ke-zeng-qiang-mo-xing-cot-neng-li/"/>
+        <id>/news/sai-er-yuan-chuang-coling24-wu-xu-biao-zhu-ji-ke-zeng-qiang-mo-xing-cot-neng-li/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-coling24-wu-xu-biao-zhu-ji-ke-zeng-qiang-mo-xing-cot-neng-li/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@COLING2024 | 人工智能助手API调用能力的动态评估方法</title>
+        <published>2024-03-22T00:00:00+00:00</published>
+        <updated>2024-03-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-coling2024-ren-gong-zhi-neng-zhu-shou-apidiao-yong-neng-li-de-dong-tai-ping-gu-fang-fa/"/>
+        <id>/news/sai-er-yuan-chuang-coling2024-ren-gong-zhi-neng-zhu-shou-apidiao-yong-neng-li-de-dong-tai-ping-gu-fang-fa/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-coling2024-ren-gong-zhi-neng-zhu-shou-apidiao-yong-neng-li-de-dong-tai-ping-gu-fang-fa/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@COLING2024 | 面向编程的自然语言处理综述</title>
+        <published>2024-03-18T00:00:00+00:00</published>
+        <updated>2024-03-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-coling2024-mian-xiang-bian-cheng-de-zi-ran-yu-yan-chu-li-zong-shu/"/>
+        <id>/news/sai-er-yuan-chuang-coling2024-mian-xiang-bian-cheng-de-zi-ran-yu-yan-chu-li-zong-shu/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-coling2024-mian-xiang-bian-cheng-de-zi-ran-yu-yan-chu-li-zong-shu/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@COLING2024 | LM-Combiner：通过模型改写实现更精准的语法纠错</title>
+        <published>2024-03-10T00:00:00+00:00</published>
+        <updated>2024-03-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-coling2024-lm-combiner-tong-guo-mo-xing-gai-xie-shi-xian-geng-jing-zhun-de-yu-fa-jiu-cuo/"/>
+        <id>/news/sai-er-yuan-chuang-coling2024-lm-combiner-tong-guo-mo-xing-gai-xie-shi-xian-geng-jing-zhun-de-yu-fa-jiu-cuo/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-coling2024-lm-combiner-tong-guo-mo-xing-gai-xie-shi-xian-geng-jing-zhun-de-yu-fa-jiu-cuo/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>今日arXiv最热NLP大模型论文：做到头了！清华和哈工大把大模型量化做到了1比特</title>
+        <published>2024-02-27T00:00:00+00:00</published>
+        <updated>2024-02-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/jin-ri-arxivzui-re-nlpda-mo-xing-lun-wen-zuo-dao-tou-liao-qing-hua-he-ha-gong-da-ba-da-mo-xing-liang-hua-zuo-dao-liao-1bi-te/"/>
+        <id>/news/jin-ri-arxivzui-re-nlpda-mo-xing-lun-wen-zuo-dao-tou-liao-qing-hua-he-ha-gong-da-ba-da-mo-xing-liang-hua-zuo-dao-liao-1bi-te/</id>
+        
+        <content type="html" xml:base="/news/jin-ri-arxivzui-re-nlpda-mo-xing-lun-wen-zuo-dao-tou-liao-qing-hua-he-ha-gong-da-ba-da-mo-xing-liang-hua-zuo-dao-liao-1bi-te/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@AAAI 2024 |语义引导的生成式图像增广方法</title>
+        <published>2024-01-31T00:00:00+00:00</published>
+        <updated>2024-01-31T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-aaai-2024-yu-yi-yin-dao-de-sheng-cheng-shi-tu-xiang-zeng-yan-fang-fa/"/>
+        <id>/news/sai-er-yuan-chuang-aaai-2024-yu-yi-yin-dao-de-sheng-cheng-shi-tu-xiang-zeng-yan-fang-fa/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-aaai-2024-yu-yi-yin-dao-de-sheng-cheng-shi-tu-xiang-zeng-yan-fang-fa/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔笔记 | 面向表格数据的大模型推理综述</title>
+        <published>2023-12-26T00:00:00+00:00</published>
+        <updated>2023-12-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-bi-ji-mian-xiang-biao-ge-shu-ju-de-da-mo-xing-tui-li-zong-shu/"/>
+        <id>/news/sai-er-bi-ji-mian-xiang-biao-ge-shu-ju-de-da-mo-xing-tui-li-zong-shu/</id>
+        
+        <content type="html" xml:base="/news/sai-er-bi-ji-mian-xiang-biao-ge-shu-ju-de-da-mo-xing-tui-li-zong-shu/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@EMNLP 2023 | 通过跨语言提示改进零样本 CoT 推理能力</title>
+        <published>2023-11-01T00:00:00+00:00</published>
+        <updated>2023-11-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-emnlp-2023-tong-guo-kua-yu-yan-ti-shi-gai-jin-ling-yang-ben-cot-tui-li-neng-li/"/>
+        <id>/news/sai-er-yuan-chuang-emnlp-2023-tong-guo-kua-yu-yan-ti-shi-gai-jin-ling-yang-ben-cot-tui-li-neng-li/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-emnlp-2023-tong-guo-kua-yu-yan-ti-shi-gai-jin-ling-yang-ben-cot-tui-li-neng-li/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@AAAI 2023 | BridgeTower- 在视觉语言表示学习中建立编码器间的桥梁</title>
+        <published>2022-12-29T00:00:00+00:00</published>
+        <updated>2022-12-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-aaai-2023-bridgetower-zai-shi-jue-yu-yan-biao-shi-xue-xi-zhong-jian-li-bian-ma-qi-jian-de-qiao-liang/"/>
+        <id>/news/sai-er-yuan-chuang-aaai-2023-bridgetower-zai-shi-jue-yu-yan-biao-shi-xue-xi-zhong-jian-li-bian-ma-qi-jian-de-qiao-liang/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-aaai-2023-bridgetower-zai-shi-jue-yu-yan-biao-shi-xue-xi-zhong-jian-li-bian-ma-qi-jian-de-qiao-liang/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@COLING 2022 | 融合自适应机制与自训练框架的无监督文本顺滑方法</title>
+        <published>2022-12-29T00:00:00+00:00</published>
+        <updated>2022-12-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-coling-2022-rong-he-zi-gua-ying-ji-zhi-yu-zi-xun-lian-kuang-jia-de-wu-jian-du-wen-ben-shun-hua-fang-fa/"/>
+        <id>/news/sai-er-yuan-chuang-coling-2022-rong-he-zi-gua-ying-ji-zhi-yu-zi-xun-lian-kuang-jia-de-wu-jian-du-wen-ben-shun-hua-fang-fa/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-coling-2022-rong-he-zi-gua-ying-ji-zhi-yu-zi-xun-lian-kuang-jia-de-wu-jian-du-wen-ben-shun-hua-fang-fa/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@COLING 2022 | MetaPrompting：基于元学习的soft prompt初始化方法</title>
+        <published>2022-12-13T00:00:00+00:00</published>
+        <updated>2022-12-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-coling-2022-metaprompting-ji-yu-yuan-xue-xi-de-soft-promptchu-shi-hua-fang-fa/"/>
+        <id>/news/sai-er-yuan-chuang-coling-2022-metaprompting-ji-yu-yuan-xue-xi-de-soft-promptchu-shi-hua-fang-fa/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-coling-2022-metaprompting-ji-yu-yuan-xue-xi-de-soft-promptchu-shi-hua-fang-fa/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@COLING 2022 | CCTC：面向中文母语使用者的跨句子文本纠错数据集</title>
+        <published>2022-11-18T00:00:00+00:00</published>
+        <updated>2022-11-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-coling-2022-cctc-mian-xiang-zhong-wen-mu-yu-shi-yong-zhe-de-kua-ju-zi-wen-ben-jiu-cuo-shu-ju-ji/"/>
+        <id>/news/sai-er-yuan-chuang-coling-2022-cctc-mian-xiang-zhong-wen-mu-yu-shi-yong-zhe-de-kua-ju-zi-wen-ben-jiu-cuo-shu-ju-ji/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-coling-2022-cctc-mian-xiang-zhong-wen-mu-yu-shi-yong-zhe-de-kua-ju-zi-wen-ben-jiu-cuo-shu-ju-ji/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ACL@2022 | 反向预测更好？基于反向提示的小样本槽位标注方法</title>
+        <published>2022-05-04T00:00:00+00:00</published>
+        <updated>2022-05-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/acl-2022-fan-xiang-yu-ce-geng-hao-ji-yu-fan-xiang-ti-shi-de-xiao-yang-ben-cao-wei-biao-zhu-fang-fa/"/>
+        <id>/news/acl-2022-fan-xiang-yu-ce-geng-hao-ji-yu-fan-xiang-ti-shi-de-xiao-yang-ben-cao-wei-biao-zhu-fang-fa/</id>
+        
+        <content type="html" xml:base="/news/acl-2022-fan-xiang-yu-ce-geng-hao-ji-yu-fan-xiang-ti-shi-de-xiao-yang-ben-cao-wei-biao-zhu-fang-fa/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@AAAI 2022|基于Profile信息的口语语言理解基准</title>
+        <published>2022-04-14T00:00:00+00:00</published>
+        <updated>2022-04-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-aaai-2022-ji-yu-profilexin-xi-de-kou-yu-yu-yan-li-jie-ji-zhun/"/>
+        <id>/news/sai-er-yuan-chuang-aaai-2022-ji-yu-profilexin-xi-de-kou-yu-yu-yan-li-jie-ji-zhun/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-aaai-2022-ji-yu-profilexin-xi-de-kou-yu-yu-yan-li-jie-ji-zhun/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@EMNLP 2021 | 多语言和跨语言对话推荐</title>
+        <published>2022-03-11T00:00:00+00:00</published>
+        <updated>2022-03-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-emnlp-2021-duo-yu-yan-he-kua-yu-yan-dui-hua-tui-jian/"/>
+        <id>/news/sai-er-yuan-chuang-emnlp-2021-duo-yu-yan-he-kua-yu-yan-dui-hua-tui-jian/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-emnlp-2021-duo-yu-yan-he-kua-yu-yan-dui-hua-tui-jian/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@EMNLP 2021 | 预训练跨语言模型中的大词表构建及使用</title>
+        <published>2021-12-31T00:00:00+00:00</published>
+        <updated>2021-12-31T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-emnlp-2021-yu-xun-lian-kua-yu-yan-mo-xing-zhong-de-da-ci-biao-gou-jian-ji-shi-yong/"/>
+        <id>/news/sai-er-yuan-chuang-emnlp-2021-yu-xun-lian-kua-yu-yan-mo-xing-zhong-de-da-ci-biao-gou-jian-ji-shi-yong/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-emnlp-2021-yu-xun-lian-kua-yu-yan-mo-xing-zhong-de-da-ci-biao-gou-jian-ji-shi-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@ACL Findings | 任务共舞，小样本场景下的多任务联合学习方法初探</title>
+        <published>2021-11-16T00:00:00+00:00</published>
+        <updated>2021-11-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-acl-findings-ren-wu-gong-wu-xiao-yang-ben-chang-jing-xia-de-duo-ren-wu-lian-he-xue-xi-fang-fa-chu-tan/"/>
+        <id>/news/sai-er-yuan-chuang-acl-findings-ren-wu-gong-wu-xiao-yang-ben-chang-jing-xia-de-duo-ren-wu-lian-he-xue-xi-fang-fa-chu-tan/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-acl-findings-ren-wu-gong-wu-xiao-yang-ben-chang-jing-xia-de-duo-ren-wu-lian-he-xue-xi-fang-fa-chu-tan/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创 | 首个任务型对话系统中生成模块资源库Awesome-TOD-NLG-Survey开源！</title>
+        <published>2021-09-07T00:00:00+00:00</published>
+        <updated>2021-09-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-shou-ge-ren-wu-xing-dui-hua-xi-tong-zhong-sheng-cheng-mo-kuai-zi-yuan-ku-awesome-tod-nlg-surveykai-yuan/"/>
+        <id>/news/sai-er-yuan-chuang-shou-ge-ren-wu-xing-dui-hua-xi-tong-zhong-sheng-cheng-mo-kuai-zi-yuan-ku-awesome-tod-nlg-surveykai-yuan/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-shou-ge-ren-wu-xing-dui-hua-xi-tong-zhong-sheng-cheng-mo-kuai-zi-yuan-ku-awesome-tod-nlg-surveykai-yuan/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@ACL 2021 | 开放域对话结构发现</title>
+        <published>2021-08-06T00:00:00+00:00</published>
+        <updated>2021-08-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-acl-2021-kai-fang-yu-dui-hua-jie-gou-fa-xian/"/>
+        <id>/news/sai-er-yuan-chuang-acl-2021-kai-fang-yu-dui-hua-jie-gou-fa-xian/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-acl-2021-kai-fang-yu-dui-hua-jie-gou-fa-xian/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@ACL Findings | 基于高质量对抗样本的依存分析器鲁棒性探究</title>
+        <published>2021-07-09T00:00:00+00:00</published>
+        <updated>2021-07-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-acl-findings-ji-yu-gao-zhi-liang-dui-kang-yang-ben-de-yi-cun-fen-xi-qi-lu-bang-xing-tan-jiu/"/>
+        <id>/news/sai-er-yuan-chuang-acl-findings-ji-yu-gao-zhi-liang-dui-kang-yang-ben-de-yi-cun-fen-xi-qi-lu-bang-xing-tan-jiu/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-acl-findings-ji-yu-gao-zhi-liang-dui-kang-yang-ben-de-yi-cun-fen-xi-qi-lu-bang-xing-tan-jiu/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@ACL 2021 | 基于一致性正则的跨语言微调方法</title>
+        <published>2021-06-22T00:00:00+00:00</published>
+        <updated>2021-06-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-acl-2021-ji-yu-yi-zhi-xing-zheng-ze-de-kua-yu-yan-wei-diao-fang-fa/"/>
+        <id>/news/sai-er-yuan-chuang-acl-2021-ji-yu-yi-zhi-xing-zheng-ze-de-kua-yu-yan-wei-diao-fang-fa/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-acl-2021-ji-yu-yi-zhi-xing-zheng-ze-de-kua-yu-yan-wei-diao-fang-fa/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创 | N-LTP：基于预训练模型的中文自然语言处理平台</title>
+        <published>2021-04-30T00:00:00+00:00</published>
+        <updated>2021-04-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-n-ltp-ji-yu-yu-xun-lian-mo-xing-de-zhong-wen-zi-ran-yu-yan-chu-li-ping-tai/"/>
+        <id>/news/sai-er-yuan-chuang-n-ltp-ji-yu-yu-xun-lian-mo-xing-de-zhong-wen-zi-ran-yu-yan-chu-li-ping-tai/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-n-ltp-ji-yu-yu-xun-lian-mo-xing-de-zhong-wen-zi-ran-yu-yan-chu-li-ping-tai/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创 | 车万翔教授团队最新综述：对话系统中口语语言理解研究的新进展与新领域</title>
+        <published>2021-04-11T00:00:00+00:00</published>
+        <updated>2021-04-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-che-mo-xiang-jiao-shou-tuan-dui-zui-xin-zong-shu-dui-hua-xi-tong-zhong-kou-yu-yu-yan-li-jie-yan-jiu-de-xin-jin-zhan-yu-xin-ling-yu/"/>
+        <id>/news/sai-er-yuan-chuang-che-mo-xiang-jiao-shou-tuan-dui-zui-xin-zong-shu-dui-hua-xi-tong-zhong-kou-yu-yu-yan-li-jie-yan-jiu-de-xin-jin-zhan-yu-xin-ling-yu/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-che-mo-xiang-jiao-shou-tuan-dui-zui-xin-zong-shu-dui-hua-xi-tong-zhong-kou-yu-yu-yan-li-jie-yan-jiu-de-xin-jin-zhan-yu-xin-ling-yu/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@ICASSP 2021 | 首次探索中文词信息增强中文口语语言理解!</title>
+        <published>2021-03-26T00:00:00+00:00</published>
+        <updated>2021-03-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-icassp-2021-shou-ci-tan-suo-zhong-wen-ci-xin-xi-zeng-qiang-zhong-wen-kou-yu-yu-yan-li-jie/"/>
+        <id>/news/sai-er-yuan-chuang-icassp-2021-shou-ci-tan-suo-zhong-wen-ci-xin-xi-zeng-qiang-zhong-wen-kou-yu-yu-yan-li-jie/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-icassp-2021-shou-ci-tan-suo-zhong-wen-ci-xin-xi-zeng-qiang-zhong-wen-kou-yu-yu-yan-li-jie/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔笔记 | 新分类！全总结！最新Awesome-SLU-Survey资源库开源！</title>
+        <published>2021-03-09T00:00:00+00:00</published>
+        <updated>2021-03-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-bi-ji-xin-fen-lei-quan-zong-jie-zui-xin-awesome-slu-surveyzi-yuan-ku-kai-yuan/"/>
+        <id>/news/sai-er-bi-ji-xin-fen-lei-quan-zong-jie-zui-xin-awesome-slu-surveyzi-yuan-ku-kai-yuan/</id>
+        
+        <content type="html" xml:base="/news/sai-er-bi-ji-xin-fen-lei-quan-zong-jie-zui-xin-awesome-slu-surveyzi-yuan-ku-kai-yuan/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@AAAI 2021 | 纠结于联合学习中的建模方法？快来看看图网络显式建模!</title>
+        <published>2021-01-16T00:00:00+00:00</published>
+        <updated>2021-01-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-aaai-2021-jiu-jie-yu-lian-he-xue-xi-zhong-de-jian-mo-fang-fa-kuai-lai-kan-kan-tu-wang-luo-xian-shi-jian-mo/"/>
+        <id>/news/sai-er-yuan-chuang-aaai-2021-jiu-jie-yu-lian-he-xue-xi-zhong-de-jian-mo-fang-fa-kuai-lai-kan-kan-tu-wang-luo-xian-shi-jian-mo/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-aaai-2021-jiu-jie-yu-lian-he-xue-xi-zhong-de-jian-mo-fang-fa-kuai-lai-kan-kan-tu-wang-luo-xian-shi-jian-mo/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@AAAI 2021 | 数据增强没效果？试试用Cluster-to-Cluster生成更多样化的新数据吧</title>
+        <published>2021-01-08T00:00:00+00:00</published>
+        <updated>2021-01-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-aaai-2021-shu-ju-zeng-qiang-mei-xiao-guo-shi-shi-yong-cluster-to-clustersheng-cheng-geng-duo-yang-hua-de-xin-shu-ju-ba/"/>
+        <id>/news/sai-er-yuan-chuang-aaai-2021-shu-ju-zeng-qiang-mei-xiao-guo-shi-shi-yong-cluster-to-clustersheng-cheng-geng-duo-yang-hua-de-xin-shu-ju-ba/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-aaai-2021-shu-ju-zeng-qiang-mei-xiao-guo-shi-shi-yong-cluster-to-clustersheng-cheng-geng-duo-yang-hua-de-xin-shu-ju-ba/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@AAAI2021 | 小样本学习下的多标签分类问题初探</title>
+        <published>2020-12-31T00:00:00+00:00</published>
+        <updated>2020-12-31T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-aaai2021-xiao-yang-ben-xue-xi-xia-de-duo-biao-qian-fen-lei-wen-ti-chu-tan/"/>
+        <id>/news/sai-er-yuan-chuang-aaai2021-xiao-yang-ben-xue-xi-xia-de-duo-biao-qian-fen-lei-wen-ti-chu-tan/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-aaai2021-xiao-yang-ben-xue-xi-xia-de-duo-biao-qian-fen-lei-wen-ti-chu-tan/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@Findings | 基于动态图交互网络的多意图口语语言理解框架</title>
+        <published>2020-12-09T00:00:00+00:00</published>
+        <updated>2020-12-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-findings-ji-yu-dong-tai-tu-jiao-hu-wang-luo-de-duo-yi-tu-kou-yu-yu-yan-li-jie-kuang-jia/"/>
+        <id>/news/sai-er-yuan-chuang-findings-ji-yu-dong-tai-tu-jiao-hu-wang-luo-de-duo-yi-tu-kou-yu-yu-yan-li-jie-kuang-jia/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-findings-ji-yu-dong-tai-tu-jiao-hu-wang-luo-de-duo-yi-tu-kou-yu-yu-yan-li-jie-kuang-jia/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@Findings | 中文预训练语言模型回顾</title>
+        <published>2020-11-17T00:00:00+00:00</published>
+        <updated>2020-11-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-findings-zhong-wen-yu-xun-lian-yu-yan-mo-xing-hui-gu/"/>
+        <id>/news/sai-er-yuan-chuang-findings-zhong-wen-yu-xun-lian-yu-yan-mo-xing-hui-gu/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-findings-zhong-wen-yu-xun-lian-yu-yan-mo-xing-hui-gu/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创@EMNLP 2020 | 且回忆且学习：在更少的遗忘下精调深层预训练语言模型</title>
+        <published>2020-10-30T00:00:00+00:00</published>
+        <updated>2020-10-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-emnlp-2020-qie-hui-yi-qie-xue-xi-zai-geng-shao-de-yi-wang-xia-jing-diao-shen-ceng-yu-xun-lian-yu-yan-mo-xing/"/>
+        <id>/news/sai-er-yuan-chuang-emnlp-2020-qie-hui-yi-qie-xue-xi-zai-geng-shao-de-yi-wang-xia-jing-diao-shen-ceng-yu-xun-lian-yu-yan-mo-xing/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-emnlp-2020-qie-hui-yi-qie-xue-xi-zai-geng-shao-de-yi-wang-xia-jing-diao-shen-ceng-yu-xun-lian-yu-yan-mo-xing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创｜EMNLP 2020 融合自训练和自监督方法的无监督文本顺滑研究</title>
+        <published>2020-10-15T00:00:00+00:00</published>
+        <updated>2020-10-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-emnlp-2020-rong-he-zi-xun-lian-he-zi-jian-du-fang-fa-de-wu-jian-du-wen-ben-shun-hua-yan-jiu/"/>
+        <id>/news/sai-er-yuan-chuang-emnlp-2020-rong-he-zi-xun-lian-he-zi-jian-du-fang-fa-de-wu-jian-du-wen-ben-shun-hua-yan-jiu/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-emnlp-2020-rong-he-zi-xun-lian-he-zi-jian-du-fang-fa-de-wu-jian-du-wen-ben-shun-hua-yan-jiu/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创 | ACL20 让模型“事半功倍”，探究少样本序列标注方法</title>
+        <published>2020-08-03T00:00:00+00:00</published>
+        <updated>2020-08-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-acl20-rang-mo-xing-shi-ban-gong-bei-tan-jiu-shao-yang-ben-xu-lie-biao-zhu-fang-fa/"/>
+        <id>/news/sai-er-yuan-chuang-acl20-rang-mo-xing-shi-ban-gong-bei-tan-jiu-shao-yang-ben-xu-lie-biao-zhu-fang-fa/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-acl20-rang-mo-xing-shi-ban-gong-bei-tan-jiu-shao-yang-ben-xu-lie-biao-zhu-fang-fa/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创 | ACL20 用于多领域端到端任务型对话系统的动态融合网络</title>
+        <published>2020-07-24T00:00:00+00:00</published>
+        <updated>2020-07-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-acl20-yong-yu-duo-ling-yu-duan-dao-duan-ren-wu-xing-dui-hua-xi-tong-de-dong-tai-rong-he-wang-luo/"/>
+        <id>/news/sai-er-yuan-chuang-acl20-yong-yu-duo-ling-yu-duan-dao-duan-ren-wu-xing-dui-hua-xi-tong-de-dong-tai-rong-he-wang-luo/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-acl20-yong-yu-duo-ling-yu-duan-dao-duan-ren-wu-xing-dui-hua-xi-tong-de-dong-tai-rong-he-wang-luo/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创 | ACL20 基于图注意力网络的多粒度机器阅读理解文档建模</title>
+        <published>2020-06-30T00:00:00+00:00</published>
+        <updated>2020-06-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-acl20-ji-yu-tu-zhu-yi-li-wang-luo-de-duo-li-du-ji-qi-yue-du-li-jie-wen-dang-jian-mo/"/>
+        <id>/news/sai-er-yuan-chuang-acl20-ji-yu-tu-zhu-yi-li-wang-luo-de-duo-li-du-ji-qi-yue-du-li-jie-wen-dang-jian-mo/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-acl20-ji-yu-tu-zhu-yi-li-wang-luo-de-duo-li-du-ji-qi-yue-du-li-jie-wen-dang-jian-mo/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创 | ACL20 基于对话图谱的开放域多轮对话策略学习</title>
+        <published>2020-06-17T00:00:00+00:00</published>
+        <updated>2020-06-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-acl20-ji-yu-dui-hua-tu-pu-de-kai-fang-yu-duo-lun-dui-hua-ce-lue-xue-xi/"/>
+        <id>/news/sai-er-yuan-chuang-acl20-ji-yu-dui-hua-tu-pu-de-kai-fang-yu-duo-lun-dui-hua-ce-lue-xue-xi/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-acl20-ji-yu-dui-hua-tu-pu-de-kai-fang-yu-duo-lun-dui-hua-ce-lue-xue-xi/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创 | AAAI20 基于Goal(话题)的开放域多轮对话规划</title>
+        <published>2020-05-19T00:00:00+00:00</published>
+        <updated>2020-05-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-aaai20-ji-yu-goal-hua-ti-de-kai-fang-yu-duo-lun-dui-hua-gui-hua/"/>
+        <id>/news/sai-er-yuan-chuang-aaai20-ji-yu-goal-hua-ti-de-kai-fang-yu-duo-lun-dui-hua-gui-hua/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-aaai20-ji-yu-goal-hua-ti-de-kai-fang-yu-duo-lun-dui-hua-gui-hua/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>赛尔原创 | AAAI20 用于联合建模对话行为识别和情感分类的深度交互关系网络</title>
+        <published>2020-05-06T00:00:00+00:00</published>
+        <updated>2020-05-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-yuan-chuang-aaai20-yong-yu-lian-he-jian-mo-dui-hua-xing-wei-shi-bie-he-qing-gan-fen-lei-de-shen-du-jiao-hu-guan-xi-wang-luo/"/>
+        <id>/news/sai-er-yuan-chuang-aaai20-yong-yu-lian-he-jian-mo-dui-hua-xing-wei-shi-bie-he-qing-gan-fen-lei-de-shen-du-jiao-hu-guan-xi-wang-luo/</id>
+        
+        <content type="html" xml:base="/news/sai-er-yuan-chuang-aaai20-yong-yu-lian-he-jian-mo-dui-hua-xing-wei-shi-bie-he-qing-gan-fen-lei-de-shen-du-jiao-hu-guan-xi-wang-luo/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>从静态到动态，词表征近几十年发展回顾</title>
+        <published>2020-04-02T00:00:00+00:00</published>
+        <updated>2020-04-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/cong-jing-tai-dao-dong-tai-ci-biao-zheng-jin-ji-shi-nian-fa-zhan-hui-gu/"/>
+        <id>/news/cong-jing-tai-dao-dong-tai-ci-biao-zheng-jin-ji-shi-nian-fa-zhan-hui-gu/</id>
+        
+        <content type="html" xml:base="/news/cong-jing-tai-dao-dong-tai-ci-biao-zheng-jin-ji-shi-nian-fa-zhan-hui-gu/"></content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - 2023</title>
+    <link rel="self" type="application/atom+xml" href="/publish-year/2023/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-01T00:00:00+00:00</updated>
+    <id>/publish-year/2023/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Preliminary Evaluation of ChatGPT for Zero-shot Dialogue Understanding</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-a-preliminary-evaluation-of-chatgpt-for-zero-shot-dialogue-understanding/"/>
+        <id>/publications/2023-a-preliminary-evaluation-of-chatgpt-for-zero-shot-dialogue-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2023-a-preliminary-evaluation-of-chatgpt-for-zero-shot-dialogue-understanding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BridgeTower Building Bridges Between Encoders in Vision-Language Representation Learning</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-bridgetower-building-bridges-between-encoders-in-vision-language-representation-learning/"/>
+        <id>/publications/2023-bridgetower-building-bridges-between-encoders-in-vision-language-representation-learning/</id>
+        
+        <content type="html" xml:base="/publications/2023-bridgetower-building-bridges-between-encoders-in-vision-language-representation-learning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Combating with extremely noisy samples in weakly supervised slot filling for automatic diagnosis</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-combating-with-extremely-noisy-samples-in-weakly-supervised-slot-filling-for-automatic-diagnosis/"/>
+        <id>/publications/2023-combating-with-extremely-noisy-samples-in-weakly-supervised-slot-filling-for-automatic-diagnosis/</id>
+        
+        <content type="html" xml:base="/publications/2023-combating-with-extremely-noisy-samples-in-weakly-supervised-slot-filling-for-automatic-diagnosis/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Controllable Data Augmentation for Context-Dependent Text-to-SQL</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-controllable-data-augmentation-for-context-dependent-text-to-sql/"/>
+        <id>/publications/2023-controllable-data-augmentation-for-context-dependent-text-to-sql/</id>
+        
+        <content type="html" xml:base="/publications/2023-controllable-data-augmentation-for-context-dependent-text-to-sql/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cross-lingual Prompting Improving Zero-shot Chain-of-Thought Reasoning across Languages</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-cross-lingual-prompting-improving-zero-shot-chain-of-thought-reasoning-across-languages/"/>
+        <id>/publications/2023-cross-lingual-prompting-improving-zero-shot-chain-of-thought-reasoning-across-languages/</id>
+        
+        <content type="html" xml:base="/publications/2023-cross-lingual-prompting-improving-zero-shot-chain-of-thought-reasoning-across-languages/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CSED A Chinese Semantic Error Diagnosis Corpus</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/"/>
+        <id>/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/</id>
+        
+        <content type="html" xml:base="/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Improving cross-lingual language understanding with consistency regularization-based fine-tuning</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-improving-cross-lingual-language-understanding-with-consistency-regularization-based-fine-tuning/"/>
+        <id>/publications/2023-improving-cross-lingual-language-understanding-with-consistency-regularization-based-fine-tuning/</id>
+        
+        <content type="html" xml:base="/publications/2023-improving-cross-lingual-language-understanding-with-consistency-regularization-based-fine-tuning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Language Anisotropic Cross-Lingual Model Editing</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-language-anisotropic-cross-lingual-model-editing/"/>
+        <id>/publications/2023-language-anisotropic-cross-lingual-model-editing/</id>
+        
+        <content type="html" xml:base="/publications/2023-language-anisotropic-cross-lingual-model-editing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ManagerTower Aggregating the Insights of Uni-Modal Experts for Vision-Language Representation Learning</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-managertower-aggregating-the-insights-of-uni-modal-experts-for-vision-language-representation-learning/"/>
+        <id>/publications/2023-managertower-aggregating-the-insights-of-uni-modal-experts-for-vision-language-representation-learning/</id>
+        
+        <content type="html" xml:base="/publications/2023-managertower-aggregating-the-insights-of-uni-modal-experts-for-vision-language-representation-learning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>MetricPrompt Prompting Model as a Relevance Metric for Few-shot Text Classification</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-metricprompt-prompting-model-as-a-relevance-metric-for-few-shot-text-classification/"/>
+        <id>/publications/2023-metricprompt-prompting-model-as-a-relevance-metric-for-few-shot-text-classification/</id>
+        
+        <content type="html" xml:base="/publications/2023-metricprompt-prompting-model-as-a-relevance-metric-for-few-shot-text-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>MixPro Simple yet Effective Data Augmentation for Prompt-based Learning</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"/>
+        <id>/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/</id>
+        
+        <content type="html" xml:base="/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Modularized Pre-Training for End-to-End Task-Oriented Dialogue</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/"/>
+        <id>/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/</id>
+        
+        <content type="html" xml:base="/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>OpenSLU A Unified Modularized and Extensible Toolkit for Spoken Language Understanding</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-openslu-a-unified-modularized-and-extensible-toolkit-for-spoken-language-understanding/"/>
+        <id>/publications/2023-openslu-a-unified-modularized-and-extensible-toolkit-for-spoken-language-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2023-openslu-a-unified-modularized-and-extensible-toolkit-for-spoken-language-understanding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Semantic-Guided Image Augmentation with Pre-trained Models</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-semantic-guided-image-augmentation-with-pre-trained-models/"/>
+        <id>/publications/2023-semantic-guided-image-augmentation-with-pre-trained-models/</id>
+        
+        <content type="html" xml:base="/publications/2023-semantic-guided-image-augmentation-with-pre-trained-models/"></content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+
+<div class="container">
+  <section class="section">
+    
+    <p class="title">
+      新闻列表
+    </p>
+    
+
+    
+    
+    
+
+    
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创@COLING 2022 | CCTC：面向中文母语使用者的跨句子文本纠错数据集
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@COLING 2022 | CCTC：面向中文母语使用者的跨句子文本纠错数据集.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        中文文本纠错（Chinese Text Correction, CTC）主要针对中文拼写错误和语法错误进行检测和纠正。目前大部分中文拼写纠错和语法纠错的测试集都是单句级别的，并且是由外国的汉语学习者撰写的。我们发现中文母语使用者犯的错误和非母语使用者犯的错误有很大的不同，直接使用目前已有的一些数据集作为测试集来为面向中文母语使用者准备的校对系统进行评测并不合适。此外，一些错误通常还需要上下文信息来进行检测和纠正。在本文中，我们提出了一个基于中文母语使用者撰写文本的跨句子中文文本纠错测试集CCTC。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@COLING 2022 | CCTC：面向中文母语使用者的跨句子文本纠错数据集.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;O7YH3x6dIhM1XLdeJVbbNw">赛尔原创@COLING 2022 | CCTC：面向中文母语使用者的跨句子文本纠错数据集</a>
+              
+            </h3>
+            中文文本纠错（Chinese Text Correction, CTC）主要针对中文拼写错误和语法错误进行检测和纠正。目前大部分中文拼写纠错和语法纠错的测试集都是单句级别的，并且是由外国的汉语学习者撰写的。我们发现中文母语使用者犯的错误和非母语使用者犯的错误有很大的不同，直接使用目前已有的一些数据集作为测试集来为面向中文母语使用者准备的校对系统进行评测并不合适。此外，一些错误通常还需要上下文信息来进行检测和纠正。在本文中，我们提出了一个基于中文母语使用者撰写文本的跨句子中文文本纠错测试集CCTC。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2022-11-18">2022-11-18</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2022-11-18">2022-11-18</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR十篇长文被EMNLP 2022主会及子刊录用
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR十篇长文被EMNLP 2022主会及子刊录用.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        EMNLP是计算语言学和自然语言处理领域顶级国际会议之一，CCF B类会议，由ACL SIGDAT（语言学数据特殊兴趣小组）主办，每年举办一次。哈尔滨工业大学社会计算与信息检索研究中心有10篇长文被录用，其中7篇被主会录用，3篇被Findings of EMNLP子刊录用。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR十篇长文被EMNLP 2022主会及子刊录用.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;5LNWEEb6aCInrdAYQcCNyA">哈工大SCIR十篇长文被EMNLP 2022主会及子刊录用</a>
+              
+            </h3>
+            EMNLP是计算语言学和自然语言处理领域顶级国际会议之一，CCF B类会议，由ACL SIGDAT（语言学数据特殊兴趣小组）主办，每年举办一次。哈尔滨工业大学社会计算与信息检索研究中心有10篇长文被录用，其中7篇被主会录用，3篇被Findings of EMNLP子刊录用。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-fa-biao/">
+                  <span class="tag is-primary">
+                    论文发表
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2022-10-12">2022-10-12</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2022-10-12">2022-10-12</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR取得CCIR Cup 2022混合表格与文本数据问答赛道冠军
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR取得CCIR Cup 2022混合表格与文本数据问答赛道冠军.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        哈工大SCIR的“TIBK-12”小队以75.1的成绩夺得全国信息检索挑战杯-基于金融财报中的混合表格与文本数据的问答赛道冠军。团队成员包括窦隆绪、王丁子睿，指导教师为车万翔教授。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR取得CCIR Cup 2022混合表格与文本数据问答赛道冠军.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;ZsDX9k8HFYW8IBUZ1mnGxg">哈工大SCIR取得CCIR Cup 2022混合表格与文本数据问答赛道冠军</a>
+              
+            </h3>
+            哈工大SCIR的“TIBK-12”小队以75.1的成绩夺得全国信息检索挑战杯-基于金融财报中的混合表格与文本数据的问答赛道冠军。团队成员包括窦隆绪、王丁子睿，指导教师为车万翔教授。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/ping-ce/">
+                  <span class="tag is-primary">
+                    评测
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2022-09-21">2022-09-21</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2022-09-21">2022-09-21</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR两位博士生施晓明、侯宇泰顺利通过博士学位答辩
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR两位博士生施晓明、侯宇泰顺利通过博士学位答辩.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        2022年9月5日上午，哈工大社会计算与信息检索研究中心两位博士生施晓明、侯宇泰顺利通过博士学位论文答辩。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR两位博士生施晓明、侯宇泰顺利通过博士学位答辩.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;yVg99RDpnUrCJASNr6fcZA">哈工大SCIR两位博士生施晓明、侯宇泰顺利通过博士学位答辩</a>
+              
+            </h3>
+            2022年9月5日上午，哈工大社会计算与信息检索研究中心两位博士生施晓明、侯宇泰顺利通过博士学位论文答辩。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/bo-shi-bi-ye/">
+                  <span class="tag is-primary">
+                    博士毕业
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2022-09-08">2022-09-08</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2022-09-08">2022-09-08</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          语言技术平台（LTP）推出 v4.2 版本！
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/语言技术平台（LTP）推出 v4.2 版本！.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        语言技术平台（LTP）推出 v4.2 版本，此次升级主要提升了分词等常用任务的推理速度、增加了平台的易用性等。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/语言技术平台（LTP）推出 v4.2 版本！.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;pnGN7QY-R5TkLWnI9vNTqw">语言技术平台（LTP）推出 v4.2 版本！</a>
+              
+            </h3>
+            语言技术平台（LTP）推出 v4.2 版本，此次升级主要提升了分词等常用任务的推理速度、增加了平台的易用性等。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/gong-cheng-xiang-mu/">
+                  <span class="tag is-primary">
+                    工程项目
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2022-08-22">2022-08-22</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2022-08-22">2022-08-22</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR在MMNLU-22多语言任务型对话自然语言理解评测取得Full Dataset赛道第一名
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR在MMNLU-22多语言任务型对话自然语言理解评测取得Full Dataset赛道第一名.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        HIT-SCIR语言分析组郑博、黎州扬、魏福煊、陈麒光、覃立波组成的团队（指导教师车万翔教授）参加MMNLU-22评测，在Full Dataset赛道中获得第一名，在Zero-Shot赛道中获得第二名。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR在MMNLU-22多语言任务型对话自然语言理解评测取得Full Dataset赛道第一名.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;LC7etMn49syiFuQ_7C4ILw">哈工大SCIR在MMNLU-22多语言任务型对话自然语言理解评测取得Full Dataset赛道第一名</a>
+              
+            </h3>
+            HIT-SCIR语言分析组郑博、黎州扬、魏福煊、陈麒光、覃立波组成的团队（指导教师车万翔教授）参加MMNLU-22评测，在Full Dataset赛道中获得第一名，在Zero-Shot赛道中获得第二名。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/ping-ce/">
+                  <span class="tag is-primary">
+                    评测
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2022-08-17">2022-08-17</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2022-08-17">2022-08-17</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          ACL@2022 | 反向预测更好？基于反向提示的小样本槽位标注方法
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/ACL@2022 | 反向预测更好？基于反向提示的小样本槽位标注方法.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        本文录用于ACL 2022 Findings。提示学习方法在如槽位标注等词级别任务上十分低效。本文探索了一种反向提示方法，并提出了迭代预测策略来建模标签之间的依赖关系。我们的方法在多个数据集上均有提升，并大幅加快了槽位标注的预测速度。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/ACL@2022 | 反向预测更好？基于反向提示的小样本槽位标注方法.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650804706&amp;idx=1&amp;sn=08da6836cf9a908516a464322339075b&amp;chksm=8cb88409bbcf0d1f412996dc9c7c4c3b7e8ac3ae22b17defcd5d0acc6799f9a79366b37f020e&amp;token=728330758&amp;lang=zh_CN#rd">ACL@2022 | 反向预测更好？基于反向提示的小样本槽位标注方法</a>
+              
+            </h3>
+            本文录用于ACL 2022 Findings。提示学习方法在如槽位标注等词级别任务上十分低效。本文探索了一种反向提示方法，并提出了迭代预测策略来建模标签之间的依赖关系。我们的方法在多个数据集上均有提升，并大幅加快了槽位标注的预测速度。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2022-05-04">2022-05-04</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2022-05-04">2022-05-04</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR车万翔、刘挺 | 自然语言处理新范式：基于预训练模型的方法
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR车万翔、刘挺 | 自然语言处理新范式：基于预训练模型的方法.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        近日，《中兴通讯技术》2022年第2期专题——《自然语言处理预训练模型》正式发表，受本期专题策划人，清华大学计算机系教授、中国工程院院士郑纬民邀请，我中心车万翔、刘挺教授撰文，介绍了《自然语言处理新范式：基于预训练模型的方法》。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR车万翔、刘挺 | 自然语言处理新范式：基于预训练模型的方法.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650804685&amp;idx=1&amp;sn=3914ecf5f82e69b8d263890cfdd3941e&amp;chksm=8cb88426bbcf0d306c79a5116b10e3969457260ace1432de58680d13e8e5791594fbf3ffe333&amp;token=728330758&amp;lang=zh_CN#rd">哈工大SCIR车万翔、刘挺 | 自然语言处理新范式：基于预训练模型的方法</a>
+              
+            </h3>
+            近日，《中兴通讯技术》2022年第2期专题——《自然语言处理预训练模型》正式发表，受本期专题策划人，清华大学计算机系教授、中国工程院院士郑纬民邀请，我中心车万翔、刘挺教授撰文，介绍了《自然语言处理新范式：基于预训练模型的方法》。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/shu-ji-chu-ban/">
+                  <span class="tag is-primary">
+                    书籍出版
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2022-04-28">2022-04-28</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2022-04-28">2022-04-28</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创@AAAI 2022|基于Profile信息的口语语言理解基准
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@AAAI 2022|基于Profile信息的口语语言理解基准.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        ​本文录用于AAAI 2022。本文研究基于Profile的口语语言理解任务。本文标注了约含五千条数据的中文数据集，并使用多层次知识适配器来有效引入辅助Profile信息，实验表明，该方式能够有效提升SLU模型在ProSLU任务上的表现。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@AAAI 2022|基于Profile信息的口语语言理解基准.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650804594&amp;idx=1&amp;sn=3683c758a9117a9fa1663534772c72b3&amp;chksm=8cb88499bbcf0d8fb16d5e84dabe97c14a6ab51ca4e682cffc436c61d78a2b324a00127ffccf&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创@AAAI 2022|基于Profile信息的口语语言理解基准</a>
+              
+            </h3>
+            ​本文录用于AAAI 2022。本文研究基于Profile的口语语言理解任务。本文标注了约含五千条数据的中文数据集，并使用多层次知识适配器来有效引入辅助Profile信息，实验表明，该方式能够有效提升SLU模型在ProSLU任务上的表现。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2022-04-14">2022-04-14</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2022-04-14">2022-04-14</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创@EMNLP 2021 | 多语言和跨语言对话推荐
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@EMNLP 2021 | 多语言和跨语言对话推荐.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        本文录用于EMNLP 2021。为促进多语言和跨语言对话推荐的研究，我们构建了第一个中英双语并行对话推荐数据集DuRecDial 2.0，并定义了5个任务。自动评估和人工评估结果表明，使用英文对话推荐数据可以提高中文对话推荐的性能。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@EMNLP 2021 | 多语言和跨语言对话推荐.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650804212&amp;idx=1&amp;sn=96b8dfccf883693cc5418a166dd11f91&amp;chksm=8cb89a1fbbcf1309f92dcaa6e868846ceec397d50f21eb09b0b6020be2bd859e4027fc66071b&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创@EMNLP 2021 | 多语言和跨语言对话推荐</a>
+              
+            </h3>
+            本文录用于EMNLP 2021。为促进多语言和跨语言对话推荐的研究，我们构建了第一个中英双语并行对话推荐数据集DuRecDial 2.0，并定义了5个任务。自动评估和人工评估结果表明，使用英文对话推荐数据可以提高中文对话推荐的性能。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2022-03-11">2022-03-11</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2022-03-11">2022-03-11</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+    
+
+    
+    
+
+    
+
+    
+    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+      
+      <a class="pagination-previous" href="&#x2F;news&#x2F;page&#x2F;3&#x2F;">‹ Previous</a>
+      
+      
+      <a class="pagination-next" href="&#x2F;news&#x2F;page&#x2F;5&#x2F;">Next ›</a>
+      
+      <ul class="pagination-list">
+        
+
+        
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;">1</a></li>
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        
+
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;3&#x2F;">3</a></li>
+        
+        <li><a class="pagination-link is-current" aria-current="page">4</a></li>
+        
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;5&#x2F;">5</a></li>
+
+        
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;12&#x2F;">12</a></li>
+        
+
+        
+      </ul>
+    </nav>
+    
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

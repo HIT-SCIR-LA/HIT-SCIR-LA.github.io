@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Raghavan Prabhakar</title>
+    <link rel="self" type="application/atom+xml" href="/authors/raghavan-prabhakar/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2010-01-01T00:00:00+00:00</updated>
+    <id>/authors/raghavan-prabhakar/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Introduction to information retrieval</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-introduction-to-information-retrieval/"/>
+        <id>/publications/2010-introduction-to-information-retrieval/</id>
+        
+        <content type="html" xml:base="/publications/2010-introduction-to-information-retrieval/"></content>
+        
+    </entry>
+</feed>

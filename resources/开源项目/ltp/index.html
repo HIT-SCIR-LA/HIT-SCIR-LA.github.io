@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+
+<div class="container">
+  <section class="section">
+    <div class="content">
+      <h1 id="ltp-4">LTP 4</h1>
+<p>LTP（Language Technology Platform） 提供了一系列中文自然语言处理工具，用户可以使用这些工具对于中文文本进行分词、词性标注、句法分析等等工作。</p>
+<h2 id="yin-yong">引用</h2>
+<p>如果您在工作中使用了 LTP，您可以引用这篇论文</p>
+<pre data-lang="bibtex" style="background-color:#2b303b;color:#c0c5ce;" class="language-bibtex "><code class="language-bibtex" data-lang="bibtex"><span style="color:#b48ead;">@inproceedings</span><span>{che-etal-2021-n,
+</span><span>    </span><span style="color:#a3be8c;">title </span><span>= &quot;</span><span style="color:#a3be8c;">N-{LTP}: An Open-source Neural Language Technology Platform for {C}hinese</span><span>&quot;,
+</span><span>    </span><span style="color:#a3be8c;">author </span><span>= &quot;</span><span style="color:#a3be8c;">Che, Wanxiang  and
+</span><span style="color:#a3be8c;">      Feng, Yunlong  and
+</span><span style="color:#a3be8c;">      Qin, Libo  and
+</span><span style="color:#a3be8c;">      Liu, Ting</span><span>&quot;,
+</span><span>    </span><span style="color:#a3be8c;">booktitle </span><span>= &quot;</span><span style="color:#a3be8c;">Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing: System Demonstrations</span><span>&quot;,
+</span><span>    </span><span style="color:#a3be8c;">month </span><span>= nov,
+</span><span>    </span><span style="color:#a3be8c;">year </span><span>= &quot;</span><span style="color:#a3be8c;">2021</span><span>&quot;,
+</span><span>    </span><span style="color:#a3be8c;">address </span><span>= &quot;</span><span style="color:#a3be8c;">Online and Punta Cana, Dominican Republic</span><span>&quot;,
+</span><span>    </span><span style="color:#a3be8c;">publisher </span><span>= &quot;</span><span style="color:#a3be8c;">Association for Computational Linguistics</span><span>&quot;,
+</span><span>    </span><span style="color:#a3be8c;">url </span><span>= &quot;</span><span style="color:#a3be8c;">https://aclanthology.org/2021.emnlp-demo.6</span><span>&quot;,
+</span><span>    </span><span style="color:#a3be8c;">doi </span><span>= &quot;</span><span style="color:#a3be8c;">10.18653/v1/2021.emnlp-demo.6</span><span>&quot;,
+</span><span>    </span><span style="color:#a3be8c;">pages </span><span>= &quot;</span><span style="color:#a3be8c;">42--49</span><span>&quot;,
+</span><span>    </span><span style="color:#a3be8c;">abstract </span><span>= &quot;</span><span style="color:#a3be8c;">We introduce N-LTP, an open-source neural language technology platform supporting six fundamental Chinese NLP tasks: lexical analysis (Chinese word segmentation, part-of-speech tagging, and named entity recognition), syntactic parsing (dependency parsing), and semantic parsing (semantic dependency parsing and semantic role labeling). Unlike the existing state-of-the-art toolkits, such as Stanza, that adopt an independent model for each task, N-LTP adopts the multi-task framework by using a shared pre-trained model, which has the advantage of capturing the shared knowledge across relevant Chinese tasks. In addition, a knowledge distillation method (Clark et al., 2019) where the single-task model teaches the multi-task model is further introduced to encourage the multi-task model to surpass its single-task teacher. Finally, we provide a collection of easy-to-use APIs and a visualization tool to make users to use and view the processing results more easily and directly. To the best of our knowledge, this is the first toolkit to support six Chinese NLP fundamental tasks. Source code, documentation, and pre-trained models are available at https://github.com/HIT-SCIR/ltp.</span><span>&quot;,
+</span><span>}
+</span></code></pre>
+<p><strong>参考书：</strong>
+由哈工大社会计算与信息检索研究中心（HIT-SCIR）的多位学者共同编著的《<a href="https://item.jd.com/13344628.html">自然语言处理：基于预训练模型的方法</a>
+》（作者：车万翔、郭江、崔一鸣；主审：刘挺）一书现已正式出版，该书重点介绍了新的基于预训练模型的自然语言处理技术，包括基础知识、预训练词向量和预训练模型三大部分，可供广大LTP用户学习参考。</p>
+<h3 id="geng-xin-shuo-ming">更新说明</h3>
+<ul>
+<li>4.2.0
+<ul>
+<li>[结构性变化] 将 LTP 拆分成 2 个部分，维护和训练更方便，结构更清晰
+<ul>
+<li>[Legacy 模型] 针对广大用户对于<strong>推理速度</strong>的需求，使用 Rust 重写了基于感知机的算法，准确率与 LTP3 版本相当，速度则是 LTP v3 的 <strong>3.55</strong> 倍，开启多线程更可获得 <strong>17.17</strong> 倍的速度提升，但目前仅支持分词、词性、命名实体三大任务</li>
+<li>[深度学习模型] 即基于 PyTorch 实现的深度学习模型，支持全部的6大任务（分词/词性/命名实体/语义角色/依存句法/语义依存）</li>
+</ul>
+</li>
+<li>[其他改进] 改进了模型训练方法
+<ul>
+<li>[共同] 提供了训练脚本和训练样例，使得用户能够更方便地使用私有的数据，自行训练个性化的模型</li>
+<li>[深度学习模型] 采用 hydra 对训练过程进行配置，方便广大用户修改模型训练参数以及对 LTP 进行扩展（比如使用其他包中的 Module）</li>
+</ul>
+</li>
+<li>[其他变化] 分词、依存句法分析 (Eisner) 和 语义依存分析 (Eisner) 任务的解码算法使用 Rust 实现，速度更快</li>
+<li>[新特性] 模型上传至 <a href="https://huggingface.co/LTP">Huggingface Hub</a>，支持自动下载，下载速度更快，并且支持用户自行上传自己训练的模型供LTP进行推理使用</li>
+<li>[破坏性变更] 改用 Pipeline API 进行推理，方便后续进行更深入的性能优化（如SDP和SDPG很大一部分是重叠的，重用可以加快推理速度），使用说明参见<a href="https://github.com/hit-scir/ltp">Github快速使用部分</a></li>
+</ul>
+</li>
+<li>4.1.0
+<ul>
+<li>提供了自定义分词等功能</li>
+<li>修复了一些bug</li>
+</ul>
+</li>
+<li>4.0.0
+<ul>
+<li>基于Pytorch 开发，原生 Python 接口</li>
+<li>可根据需要自由选择不同速度和指标的模型</li>
+<li>分词、词性、命名实体、依存句法、语义角色、语义依存6大任务</li>
+</ul>
+</li>
+</ul>
+<h2 id="kuai-su-shi-yong">快速使用</h2>
+<h3 id="python"><a href="/resources/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/ltp/python/interface/README.md">Python</a></h3>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">pip</span><span> install</span><span style="color:#bf616a;"> -U</span><span> ltp ltp-core ltp-extension</span><span style="color:#bf616a;"> -i</span><span> https://pypi.org/simple </span><span style="color:#65737e;"># 安装 ltp
+</span></code></pre>
+<p><strong>注：</strong> 如果遇到任何错误，请尝试使用上述命令重新安装 ltp，如果依然报错，请在 Github issues 中反馈。</p>
+<pre data-lang="python" style="background-color:#2b303b;color:#c0c5ce;" class="language-python "><code class="language-python" data-lang="python"><span style="color:#b48ead;">import </span><span>torch
+</span><span style="color:#b48ead;">from </span><span>ltp </span><span style="color:#b48ead;">import </span><span style="color:#bf616a;">LTP
+</span><span>
+</span><span>ltp = </span><span style="color:#bf616a;">LTP</span><span>(&quot;</span><span style="color:#a3be8c;">LTP/small</span><span>&quot;)  </span><span style="color:#65737e;"># 默认加载 Small 模型
+</span><span>
+</span><span style="color:#65737e;"># 将模型移动到 GPU 上
+</span><span style="color:#b48ead;">if </span><span>torch.cuda.</span><span style="color:#bf616a;">is_available</span><span>():
+</span><span>    </span><span style="color:#65737e;"># ltp.cuda()
+</span><span>    ltp.</span><span style="color:#bf616a;">to</span><span>(&quot;</span><span style="color:#a3be8c;">cuda</span><span>&quot;)
+</span><span>
+</span><span>output = ltp.</span><span style="color:#bf616a;">pipeline</span><span>([&quot;</span><span style="color:#a3be8c;">他叫汤姆去拿外衣。</span><span>&quot;], </span><span style="color:#bf616a;">tasks</span><span>=[&quot;</span><span style="color:#a3be8c;">cws</span><span>&quot;, &quot;</span><span style="color:#a3be8c;">pos</span><span>&quot;, &quot;</span><span style="color:#a3be8c;">ner</span><span>&quot;, &quot;</span><span style="color:#a3be8c;">srl</span><span>&quot;, &quot;</span><span style="color:#a3be8c;">dep</span><span>&quot;, &quot;</span><span style="color:#a3be8c;">sdp</span><span>&quot;])
+</span><span style="color:#65737e;"># 使用字典格式作为返回结果
+</span><span style="color:#96b5b4;">print</span><span>(output.cws)  </span><span style="color:#65737e;"># print(output[0]) / print(output[&#39;cws&#39;]) # 也可以使用下标访问
+</span><span style="color:#96b5b4;">print</span><span>(output.pos)
+</span><span style="color:#96b5b4;">print</span><span>(output.sdp)
+</span><span>
+</span><span style="color:#65737e;"># 使用感知机算法实现的分词、词性和命名实体识别，速度比较快，但是精度略低
+</span><span>ltp = </span><span style="color:#bf616a;">LTP</span><span>(&quot;</span><span style="color:#a3be8c;">LTP/legacy</span><span>&quot;)
+</span><span style="color:#65737e;"># cws, pos, ner = ltp.pipeline([&quot;他叫汤姆去拿外衣。&quot;], tasks=[&quot;cws&quot;, &quot;ner&quot;]).to_tuple() # error: NER 需要 词性标注任务的结果
+</span><span>cws, pos, ner = ltp.</span><span style="color:#bf616a;">pipeline</span><span>([&quot;</span><span style="color:#a3be8c;">他叫汤姆去拿外衣。</span><span>&quot;], </span><span style="color:#bf616a;">tasks</span><span>=[&quot;</span><span style="color:#a3be8c;">cws</span><span>&quot;, &quot;</span><span style="color:#a3be8c;">pos</span><span>&quot;, &quot;</span><span style="color:#a3be8c;">ner</span><span>&quot;]).</span><span style="color:#bf616a;">to_tuple</span><span>()  </span><span style="color:#65737e;"># to tuple 可以自动转换为元组格式
+</span><span style="color:#65737e;"># 使用元组格式作为返回结果
+</span><span style="color:#96b5b4;">print</span><span>(cws, pos, ner)
+</span></code></pre>
+<p><strong><a href="/resources/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/ltp/python/interface/docs/quickstart.rst">详细说明</a></strong></p>
+<h3 id="rust"><a href="/resources/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/ltp/rust/ltp/README.md">Rust</a></h3>
+<pre data-lang="rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-rust "><code class="language-rust" data-lang="rust"><span style="color:#b48ead;">use </span><span>std::fs::File;
+</span><span style="color:#b48ead;">use </span><span>itertools::multizip;
+</span><span style="color:#b48ead;">use </span><span>ltp::{CWSModel, POSModel, NERModel, ModelSerde, Format, Codec};
+</span><span>
+</span><span style="color:#b48ead;">fn </span><span style="color:#8fa1b3;">main</span><span>() -&gt; Result&lt;(), Box&lt;dyn std::error::Error&gt;&gt; {
+</span><span>  </span><span style="color:#b48ead;">let</span><span> file = File::open(&quot;</span><span style="color:#a3be8c;">data/legacy-models/cws_model.bin</span><span>&quot;)?;
+</span><span>  </span><span style="color:#b48ead;">let</span><span> cws: CWSModel = ModelSerde::load(file, Format::</span><span style="color:#d08770;">AVRO</span><span>(Codec::Deflate))?;
+</span><span>  </span><span style="color:#b48ead;">let</span><span> file = File::open(&quot;</span><span style="color:#a3be8c;">data/legacy-models/pos_model.bin</span><span>&quot;)?;
+</span><span>  </span><span style="color:#b48ead;">let</span><span> pos: POSModel = ModelSerde::load(file, Format::</span><span style="color:#d08770;">AVRO</span><span>(Codec::Deflate))?;
+</span><span>  </span><span style="color:#b48ead;">let</span><span> file = File::open(&quot;</span><span style="color:#a3be8c;">data/legacy-models/ner_model.bin</span><span>&quot;)?;
+</span><span>  </span><span style="color:#b48ead;">let</span><span> ner: NERModel = ModelSerde::load(file, Format::</span><span style="color:#d08770;">AVRO</span><span>(Codec::Deflate))?;
+</span><span>
+</span><span>  </span><span style="color:#b48ead;">let</span><span> words = cws.</span><span style="color:#96b5b4;">predict</span><span>(&quot;</span><span style="color:#a3be8c;">他叫汤姆去拿外衣。</span><span>&quot;)?;
+</span><span>  </span><span style="color:#b48ead;">let</span><span> pos = pos.</span><span style="color:#96b5b4;">predict</span><span>(&amp;words)?;
+</span><span>  </span><span style="color:#b48ead;">let</span><span> ner = ner.</span><span style="color:#96b5b4;">predict</span><span>((&amp;words, &amp;pos))?;
+</span><span>
+</span><span>  </span><span style="color:#b48ead;">for </span><span>(w, p, n) in </span><span style="color:#96b5b4;">multizip</span><span>((words, pos, ner)) {
+</span><span>    println!(&quot;</span><span style="color:#d08770;">{}</span><span style="color:#a3be8c;">/</span><span style="color:#d08770;">{}</span><span style="color:#a3be8c;">/</span><span style="color:#d08770;">{}</span><span>&quot;, w, p, n);
+</span><span>  }
+</span><span>
+</span><span>  Ok(())
+</span><span>}
+</span></code></pre>
+<h2 id="mo-xing-xing-neng-yi-ji-xia-zai-di-zhi">模型性能以及下载地址</h2>
+<table><thead><tr><th style="text-align: center">深度学习模型</th><th style="text-align: center">分词</th><th style="text-align: center">词性</th><th style="text-align: center">命名实体</th><th style="text-align: center">语义角色</th><th style="text-align: center">依存句法</th><th style="text-align: center">语义依存</th><th style="text-align: center">速度(句/S)</th></tr></thead><tbody>
+<tr><td style="text-align: center"><a href="https://huggingface.co/LTP/base">Base</a></td><td style="text-align: center">98.7</td><td style="text-align: center">98.5</td><td style="text-align: center">95.4</td><td style="text-align: center">80.6</td><td style="text-align: center">89.5</td><td style="text-align: center">75.2</td><td style="text-align: center">39.12</td></tr>
+<tr><td style="text-align: center"><a href="https://huggingface.co/LTP/base1">Base1</a></td><td style="text-align: center">99.22</td><td style="text-align: center">98.73</td><td style="text-align: center">96.39</td><td style="text-align: center">79.28</td><td style="text-align: center">89.57</td><td style="text-align: center">76.57</td><td style="text-align: center">--.--</td></tr>
+<tr><td style="text-align: center"><a href="https://huggingface.co/LTP/base2">Base2</a></td><td style="text-align: center">99.18</td><td style="text-align: center">98.69</td><td style="text-align: center">95.97</td><td style="text-align: center">79.49</td><td style="text-align: center">90.19</td><td style="text-align: center">76.62</td><td style="text-align: center">--.--</td></tr>
+<tr><td style="text-align: center"><a href="https://huggingface.co/LTP/small">Small</a></td><td style="text-align: center">98.4</td><td style="text-align: center">98.2</td><td style="text-align: center">94.3</td><td style="text-align: center">78.4</td><td style="text-align: center">88.3</td><td style="text-align: center">74.7</td><td style="text-align: center">43.13</td></tr>
+<tr><td style="text-align: center"><a href="https://huggingface.co/LTP/tiny">Tiny</a></td><td style="text-align: center">96.8</td><td style="text-align: center">97.1</td><td style="text-align: center">91.6</td><td style="text-align: center">70.9</td><td style="text-align: center">83.8</td><td style="text-align: center">70.1</td><td style="text-align: center">53.22</td></tr>
+</tbody></table>
+<table><thead><tr><th style="text-align: center">感知机算法</th><th style="text-align: center">分词</th><th style="text-align: center">词性</th><th style="text-align: center">命名实体</th><th style="text-align: center">速度(句/s)</th><th style="text-align: center">备注</th></tr></thead><tbody>
+<tr><td style="text-align: center"><a href="https://huggingface.co/LTP/legacy">Legacy</a></td><td style="text-align: center">97.93</td><td style="text-align: center">98.41</td><td style="text-align: center">94.28</td><td style="text-align: center">21581.48</td><td style="text-align: center"><a href="/resources/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/ltp/rust/ltp/README.md">性能详情</a></td></tr>
+</tbody></table>
+<p><strong>注：感知机算法速度为开启16线程速度</strong></p>
+<h2 id="gou-jian-wheel-bao">构建 Wheel 包</h2>
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">make</span><span> bdist
+</span></code></pre>
+<h2 id="qi-ta-yu-yan-bang-ding">其他语言绑定</h2>
+<p><strong>感知机算法</strong></p>
+<ul>
+<li><a href="/resources/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/ltp/rust/ltp">Rust</a></li>
+<li><a href="/resources/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/ltp/rust/ltp-cffi">C/C++</a></li>
+</ul>
+<p><strong>深度学习算法</strong></p>
+<ul>
+<li><a href="https://github.com/HIT-SCIR/libltp/tree/master/ltp-rs">Rust</a></li>
+<li><a href="https://github.com/HIT-SCIR/libltp/tree/master/ltp-cpp">C++</a></li>
+<li><a href="https://github.com/HIT-SCIR/libltp/tree/master/ltp-java">Java</a></li>
+</ul>
+<h2 id="zuo-zhe-xin-xi">作者信息</h2>
+<ul>
+<li>冯云龙 &lt;&lt;<a href="mailto:ylfeng@ir.hit.edu.cn">ylfeng@ir.hit.edu.cn</a>&gt;&gt;</li>
+</ul>
+<h2 id="kai-yuan-xie-yi">开源协议</h2>
+<ol>
+<li>语言技术平台面向国内外大学、中科院各研究所以及个人研究者免费开放源代码，但如上述机构和个人将该平台用于商业目的（如企业合作项目等）则需要付费。</li>
+<li>除上述机构以外的企事业单位，如申请使用该平台，需付费。</li>
+<li>凡涉及付费问题，请发邮件到 car@ir.hit.edu.cn 洽商。</li>
+<li>如果您在 LTP 基础上发表论文或取得科研成果，请您在发表论文和申报成果时声明“使用了哈工大社会计算与信息检索研究中心研制的语言技术平台（LTP）”.
+同时，发信给car@ir.hit.edu.cn，说明发表论文或申报成果的题目、出处等。</li>
+</ol>
+
+      
+    </div>
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

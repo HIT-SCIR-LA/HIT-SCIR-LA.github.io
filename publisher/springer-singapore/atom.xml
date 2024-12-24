@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Springer Singapore</title>
+    <link rel="self" type="application/atom+xml" href="/publisher/springer-singapore/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2098-01-01T00:00:00+00:00</updated>
+    <id>/publisher/springer-singapore/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Deep Learning in Lexical Analysis and Parsing</title>
+        <published>2098-01-01T00:00:00+00:00</published>
+        <updated>2098-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-deep-learning-in-lexical-analysis-and-parsing/"/>
+        <id>/publications/2018-deep-learning-in-lexical-analysis-and-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2018-deep-learning-in-lexical-analysis-and-parsing/"></content>
+        
+    </entry>
+</feed>

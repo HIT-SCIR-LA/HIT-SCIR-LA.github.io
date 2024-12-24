@@ -1,0 +1,6766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+
+<div class="container">
+  <section class="section">
+    <div class="content">
+      <h1 id="yu-yi-jie-xi">语义解析</h1>
+<p>广义的语义解析任务指将自然语言文本处理为结构化的语义表示（Meaning Representation）。在不同的语义解析任务中，语义表示的结点定义和具体结构则由任务特性所决定，如 AMR 图、语义依存图、SQL 语法树。根据任务定义和实际应用，语义解析任务可以分为两大类：通用语义解析（General-Purpose）和任务特定语义解析（Task-Specific）。通用语义解析主要为具体的NLP下游任务提供语义学特征，如利用语义依存信息增强词单元之间的关系表示。任务特定语义解析主要服务于具体的下游应用，如利用 Text-to-SQL 技术辅助人员进行数据库交互。</p>
+<p>在广义语义解析场景中，我们发表10余篇研究型论文在 CCF A/B 类会议上， 并积极参与和组织相关技术评测：</p>
+<p>（1）多次参加CoNLL国际相关评测并取得优秀成绩，涵盖多语言、多框架等不同场景；</p>
+<p>（2）构建中文语义依存解析数据集（Chinese Semantic Denpendency Graph）及组织相关评测（CCL2020）。</p>
+<p>目前，相应的通用语义解析技术已转化到 LTP 技术平台及多个落地应用项目中。</p>
+<p>在任务特定语义解析场景中，我们主要探索了 Text-to-SQL 任务，其主要目的是辅助用户对关系型数据库进行访问。模型的输入为表格和问题，输出为可执行的 SQL 语句。</p>
+<p>我们目前的研究工作在以下问题上进行了探究：</p>
+<p>（1）如何对语义解析系统进行领域知识的扩充，以支持垂直领域场景下的应用；</p>
+<p>（2）如何在预训练语言模型中加入结构信息，以针对不同场景搭建统一的语义解析模型;</p>
+<p>（3）如何利用用户提供的交互信息，以增强模型在长难句和歧义句上的表现。</p>
+<p>我们目前的研究成果包括 1 篇 CCF-B 类顶会论文，及国家电网创新 AI 大赛语义解析赛道第1名。在最新的 EMNLP 2022 工作中，我们提出利用公式型知识表示表格场景下的领域知识，使解析模型具备开卷考试的能力。</p>
+<h1 id="ping-ce-cheng-ji">评测成绩</h1>
+<h2 id="tong-yong-yu-yi-jie-xi">通用语义解析</h2>
+<ul>
+<li><a href="http://mrp.nlpl.eu/2020/index.php?page=16">CoNLL2020年跨框架跨语言语义解析第3名</a></li>
+<li><a href="http://mrp.nlpl.eu/2019/index.php?page=6">CoNLL2019年跨框架语义解析第1名</a></li>
+</ul>
+<h2 id="text-to-sqlyu-yi-jie-xi">Text-to-SQL语义解析</h2>
+<ul>
+<li><a href="https://mp.weixin.qq.com/s/JGxCI0hfIKlSHGvRtMmg0Q">2021年国家电网创新AI大赛语义解析赛道第1名</a></li>
+</ul>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <h1>论文列表</h1>
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      <a href="https:&#x2F;&#x2F;link.springer.com&#x2F;chapter&#x2F;10.1007&#x2F;978-981-10-5209-5_4">Deep Learning in Lexical Analysis and Parsing</a>
+      
+    </h3>
+  </header>
+
+  
+  <div class="card-image is-hidden-tablet">
+    <figure class="image is-1by1" style="overflow: hidden;">
+      
+      <img src="/images/publications/DLinNLP.jpeg" style="width: auto; margin: auto;">
+      
+    </figure>
+  </div>
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Springer Singapore, 79--116, ISBN: 9789811052095, 2018. </p>
+    <p>Che, Wanxiang and Zhang, Yue</p>
+  </div>
+
+  <article class="media">
+    
+    <figure class="media-left is-hidden-mobile image is-128x128" style="overflow: hidden;">
+      
+      <img src="/images/publications/DLinNLP.jpeg" style="width: auto; margin: auto;">
+      
+    </figure>
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          <a href="https:&#x2F;&#x2F;link.springer.com&#x2F;chapter&#x2F;10.1007&#x2F;978-981-10-5209-5_4">Deep Learning in Lexical Analysis and Parsing</a>
+          
+        </h3>
+        <p>Springer Singapore, 79--116, ISBN: 9789811052095, 2018. </p>
+        <p>Che, Wanxiang and Zhang, Yue</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;springer-singapore&#x2F;">
+          <span class="tag is-success">
+            Springer Singapore
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2018&#x2F;">
+          <span class="tag is-warning">
+            2018
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-yue&#x2F;">
+          <span class="tag is-danger">
+            Zhang Yue
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;doi.org&#x2F;10.1007&#x2F;978-981-10-5209-5_4">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/Che2018.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      A Closer Look into the Robustness of Neural Dependency Parsers Using Better Adversarial Examples
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021, 2344--2354, 2021. </p>
+    <p>Wang, Yuxuan  and Che, Wanxiang  and Titov, Ivan  and Cohen, Shay B.  and Lei, Zhilin  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          A Closer Look into the Robustness of Neural Dependency Parsers Using Better Adversarial Examples
+          
+        </h3>
+        <p>Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021, 2344--2354, 2021. </p>
+        <p>Wang, Yuxuan  and Che, Wanxiang  and Titov, Ivan  and Cohen, Shay B.  and Lei, Zhilin  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;acl-findings&#x2F;">
+          <span class="tag is-success">
+            ACL(Findings)
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2021&#x2F;">
+          <span class="tag is-warning">
+            2021
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;wang-yuxuan&#x2F;">
+          <span class="tag is-danger">
+            Wang Yuxuan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;titov-ivan&#x2F;">
+          <span class="tag is-danger">
+            Titov Ivan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;2021.findings-acl.207">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/wang2021closer.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      HIT-SCIR at MRP 2020: Transition-based Parser and Iterative Inference Parser
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the CoNLL 2020 Shared Task: Cross-Framework Meaning Representation Parsing, 65--72, 2020. </p>
+    <p>Dou, Longxu  and Feng, Yunlong  and Ji, Yuqiu  and Che, Wanxiang  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          HIT-SCIR at MRP 2020: Transition-based Parser and Iterative Inference Parser
+          
+        </h3>
+        <p>Proceedings of the CoNLL 2020 Shared Task: Cross-Framework Meaning Representation Parsing, 65--72, 2020. </p>
+        <p>Dou, Longxu  and Feng, Yunlong  and Ji, Yuqiu  and Che, Wanxiang  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;conll&#x2F;">
+          <span class="tag is-success">
+            CoNLL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2020&#x2F;">
+          <span class="tag is-warning">
+            2020
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;dou-longxu&#x2F;">
+          <span class="tag is-danger">
+            Dou Longxu
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;feng-yunlong&#x2F;">
+          <span class="tag is-danger">
+            Feng Yunlong
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;ji-yuqiu&#x2F;">
+          <span class="tag is-danger">
+            Ji Yuqiu
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;2020.conll-shared.6">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/dou2020hit.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Cross-Lingual BERT Transformation for Zero-Shot Dependency Parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), 5721--5727, 2019. </p>
+    <p>Wang, Yuxuan  and Che, Wanxiang  and Guo, Jiang  and Liu, Yijia  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Cross-Lingual BERT Transformation for Zero-Shot Dependency Parsing
+          
+        </h3>
+        <p>Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), 5721--5727, 2019. </p>
+        <p>Wang, Yuxuan  and Che, Wanxiang  and Guo, Jiang  and Liu, Yijia  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;emnlp&#x2F;">
+          <span class="tag is-success">
+            EMNLP
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2019&#x2F;">
+          <span class="tag is-warning">
+            2019
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;wang-yuxuan&#x2F;">
+          <span class="tag is-danger">
+            Wang Yuxuan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;guo-jiang&#x2F;">
+          <span class="tag is-danger">
+            Guo Jiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;D19-1575">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/wang2019cross.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Deep contextualized word embeddings for universal dependency parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP), 1--17, 2019. </p>
+    <p>Liu, Yijia and Che, Wanxiang and Wang, Yuxuan and Zheng, Bo and Qin, Bing and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Deep contextualized word embeddings for universal dependency parsing
+          
+        </h3>
+        <p>ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP), 1--17, 2019. </p>
+        <p>Liu, Yijia and Che, Wanxiang and Wang, Yuxuan and Zheng, Bo and Qin, Bing and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;acm-tallip&#x2F;">
+          <span class="tag is-success">
+            ACM&#x2F;TALLIP
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2019&#x2F;">
+          <span class="tag is-warning">
+            2019
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-yijia&#x2F;">
+          <span class="tag is-danger">
+            Liu Yijia
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;wang-yuxuan&#x2F;">
+          <span class="tag is-danger">
+            Wang Yuxuan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;~car&#x2F;papers&#x2F;tallip2019-liu.pdf">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/liu2019deep.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      HIT-SCIR at MRP 2019: A Unified Pipeline for Meaning Representation Parsing via Efficient Training and Effective Encoding
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the Shared Task on Cross-Framework Meaning Representation Parsing at the 2019 Conference on Natural Language Learning, 76--85, 2019. </p>
+    <p>Che, Wanxiang  and Dou, Longxu  and Xu, Yang  and Wang, Yuxuan  and Liu, Yijia  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          HIT-SCIR at MRP 2019: A Unified Pipeline for Meaning Representation Parsing via Efficient Training and Effective Encoding
+          
+        </h3>
+        <p>Proceedings of the Shared Task on Cross-Framework Meaning Representation Parsing at the 2019 Conference on Natural Language Learning, 76--85, 2019. </p>
+        <p>Che, Wanxiang  and Dou, Longxu  and Xu, Yang  and Wang, Yuxuan  and Liu, Yijia  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;mrp&#x2F;">
+          <span class="tag is-success">
+            MRP
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2019&#x2F;">
+          <span class="tag is-warning">
+            2019
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;dou-longxu&#x2F;">
+          <span class="tag is-danger">
+            Dou Longxu
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;xu-yang&#x2F;">
+          <span class="tag is-danger">
+            Xu Yang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;K19-2007">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/che2019hit.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      A Neural Transition-Based Approach for Semantic Dependency Graph Parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the Thirty-Second {AAAI} Conference on Artificial Intelligence, (AAAI-18), the 30th innovative Applications of Artificial Intelligence (IAAI-18), and the 8th {AAAI} Symposium on Educational Advances in Artificial Intelligence (EAAI-18), New Orleans, Louisiana, USA, February 2-7, 2018, 5561--5568, 2018. </p>
+    <p>Yuxuan Wang and Wanxiang Che and Jiang Guo and Ting Liu</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          A Neural Transition-Based Approach for Semantic Dependency Graph Parsing
+          
+        </h3>
+        <p>Proceedings of the Thirty-Second {AAAI} Conference on Artificial Intelligence, (AAAI-18), the 30th innovative Applications of Artificial Intelligence (IAAI-18), and the 8th {AAAI} Symposium on Educational Advances in Artificial Intelligence (EAAI-18), New Orleans, Louisiana, USA, February 2-7, 2018, 5561--5568, 2018. </p>
+        <p>Yuxuan Wang and Wanxiang Che and Jiang Guo and Ting Liu</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;aaai&#x2F;">
+          <span class="tag is-success">
+            AAAI
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2018&#x2F;">
+          <span class="tag is-warning">
+            2018
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;yuxuan-wang&#x2F;">
+          <span class="tag is-danger">
+            Yuxuan Wang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;wanxiang-che&#x2F;">
+          <span class="tag is-danger">
+            Wanxiang Che
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;jiang-guo&#x2F;">
+          <span class="tag is-danger">
+            Jiang Guo
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;www.aaai.org&#x2F;ocs&#x2F;index.php&#x2F;AAAI&#x2F;AAAI18&#x2F;paper&#x2F;view&#x2F;16549">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/wang2018neural.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      An AMR Aligner Tuned by Transition-based Parser
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, 2422--2430, 2018. </p>
+    <p>Liu, Yijia  and Che, Wanxiang  and Zheng, Bo  and Qin, Bing  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          An AMR Aligner Tuned by Transition-based Parser
+          
+        </h3>
+        <p>Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, 2422--2430, 2018. </p>
+        <p>Liu, Yijia  and Che, Wanxiang  and Zheng, Bo  and Qin, Bing  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;emnlp&#x2F;">
+          <span class="tag is-success">
+            EMNLP
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2018&#x2F;">
+          <span class="tag is-warning">
+            2018
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-yijia&#x2F;">
+          <span class="tag is-danger">
+            Liu Yijia
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zheng-bo&#x2F;">
+          <span class="tag is-danger">
+            Zheng Bo
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;D18-1264">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/liu2018amr.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Parsing Tweets into Universal Dependencies
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), 965--975, 2018. </p>
+    <p>Liu, Yijia  and Zhu, Yi  and Che, Wanxiang  and Qin, Bing  and Schneider, Nathan  and Smith, Noah A.</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Parsing Tweets into Universal Dependencies
+          
+        </h3>
+        <p>Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers), 965--975, 2018. </p>
+        <p>Liu, Yijia  and Zhu, Yi  and Che, Wanxiang  and Qin, Bing  and Schneider, Nathan  and Smith, Noah A.</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;naacl&#x2F;">
+          <span class="tag is-success">
+            NAACL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2018&#x2F;">
+          <span class="tag is-warning">
+            2018
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-yijia&#x2F;">
+          <span class="tag is-danger">
+            Liu Yijia
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhu-yi&#x2F;">
+          <span class="tag is-danger">
+            Zhu Yi
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;N18-1088">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/liu2018parsing.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Towards Better UD Parsing: Deep Contextualized Word Embeddings, Ensemble, and Treebank Concatenation
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the {C}o{NLL} 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies, 55--64, 2018. </p>
+    <p>Che, Wanxiang  and Liu, Yijia  and Wang, Yuxuan  and Zheng, Bo  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Towards Better UD Parsing: Deep Contextualized Word Embeddings, Ensemble, and Treebank Concatenation
+          
+        </h3>
+        <p>Proceedings of the {C}o{NLL} 2018 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies, 55--64, 2018. </p>
+        <p>Che, Wanxiang  and Liu, Yijia  and Wang, Yuxuan  and Zheng, Bo  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;conll&#x2F;">
+          <span class="tag is-success">
+            CoNLL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2018&#x2F;">
+          <span class="tag is-warning">
+            2018
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-yijia&#x2F;">
+          <span class="tag is-danger">
+            Liu Yijia
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;wang-yuxuan&#x2F;">
+          <span class="tag is-danger">
+            Wang Yuxuan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;K18-2005">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/che2018towards.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Deep Learning in Lexical Analysis and Parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the {IJCNLP} 2017, Tutorial Abstracts, 1--2, 2017. </p>
+    <p>Che, Wanxiang  and Zhang, Yue</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Deep Learning in Lexical Analysis and Parsing
+          
+        </h3>
+        <p>Proceedings of the {IJCNLP} 2017, Tutorial Abstracts, 1--2, 2017. </p>
+        <p>Che, Wanxiang  and Zhang, Yue</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;ijcnlp&#x2F;">
+          <span class="tag is-success">
+            IJCNLP
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2017&#x2F;">
+          <span class="tag is-warning">
+            2017
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-yue&#x2F;">
+          <span class="tag is-danger">
+            Zhang Yue
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;I17-5001">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/che2018deep.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      The HIT-SCIR System for End-to-End Parsing of Universal Dependencies
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the {C}o{NLL} 2017 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies, 52--62, 2017. </p>
+    <p>Che, Wanxiang  and Guo, Jiang  and Wang, Yuxuan  and Zheng, Bo  and Zhao, Huaipeng  and Liu, Yang  and Teng, Dechuan  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          The HIT-SCIR System for End-to-End Parsing of Universal Dependencies
+          
+        </h3>
+        <p>Proceedings of the {C}o{NLL} 2017 Shared Task: Multilingual Parsing from Raw Text to Universal Dependencies, 52--62, 2017. </p>
+        <p>Che, Wanxiang  and Guo, Jiang  and Wang, Yuxuan  and Zheng, Bo  and Zhao, Huaipeng  and Liu, Yang  and Teng, Dechuan  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;conll&#x2F;">
+          <span class="tag is-success">
+            CoNLL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2017&#x2F;">
+          <span class="tag is-warning">
+            2017
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;guo-jiang&#x2F;">
+          <span class="tag is-danger">
+            Guo Jiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;wang-yuxuan&#x2F;">
+          <span class="tag is-danger">
+            Wang Yuxuan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;K17-3005">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/che2017hit.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      A distributed representation-based framework for cross-lingual transfer parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Journal of Artificial Intelligence Research, 995--1023, 2016. </p>
+    <p>Guo, Jiang and Che, Wanxiang and Yarowsky, David and Wang, Haifeng and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          A distributed representation-based framework for cross-lingual transfer parsing
+          
+        </h3>
+        <p>Journal of Artificial Intelligence Research, 995--1023, 2016. </p>
+        <p>Guo, Jiang and Che, Wanxiang and Yarowsky, David and Wang, Haifeng and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;ai-research&#x2F;">
+          <span class="tag is-success">
+            AI&#x2F;RESEARCH
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2016&#x2F;">
+          <span class="tag is-warning">
+            2016
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;guo-jiang&#x2F;">
+          <span class="tag is-danger">
+            Guo Jiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;yarowsky-david&#x2F;">
+          <span class="tag is-danger">
+            Yarowsky David
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;www.jair.org&#x2F;index.php&#x2F;jair&#x2F;article&#x2F;download&#x2F;10998&#x2F;26154&#x2F;">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/guo2016distributed.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      A Representation Learning Framework for Multi-Source Transfer Parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the Thirtieth {AAAI} Conference on Artificial Intelligence, February 12-17, 2016, Phoenix, Arizona, {USA}, 2734--2740, 2016. </p>
+    <p>Jiang Guo and Wanxiang Che and David Yarowsky and Haifeng Wang and Ting Liu</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          A Representation Learning Framework for Multi-Source Transfer Parsing
+          
+        </h3>
+        <p>Proceedings of the Thirtieth {AAAI} Conference on Artificial Intelligence, February 12-17, 2016, Phoenix, Arizona, {USA}, 2734--2740, 2016. </p>
+        <p>Jiang Guo and Wanxiang Che and David Yarowsky and Haifeng Wang and Ting Liu</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;aaai&#x2F;">
+          <span class="tag is-success">
+            AAAI
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2016&#x2F;">
+          <span class="tag is-warning">
+            2016
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;jiang-guo&#x2F;">
+          <span class="tag is-danger">
+            Jiang Guo
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;wanxiang-che&#x2F;">
+          <span class="tag is-danger">
+            Wanxiang Che
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;david-yarowsky&#x2F;">
+          <span class="tag is-danger">
+            David Yarowsky
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="http:&#x2F;&#x2F;www.aaai.org&#x2F;ocs&#x2F;index.php&#x2F;AAAI&#x2F;AAAI16&#x2F;paper&#x2F;view&#x2F;12236">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/guo2016representation.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      A Universal Framework for Inductive Transfer Parsing across Multi-typed Treebanks
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of {COLING} 2016, the 26th International Conference on Computational Linguistics: Technical Papers, 12--22, 2016. </p>
+    <p>Guo, Jiang  and Che, Wanxiang  and Wang, Haifeng  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          A Universal Framework for Inductive Transfer Parsing across Multi-typed Treebanks
+          
+        </h3>
+        <p>Proceedings of {COLING} 2016, the 26th International Conference on Computational Linguistics: Technical Papers, 12--22, 2016. </p>
+        <p>Guo, Jiang  and Che, Wanxiang  and Wang, Haifeng  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;coling&#x2F;">
+          <span class="tag is-success">
+            COLING
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2016&#x2F;">
+          <span class="tag is-warning">
+            2016
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;guo-jiang&#x2F;">
+          <span class="tag is-danger">
+            Guo Jiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;wang-haifeng&#x2F;">
+          <span class="tag is-danger">
+            Wang Haifeng
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;C16-1002">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/guo2016universal.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Exploiting multi-typed treebanks for parsing with deep multi-task learning
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>ArXiv preprint, abs&#x2F;1606.01161, 2016. </p>
+    <p>Guo, Jiang and Che, Wanxiang and Wang, Haifeng and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Exploiting multi-typed treebanks for parsing with deep multi-task learning
+          
+        </h3>
+        <p>ArXiv preprint, abs&#x2F;1606.01161, 2016. </p>
+        <p>Guo, Jiang and Che, Wanxiang and Wang, Haifeng and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;arxiv&#x2F;">
+          <span class="tag is-success">
+            ArXiv
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2016&#x2F;">
+          <span class="tag is-warning">
+            2016
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;guo-jiang&#x2F;">
+          <span class="tag is-danger">
+            Guo Jiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;wang-haifeng&#x2F;">
+          <span class="tag is-danger">
+            Wang Haifeng
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1606.01161">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/guo2016exploiting.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      HC-Search for Incremental Parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence, {IJCAI} 2016, New York, NY, USA, 9-15 July 2016, 2887--2893, 2016. </p>
+    <p>Yijia Liu and Wanxiang Che and Bing Qin and Ting Liu</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          HC-Search for Incremental Parsing
+          
+        </h3>
+        <p>Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence, {IJCAI} 2016, New York, NY, USA, 9-15 July 2016, 2887--2893, 2016. </p>
+        <p>Yijia Liu and Wanxiang Che and Bing Qin and Ting Liu</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;ijcai&#x2F;">
+          <span class="tag is-success">
+            IJCAI
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2016&#x2F;">
+          <span class="tag is-warning">
+            2016
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;yijia-liu&#x2F;">
+          <span class="tag is-danger">
+            Yijia Liu
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;wanxiang-che&#x2F;">
+          <span class="tag is-danger">
+            Wanxiang Che
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;bing-qin&#x2F;">
+          <span class="tag is-danger">
+            Bing Qin
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="http:&#x2F;&#x2F;www.ijcai.org&#x2F;Abstract&#x2F;16&#x2F;410">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/liu2016hc.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Transition-based chinese semantic dependency graph parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Chinese Computational Linguistics and Natural Language Processing Based on Naturally Annotated Big Data, 12--24, 2016. </p>
+    <p>Wang, Yuxuan and Guo, Jiang and Che, Wanxiang and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Transition-based chinese semantic dependency graph parsing
+          
+        </h3>
+        <p>Chinese Computational Linguistics and Natural Language Processing Based on Naturally Annotated Big Data, 12--24, 2016. </p>
+        <p>Wang, Yuxuan and Guo, Jiang and Che, Wanxiang and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;ccl&#x2F;">
+          <span class="tag is-success">
+            CCL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2016&#x2F;">
+          <span class="tag is-warning">
+            2016
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;wang-yuxuan&#x2F;">
+          <span class="tag is-danger">
+            Wang Yuxuan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;guo-jiang&#x2F;">
+          <span class="tag is-danger">
+            Guo Jiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;~car&#x2F;papers&#x2F;ccl16-yxwang.pdf">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/wang2016transition.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Cross-lingual Dependency Parsing Based on Distributed Representations
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), 1234--1244, 2015. </p>
+    <p>Guo, Jiang  and Che, Wanxiang  and Yarowsky, David  and Wang, Haifeng  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Cross-lingual Dependency Parsing Based on Distributed Representations
+          
+        </h3>
+        <p>Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers), 1234--1244, 2015. </p>
+        <p>Guo, Jiang  and Che, Wanxiang  and Yarowsky, David  and Wang, Haifeng  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;acl&#x2F;">
+          <span class="tag is-success">
+            ACL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2015&#x2F;">
+          <span class="tag is-warning">
+            2015
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;guo-jiang&#x2F;">
+          <span class="tag is-danger">
+            Guo Jiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;yarowsky-david&#x2F;">
+          <span class="tag is-danger">
+            Yarowsky David
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;P15-1119">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/guo2015cross.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Character-Level Chinese Dependency Parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 1326--1336, 2014. </p>
+    <p>Zhang, Meishan  and Zhang, Yue  and Che, Wanxiang  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Character-Level Chinese Dependency Parsing
+          
+        </h3>
+        <p>Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 1326--1336, 2014. </p>
+        <p>Zhang, Meishan  and Zhang, Yue  and Che, Wanxiang  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;acl&#x2F;">
+          <span class="tag is-success">
+            ACL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2014&#x2F;">
+          <span class="tag is-warning">
+            2014
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-meishan&#x2F;">
+          <span class="tag is-danger">
+            Zhang Meishan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-yue&#x2F;">
+          <span class="tag is-danger">
+            Zhang Yue
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;P14-1125">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/zhang2014character.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Dependency graph based chinese semantic parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Chinese Computational Linguistics and Natural Language Processing Based on Naturally Annotated Big Data, 58--69, 2014. </p>
+    <p>Ding, Yu and Shao, Yanqiu and Che, Wanxiang and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Dependency graph based chinese semantic parsing
+          
+        </h3>
+        <p>Chinese Computational Linguistics and Natural Language Processing Based on Naturally Annotated Big Data, 58--69, 2014. </p>
+        <p>Ding, Yu and Shao, Yanqiu and Che, Wanxiang and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;ccl&#x2F;">
+          <span class="tag is-success">
+            CCL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2014&#x2F;">
+          <span class="tag is-warning">
+            2014
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;ding-yu&#x2F;">
+          <span class="tag is-danger">
+            Ding Yu
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;shao-yanqiu&#x2F;">
+          <span class="tag is-danger">
+            Shao Yanqiu
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="http:&#x2F;&#x2F;cips-cl.org&#x2F;static&#x2F;anthology&#x2F;CCL-2014&#x2F;CCL-14-041.pdf">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/ding2014dependency.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Jointly or Separately: Which is Better for Parsing Heterogeneous Dependencies?
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of {COLING} 2014, the 25th International Conference on Computational Linguistics: Technical Papers, 530--540, 2014. </p>
+    <p>Zhang, Meishan  and Che, Wanxiang  and Shao, Yanqiu  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Jointly or Separately: Which is Better for Parsing Heterogeneous Dependencies?
+          
+        </h3>
+        <p>Proceedings of {COLING} 2014, the 25th International Conference on Computational Linguistics: Technical Papers, 530--540, 2014. </p>
+        <p>Zhang, Meishan  and Che, Wanxiang  and Shao, Yanqiu  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;coling&#x2F;">
+          <span class="tag is-success">
+            COLING
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2014&#x2F;">
+          <span class="tag is-warning">
+            2014
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-meishan&#x2F;">
+          <span class="tag is-danger">
+            Zhang Meishan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;shao-yanqiu&#x2F;">
+          <span class="tag is-danger">
+            Shao Yanqiu
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;C14-1051">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/zhang2014jointly.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Chinese Parsing Exploiting Characters
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 125--134, 2013. </p>
+    <p>Zhang, Meishan  and Zhang, Yue  and Che, Wanxiang  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Chinese Parsing Exploiting Characters
+          
+        </h3>
+        <p>Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 125--134, 2013. </p>
+        <p>Zhang, Meishan  and Zhang, Yue  and Che, Wanxiang  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;acl&#x2F;">
+          <span class="tag is-success">
+            ACL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2013&#x2F;">
+          <span class="tag is-warning">
+            2013
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-meishan&#x2F;">
+          <span class="tag is-danger">
+            Zhang Meishan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-yue&#x2F;">
+          <span class="tag is-danger">
+            Zhang Yue
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;P13-1013">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/zhang2013chinese.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Joint optimization for Chinese pos tagging and dependency parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>IEEE&#x2F;ACM transactions on audio, speech, and language processing, 274--286, 2013. </p>
+    <p>Li, Zhenghua and Zhang, Min and Che, Wanxiang and Liu, Ting and Chen, Wenliang</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Joint optimization for Chinese pos tagging and dependency parsing
+          
+        </h3>
+        <p>IEEE&#x2F;ACM transactions on audio, speech, and language processing, 274--286, 2013. </p>
+        <p>Li, Zhenghua and Zhang, Min and Che, Wanxiang and Liu, Ting and Chen, Wenliang</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;ieee-audio-language&#x2F;">
+          <span class="tag is-success">
+            IEEE&#x2F;AUDIO&#x2F;LANGUAGE
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2013&#x2F;">
+          <span class="tag is-warning">
+            2013
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;li-zhenghua&#x2F;">
+          <span class="tag is-danger">
+            Li Zhenghua
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-min&#x2F;">
+          <span class="tag is-danger">
+            Zhang Min
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;~car&#x2F;papers&#x2F;ieee14.pdf">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/li2013joint.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      A Comparison of Chinese Parsers for Stanford Dependencies
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), 11--16, 2012. </p>
+    <p>Che, Wanxiang  and Spitkovsky, Valentin  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          A Comparison of Chinese Parsers for Stanford Dependencies
+          
+        </h3>
+        <p>Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), 11--16, 2012. </p>
+        <p>Che, Wanxiang  and Spitkovsky, Valentin  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;acl&#x2F;">
+          <span class="tag is-success">
+            ACL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2012&#x2F;">
+          <span class="tag is-warning">
+            2012
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;spitkovsky-valentin&#x2F;">
+          <span class="tag is-danger">
+            Spitkovsky Valentin
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-ting&#x2F;">
+          <span class="tag is-danger">
+            Liu Ting
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;P12-2003">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/che2012comparison.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      A Separately Passive-Aggressive Training Algorithm for Joint POS Tagging and Dependency Parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of {COLING} 2012, 1681--1698, 2012. </p>
+    <p>Li, Zhenghua  and Zhang, Min  and Che, Wanxiang  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          A Separately Passive-Aggressive Training Algorithm for Joint POS Tagging and Dependency Parsing
+          
+        </h3>
+        <p>Proceedings of {COLING} 2012, 1681--1698, 2012. </p>
+        <p>Li, Zhenghua  and Zhang, Min  and Che, Wanxiang  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;coling&#x2F;">
+          <span class="tag is-success">
+            COLING
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2012&#x2F;">
+          <span class="tag is-warning">
+            2012
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;li-zhenghua&#x2F;">
+          <span class="tag is-danger">
+            Li Zhenghua
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-min&#x2F;">
+          <span class="tag is-danger">
+            Zhang Min
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;C12-1103">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/li2012separately.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Active learning for Chinese dependency parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Journal of Chinese information processing, 18--22, 2012. </p>
+    <p>Che, WX and Zhang, MS and Liu, T</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Active learning for Chinese dependency parsing
+          
+        </h3>
+        <p>Journal of Chinese information processing, 18--22, 2012. </p>
+        <p>Che, WX and Zhang, MS and Liu, T</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;jcip&#x2F;">
+          <span class="tag is-success">
+            JCIP
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2012&#x2F;">
+          <span class="tag is-warning">
+            2012
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-ms&#x2F;">
+          <span class="tag is-danger">
+            Zhang MS
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-ting&#x2F;">
+          <span class="tag is-danger">
+            Liu Ting
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/che2012active.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Exploiting Multiple Treebanks for Parsing with Quasi-synchronous Grammars
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 675--684, 2012. </p>
+    <p>Li, Zhenghua  and Liu, Ting  and Che, Wanxiang</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Exploiting Multiple Treebanks for Parsing with Quasi-synchronous Grammars
+          
+        </h3>
+        <p>Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 675--684, 2012. </p>
+        <p>Li, Zhenghua  and Liu, Ting  and Che, Wanxiang</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;acl&#x2F;">
+          <span class="tag is-success">
+            ACL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2012&#x2F;">
+          <span class="tag is-warning">
+            2012
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;li-zhenghua&#x2F;">
+          <span class="tag is-danger">
+            Li Zhenghua
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-ting&#x2F;">
+          <span class="tag is-danger">
+            Liu Ting
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;P12-1071">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/li2012exploiting.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Hit dependency parsing: Bootstrap aggregating heterogeneous parsers
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Notes of the First Workshop on Syntactic Analysis of Non-Canonical Language (SANCL), 2012. </p>
+    <p>Zhang, Meishan and Che, Wanxiang and Liu, Yijia and Li, Zhenghua and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Hit dependency parsing: Bootstrap aggregating heterogeneous parsers
+          
+        </h3>
+        <p>Notes of the First Workshop on Syntactic Analysis of Non-Canonical Language (SANCL), 2012. </p>
+        <p>Zhang, Meishan and Che, Wanxiang and Liu, Yijia and Li, Zhenghua and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;sancl&#x2F;">
+          <span class="tag is-success">
+            SANCL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2012&#x2F;">
+          <span class="tag is-warning">
+            2012
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-meishan&#x2F;">
+          <span class="tag is-danger">
+            Zhang Meishan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-yijia&#x2F;">
+          <span class="tag is-danger">
+            Liu Yijia
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="http:&#x2F;&#x2F;icm.hit.edu.cn&#x2F;~mszhang&#x2F;webparsing-system-description.pdf">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/zhang2012hit.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Improve Chinese Semantic Dependency Parsing via Syntactic Dependency Parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>2012 International Conference on Asian Language Processing, 53--56, 2012. </p>
+    <p>Zhang, Meishan and Che, Wanxiang and Shao, Yanqiu and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Improve Chinese Semantic Dependency Parsing via Syntactic Dependency Parsing
+          
+        </h3>
+        <p>2012 International Conference on Asian Language Processing, 53--56, 2012. </p>
+        <p>Zhang, Meishan and Che, Wanxiang and Shao, Yanqiu and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;icalp&#x2F;">
+          <span class="tag is-success">
+            ICALP
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2012&#x2F;">
+          <span class="tag is-warning">
+            2012
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-meishan&#x2F;">
+          <span class="tag is-danger">
+            Zhang Meishan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;shao-yanqiu&#x2F;">
+          <span class="tag is-danger">
+            Shao Yanqiu
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;citeseerx.ist.psu.edu&#x2F;viewdoc&#x2F;download?doi=10.1.1.1053.9231&amp;rep=rep1&amp;type=pdf">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/zhang2012improve.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Multiple TreeBanks Integration for Chinese Phrase Structure Grammar Parsing Using Bagging
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the Second {CIPS}-{SIGHAN} Joint Conference on {C}hinese Language Processing, 168--173, 2012. </p>
+    <p>Zhang, Meishan  and Che, Wanxiang  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Multiple TreeBanks Integration for Chinese Phrase Structure Grammar Parsing Using Bagging
+          
+        </h3>
+        <p>Proceedings of the Second {CIPS}-{SIGHAN} Joint Conference on {C}hinese Language Processing, 168--173, 2012. </p>
+        <p>Zhang, Meishan  and Che, Wanxiang  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;cips-sighan&#x2F;">
+          <span class="tag is-success">
+            CIPS-SIGHAN
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2012&#x2F;">
+          <span class="tag is-warning">
+            2012
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-meishan&#x2F;">
+          <span class="tag is-danger">
+            Zhang Meishan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-ting&#x2F;">
+          <span class="tag is-danger">
+            Liu Ting
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;W12-6330">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/zhang2012multiple.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      SemEval-2012 Task 5: Chinese Semantic Dependency Parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>*{SEM} 2012: The First Joint Conference on Lexical and Computational Semantics {--} Volume 1: Proceedings of the main conference and the shared task, and Volume 2: Proceedings of the Sixth International Workshop on Semantic Evaluation ({S}em{E}val 2012), 378--384, 2012. </p>
+    <p>Che, Wanxiang  and Zhang, Meishan  and Shao, Yanqiu  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          SemEval-2012 Task 5: Chinese Semantic Dependency Parsing
+          
+        </h3>
+        <p>*{SEM} 2012: The First Joint Conference on Lexical and Computational Semantics {--} Volume 1: Proceedings of the main conference and the shared task, and Volume 2: Proceedings of the Sixth International Workshop on Semantic Evaluation ({S}em{E}val 2012), 378--384, 2012. </p>
+        <p>Che, Wanxiang  and Zhang, Meishan  and Shao, Yanqiu  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;semeval&#x2F;">
+          <span class="tag is-success">
+            SemEval
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2012&#x2F;">
+          <span class="tag is-warning">
+            2012
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-meishan&#x2F;">
+          <span class="tag is-danger">
+            Zhang Meishan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;shao-yanqiu&#x2F;">
+          <span class="tag is-danger">
+            Shao Yanqiu
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;S12-1050">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/che2016semeval.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Stacking Heterogeneous Joint Models of Chinese POS Tagging and Dependency Parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of {COLING} 2012, 3071--3088, 2012. </p>
+    <p>Zhang, Meishan  and Che, Wanxiang  and Liu, Ting  and Li, Zhenghua</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Stacking Heterogeneous Joint Models of Chinese POS Tagging and Dependency Parsing
+          
+        </h3>
+        <p>Proceedings of {COLING} 2012, 3071--3088, 2012. </p>
+        <p>Zhang, Meishan  and Che, Wanxiang  and Liu, Ting  and Li, Zhenghua</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;coling&#x2F;">
+          <span class="tag is-success">
+            COLING
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2012&#x2F;">
+          <span class="tag is-warning">
+            2012
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-meishan&#x2F;">
+          <span class="tag is-danger">
+            Zhang Meishan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-ting&#x2F;">
+          <span class="tag is-danger">
+            Liu Ting
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;C12-1188">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/zhang2012stacking.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Improving Chinese POS Tagging with Dependency Parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of 5th International Joint Conference on Natural Language Processing, 1447--1451, 2011. </p>
+    <p>Li, Zhenghua  and Che, Wanxiang  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Improving Chinese POS Tagging with Dependency Parsing
+          
+        </h3>
+        <p>Proceedings of 5th International Joint Conference on Natural Language Processing, 1447--1451, 2011. </p>
+        <p>Li, Zhenghua  and Che, Wanxiang  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;ijcnlp&#x2F;">
+          <span class="tag is-success">
+            IJCNLP
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2011&#x2F;">
+          <span class="tag is-warning">
+            2011
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;li-zhenghua&#x2F;">
+          <span class="tag is-danger">
+            Li Zhenghua
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-ting&#x2F;">
+          <span class="tag is-danger">
+            Liu Ting
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;I11-1171">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/li2011improving.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Joint Models for Chinese POS Tagging and Dependency Parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing, 1180--1191, 2011. </p>
+    <p>Li, Zhenghua  and Zhang, Min  and Che, Wanxiang  and Liu, Ting  and Chen, Wenliang  and Li, Haizhou</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Joint Models for Chinese POS Tagging and Dependency Parsing
+          
+        </h3>
+        <p>Proceedings of the 2011 Conference on Empirical Methods in Natural Language Processing, 1180--1191, 2011. </p>
+        <p>Li, Zhenghua  and Zhang, Min  and Che, Wanxiang  and Liu, Ting  and Chen, Wenliang  and Li, Haizhou</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;emnlp&#x2F;">
+          <span class="tag is-success">
+            EMNLP
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2011&#x2F;">
+          <span class="tag is-warning">
+            2011
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;li-zhenghua&#x2F;">
+          <span class="tag is-danger">
+            Li Zhenghua
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zhang-min&#x2F;">
+          <span class="tag is-danger">
+            Zhang Min
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;D11-1109">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/li2011joint.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Beam-search based high-order dependency parser [J]
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Journal of Chinese Information Processing, 37--41, 2010. </p>
+    <p>LI, Zheng-hua and CHE, Wan-xiang and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Beam-search based high-order dependency parser [J]
+          
+        </h3>
+        <p>Journal of Chinese Information Processing, 37--41, 2010. </p>
+        <p>LI, Zheng-hua and CHE, Wan-xiang and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;jcip&#x2F;">
+          <span class="tag is-success">
+            JCIP
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2010&#x2F;">
+          <span class="tag is-warning">
+            2010
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;li-zheng-hua&#x2F;">
+          <span class="tag is-danger">
+            LI Zheng-hua
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-ting&#x2F;">
+          <span class="tag is-danger">
+            Liu Ting
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/li2010beam.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Improving dependency parsing using punctuation
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>2010 International Conference on Asian Language Processing, 53--56, 2010. </p>
+    <p>Li, Zhenghua and Che, Wanxiang and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Improving dependency parsing using punctuation
+          
+        </h3>
+        <p>2010 International Conference on Asian Language Processing, 53--56, 2010. </p>
+        <p>Li, Zhenghua and Che, Wanxiang and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;icalp&#x2F;">
+          <span class="tag is-success">
+            ICALP
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2010&#x2F;">
+          <span class="tag is-warning">
+            2010
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;li-zhenghua&#x2F;">
+          <span class="tag is-danger">
+            Li Zhenghua
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-ting&#x2F;">
+          <span class="tag is-danger">
+            Liu Ting
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;citeseerx.ist.psu.edu&#x2F;viewdoc&#x2F;download?doi=10.1.1.410.2951&amp;rep=rep1&amp;type=pdf">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/li2010improving.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Multilingual Dependency-based Syntactic and Semantic Parsing
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the Thirteenth Conference on Computational Natural Language Learning ({C}o{NLL} 2009): Shared Task, 49--54, 2009. </p>
+    <p>Che, Wanxiang  and Li, Zhenghua  and Li, Yongqiang  and Guo, Yuhang  and Qin, Bing  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Multilingual Dependency-based Syntactic and Semantic Parsing
+          
+        </h3>
+        <p>Proceedings of the Thirteenth Conference on Computational Natural Language Learning ({C}o{NLL} 2009): Shared Task, 49--54, 2009. </p>
+        <p>Che, Wanxiang  and Li, Zhenghua  and Li, Yongqiang  and Guo, Yuhang  and Qin, Bing  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;conll&#x2F;">
+          <span class="tag is-success">
+            CoNLL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2009&#x2F;">
+          <span class="tag is-warning">
+            2009
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;li-zhenghua&#x2F;">
+          <span class="tag is-danger">
+            Li Zhenghua
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;li-yongqiang&#x2F;">
+          <span class="tag is-danger">
+            Li Yongqiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;W09-1207">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/che2009multilingual.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      A Cascaded Syntactic and Semantic Dependency Parsing System
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>{C}o{NLL} 2008: Proceedings of the Twelfth Conference on Computational Natural Language Learning, 238--242, 2008. </p>
+    <p>Che, Wanxiang  and Li, Zhenghua  and Hu, Yuxuan  and Li, Yongqiang  and Qin, Bing  and Liu, Ting  and Li, Sheng</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          A Cascaded Syntactic and Semantic Dependency Parsing System
+          
+        </h3>
+        <p>{C}o{NLL} 2008: Proceedings of the Twelfth Conference on Computational Natural Language Learning, 238--242, 2008. </p>
+        <p>Che, Wanxiang  and Li, Zhenghua  and Hu, Yuxuan  and Li, Yongqiang  and Qin, Bing  and Liu, Ting  and Li, Sheng</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;conll&#x2F;">
+          <span class="tag is-success">
+            CoNLL
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2008&#x2F;">
+          <span class="tag is-warning">
+            2008
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;li-zhenghua&#x2F;">
+          <span class="tag is-danger">
+            Li Zhenghua
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;hu-yuxuan&#x2F;">
+          <span class="tag is-danger">
+            Hu Yuxuan
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;yu-yi-jie-xi&#x2F;">
+          <span class="tag is-info">
+            语义解析
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;W08-2134">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/che2008cascaded.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+      
+      
+      
+      
+    </div>
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

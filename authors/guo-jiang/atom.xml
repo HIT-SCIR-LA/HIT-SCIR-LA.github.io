@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Guo Jiang</title>
+    <link rel="self" type="application/atom+xml" href="/authors/guo-jiang/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2099-12-31T00:00:00+00:00</updated>
+    <id>/authors/guo-jiang/atom.xml</id>
+    <entry xml:lang="en">
+        <title>自然语言处理：基于预训练模型的方法</title>
+        <published>2099-12-31T00:00:00+00:00</published>
+        <updated>2099-12-31T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/"/>
+        <id>/publications/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/</id>
+        
+        <content type="html" xml:base="/publications/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cross-Lingual BERT Transformation for Zero-Shot Dependency Parsing</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-cross-lingual-bert-transformation-for-zero-shot-dependency-parsing/"/>
+        <id>/publications/2019-cross-lingual-bert-transformation-for-zero-shot-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2019-cross-lingual-bert-transformation-for-zero-shot-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Learning semantic hierarchies A continuous vector space approach</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/"/>
+        <id>/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/</id>
+        
+        <content type="html" xml:base="/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>基于深度学习的自然语言处理</title>
+        <published>2018-05-01T00:00:00+00:00</published>
+        <updated>2018-05-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-ji-yu-shen-du-xue-xi-de-zi-ran-yu-yan-chu-li/"/>
+        <id>/publications/2018-ji-yu-shen-du-xue-xi-de-zi-ran-yu-yan-chu-li/</id>
+        
+        <content type="html" xml:base="/publications/2018-ji-yu-shen-du-xue-xi-de-zi-ran-yu-yan-chu-li/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Enhancing LSTM-based word segmentation using unlabeled data</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2017-enhancing-lstm-based-word-segmentation-using-unlabeled-data/"/>
+        <id>/publications/2017-enhancing-lstm-based-word-segmentation-using-unlabeled-data/</id>
+        
+        <content type="html" xml:base="/publications/2017-enhancing-lstm-based-word-segmentation-using-unlabeled-data/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The HIT-SCIR System for End-to-End Parsing of Universal Dependencies</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/"/>
+        <id>/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/</id>
+        
+        <content type="html" xml:base="/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A distributed representation-based framework for cross-lingual transfer parsing</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/"/>
+        <id>/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Unified Architecture for Semantic Role Labeling and Relation Classification</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/"/>
+        <id>/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/</id>
+        
+        <content type="html" xml:base="/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Universal Framework for Inductive Transfer Parsing across Multi-typed Treebanks</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/"/>
+        <id>/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/</id>
+        
+        <content type="html" xml:base="/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chinese Grammatical Error Diagnosis with Long Short-Term Memory Networks</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/"/>
+        <id>/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/</id>
+        
+        <content type="html" xml:base="/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Exploiting multi-typed treebanks for parsing with deep multi-task learning</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/"/>
+        <id>/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/</id>
+        
+        <content type="html" xml:base="/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Transition-based chinese semantic dependency graph parsing</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-transition-based-chinese-semantic-dependency-graph-parsing/"/>
+        <id>/publications/2016-transition-based-chinese-semantic-dependency-graph-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2016-transition-based-chinese-semantic-dependency-graph-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cross-lingual Dependency Parsing Based on Distributed Representations</title>
+        <published>2015-01-01T00:00:00+00:00</published>
+        <updated>2015-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/"/>
+        <id>/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/</id>
+        
+        <content type="html" xml:base="/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Learning Semantic Hierarchies via Word Embeddings</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-learning-semantic-hierarchies-via-word-embeddings/"/>
+        <id>/publications/2014-learning-semantic-hierarchies-via-word-embeddings/</id>
+        
+        <content type="html" xml:base="/publications/2014-learning-semantic-hierarchies-via-word-embeddings/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Learning Sense-specific Word Embeddings By Exploiting Bilingual Resources</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-learning-sense-specific-word-embeddings-by-exploiting-bilingual-resources/"/>
+        <id>/publications/2014-learning-sense-specific-word-embeddings-by-exploiting-bilingual-resources/</id>
+        
+        <content type="html" xml:base="/publications/2014-learning-sense-specific-word-embeddings-by-exploiting-bilingual-resources/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Reliable dependency arc recognition</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-reliable-dependency-arc-recognition/"/>
+        <id>/publications/2014-reliable-dependency-arc-recognition/</id>
+        
+        <content type="html" xml:base="/publications/2014-reliable-dependency-arc-recognition/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Revisiting Embedding Features for Simple Semi-supervised Learning</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-revisiting-embedding-features-for-simple-semi-supervised-learning/"/>
+        <id>/publications/2014-revisiting-embedding-features-for-simple-semi-supervised-learning/</id>
+        
+        <content type="html" xml:base="/publications/2014-revisiting-embedding-features-for-simple-semi-supervised-learning/"></content>
+        
+    </entry>
+</feed>

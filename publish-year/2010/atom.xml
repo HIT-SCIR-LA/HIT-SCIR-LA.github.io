@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - 2010</title>
+    <link rel="self" type="application/atom+xml" href="/publish-year/2010/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2010-01-01T00:00:00+00:00</updated>
+    <id>/publish-year/2010/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Appraisal expression recognition with syntactic path for sentence sentiment classification</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-appraisal-expression-recognition-with-syntactic-path-for-sentence-sentiment-classification/"/>
+        <id>/publications/2010-appraisal-expression-recognition-with-syntactic-path-for-sentence-sentiment-classification/</id>
+        
+        <content type="html" xml:base="/publications/2010-appraisal-expression-recognition-with-syntactic-path-for-sentence-sentiment-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Beam-search based high-order dependency parser J</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-beam-search-based-high-order-dependency-parser-j/"/>
+        <id>/publications/2010-beam-search-based-high-order-dependency-parser-j/</id>
+        
+        <content type="html" xml:base="/publications/2010-beam-search-based-high-order-dependency-parser-j/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Coherent Dialog Generation with Query Graph</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-coherent-dialog-generation-with-query-graph/"/>
+        <id>/publications/2010-coherent-dialog-generation-with-query-graph/</id>
+        
+        <content type="html" xml:base="/publications/2010-coherent-dialog-generation-with-query-graph/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Combining Self-supervised Learning and Active Learning for Disfluency Detection</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-combining-self-supervised-learning-and-active-learning-for-disfluency-detection/"/>
+        <id>/publications/2010-combining-self-supervised-learning-and-active-learning-for-disfluency-detection/</id>
+        
+        <content type="html" xml:base="/publications/2010-combining-self-supervised-learning-and-active-learning-for-disfluency-detection/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>HIT-CIR An Unsupervised WSD System Based on Domain Most Frequent Sense Estimation</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-hit-cir-an-unsupervised-wsd-system-based-on-domain-most-frequent-sense-estimation/"/>
+        <id>/publications/2010-hit-cir-an-unsupervised-wsd-system-based-on-domain-most-frequent-sense-estimation/</id>
+        
+        <content type="html" xml:base="/publications/2010-hit-cir-an-unsupervised-wsd-system-based-on-domain-most-frequent-sense-estimation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Improving dependency parsing using punctuation</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-improving-dependency-parsing-using-punctuation/"/>
+        <id>/publications/2010-improving-dependency-parsing-using-punctuation/</id>
+        
+        <content type="html" xml:base="/publications/2010-improving-dependency-parsing-using-punctuation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Improving Semantic Role Labeling with Word Sense</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-improving-semantic-role-labeling-with-word-sense/"/>
+        <id>/publications/2010-improving-semantic-role-labeling-with-word-sense/</id>
+        
+        <content type="html" xml:base="/publications/2010-improving-semantic-role-labeling-with-word-sense/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Interactive Gated Decoder for Machine Reading Comprehension</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-interactive-gated-decoder-for-machine-reading-comprehension/"/>
+        <id>/publications/2010-interactive-gated-decoder-for-machine-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2010-interactive-gated-decoder-for-machine-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Introduction to information retrieval</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-introduction-to-information-retrieval/"/>
+        <id>/publications/2010-introduction-to-information-retrieval/</id>
+        
+        <content type="html" xml:base="/publications/2010-introduction-to-information-retrieval/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Jointly Modeling WSD and SRL with Markov Logic</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-jointly-modeling-wsd-and-srl-with-markov-logic/"/>
+        <id>/publications/2010-jointly-modeling-wsd-and-srl-with-markov-logic/</id>
+        
+        <content type="html" xml:base="/publications/2010-jointly-modeling-wsd-and-srl-with-markov-logic/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>LTP A Chinese Language Technology Platform</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-ltp-a-chinese-language-technology-platform/"/>
+        <id>/publications/2010-ltp-a-chinese-language-technology-platform/</id>
+        
+        <content type="html" xml:base="/publications/2010-ltp-a-chinese-language-technology-platform/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Semi-supervised domain adaptation for WSD Using a word-by-word model selection approach</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-semi-supervised-domain-adaptation-for-wsd-using-a-word-by-word-model-selection-approach/"/>
+        <id>/publications/2010-semi-supervised-domain-adaptation-for-wsd-using-a-word-by-word-model-selection-approach/</id>
+        
+        <content type="html" xml:base="/publications/2010-semi-supervised-domain-adaptation-for-wsd-using-a-word-by-word-model-selection-approach/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>搜索引擎：信息检索实践</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"/>
+        <id>/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/</id>
+        
+        <content type="html" xml:base="/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Using word sense disambiguation for semantic role labeling</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-using-word-sense-disambiguation-for-semantic-role-labeling/"/>
+        <id>/publications/2010-using-word-sense-disambiguation-for-semantic-role-labeling/</id>
+        
+        <content type="html" xml:base="/publications/2010-using-word-sense-disambiguation-for-semantic-role-labeling/"></content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+
+<div class="container">
+  <section class="section">
+    
+    <p class="title">
+      新闻列表
+    </p>
+    
+
+    
+    
+    
+
+    
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR在CoNLL-2019国际跨框架语义分析评测中取得第一名
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;08&#x2F;pic1.png" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        在刚刚结束的CoNLL-2019国际跨框架语义分析评测（http://mrp.nlpl.eu/）中，哈工大社会计算与信息检索研究中心（HIT-SCIR）取得了第一名的好成绩，这是SCIR实验室继取得CoNLL-2018国际多语言通用依存分析...
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;08&#x2F;pic1.png" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;3099.html">哈工大SCIR在CoNLL-2019国际跨框架语义分析评测中取得第一名</a>
+              
+            </h3>
+            在刚刚结束的CoNLL-2019国际跨框架语义分析评测（http://mrp.nlpl.eu/）中，哈工大社会计算与信息检索研究中心（HIT-SCIR）取得了第一名的好成绩，这是SCIR实验室继取得CoNLL-2018国际多语言通用依存分析...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/ping-ce/">
+                  <span class="tag is-primary">
+                    评测
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2019-08-13">2019-08-13</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2019-08-13">2019-08-13</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR博士生刘一佳、尹庆宇顺利通过博士学位答辩
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;06&#x2F;13481560409323_.pic_hd-1024x415.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        2019年6月13日上午，哈工大社会计算与信息检索中心博士生刘一佳、尹庆宇顺利通过博士学位答辩。李生教授担任答辩委员会主席。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;06&#x2F;13481560409323_.pic_hd-1024x415.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;2940.html">哈工大SCIR博士生刘一佳、尹庆宇顺利通过博士学位答辩</a>
+              
+            </h3>
+            2019年6月13日上午，哈工大社会计算与信息检索中心博士生刘一佳、尹庆宇顺利通过博士学位答辩。李生教授担任答辩委员会主席。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/bo-shi-bi-ye/">
+                  <span class="tag is-primary">
+                    博士毕业
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2019-06-14">2019-06-14</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2019-06-14">2019-06-14</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR多名教师受邀参加YSSNLP 2019
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;05&#x2F;GUIZ9216-1024x682.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        2019年5月3日至5日，第十六届全国自然语言处理青年学者研讨会（YSSNLP 2019会议）在海南琼海顺利召开。本次研讨会由中国中文信息学会主办，海南大学承办，近200名代表参会。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;05&#x2F;GUIZ9216-1024x682.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;2871.html">哈工大SCIR多名教师受邀参加YSSNLP 2019</a>
+              
+            </h3>
+            2019年5月3日至5日，第十六届全国自然语言处理青年学者研讨会（YSSNLP 2019会议）在海南琼海顺利召开。本次研讨会由中国中文信息学会主办，海南大学承办，近200名代表参会。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/xue-shu-jiao-liu/">
+                  <span class="tag is-primary">
+                    学术交流
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2019-05-17">2019-05-17</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2019-05-17">2019-05-17</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR三篇论文被ACL 2019录用
+          
+        </h3>
+      </header>
+
+      
+
+      <div class="card-content is-hidden-tablet">
+        ACL 2019, The 57th Annual Meeting of the Association for Computational Linguistics 将于2019年7月28日至8月2日在意大利佛罗伦萨举行。ACL年会是计算语...
+      </div>
+
+      <article class="media">
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;2869.html">哈工大SCIR三篇论文被ACL 2019录用</a>
+              
+            </h3>
+            ACL 2019, The 57th Annual Meeting of the Association for Computational Linguistics 将于2019年7月28日至8月2日在意大利佛罗伦萨举行。ACL年会是计算语...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-fa-biao/">
+                  <span class="tag is-primary">
+                    论文发表
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2019-05-17">2019-05-17</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2019-05-17">2019-05-17</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR博士生刘一佳获得第六届百度奖学金
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;01&#x2F;640-1024x682.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        2018年12月28日，第六届百度奖学金颁奖典礼在百度科技园隆重举行。第六届百度奖学金吸引了来自国内外知名高校的百余名申请者。通过对报名者的资格审核及学术和综合能力的评估，哈工大社会计算与信息检索研究中心博士生刘一佳与其他九位来自清华大学、...
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;01&#x2F;640-1024x682.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;2732.html">哈工大SCIR博士生刘一佳获得第六届百度奖学金</a>
+              
+            </h3>
+            2018年12月28日，第六届百度奖学金颁奖典礼在百度科技园隆重举行。第六届百度奖学金吸引了来自国内外知名高校的百余名申请者。通过对报名者的资格审核及学术和综合能力的评估，哈工大社会计算与信息检索研究中心博士生刘一佳与其他九位来自清华大学、...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/xue-sheng-huo-jiang/">
+                  <span class="tag is-primary">
+                    学生获奖
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2019-01-08">2019-01-08</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2019-01-08">2019-01-08</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR师生参加CCL 2018
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;10&#x2F;11-1024x486.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        2018年10月19日-21日，由中国中文信息学会（CIPS）主办，长沙理工大学承办的第十七届中国计算语言学大会（CCL-2018）在长沙成功召开。
+
+哈工大社会计算与信息检索研究中心刘挺教授、车万翔教授、张伟男老师、冯骁骋老师、博士生刘一...
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;10&#x2F;11-1024x486.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;2693.html">哈工大SCIR师生参加CCL 2018</a>
+              
+            </h3>
+            2018年10月19日-21日，由中国中文信息学会（CIPS）主办，长沙理工大学承办的第十七届中国计算语言学大会（CCL-2018）在长沙成功召开。
+
+哈工大社会计算与信息检索研究中心刘挺教授、车万翔教授、张伟男老师、冯骁骋老师、博士生刘一...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/xue-shu-jiao-liu/">
+                  <span class="tag is-primary">
+                    学术交流
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2018-10-27">2018-10-27</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2018-10-27">2018-10-27</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR多名师生参加COLING 2018
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;09&#x2F;1.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        COLING 2018（the 27th International Conference on Computational Linguistics）于2018年8月20日至26日在美国圣达菲举行。COLING是自然语言处理领域的重要国际会...
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;09&#x2F;1.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;2610.html">哈工大SCIR多名师生参加COLING 2018</a>
+              
+            </h3>
+            COLING 2018（the 27th International Conference on Computational Linguistics）于2018年8月20日至26日在美国圣达菲举行。COLING是自然语言处理领域的重要国际会...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/xue-shu-jiao-liu/">
+                  <span class="tag is-primary">
+                    学术交流
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2018-09-01">2018-09-01</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2018-09-01">2018-09-01</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR多名师生参加IJCAI 2018
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;08&#x2F;640.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        IJCAI 2018（International Joint Conference on Artificial Intelligence）于7月13日至19日在瑞典斯德哥尔摩举行。哈尔滨工业大学社会计算与信息检索研究中心刘挺教授，秦兵教授，...
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;08&#x2F;640.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;2580.html">哈工大SCIR多名师生参加IJCAI 2018</a>
+              
+            </h3>
+            IJCAI 2018（International Joint Conference on Artificial Intelligence）于7月13日至19日在瑞典斯德哥尔摩举行。哈尔滨工业大学社会计算与信息检索研究中心刘挺教授，秦兵教授，...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/xue-shu-jiao-liu/">
+                  <span class="tag is-primary">
+                    学术交流
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2018-08-27">2018-08-27</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2018-08-27">2018-08-27</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR多名师生参加ACL 2018
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;08&#x2F;2-1024x576.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        第56届计算语言学年会（ACL 2018, the 56th Annual Meeting of the Association for Computational Linguistics）是计算语言学和自然语言处理领域最重要的顶级国际会议...
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;08&#x2F;2-1024x576.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;2583.html">哈工大SCIR多名师生参加ACL 2018</a>
+              
+            </h3>
+            第56届计算语言学年会（ACL 2018, the 56th Annual Meeting of the Association for Computational Linguistics）是计算语言学和自然语言处理领域最重要的顶级国际会议...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/xue-shu-jiao-liu/">
+                  <span class="tag is-primary">
+                    学术交流
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2018-08-17">2018-08-17</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2018-08-17">2018-08-17</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          最新！哈工大SCIR在国际多语言通用依存分析评测中夺得冠军
+          
+        </h3>
+      </header>
+
+      
+
+      <div class="card-content is-hidden-tablet">
+        在刚刚结束的CoNLL-2018国际评测（http://universaldependencies.org/conll18/）中，哈工大社会计算与信息检索研究中心（HIT-SCIR）取得了第一名的好成绩。CoNLL 系列评测每年由 ACL ...
+      </div>
+
+      <article class="media">
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;2540.html">最新！哈工大SCIR在国际多语言通用依存分析评测中夺得冠军</a>
+              
+            </h3>
+            在刚刚结束的CoNLL-2018国际评测（http://universaldependencies.org/conll18/）中，哈工大社会计算与信息检索研究中心（HIT-SCIR）取得了第一名的好成绩。CoNLL 系列评测每年由 ACL ...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/ping-ce/">
+                  <span class="tag is-primary">
+                    评测
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2018-07-04">2018-07-04</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2018-07-04">2018-07-04</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+    
+
+    
+    
+
+    
+
+    
+    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+      
+      <a class="pagination-previous" href="&#x2F;news&#x2F;page&#x2F;9&#x2F;">‹ Previous</a>
+      
+      
+      <a class="pagination-next" href="&#x2F;news&#x2F;page&#x2F;11&#x2F;">Next ›</a>
+      
+      <ul class="pagination-list">
+        
+
+        
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;">1</a></li>
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        
+
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;9&#x2F;">9</a></li>
+        
+        <li><a class="pagination-link is-current" aria-current="page">10</a></li>
+        
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;11&#x2F;">11</a></li>
+
+        
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;12&#x2F;">12</a></li>
+        
+
+        
+      </ul>
+    </nav>
+    
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

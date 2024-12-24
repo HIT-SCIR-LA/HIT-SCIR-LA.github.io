@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Nan Duan</title>
+    <link rel="self" type="application/atom+xml" href="/authors/nan-duan/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-01T00:00:00+00:00</updated>
+    <id>/authors/nan-duan/atom.xml</id>
+    <entry xml:lang="en">
+        <title>BridgeTower Building Bridges Between Encoders in Vision-Language Representation Learning</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-bridgetower-building-bridges-between-encoders-in-vision-language-representation-learning/"/>
+        <id>/publications/2023-bridgetower-building-bridges-between-encoders-in-vision-language-representation-learning/</id>
+        
+        <content type="html" xml:base="/publications/2023-bridgetower-building-bridges-between-encoders-in-vision-language-representation-learning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ManagerTower Aggregating the Insights of Uni-Modal Experts for Vision-Language Representation Learning</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-managertower-aggregating-the-insights-of-uni-modal-experts-for-vision-language-representation-learning/"/>
+        <id>/publications/2023-managertower-aggregating-the-insights-of-uni-modal-experts-for-vision-language-representation-learning/</id>
+        
+        <content type="html" xml:base="/publications/2023-managertower-aggregating-the-insights-of-uni-modal-experts-for-vision-language-representation-learning/"></content>
+        
+    </entry>
+</feed>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Deng Yihe</title>
+    <link rel="self" type="application/atom+xml" href="/authors/deng-yihe/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2019-01-01T00:00:00+00:00</updated>
+    <id>/authors/deng-yihe/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-generating-natural-language-adversarial-examples-through-probability-weighted-word-saliency/"/>
+        <id>/publications/2019-generating-natural-language-adversarial-examples-through-probability-weighted-word-saliency/</id>
+        
+        <content type="html" xml:base="/publications/2019-generating-natural-language-adversarial-examples-through-probability-weighted-word-saliency/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Micro blogs Oriented Word Segmentation System</title>
+        <published>2012-01-01T00:00:00+00:00</published>
+        <updated>2012-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2012-micro-blogs-oriented-word-segmentation-system/"/>
+        <id>/publications/2012-micro-blogs-oriented-word-segmentation-system/</id>
+        
+        <content type="html" xml:base="/publications/2012-micro-blogs-oriented-word-segmentation-system/"></content>
+        
+    </entry>
+</feed>

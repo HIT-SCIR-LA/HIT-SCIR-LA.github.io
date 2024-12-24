@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - JCIP</title>
+    <link rel="self" type="application/atom+xml" href="/publisher/jcip/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2013-01-01T00:00:00+00:00</updated>
+    <id>/publisher/jcip/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Comparison Sthdy of Sequence Labeling Methods for ChineseWords Segmentation POS Tagging Models</title>
+        <published>2013-01-01T00:00:00+00:00</published>
+        <updated>2013-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2013-a-comparison-sthdy-of-sequence-labeling-methods-for-chinesewords-segmentation-pos-tagging-models/"/>
+        <id>/publications/2013-a-comparison-sthdy-of-sequence-labeling-methods-for-chinesewords-segmentation-pos-tagging-models/</id>
+        
+        <content type="html" xml:base="/publications/2013-a-comparison-sthdy-of-sequence-labeling-methods-for-chinesewords-segmentation-pos-tagging-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Active learning for Chinese dependency parsing</title>
+        <published>2012-01-01T00:00:00+00:00</published>
+        <updated>2012-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2012-active-learning-for-chinese-dependency-parsing/"/>
+        <id>/publications/2012-active-learning-for-chinese-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2012-active-learning-for-chinese-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Combining statistical model and dictionary for domain adaption of Chinese word segmentation</title>
+        <published>2012-01-01T00:00:00+00:00</published>
+        <updated>2012-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2012-combining-statistical-model-and-dictionary-for-domain-adaption-of-chinese-word-segmentation/"/>
+        <id>/publications/2012-combining-statistical-model-and-dictionary-for-domain-adaption-of-chinese-word-segmentation/</id>
+        
+        <content type="html" xml:base="/publications/2012-combining-statistical-model-and-dictionary-for-domain-adaption-of-chinese-word-segmentation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Beam-search based high-order dependency parser J</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-beam-search-based-high-order-dependency-parser-j/"/>
+        <id>/publications/2010-beam-search-based-high-order-dependency-parser-j/</id>
+        
+        <content type="html" xml:base="/publications/2010-beam-search-based-high-order-dependency-parser-j/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Study on Constituentto-Dependency Conversion</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-a-study-on-constituentto-dependency-conversion/"/>
+        <id>/publications/2008-a-study-on-constituentto-dependency-conversion/</id>
+        
+        <content type="html" xml:base="/publications/2008-a-study-on-constituentto-dependency-conversion/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A fast clustering algorithm for abnormal and short texts</title>
+        <published>2007-01-01T00:00:00+00:00</published>
+        <updated>2007-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2007-a-fast-clustering-algorithm-for-abnormal-and-short-texts/"/>
+        <id>/publications/2007-a-fast-clustering-algorithm-for-abnormal-and-short-texts/</id>
+        
+        <content type="html" xml:base="/publications/2007-a-fast-clustering-algorithm-for-abnormal-and-short-texts/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Feature engineering for Chinese semantic role labeling</title>
+        <published>2007-01-01T00:00:00+00:00</published>
+        <updated>2007-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2007-feature-engineering-for-chinese-semantic-role-labeling/"/>
+        <id>/publications/2007-feature-engineering-for-chinese-semantic-role-labeling/</id>
+        
+        <content type="html" xml:base="/publications/2007-feature-engineering-for-chinese-semantic-role-labeling/"></content>
+        
+    </entry>
+</feed>

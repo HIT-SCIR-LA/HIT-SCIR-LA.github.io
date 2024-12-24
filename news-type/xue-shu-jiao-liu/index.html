@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+<div class="container">
+  <section class="hero">
+    <div class="hero-body">
+      
+      <p class="title">
+        
+        学术交流
+        
+      </p>
+      
+
+      
+      
+      
+
+      
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="/images/news/新闻 | 第三届HIT-SCIR&THUNLP&FudanNLP学术联谊会成功举办.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;xin-wen-di-san-jie-hit-scir-thunlp-fudannlpxue-shu-lian-yi-hui-cheng-gong-ju-ban&#x2F;">新闻 | 第三届HIT-SCIR&amp;THUNLP&amp;FudanNLP学术联谊会成功举办</a></h3>
+              2024年7月17日，第三届哈尔滨工业大学社会计算与信息检索研究中心（HIT-SCIR）、清华大学自然语言处理与社会人文计算实验室（THUNLP）、复旦大学自然语言处理实验室（FudanNLP）三校学术联谊会于哈尔滨成功举办。
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2024-07-23">2024-07-23</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="/images/news/CCL2021学生研讨会！如何诞生Idea！如何跟审稿人Rebuttal！如何写自己的第一篇顶会文章等抢先看！.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ccl2021xue-sheng-yan-tao-hui-ru-he-dan-sheng-idea-ru-he-gen-shen-gao-ren-rebuttal-ru-he-xie-zi-ji-de-di-yi-pian-ding-hui-wen-zhang-deng-qiang-xian-kan&#x2F;">CCL2021学生研讨会！如何诞生Idea！如何跟审稿人Rebuttal！如何写自己的第一篇顶会文章等抢先看！</a></h3>
+              CCL2021学生研讨会将于8月13日精彩呈现。我中心博士生覃立波担任本次研讨会的联合主席，并且带来题为浅谈科研中第一个Idea的诞生历程的报告；我中心博士生冯夏冲主持Panel讨论，浅谈科研的那些事。
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2021-07-31">2021-07-31</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2021&#x2F;06&#x2F;0d244bbfc8620a8f436c38d7f837ad09-300x200.png">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;di-er-jie-thunlp-hit-scirxue-shu-lian-yi-hui-cheng-gong-ju-ban&#x2F;">第二届THUNLP &amp; HIT-SCIR学术联谊会成功举办</a></h3>
+              2021年5月31日，清华大学自然语言处理与社会人文计算实验室（THUNLP）与哈尔滨工业大学社会计算与信息检索研究中心（HIT-SCIR）第二届学术联谊会于北京成功举办。清华THUNLP孙茂松、刘洋、刘知远以及哈工大SCIR刘挺、秦兵、车...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2021-06-07">2021-06-07</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="/images/news/YEF2021演讲实录｜哈尔滨工业大学车万翔：自然语言处理新范式.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;yef2021yan-jiang-shi-lu-ha-er-bin-gong-ye-da-xue-che-mo-xiang-zi-ran-yu-yan-chu-li-xin-fan-shi&#x2F;">YEF2021演讲实录｜哈尔滨工业大学车万翔：自然语言处理新范式</a></h3>
+              哈尔滨工业大学社会计算与信息检索研究中心车万翔教授受邀在中国计算机学会青年精英大会（CCF YEF）2021的“思想秀”环节，以《自然语言处理新范式》为题介绍了自然语言处理的昨天和今天，并展望了明天！本文整理了报告的主要内容。
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2021-05-14">2021-05-14</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="/images/news/第二十届中国计算语言学大会（CCL 2021） 征稿启事.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;di-er-shi-jie-zhong-guo-ji-suan-yu-yan-xue-da-hui-ccl-2021-zheng-gao-qi-shi&#x2F;">第二十届中国计算语言学大会（CCL 2021） 征稿启事</a></h3>
+              第二十届中国计算语言学大会开始征稿，哈工大自然语言处理研究所名誉所长李生教授担任大会共同主席，我中心副主任车万翔教授担任大会程序委员会共同主席，我中心博士生覃立波担任学生研讨会共同主席。
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2021-01-11">2021-01-11</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="/images/news/哈工大SCIR多位师生受邀参加第一届中国自然语言处理学生研讨会（CSSNLP 2020）.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-scirduo-wei-shi-sheng-shou-yao-can-jia-di-yi-jie-zhong-guo-zi-ran-yu-yan-chu-li-xue-sheng-yan-tao-hui-cssnlp-2020&#x2F;">哈工大SCIR多位师生受邀参加第一届中国自然语言处理学生研讨会（CSSNLP 2020）</a></h3>
+              第一届中国自然语言处理学生研讨会顺利召开，我中心车万翔教授进行了题为“基于小样本学习的自然语言处理”的报告；我中心覃立波同学进行了题为“初探迁移学习在任务型对话系统中的应用”报告；王雪松同学任前沿主题研讨会主席。
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2021-01-04">2021-01-04</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="/images/news/ACL 2010-2020研究趋势总结.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;acl-2010-2020yan-jiu-qu-shi-zong-jie&#x2F;">ACL 2010-2020研究趋势总结</a></h3>
+              哈工大SCIR车万翔教授受邀在AIS（ACL-IJCAI-SIGIR）2020顶会论文预讲会上介绍了ACL会议近年来的研究趋势，特整理成幻灯片配文字版，希望对相关领域的研究者有所帮助！
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2020-05-26">2020-05-26</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;10&#x2F;wc-268-768x1024.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-scirshi-sheng-can-jia-ccl-2019&#x2F;">哈工大SCIR师生参加CCL 2019</a></h3>
+              2019年10月18日至20日，由中国中文信息学会（CIPS）主办，昆明理工大学承办的第十八届中国计算语言学大会（CCL 2019）在昆明成功召开。
+
+哈工大社会计算与信息检索研究中心副主任秦兵教授、车万翔教授、丁效老师、冯骁骋老师，博士生...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2019-10-23">2019-10-23</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;10&#x2F;wc-3305-1024x627.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-scirshi-sheng-can-jia-di-ba-jie-zi-ran-yu-yan-chu-li-he-zhong-wen-ji-suan-hui-yi-nlpcc-2019&#x2F;">哈工大SCIR师生参加第八届自然语言处理和中文计算会议（NLPCC 2019）</a></h3>
+              2019年10月9日至14日，由中国计算机学会主办，西北民族大学、敦煌研究院、数字出版技术国家重点实验室承办的第八届自然语言处理和中文计算会议（NLPCC 2019）在甘肃敦煌成功召开。
+
+哈尔滨工业大学社会计算与信息检索研究中心主任刘挺教...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2019-10-16">2019-10-16</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;09&#x2F;wc-5-1024x730.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-scirshi-sheng-can-jia-ccir-2019&#x2F;">哈工大SCIR师生参加CCIR 2019</a></h3>
+              2019年9月20日-22日，由中国中文信息学会（CIPS）和中国计算机学会（CCF）联合主办，福州大学承办的第二十五届全国信息检索学术会议（CCIR 2019）在福建福州成功召开。
+
+哈工大社会计算与信息检索研究中心张宇教授、车万翔教授、...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2019-09-24">2019-09-24</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;05&#x2F;GUIZ9216-1024x682.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-scirduo-ming-jiao-shi-shou-yao-can-jia-yssnlp-2019&#x2F;">哈工大SCIR多名教师受邀参加YSSNLP 2019</a></h3>
+              2019年5月3日至5日，第十六届全国自然语言处理青年学者研讨会（YSSNLP 2019会议）在海南琼海顺利召开。本次研讨会由中国中文信息学会主办，海南大学承办，近200名代表参会。
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2019-05-17">2019-05-17</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;10&#x2F;11-1024x486.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-scirshi-sheng-can-jia-ccl-2018&#x2F;">哈工大SCIR师生参加CCL 2018</a></h3>
+              2018年10月19日-21日，由中国中文信息学会（CIPS）主办，长沙理工大学承办的第十七届中国计算语言学大会（CCL-2018）在长沙成功召开。
+
+哈工大社会计算与信息检索研究中心刘挺教授、车万翔教授、张伟男老师、冯骁骋老师、博士生刘一...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2018-10-27">2018-10-27</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;09&#x2F;1.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-scirduo-ming-shi-sheng-can-jia-coling-2018&#x2F;">哈工大SCIR多名师生参加COLING 2018</a></h3>
+              COLING 2018（the 27th International Conference on Computational Linguistics）于2018年8月20日至26日在美国圣达菲举行。COLING是自然语言处理领域的重要国际会...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2018-09-01">2018-09-01</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;08&#x2F;640.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-scirduo-ming-shi-sheng-can-jia-ijcai-2018&#x2F;">哈工大SCIR多名师生参加IJCAI 2018</a></h3>
+              IJCAI 2018（International Joint Conference on Artificial Intelligence）于7月13日至19日在瑞典斯德哥尔摩举行。哈尔滨工业大学社会计算与信息检索研究中心刘挺教授，秦兵教授，...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2018-08-27">2018-08-27</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;08&#x2F;2-1024x576.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-scirduo-ming-shi-sheng-can-jia-acl-2018&#x2F;">哈工大SCIR多名师生参加ACL 2018</a></h3>
+              第56届计算语言学年会（ACL 2018, the 56th Annual Meeting of the Association for Computational Linguistics）是计算语言学和自然语言处理领域最重要的顶级国际会议...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2018-08-17">2018-08-17</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;03&#x2F;J80A6075-1024x682.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;wo-zhong-xin-che-mo-xiang-jiao-shou-shou-yao-can-jia-di-er-jie-teng-xun-ai-labxue-shu-lun-tan&#x2F;">我中心车万翔教授受邀参加第二届腾讯AI Lab学术论坛</a></h3>
+              2018年3月15日至16日，哈尔滨工业大学社会计算与信息检索研究中心车万翔教授受邀参加第二届腾讯AI Lab学术论坛，并作为Panel嘉宾，与香港中文大学系统工程与工程管理学系主任蒙美玲教授、北京大学计算机科学技术研究所赵东岩研究员、腾讯...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2018-03-21">2018-03-21</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2017&#x2F;11&#x2F;da0dfc254e94eabeb3e04ca09e432cad-766x1024.png">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;wo-zhong-xin-shi-sheng-can-jia-di-liu-jie-zi-ran-yu-yan-chu-li-he-zhong-wen-ji-suan-hui-yi-nlpcc-2017&#x2F;">我中心师生参加第六届自然语言处理和中文计算会议（NLPCC 2017）</a></h3>
+              2017年11月8-12日，由中国计算机学会主办，大连理工大学、数字出版技术国家重点实验室承办的第六届自然语言处理和中文计算会议（NLPCC 2017）在辽宁大连成功召开。
+
+哈尔滨工业大学社会计算与信息检索研究中心副主任秦兵教授、车万翔副...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2017-11-22">2017-11-22</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2017&#x2F;11&#x2F;455e09ae579b2b1f5f958b1dd37759e8.png">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;wo-zhong-xin-shi-sheng-can-jia-di-shi-liu-jie-quan-guo-ji-suan-yu-yan-xue-hui-yi-ccl-2017&#x2F;">我中心师生参加第十六届全国计算语言学会议（CCL 2017）</a></h3>
+              2017年10月13-15日，由中国中文信息学会主办，清华大学智能技术与系统国家重点实验室组织，南京师范大学承办的第十六届全国计算语言学会议（CCL 2017）在南京成功召开。
+
+我中心主任刘挺教授，副主任秦兵教授，车万翔副教授，博士生郭茂...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2017-11-22">2017-11-22</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2017&#x2F;09&#x2F;1e8814e4dac1bc32781e9353d5433d60.png">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;wo-zhong-xin-shi-sheng-can-jia-emnlp-2017&#x2F;">我中心师生参加EMNLP 2017</a></h3>
+              我中心车万翔副教授，博士生尹庆宇和王少磊赴丹麦哥本哈根参加EMNLP国际会议（EMNLP 2017，Conference on Empirical Methods in Natural Language Processing）。EMNLP是...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2017-09-19">2017-09-19</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2017&#x2F;07&#x2F;fe057300a354f2b0bc0f6e56435d6774-1024x580.png">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;wo-zhong-xin-qing-nian-jiao-shi-shou-yao-can-jia-di-shi-si-jie-zhong-guo-zi-ran-yu-yan-chu-li-qing-nian-xue-zhe-yan-tao-hui&#x2F;">我中心青年教师受邀参加第十四届中国自然语言处理青年学者研讨会</a></h3>
+              中国自然语言处理青年学者研讨会（YSSNLP）是由中国中文信息学会青年工作委员会主办的学术交流会议。YSSNLP于2004年创立，旨在促进NLP领域国内外青年学者间的学术互动，会议采取邀请制形式，主要参会人员为NLP领域的青年学者。YSSN...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2017-07-31">2017-07-31</time>
+          </div>
+        </article>
+      </div>
+      
+      
+
+      
+    </div>
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

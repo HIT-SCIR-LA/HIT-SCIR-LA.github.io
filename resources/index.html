@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+
+<div class="container">
+  
+
+  <section class="section">
+    
+    <p class="title">
+      技术资源
+    </p>
+    
+  </section>
+
+  
+    
+
+
+
+<section class="section">
+  
+  <div class="content">
+    <h2 id="kai-yuan-xiang-mu">开源项目</h2>
+
+  </div>
+  
+
+  
+  <div class="box">
+    <article class="media">
+      
+      <div class="media-content">
+        <div class="content">
+          <h3 class="subtitle">
+            
+            <a href="&#x2F;resources&#x2F;开源项目&#x2F;pyltp&#x2F;">pyltp</a>
+            
+          </h3>
+          pyltp是语言技术平台 LTP 3.0 的 Python 封装
+        </div>
+        <nav class="level">
+          <div class="level-left">
+            
+          </div>
+          <div class="level-right">
+            
+
+            
+            <div class="level-item is-hidden-tablet">
+              <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;HIT-SCIR&#x2F;pyltp">获取地址</a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+      <div class="media-right is-hidden-mobile">
+        
+        <div class="level-item">
+          <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;HIT-SCIR&#x2F;pyltp">获取地址</a>
+        </div>
+        
+      </div>
+    </article>
+  </div>
+  
+  <div class="box">
+    <article class="media">
+      
+      <div class="media-content">
+        <div class="content">
+          <h3 class="subtitle">
+            
+            <a href="&#x2F;resources&#x2F;开源项目&#x2F;ltp&#x2F;">LTP</a>
+            
+          </h3>
+          LTP 提供了一系列中文自然语言处理工具，用户可以使用这些工具对于中文文本进行分词、词性标注、句法分析等等工作。
+        </div>
+        <nav class="level">
+          <div class="level-left">
+            
+          </div>
+          <div class="level-right">
+            
+
+            
+            <div class="level-item is-hidden-tablet">
+              <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;HIT-SCIR&#x2F;ltp">获取地址</a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+      <div class="media-right is-hidden-mobile">
+        
+        <div class="level-item">
+          <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;HIT-SCIR&#x2F;ltp">获取地址</a>
+        </div>
+        
+      </div>
+    </article>
+  </div>
+  
+  <div class="box">
+    <article class="media">
+      
+      <div class="media-content">
+        <div class="content">
+          <h3 class="subtitle">
+            
+            MDP
+            
+          </h3>
+          用于快速搭建NLP小样本学习模型的开源工具平台
+        </div>
+        <nav class="level">
+          <div class="level-left">
+            
+          </div>
+          <div class="level-right">
+            
+
+            
+            <div class="level-item is-hidden-tablet">
+              <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;AtmaHou&#x2F;MetaDialog">获取地址</a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+      <div class="media-right is-hidden-mobile">
+        
+        <div class="level-item">
+          <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;AtmaHou&#x2F;MetaDialog">获取地址</a>
+        </div>
+        
+      </div>
+    </article>
+  </div>
+  
+</section>
+
+
+
+  
+    
+
+
+
+<section class="section">
+  
+  <div class="content">
+    <h2 id="she-qu-zi-yuan">社区资源</h2>
+
+  </div>
+  
+
+  
+  <div class="box">
+    <article class="media">
+      
+      <div class="media-content">
+        <div class="content">
+          <h3 class="subtitle">
+            
+            ELMoForManyLangs
+            
+          </h3>
+          我们发布了经过多种语言训练的 ELMo 模型。
+        </div>
+        <nav class="level">
+          <div class="level-left">
+            
+          </div>
+          <div class="level-right">
+            
+
+            
+            <div class="level-item is-hidden-tablet">
+              <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;HIT-SCIR&#x2F;ELMoForManyLangs">获取地址</a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+      <div class="media-right is-hidden-mobile">
+        
+        <div class="level-item">
+          <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;HIT-SCIR&#x2F;ELMoForManyLangs">获取地址</a>
+        </div>
+        
+      </div>
+    </article>
+  </div>
+  
+  <div class="box">
+    <article class="media">
+      
+      <div class="media-content">
+        <div class="content">
+          <h3 class="subtitle">
+            
+            LA-beginner
+            
+          </h3>
+          旨在帮助你快速学习NLP基础知识，并对LA相关的研究方向有一个大体的认识。
+        </div>
+        <nav class="level">
+          <div class="level-left">
+            
+          </div>
+          <div class="level-right">
+            
+
+            
+            <div class="level-item is-hidden-tablet">
+              <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;HIT-SCIR&#x2F;LA-beginner">获取地址</a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+      <div class="media-right is-hidden-mobile">
+        
+        <div class="level-item">
+          <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;HIT-SCIR&#x2F;LA-beginner">获取地址</a>
+        </div>
+        
+      </div>
+    </article>
+  </div>
+  
+  <div class="box">
+    <article class="media">
+      
+      <div class="media-content">
+        <div class="content">
+          <h3 class="subtitle">
+            
+            DA
+            
+          </h3>
+          在这个 repo 中，我们根据增强数据的多样性将 DA 方法分为三类，包括释义、噪声和采样，并列举了不同数据增强的方法。
+        </div>
+        <nav class="level">
+          <div class="level-left">
+            
+          </div>
+          <div class="level-right">
+            
+
+            
+            <div class="level-item is-hidden-tablet">
+              <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;BohanLi0110&#x2F;NLP-DA-Papers">获取地址</a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+      <div class="media-right is-hidden-mobile">
+        
+        <div class="level-item">
+          <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;BohanLi0110&#x2F;NLP-DA-Papers">获取地址</a>
+        </div>
+        
+      </div>
+    </article>
+  </div>
+  
+  <div class="box">
+    <article class="media">
+      
+      <div class="media-content">
+        <div class="content">
+          <h3 class="subtitle">
+            
+            Task-Oriented Dialog Research Progress
+            
+          </h3>
+          帮助使用者快速掌握对话任务进展脉络、常用资源以及SOTA方法的集合 (1000+ stars on Github) 
+        </div>
+        <nav class="level">
+          <div class="level-left">
+            
+          </div>
+          <div class="level-right">
+            
+
+            
+            <div class="level-item is-hidden-tablet">
+              <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;AtmaHou&#x2F;Task-Oriented-Dialogue-Research-Progress-Survey">获取地址</a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+      <div class="media-right is-hidden-mobile">
+        
+        <div class="level-item">
+          <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;AtmaHou&#x2F;Task-Oriented-Dialogue-Research-Progress-Survey">获取地址</a>
+        </div>
+        
+      </div>
+    </article>
+  </div>
+  
+  <div class="box">
+    <article class="media">
+      
+      <div class="media-content">
+        <div class="content">
+          <h3 class="subtitle">
+            
+            A Survey on Spoken Language Understanding: Recent Advances and New Frontiers
+            
+          </h3>
+          SLU领域的论文、代码、数据集、排行榜等
+        </div>
+        <nav class="level">
+          <div class="level-left">
+            
+          </div>
+          <div class="level-right">
+            
+
+            
+            <div class="level-item is-hidden-tablet">
+              <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;yizhen20133868&#x2F;Awesome-SLU-Survey">获取地址</a>
+            </div>
+            
+          </div>
+        </nav>
+      </div>
+      <div class="media-right is-hidden-mobile">
+        
+        <div class="level-item">
+          <a class="button" href="https:&#x2F;&#x2F;github.com&#x2F;yizhen20133868&#x2F;Awesome-SLU-Survey">获取地址</a>
+        </div>
+        
+      </div>
+    </article>
+  </div>
+  
+</section>
+
+
+
+  
+
+</div>
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

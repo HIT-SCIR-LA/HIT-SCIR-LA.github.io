@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+
+<div class="container">
+  <section class="section">
+    
+    <p class="title">
+      新闻列表
+    </p>
+    
+
+    
+    
+    
+
+    
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔笔记 | 面向表格数据的大模型推理综述
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔笔记 | 面向表格数据的大模型推理综述.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        我们在本文对现有的基于LLM的表格推理相关工作进行梳理，来促进该领域上的研究。我们介绍表格推理任务的定义与主流数据集；我们给出基于LLM的表格推理方法的分类，并总结了该任务现有的研究工作；我们给出各个研究方向的可能改进，启发未来的研究思路。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔笔记 | 面向表格数据的大模型推理综述.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;sXeyH2Ob8-CbGwHHBYOYfQ">赛尔笔记 | 面向表格数据的大模型推理综述</a>
+              
+            </h3>
+            我们在本文对现有的基于LLM的表格推理相关工作进行梳理，来促进该领域上的研究。我们介绍表格推理任务的定义与主流数据集；我们给出基于LLM的表格推理方法的分类，并总结了该任务现有的研究工作；我们给出各个研究方向的可能改进，启发未来的研究思路。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2023-12-26">2023-12-26</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2023-12-26">2023-12-26</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创@EMNLP 2023 | 通过跨语言提示改进零样本 CoT 推理能力
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@EMNLP 2023 | 通过跨语言提示改进零样本 CoT 推理能力.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        本文引入了简单有效的CLP帮助思维链范式在不同语言间进行有效地对齐，并进一步提出了CLSP，利用不同语言专家的知识和不同语言间更加多样的思考方式，集成了多个推理路径，显著地提高了self-consistency的跨语言性能。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@EMNLP 2023 | 通过跨语言提示改进零样本 CoT 推理能力.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;L_tGzDRazskoLPN6kRPgwQ">赛尔原创@EMNLP 2023 | 通过跨语言提示改进零样本 CoT 推理能力</a>
+              
+            </h3>
+            本文引入了简单有效的CLP帮助思维链范式在不同语言间进行有效地对齐，并进一步提出了CLSP，利用不同语言专家的知识和不同语言间更加多样的思考方式，集成了多个推理路径，显著地提高了self-consistency的跨语言性能。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2023-11-01">2023-11-01</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2023-11-01">2023-11-01</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大开源“活字”对话大模型
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大开源“活字”对话大模型.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        哈工大发布开源可商用的大规模预训练语言模型活字1.0和活字2.0。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大开源“活字”对话大模型.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;WEitgZjOxZpp7KIbRU0ewg">哈工大开源“活字”对话大模型</a>
+              
+            </h3>
+            哈工大发布开源可商用的大规模预训练语言模型活字1.0和活字2.0。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/gong-cheng-xiang-mu/">
+                  <span class="tag is-primary">
+                    工程项目
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2023-08-06">2023-08-06</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2023-08-06">2023-08-06</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR 2023届29名同学顺利通过硕士答辩
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR 2023届29名同学顺利通过硕士答辩.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        2023年5月24日，哈尔滨工业大学社会计算与信息检索研究中心2023届29名同学顺利通过硕士答辩，获得工学或工程硕士学位。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR 2023届29名同学顺利通过硕士答辩.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;kJlXBm3_LR2srAi2ivLLhw">哈工大SCIR 2023届29名同学顺利通过硕士答辩</a>
+              
+            </h3>
+            2023年5月24日，哈尔滨工业大学社会计算与信息检索研究中心2023届29名同学顺利通过硕士答辩，获得工学或工程硕士学位。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/shuo-shi-bi-ye/">
+                  <span class="tag is-primary">
+                    硕士毕业
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2023-05-31">2023-05-31</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2023-05-31">2023-05-31</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR三位博士生李家琦、袁建华、柳泽明顺利通过博士学位答辩
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR三位博士生李家琦、袁建华、柳泽明顺利通过博士学位答辩.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        2023年5月26日上午，哈工大社会计算与信息检索研究中心王海峰教授指导的博士生柳泽明顺利通过博士学位论文答辩。赵铁军教授担任答辩委员会主席，王亚东教授、杨沐昀教授、车万翔教授、刘远超副教授、赵妍妍副教授和刘扬副教授担任答辩委员会成员，朱聪慧老师担任答辩秘书。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR三位博士生李家琦、袁建华、柳泽明顺利通过博士学位答辩.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;KTv0RRjGtIp3I6Z-uI77Bw">哈工大SCIR三位博士生李家琦、袁建华、柳泽明顺利通过博士学位答辩</a>
+              
+            </h3>
+            2023年5月26日上午，哈工大社会计算与信息检索研究中心王海峰教授指导的博士生柳泽明顺利通过博士学位论文答辩。赵铁军教授担任答辩委员会主席，王亚东教授、杨沐昀教授、车万翔教授、刘远超副教授、赵妍妍副教授和刘扬副教授担任答辩委员会成员，朱聪慧老师担任答辩秘书。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/bo-shi-bi-ye/">
+                  <span class="tag is-primary">
+                    博士毕业
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2023-05-29">2023-05-29</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2023-05-29">2023-05-29</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR 13篇长文被ACL 2023主会&#x2F;Findings录用
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR 13篇长文被ACL 2023主会:Findings录用.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        ACL年会是计算语言学和自然语言处理领域最重要的顶级国际会议，CCF A类会议，由计算语言学协会主办，每年举办一次。哈尔滨工业大学社会计算与信息检索研究中心有5篇长文被ACL 2023主会录用，8篇长文被Findings of ACL录用。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR 13篇长文被ACL 2023主会:Findings录用.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;Odh9QCxJXElHyLlDAjHYVQ">哈工大SCIR 13篇长文被ACL 2023主会&#x2F;Findings录用</a>
+              
+            </h3>
+            ACL年会是计算语言学和自然语言处理领域最重要的顶级国际会议，CCF A类会议，由计算语言学协会主办，每年举办一次。哈尔滨工业大学社会计算与信息检索研究中心有5篇长文被ACL 2023主会录用，8篇长文被Findings of ACL录用。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-fa-biao/">
+                  <span class="tag is-primary">
+                    论文发表
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2023-05-08">2023-05-08</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2023-05-08">2023-05-08</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大自然语言处理研究所公开《ChatGPT调研报告》，内测哈工大“活字”对话大模型
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="https:&#x2F;&#x2F;chatbot.mhlwsk.com&#x2F;assets&#x2F;cover-512x512-56fc6ddb.png" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        2023年3月6日，哈工大自然语言处理研究所 ( HIT-NLP, since 1979 ) 师生联合撰写出《ChatGPT调研报告》（84页），对“大模型”技术进行了系统的介绍。此外，哈工大自然语言处理研究所已经研制出哈工大“活字”对话大模型（通用），目前处于研究所内测阶段。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="https:&#x2F;&#x2F;chatbot.mhlwsk.com&#x2F;assets&#x2F;cover-512x512-56fc6ddb.png" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;NyoSRvdk-_kVMbwQf2RgEQ">哈工大自然语言处理研究所公开《ChatGPT调研报告》，内测哈工大“活字”对话大模型</a>
+              
+            </h3>
+            2023年3月6日，哈工大自然语言处理研究所 ( HIT-NLP, since 1979 ) 师生联合撰写出《ChatGPT调研报告》（84页），对“大模型”技术进行了系统的介绍。此外，哈工大自然语言处理研究所已经研制出哈工大“活字”对话大模型（通用），目前处于研究所内测阶段。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/gong-cheng-xiang-mu/">
+                  <span class="tag is-primary">
+                    工程项目
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2023-05-04">2023-05-04</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2023-05-04">2023-05-04</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创@AAAI 2023 | BridgeTower- 在视觉语言表示学习中建立编码器间的桥梁
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@AAAI 2023 | BridgeTower- 在视觉语言表示学习中建立编码器间的桥梁.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        在本文中，我们提出了BridgeTower，它引入了多个BridgeLayer，在单模态编码器的顶层和跨模态编码器的每一层之间建立连接。这使得预训练单模态编码器中的不同语义层次的视觉和文本表示，通过BridgeLayer与跨模态表示进行融合，从而促进了跨模态编码器中，高效的，自下而上的跨模态对齐与融合。仅使用400万张图像进行视觉语言预训练，BridgeTower在各种下游的视觉-语言任务中取得了非常强大的性能。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@AAAI 2023 | BridgeTower- 在视觉语言表示学习中建立编码器间的桥梁.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;igz2uvPWu3R031GaZuC2VA">赛尔原创@AAAI 2023 | BridgeTower- 在视觉语言表示学习中建立编码器间的桥梁</a>
+              
+            </h3>
+            在本文中，我们提出了BridgeTower，它引入了多个BridgeLayer，在单模态编码器的顶层和跨模态编码器的每一层之间建立连接。这使得预训练单模态编码器中的不同语义层次的视觉和文本表示，通过BridgeLayer与跨模态表示进行融合，从而促进了跨模态编码器中，高效的，自下而上的跨模态对齐与融合。仅使用400万张图像进行视觉语言预训练，BridgeTower在各种下游的视觉-语言任务中取得了非常强大的性能。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2022-12-29">2022-12-29</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2022-12-29">2022-12-29</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创@COLING 2022 | 融合自适应机制与自训练框架的无监督文本顺滑方法
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@COLING 2022 | 融合自适应机制与自训练框架的无监督文本顺滑方法.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        在这项工作中，我们提出了一种基于Re-weighting的自适应无监督训练框架来更好的解决文本顺滑任务。我们通过引入词级别置信与句子级别判别信息来赋予每个样本不同权重进行学习，同时采用更高效的基于对比的句对语法判别器，实现了一个更鲁棒、性能更好的无监督文本顺滑系统。实验表明，我们的优化方案能有效缓解选择偏差和错误累计的问题，在SWBD以及多个跨领域数据集上均有所提升。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@COLING 2022 | 融合自适应机制与自训练框架的无监督文本顺滑方法.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;NFdU8OCLsIQSM3ZJb7I-Vg">赛尔原创@COLING 2022 | 融合自适应机制与自训练框架的无监督文本顺滑方法</a>
+              
+            </h3>
+            在这项工作中，我们提出了一种基于Re-weighting的自适应无监督训练框架来更好的解决文本顺滑任务。我们通过引入词级别置信与句子级别判别信息来赋予每个样本不同权重进行学习，同时采用更高效的基于对比的句对语法判别器，实现了一个更鲁棒、性能更好的无监督文本顺滑系统。实验表明，我们的优化方案能有效缓解选择偏差和错误累计的问题，在SWBD以及多个跨领域数据集上均有所提升。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2022-12-29">2022-12-29</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2022-12-29">2022-12-29</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创@COLING 2022 | MetaPrompting：基于元学习的soft prompt初始化方法
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@COLING 2022 | MetaPrompting：基于元学习的soft prompt初始化方法.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        本文提出了MetaPrompting，将基于优化的元学习方法推广到soft prompt模型中，来处理少标注文本任务。MetaPrompting利用源领域数据进行元学习，搜索能够更快、更好地适应于新的少标注人物的模型参数初始化点。在4个少标注文本分类数据集上的实验结果表明，MetaPrompting相比于朴素的soft prompt模型以及其他基于元学习的基线模型取得了更好的效果，达到了新的SOTA性能。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@COLING 2022 | MetaPrompting：基于元学习的soft prompt初始化方法.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s&#x2F;yY_kVMnYV2qKyOUCQMtuaA">赛尔原创@COLING 2022 | MetaPrompting：基于元学习的soft prompt初始化方法</a>
+              
+            </h3>
+            本文提出了MetaPrompting，将基于优化的元学习方法推广到soft prompt模型中，来处理少标注文本任务。MetaPrompting利用源领域数据进行元学习，搜索能够更快、更好地适应于新的少标注人物的模型参数初始化点。在4个少标注文本分类数据集上的实验结果表明，MetaPrompting相比于朴素的soft prompt模型以及其他基于元学习的基线模型取得了更好的效果，达到了新的SOTA性能。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2022-12-13">2022-12-13</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2022-12-13">2022-12-13</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+    
+
+    
+    
+
+    
+
+    
+    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+      
+      <a class="pagination-previous" href="&#x2F;news&#x2F;page&#x2F;2&#x2F;">‹ Previous</a>
+      
+      
+      <a class="pagination-next" href="&#x2F;news&#x2F;page&#x2F;4&#x2F;">Next ›</a>
+      
+      <ul class="pagination-list">
+        
+
+        
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;">1</a></li>
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        
+
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;2&#x2F;">2</a></li>
+        
+        <li><a class="pagination-link is-current" aria-current="page">3</a></li>
+        
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;4&#x2F;">4</a></li>
+
+        
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;12&#x2F;">12</a></li>
+        
+
+        
+      </ul>
+    </nav>
+    
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

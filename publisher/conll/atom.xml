@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - CoNLL</title>
+    <link rel="self" type="application/atom+xml" href="/publisher/conll/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2020-01-01T00:00:00+00:00</updated>
+    <id>/publisher/conll/atom.xml</id>
+    <entry xml:lang="en">
+        <title>HIT-SCIR at MRP 2020 Transition-based Parser and Iterative Inference Parser</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-hit-scir-at-mrp-2020-transition-based-parser-and-iterative-inference-parser/"/>
+        <id>/publications/2020-hit-scir-at-mrp-2020-transition-based-parser-and-iterative-inference-parser/</id>
+        
+        <content type="html" xml:base="/publications/2020-hit-scir-at-mrp-2020-transition-based-parser-and-iterative-inference-parser/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Towards Better UD Parsing Deep Contextualized Word Embeddings Ensemble and Treebank Concatenation</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/"/>
+        <id>/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/</id>
+        
+        <content type="html" xml:base="/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The HIT-SCIR System for End-to-End Parsing of Universal Dependencies</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/"/>
+        <id>/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/</id>
+        
+        <content type="html" xml:base="/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Multilingual Dependency-based Syntactic and Semantic Parsing</title>
+        <published>2009-01-01T00:00:00+00:00</published>
+        <updated>2009-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2009-multilingual-dependency-based-syntactic-and-semantic-parsing/"/>
+        <id>/publications/2009-multilingual-dependency-based-syntactic-and-semantic-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2009-multilingual-dependency-based-syntactic-and-semantic-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Cascaded Syntactic and Semantic Dependency Parsing System</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-a-cascaded-syntactic-and-semantic-dependency-parsing-system/"/>
+        <id>/publications/2008-a-cascaded-syntactic-and-semantic-dependency-parsing-system/</id>
+        
+        <content type="html" xml:base="/publications/2008-a-cascaded-syntactic-and-semantic-dependency-parsing-system/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Semantic Role Labeling System Using Maximum Entropy Classifier</title>
+        <published>2005-01-01T00:00:00+00:00</published>
+        <updated>2005-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2005-semantic-role-labeling-system-using-maximum-entropy-classifier/"/>
+        <id>/publications/2005-semantic-role-labeling-system-using-maximum-entropy-classifier/</id>
+        
+        <content type="html" xml:base="/publications/2005-semantic-role-labeling-system-using-maximum-entropy-classifier/"></content>
+        
+    </entry>
+</feed>

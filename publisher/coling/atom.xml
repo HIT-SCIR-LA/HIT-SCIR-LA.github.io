@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - COLING</title>
+    <link rel="self" type="application/atom+xml" href="/publisher/coling/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-01T00:00:00+00:00</updated>
+    <id>/publisher/coling/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Survey on Natural Language Processing for Programming</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-a-survey-on-natural-language-processing-for-programming/"/>
+        <id>/publications/2024-a-survey-on-natural-language-processing-for-programming/</id>
+        
+        <content type="html" xml:base="/publications/2024-a-survey-on-natural-language-processing-for-programming/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Two-Stage Framework with Self-Supervised Distillation For Cross-Domain Text Classification</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/"/>
+        <id>/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/</id>
+        
+        <content type="html" xml:base="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Beyond Static Evaluation A Dynamic Approach to Assessing AI Assistants API Invocation Capabilities</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/"/>
+        <id>/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/</id>
+        
+        <content type="html" xml:base="/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>LM-Combiner A Contextual Rewriting Model for Chinese Grammatical Error Correction</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-lm-combiner-a-contextual-rewriting-model-for-chinese-grammatical-error-correction/"/>
+        <id>/publications/2024-lm-combiner-a-contextual-rewriting-model-for-chinese-grammatical-error-correction/</id>
+        
+        <content type="html" xml:base="/publications/2024-lm-combiner-a-contextual-rewriting-model-for-chinese-grammatical-error-correction/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Adaptive Unsupervised Self-training for Disfluency Detection</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/"/>
+        <id>/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/</id>
+        
+        <content type="html" xml:base="/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CCTC A Cross-Sentence Chinese Text Correction Dataset for Native Speakers</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-cctc-a-cross-sentence-chinese-text-correction-dataset-for-native-speakers/"/>
+        <id>/publications/2022-cctc-a-cross-sentence-chinese-text-correction-dataset-for-native-speakers/</id>
+        
+        <content type="html" xml:base="/publications/2022-cctc-a-cross-sentence-chinese-text-correction-dataset-for-native-speakers/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CGIM A Cycle Guided Interactive Learning Model for Consistency Identification in Task-oriented Dialogue</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-cgim-a-cycle-guided-interactive-learning-model-for-consistency-identification-in-task-oriented-dialogue/"/>
+        <id>/publications/2022-cgim-a-cycle-guided-interactive-learning-model-for-consistency-identification-in-task-oriented-dialogue/</id>
+        
+        <content type="html" xml:base="/publications/2022-cgim-a-cycle-guided-interactive-learning-model-for-consistency-identification-in-task-oriented-dialogue/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>MetaPrompting Learning to Learn Better Prompts</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-metaprompting-learning-to-learn-better-prompts/"/>
+        <id>/publications/2022-metaprompting-learning-to-learn-better-prompts/</id>
+        
+        <content type="html" xml:base="/publications/2022-metaprompting-learning-to-learn-better-prompts/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Simple and Effective Graph-to-Graph Annotation Conversion</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-simple-and-effective-graph-to-graph-annotation-conversion/"/>
+        <id>/publications/2022-simple-and-effective-graph-to-graph-annotation-conversion/</id>
+        
+        <content type="html" xml:base="/publications/2022-simple-and-effective-graph-to-graph-annotation-conversion/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Sentence Cloze Dataset for Chinese Machine Reading Comprehension</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-a-sentence-cloze-dataset-for-chinese-machine-reading-comprehension/"/>
+        <id>/publications/2020-a-sentence-cloze-dataset-for-chinese-machine-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2020-a-sentence-cloze-dataset-for-chinese-machine-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sequence-to-Sequence Data Augmentation for Dialogue Language Understanding</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-sequence-to-sequence-data-augmentation-for-dialogue-language-understanding/"/>
+        <id>/publications/2018-sequence-to-sequence-data-augmentation-for-dialogue-language-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2018-sequence-to-sequence-data-augmentation-for-dialogue-language-understanding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sequence-to-Sequence Learning for Task-oriented Dialogue with Dialogue State Representation</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-sequence-to-sequence-learning-for-task-oriented-dialogue-with-dialogue-state-representation/"/>
+        <id>/publications/2018-sequence-to-sequence-learning-for-task-oriented-dialogue-with-dialogue-state-representation/</id>
+        
+        <content type="html" xml:base="/publications/2018-sequence-to-sequence-learning-for-task-oriented-dialogue-with-dialogue-state-representation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Neural Attention Model for Disfluency Detection</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-a-neural-attention-model-for-disfluency-detection/"/>
+        <id>/publications/2016-a-neural-attention-model-for-disfluency-detection/</id>
+        
+        <content type="html" xml:base="/publications/2016-a-neural-attention-model-for-disfluency-detection/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Unified Architecture for Semantic Role Labeling and Relation Classification</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/"/>
+        <id>/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/</id>
+        
+        <content type="html" xml:base="/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Universal Framework for Inductive Transfer Parsing across Multi-typed Treebanks</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/"/>
+        <id>/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/</id>
+        
+        <content type="html" xml:base="/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Jointly or Separately Which is Better for Parsing Heterogeneous Dependencies</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-jointly-or-separately-which-is-better-for-parsing-heterogeneous-dependencies/"/>
+        <id>/publications/2014-jointly-or-separately-which-is-better-for-parsing-heterogeneous-dependencies/</id>
+        
+        <content type="html" xml:base="/publications/2014-jointly-or-separately-which-is-better-for-parsing-heterogeneous-dependencies/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Learning Sense-specific Word Embeddings By Exploiting Bilingual Resources</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-learning-sense-specific-word-embeddings-by-exploiting-bilingual-resources/"/>
+        <id>/publications/2014-learning-sense-specific-word-embeddings-by-exploiting-bilingual-resources/</id>
+        
+        <content type="html" xml:base="/publications/2014-learning-sense-specific-word-embeddings-by-exploiting-bilingual-resources/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sentence Compression for Target-Polarity Word Collocation Extraction</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-sentence-compression-for-target-polarity-word-collocation-extraction/"/>
+        <id>/publications/2014-sentence-compression-for-target-polarity-word-collocation-extraction/</id>
+        
+        <content type="html" xml:base="/publications/2014-sentence-compression-for-target-polarity-word-collocation-extraction/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Separately Passive-Aggressive Training Algorithm for Joint POS Tagging and Dependency Parsing</title>
+        <published>2012-01-01T00:00:00+00:00</published>
+        <updated>2012-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2012-a-separately-passive-aggressive-training-algorithm-for-joint-pos-tagging-and-dependency-parsing/"/>
+        <id>/publications/2012-a-separately-passive-aggressive-training-algorithm-for-joint-pos-tagging-and-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2012-a-separately-passive-aggressive-training-algorithm-for-joint-pos-tagging-and-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Stacking Heterogeneous Joint Models of Chinese POS Tagging and Dependency Parsing</title>
+        <published>2012-01-01T00:00:00+00:00</published>
+        <updated>2012-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2012-stacking-heterogeneous-joint-models-of-chinese-pos-tagging-and-dependency-parsing/"/>
+        <id>/publications/2012-stacking-heterogeneous-joint-models-of-chinese-pos-tagging-and-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2012-stacking-heterogeneous-joint-models-of-chinese-pos-tagging-and-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Jointly Modeling WSD and SRL with Markov Logic</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-jointly-modeling-wsd-and-srl-with-markov-logic/"/>
+        <id>/publications/2010-jointly-modeling-wsd-and-srl-with-markov-logic/</id>
+        
+        <content type="html" xml:base="/publications/2010-jointly-modeling-wsd-and-srl-with-markov-logic/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>LTP A Chinese Language Technology Platform</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-ltp-a-chinese-language-technology-platform/"/>
+        <id>/publications/2010-ltp-a-chinese-language-technology-platform/</id>
+        
+        <content type="html" xml:base="/publications/2010-ltp-a-chinese-language-technology-platform/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Hybrid Convolution Tree Kernel for Semantic Role Labeling</title>
+        <published>2006-01-01T00:00:00+00:00</published>
+        <updated>2006-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2006-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/"/>
+        <id>/publications/2006-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/</id>
+        
+        <content type="html" xml:base="/publications/2006-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Improved-Edit-Distance Kernel for Chinese Relation Extraction</title>
+        <published>2005-01-01T00:00:00+00:00</published>
+        <updated>2005-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2005-improved-edit-distance-kernel-for-chinese-relation-extraction/"/>
+        <id>/publications/2005-improved-edit-distance-kernel-for-chinese-relation-extraction/</id>
+        
+        <content type="html" xml:base="/publications/2005-improved-edit-distance-kernel-for-chinese-relation-extraction/"></content>
+        
+    </entry>
+</feed>

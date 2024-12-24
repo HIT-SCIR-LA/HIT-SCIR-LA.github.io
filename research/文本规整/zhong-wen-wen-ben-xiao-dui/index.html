@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+
+<div class="container">
+  <section class="section">
+    <div class="content">
+      <h1 id="zhong-wen-wen-ben-xiao-dui">中文文本校对</h1>
+<p>无论是OCR识别图像的输出文本、语音信息通过ASR后的转换结果还是用户通过输入法键入的文字，其中不乏有各类文本错误（错别字、语法错误等），这些错误会影响文本的可读性，不利于人类和机器理解。同时，随着互联网的迅速发展，文本的数量日益增长，庞大的文本量下，仅靠人工审查校对已经不再现实，若不加以处理，会造成错误累计，严重影响用户体验以及下游任务的性能。文本校对任务作为自然语言处理中一项重要的任务，主要目标是检测并纠正文本中的各类错误，其在搜索、教育、新闻等领域都有很高的落地价值。</p>
+<p>在英文上，文本校对任务已经得到广泛研究，相关校对工具（如：Grammarly）已经较为成熟；相较于英语等其他表音语言，汉字作为表意文字的词素音节文字，有一定的复杂性与自由性，使得中文文本校对的相关研究距离实际落地使用还有很大的距离，仍有着广阔的研究空间。</p>
+<p>从错误类型的角度，中文文本校对主要可以分为中文拼写纠错与中文语法纠错：</p>
+<ul>
+<li>中文拼写纠错
+<ul>
+<li>中文拼写错误旨在根据上下文识别并纠正拼写错误，这类错误通常发生在外观发音相似的字符之间。如：</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>原始文本的输入：1986年毕业于国防科技大学计算机应用专业，获学<font color=red>时</font>学位。</p>
+<p>拼写纠错的结果：1986年毕业于国防科技大学计算机应用专业，获学<font color=green>士</font>学位。</p>
+</blockquote>
+<ul>
+<li>中文语法纠错
+<ul>
+<li>中文语法纠错主要针对文本中存在的冗余、残缺、错词、乱序等语法问题进行识别并纠正，如：</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>原始文本的输入：<font color=red>为了</font><font color=green>你们</font>照顾我，付出了很多</p>
+<p>语法纠错的结果：<font color=green>你们</font><font color=red>为了</font>照顾我，付出了很多</p>
+</blockquote>
+<p>虽然任务形式相对简单，但目前文本校对任务仍具有很多挑战：
+(1) 数据集资源稀缺：真实场景下的文本错误较为稀疏，标注难度较大；
+(2) 汉字本身具有一定复杂性：中文表达博大精深，且存在大量的多音字多义字，相较于其他类型语言校对难度很大。
+我们针对上述问题以及目前拼写纠错和语法纠错的重难点展开研究，并积极参与组织了多次校对相关评测。</p>
+<ul>
+<li>拼写纠错相关</li>
+</ul>
+<p>目前主流拼写纠错的解决方案大多基于自编码预训练语言模型（如BERT等），其在针对每个Token预测相对独立，而在纠错任务中，存在错误的字符往往在纠正时需要考虑前后字符的依赖关系。基于此动机，本研究提出一种动态连接网络以构建模型输出部分相邻字符之间的相关性，在纠错模型的解码端针对候选词进行搜索，从而得到更充分考虑上下文的纠错结果，很大程度上提高了纠错语句的流畅性以及纠错性能。</p>
+<ul>
+<li>语法纠错相关</li>
+</ul>
+<p>传统的语法纠错技术主要是通过规则对文本进行纠正，然而随着互联网的快速发展，人们在生活中产生的语法错误已经不能完全被规则所覆盖，因此传统的语法纠错已经不能适应现阶段人们对智能校对的需求。基于深度学习下的语言模型的方法可以让语法纠错技术具有更强的泛化能力，从而避免传统语法纠错无法覆盖所有的错误类型的问题。因此，本研究充分利用深度学习技术，从模型的角度提升语法纠错的性能。重点围绕将先验知识注入模型、增强模型对于文本的表示能力等方向分别进行了有针对性的研究，显著地提升了语法纠错任务的性能。</p>
+<p>目前我们已在中文文本校对领域发表CCF A/B类论文5篇，相关技术授权多个企业应用。</p>
+<h1 id="ping-ce-cheng-ji">评测成绩</h1>
+<p><a href="https://aclanthology.org/W16-4906/">2016</a>、<a href="https://aclanthology.org/W18-3706/">2018</a>、<a href="https://aclanthology.org/2020.nlptea-1.4/">2020</a> 三年获得中文语法错误自动诊断（Chinese Grammatical Error Diagnosis, CGED）国际评测第1名</p>
+<h1 id="zu-zhi-ping-ce">组织评测：</h1>
+<ul>
+<li>2022年组织<a href="https://2021aichina.caai.cn/track?id=5">文本智能校对大赛</a> </li>
+<li>2022年组织<a href="http://cail.cipsc.org.cn/task2.html?raceID=2&amp;cail_tag=2022-">法律文书校对评测</a></li>
+<li>2022年组织<a href="https://www.datafountain.cn/competitions/579">中文语义病句识别挑战赛</a></li>
+<li>2021年组织<a href="https://github.com/destwang/CTC2021">中文文本纠错测评</a></li>
+</ul>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <h1>论文列表</h1>
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Dynamic Connected Networks for Chinese Spelling Check
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021, 2437--2446, 2021. </p>
+    <p>Wang, Baoxin  and Che, Wanxiang  and Wu, Dayong  and Wang, Shijin  and Hu, Guoping  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Dynamic Connected Networks for Chinese Spelling Check
+          
+        </h3>
+        <p>Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021, 2437--2446, 2021. </p>
+        <p>Wang, Baoxin  and Che, Wanxiang  and Wu, Dayong  and Wang, Shijin  and Hu, Guoping  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;acl-findings&#x2F;">
+          <span class="tag is-success">
+            ACL(Findings)
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2021&#x2F;">
+          <span class="tag is-warning">
+            2021
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;wang-baoxin&#x2F;">
+          <span class="tag is-danger">
+            Wang Baoxin
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;wu-dayong&#x2F;">
+          <span class="tag is-danger">
+            Wu Dayong
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;zhong-wen-wen-ben-xiao-dui&#x2F;">
+          <span class="tag is-info">
+            中文文本校对
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;2021.findings-acl.216">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/wang2021dynamic.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Chinese Grammatical Error Diagnosis using Statistical and Prior Knowledge driven Features with Probabilistic Ensemble Enhancement
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the 5th Workshop on Natural Language Processing Techniques for Educational Applications, 52--59, 2018. </p>
+    <p>Fu, Ruiji  and Pei, Zhengqi  and Gong, Jiefu  and Song, Wei  and Teng, Dechuan  and Che, Wanxiang  and Wang, Shijin  and Hu, Guoping  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Chinese Grammatical Error Diagnosis using Statistical and Prior Knowledge driven Features with Probabilistic Ensemble Enhancement
+          
+        </h3>
+        <p>Proceedings of the 5th Workshop on Natural Language Processing Techniques for Educational Applications, 52--59, 2018. </p>
+        <p>Fu, Ruiji  and Pei, Zhengqi  and Gong, Jiefu  and Song, Wei  and Teng, Dechuan  and Che, Wanxiang  and Wang, Shijin  and Hu, Guoping  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;nlptea&#x2F;">
+          <span class="tag is-success">
+            NLPTEA
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2018&#x2F;">
+          <span class="tag is-warning">
+            2018
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;fu-ruiji&#x2F;">
+          <span class="tag is-danger">
+            Fu Ruiji
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;pei-zhengqi&#x2F;">
+          <span class="tag is-danger">
+            Pei Zhengqi
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;gong-jiefu&#x2F;">
+          <span class="tag is-danger">
+            Gong Jiefu
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;zhong-wen-wen-ben-xiao-dui&#x2F;">
+          <span class="tag is-info">
+            中文文本校对
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;W18-3707">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/fu2018chinese.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Chinese Grammatical Error Diagnosis with Long Short-Term Memory Networks
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>Proceedings of the 3rd Workshop on Natural Language Processing Techniques for Educational Applications ({NLPTEA}2016), 49--56, 2016. </p>
+    <p>Zheng, Bo  and Che, Wanxiang  and Guo, Jiang  and Liu, Ting</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Chinese Grammatical Error Diagnosis with Long Short-Term Memory Networks
+          
+        </h3>
+        <p>Proceedings of the 3rd Workshop on Natural Language Processing Techniques for Educational Applications ({NLPTEA}2016), 49--56, 2016. </p>
+        <p>Zheng, Bo  and Che, Wanxiang  and Guo, Jiang  and Liu, Ting</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;nlptea&#x2F;">
+          <span class="tag is-success">
+            NLPTEA
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2016&#x2F;">
+          <span class="tag is-warning">
+            2016
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;zheng-bo&#x2F;">
+          <span class="tag is-danger">
+            Zheng Bo
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;che-wanxiang&#x2F;">
+          <span class="tag is-danger">
+            Che Wanxiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;guo-jiang&#x2F;">
+          <span class="tag is-danger">
+            Guo Jiang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;direction&#x2F;zhong-wen-wen-ben-xiao-dui&#x2F;">
+          <span class="tag is-info">
+            中文文本校对
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true" href="https:&#x2F;&#x2F;aclanthology.org&#x2F;W16-4907">
+          PDF
+        </a>
+      </div>
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/zheng2016chinese.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+      
+      
+      
+      
+    </div>
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

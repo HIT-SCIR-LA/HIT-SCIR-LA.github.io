@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Longxu Dou</title>
+    <link rel="self" type="application/atom+xml" href="/authors/longxu-dou/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-01T00:00:00+00:00</updated>
+    <id>/authors/longxu-dou/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Can Large Language Models Understand You Better An MBTI Personality Detection Dataset Aligned with Population Traits</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"/>
+        <id>/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</id>
+        
+        <content type="html" xml:base="/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Controllable Data Augmentation for Context-Dependent Text-to-SQL</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-controllable-data-augmentation-for-context-dependent-text-to-sql/"/>
+        <id>/publications/2023-controllable-data-augmentation-for-context-dependent-text-to-sql/</id>
+        
+        <content type="html" xml:base="/publications/2023-controllable-data-augmentation-for-context-dependent-text-to-sql/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>MixPro Simple yet Effective Data Augmentation for Prompt-based Learning</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"/>
+        <id>/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/</id>
+        
+        <content type="html" xml:base="/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Towards Knowledge-Intensive Text-to-SQL Semantic Parsing with Formulaic Knowledge</title>
+        <published>2022-12-12T00:00:00+00:00</published>
+        <updated>2022-12-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-towards-knowledge-intensive-text-to-sql-semantic-parsing-with-formulaic-knowledge/"/>
+        <id>/publications/2022-towards-knowledge-intensive-text-to-sql-semantic-parsing-with-formulaic-knowledge/</id>
+        
+        <content type="html" xml:base="/publications/2022-towards-knowledge-intensive-text-to-sql-semantic-parsing-with-formulaic-knowledge/"></content>
+        
+    </entry>
+</feed>

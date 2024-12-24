@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+<div class="container">
+  <section class="hero">
+    <div class="hero-body">
+      
+      <p class="title">
+        
+        工程项目
+        
+      </p>
+      
+
+      
+      
+      
+
+      
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="/images/news/哈工大发布“珠算”代码大模型.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-fa-bu-zhu-suan-dai-ma-da-mo-xing&#x2F;">哈工大发布“珠算”代码大模型</a></h3>
+              目前开源代码大模型提升编程能力的同时会严重损害通用语言能力。为此，哈工大赛尔实验室推出了“珠算”代码大模型，以2.7B参数在代码与通用语言平均性能上超越了3B及以下代码大模型，希望通过开放权重、训练细节及微调适配平台与插件，助力开源社区发展
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2024-09-17">2024-09-17</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="/images/news/哈工大开源“活字3.5”对话大模型.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-kai-yuan-huo-zi-3-5-dui-hua-da-mo-xing&#x2F;">哈工大开源“活字3.5”对话大模型</a></h3>
+              哈工大社会计算与信息检索研究中心（HIT-SCIR）发布了活字3.5对话大模型，新版模型在中英文知识、数学推理、代码生成、指令遵循能力、内容安全性等诸多方面实现了性能提升。我们希望该开源项目能够有助于推动自然语言处理技术的研究和应用。
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2024-09-12">2024-09-12</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="/images/news/哈工大开源“活字”对话大模型3.0版本.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-kai-yuan-huo-zi-dui-hua-da-mo-xing-3-0ban-ben&#x2F;">哈工大开源“活字”对话大模型3.0版本</a></h3>
+              哈尔滨工业大学社会计算与信息检索研究中心（HIT-SCIR）近期推出了最新成果——活字3.0，致力于为自然语言处理的研究和实际应用提供更多可能性和选择。
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2024-02-15">2024-02-15</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="/images/news/HIT-SCIR发布首个中文扩词表增量预训练混合专家模型Chinese-Mixtral-8x7B.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;hit-scirfa-bu-shou-ge-zhong-wen-kuo-ci-biao-zeng-liang-yu-xun-lian-hun-he-zhuan-jia-mo-xing-chinese-mixtral-8x7b&#x2F;">HIT-SCIR发布首个中文扩词表增量预训练混合专家模型Chinese-Mixtral-8x7B</a></h3>
+              哈工大社会计算与信息检索研究中心（HIT-SCIR）基于Mixtral-8x7B进行了中文扩词表增量预训练。扩充后的词表显著提高了模型对中文的编解码效率，通过大规模开源语料对扩词表模型进行增量预训练，使模型具备了强大的中文生成和理解能力。
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2024-01-18">2024-01-18</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="/images/news/哈工大开源“活字”对话大模型.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-kai-yuan-huo-zi-dui-hua-da-mo-xing&#x2F;">哈工大开源“活字”对话大模型</a></h3>
+              哈工大发布开源可商用的大规模预训练语言模型活字1.0和活字2.0。
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2023-08-06">2023-08-06</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="https:&#x2F;&#x2F;chatbot.mhlwsk.com&#x2F;assets&#x2F;cover-512x512-56fc6ddb.png">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-zi-ran-yu-yan-chu-li-yan-jiu-suo-gong-kai-chatgptdiao-yan-bao-gao-nei-ce-ha-gong-da-huo-zi-dui-hua-da-mo-xing&#x2F;">哈工大自然语言处理研究所公开《ChatGPT调研报告》，内测哈工大“活字”对话大模型</a></h3>
+              2023年3月6日，哈工大自然语言处理研究所 ( HIT-NLP, since 1979 ) 师生联合撰写出《ChatGPT调研报告》（84页），对“大模型”技术进行了系统的介绍。此外，哈工大自然语言处理研究所已经研制出哈工大“活字”对话大模型（通用），目前处于研究所内测阶段。
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2023-05-04">2023-05-04</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="/images/news/语言技术平台（LTP）推出 v4.2 版本！.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;yu-yan-ji-shu-ping-tai-ltp-tui-chu-v4-2-ban-ben&#x2F;">语言技术平台（LTP）推出 v4.2 版本！</a></h3>
+              语言技术平台（LTP）推出 v4.2 版本，此次升级主要提升了分词等常用任务的推理速度、增加了平台的易用性等。
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2022-08-22">2022-08-22</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2020&#x2F;06&#x2F;ltp2.png">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ltp-4-0-dan-mo-xing-wan-cheng-6xiang-zi-ran-yu-yan-chu-li-ren-wu&#x2F;">LTP 4.0！单模型完成6项自然语言处理任务</a></h3>
+              语言技术平台（Language Technology Platform, LTP）是哈工大社会计算与信息检索研究中心（HIT-SCIR）历时多年研发的一整套高效、高精度的中文自然语言处理开源基础技术平台。该平台集词法分析（分词、词性标注、命...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2020-06-15">2020-06-15</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2017&#x2F;07&#x2F;LTP-AI-1024x511.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;yu-yan-ji-shu-ping-tai-ltp-you-xin-jia-la&#x2F;">语言技术平台（LTP）有新家啦！</a></h3>
+              语言技术平台（LTP）有新家了：http://ltp.ai/ 欢迎大家访问
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2017-07-18">2017-07-18</time>
+          </div>
+        </article>
+      </div>
+      
+      <div class="box">
+        <article class="media">
+          <figure class="media-left image is-128x128">
+            
+            
+            <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2017&#x2F;01&#x2F;ee6df7033a974fd2d6b73e2297a56fc1.jpg">
+            
+            
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <h3 class="subtitle"><a href="&#x2F;news&#x2F;ha-gong-da-xun-fei-lian-he-shi-yan-shi-yan-zhi-de-wen-ben-shun-hua-ji-shu-cheng-gong-jie-ru-xun-fei-ting-jian-xi-tong&#x2F;">哈工大讯飞联合实验室研制的文本顺滑技术成功接入“讯飞听见”系统</a></h3>
+              科大讯飞2016年度发布会于2016年11月23日在北京国家会议中心成功召开，升级版的“讯飞听见”系统亮相此次发布会。讯飞在2015年的年度发布会就已推出实时语音转写的“讯飞听见”智能会议系统，实时将语音转写成文字，速度和准确率远超人工速记...
+            </div>
+          </div>
+          <div class="media-right">
+            <time datetime="2017-01-10">2017-01-10</time>
+          </div>
+        </article>
+      </div>
+      
+      
+
+      
+    </div>
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

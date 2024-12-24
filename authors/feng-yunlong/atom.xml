@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Feng Yunlong</title>
+    <link rel="self" type="application/atom+xml" href="/authors/feng-yunlong/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-01T00:00:00+00:00</updated>
+    <id>/authors/feng-yunlong/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Two-Stage Framework with Self-Supervised Distillation For Cross-Domain Text Classification</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/"/>
+        <id>/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/</id>
+        
+        <content type="html" xml:base="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Beyond Static Evaluation A Dynamic Approach to Assessing AI Assistants API Invocation Capabilities</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/"/>
+        <id>/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/</id>
+        
+        <content type="html" xml:base="/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Concise and Precise Context Compression for Tool-Using Language Models</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/"/>
+        <id>/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/"/>
+        <id>/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/</id>
+        
+        <content type="html" xml:base="/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Semantic-Guided Generative Image Augmentation Method with Diffusion Models for Image Classification</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/"/>
+        <id>/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/</id>
+        
+        <content type="html" xml:base="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>N-LTP An Open-source Neural Language Technology Platform for Chinese</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-n-ltp-an-open-source-neural-language-technology-platform-for-chinese/"/>
+        <id>/publications/2021-n-ltp-an-open-source-neural-language-technology-platform-for-chinese/</id>
+        
+        <content type="html" xml:base="/publications/2021-n-ltp-an-open-source-neural-language-technology-platform-for-chinese/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>HIT-SCIR at MRP 2020 Transition-based Parser and Iterative Inference Parser</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-hit-scir-at-mrp-2020-transition-based-parser-and-iterative-inference-parser/"/>
+        <id>/publications/2020-hit-scir-at-mrp-2020-transition-based-parser-and-iterative-inference-parser/</id>
+        
+        <content type="html" xml:base="/publications/2020-hit-scir-at-mrp-2020-transition-based-parser-and-iterative-inference-parser/"></content>
+        
+    </entry>
+</feed>

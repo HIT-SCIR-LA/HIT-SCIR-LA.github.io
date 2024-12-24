@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+    a.a2{
+      height: 70px;
+      font-size: 20px;
+      color:rgb(128, 127, 127);
+    }
+  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    <!-- Content -->
+    
+
+<div class="container">
+  <section class="section">
+    
+    <p class="title">
+      新闻列表
+    </p>
+    
+
+    
+    
+    
+
+    
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创@EMNLP 2021 | 预训练跨语言模型中的大词表构建及使用
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@EMNLP 2021 | 预训练跨语言模型中的大词表构建及使用.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        本文录用于EMNLP 2021。本文首先提出VoCap词表构建算法以构建更大的多语言词表，综合考虑每种语言的语言特定词汇能力及预训练语料大小为每种语言分配合适的词表大小。实验结果表明，基于VoCap方法构建的多语言词表要优于之前的方法。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@EMNLP 2021 | 预训练跨语言模型中的大词表构建及使用.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650804085&amp;idx=1&amp;sn=d06333d51698530ab326b6bd00bb2d8c&amp;chksm=8cb89a9ebbcf1388ce4954757bbe7b24fac26139a6fe049fb21174279b882adeb617fa814520&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创@EMNLP 2021 | 预训练跨语言模型中的大词表构建及使用</a>
+              
+            </h3>
+            本文录用于EMNLP 2021。本文首先提出VoCap词表构建算法以构建更大的多语言词表，综合考虑每种语言的语言特定词汇能力及预训练语料大小为每种语言分配合适的词表大小。实验结果表明，基于VoCap方法构建的多语言词表要优于之前的方法。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-12-31">2021-12-31</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-12-31">2021-12-31</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创@ACL Findings | 任务共舞，小样本场景下的多任务联合学习方法初探
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@ACL Findings | 任务共舞，小样本场景下的多任务联合学习方法初探.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        本文录用于Findings of ACL 2021。现有Few-shot模型通常一次只学习一个单一任务，如何在少样本情景下联合学习多个任务的方法还少有研究。本文针对这一问题提出了“共舞”（ConProm）模型，大幅提升了联合准确率。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@ACL Findings | 任务共舞，小样本场景下的多任务联合学习方法初探.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650803873&amp;idx=1&amp;sn=ec042e4ab2e9f378cdc19d8ba7cabf46&amp;chksm=8cb89b4abbcf125c41a6a0f60f73744674d566716e9c9ae312137640ea0582617b9f9ce7290d&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创@ACL Findings | 任务共舞，小样本场景下的多任务联合学习方法初探</a>
+              
+            </h3>
+            本文录用于Findings of ACL 2021。现有Few-shot模型通常一次只学习一个单一任务，如何在少样本情景下联合学习多个任务的方法还少有研究。本文针对这一问题提出了“共舞”（ConProm）模型，大幅提升了联合准确率。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-11-16">2021-11-16</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-11-16">2021-11-16</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR取得国家电网调控AI创新大赛赛道2（Text2SQL）冠军
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR取得国家电网调控AI创新大赛赛道2（Text2SQL）冠军.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        近日，来自哈工大社会计算与信息检索研究中心（HIT-SCIR）的“赛尔小队”以68.75的成绩夺得国家电网调控人工智能创新大赛-电网运行信息智能检索赛道（Text2SQL）冠军。团队成员包括窦隆绪、潘名扬、王丁子睿，指导教师为车万翔教授。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR取得国家电网调控AI创新大赛赛道2（Text2SQL）冠军.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650803868&amp;idx=1&amp;sn=d8d200a7fbe71d1b1024a8ce34f86cc2&amp;chksm=8cb89b77bbcf1261a63b4b66afc9fc61c338fe05fe6b01fed97cfe5ba165ad87a917f58e732c&amp;token=728330758&amp;lang=zh_CN#rd">哈工大SCIR取得国家电网调控AI创新大赛赛道2（Text2SQL）冠军</a>
+              
+            </h3>
+            近日，来自哈工大社会计算与信息检索研究中心（HIT-SCIR）的“赛尔小队”以68.75的成绩夺得国家电网调控人工智能创新大赛-电网运行信息智能检索赛道（Text2SQL）冠军。团队成员包括窦隆绪、潘名扬、王丁子睿，指导教师为车万翔教授。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/ping-ce/">
+                  <span class="tag is-primary">
+                    评测
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-11-13">2021-11-13</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-11-13">2021-11-13</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR博士生覃立波获2021年“微软学者”称号
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR博士生覃立波获2021年“微软学者”称号.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        我中心博士生覃立波获2021年“微软学者”称号
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/哈工大SCIR博士生覃立波获2021年“微软学者”称号.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650803760&amp;idx=1&amp;sn=d3f549fa317304aae8e5a22a650fc6d9&amp;chksm=8cb89bdbbbcf12cd13761b789aa04499db3caae2933971844eb276d35ecf17a92820e2ad422e&amp;token=728330758&amp;lang=zh_CN#rd">哈工大SCIR博士生覃立波获2021年“微软学者”称号</a>
+              
+            </h3>
+            我中心博士生覃立波获2021年“微软学者”称号
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/xue-sheng-huo-jiang/">
+                  <span class="tag is-primary">
+                    学生获奖
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-10-21">2021-10-21</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-10-21">2021-10-21</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR两位博士生景东、王宇轩顺利通过博士学位答辩
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2021&#x2F;10&#x2F;78817bf2746d6699673f00e0fb0ab718-1024x554.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        2021年9月27日上午，哈工大社会计算与信息检索研究中心两位博士生景东、王宇轩顺利通过博士学位论文答辩。秦兵教授担任答辩委员会主席。
+
+王宇轩博士论文题目为《中文语义依存图分析技术及应用研究》，导师为车万翔教授，研究方向为自然语言处理、依...
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2021&#x2F;10&#x2F;78817bf2746d6699673f00e0fb0ab718-1024x554.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;3714.html">哈工大SCIR两位博士生景东、王宇轩顺利通过博士学位答辩</a>
+              
+            </h3>
+            2021年9月27日上午，哈工大社会计算与信息检索研究中心两位博士生景东、王宇轩顺利通过博士学位论文答辩。秦兵教授担任答辩委员会主席。
+
+王宇轩博士论文题目为《中文语义依存图分析技术及应用研究》，导师为车万翔教授，研究方向为自然语言处理、依...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/bo-shi-bi-ye/">
+                  <span class="tag is-primary">
+                    博士毕业
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-10-11">2021-10-11</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-10-11">2021-10-11</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR博士生徐俊顺利通过博士学位答辩
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2021&#x2F;09&#x2F;69264b810deb4a55037814734677f568-300x117.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        2021年9月26日上午，哈工大社会计算与信息检索研究中心博士生徐俊顺利通过博士学位论文答辩。计算学部秦兵教授担任答辩委员会主席。
+
+徐俊博士导师为王海峰教授，副导师为车万翔教授，研究方向为自然语言处理、开放域对话系统。徐俊博士论文题目为《...
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;wp-content&#x2F;uploads&#x2F;2021&#x2F;09&#x2F;69264b810deb4a55037814734677f568-300x117.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;3704.html">哈工大SCIR博士生徐俊顺利通过博士学位答辩</a>
+              
+            </h3>
+            2021年9月26日上午，哈工大社会计算与信息检索研究中心博士生徐俊顺利通过博士学位论文答辩。计算学部秦兵教授担任答辩委员会主席。
+
+徐俊博士导师为王海峰教授，副导师为车万翔教授，研究方向为自然语言处理、开放域对话系统。徐俊博士论文题目为《...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/bo-shi-bi-ye/">
+                  <span class="tag is-primary">
+                    博士毕业
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-09-28">2021-09-28</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-09-28">2021-09-28</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          哈工大SCIR 6篇主会&#x2F;2篇Findings&#x2F;1篇Demo 共9篇长文被EMNLP 2021录用
+          
+        </h3>
+      </header>
+
+      
+
+      <div class="card-content is-hidden-tablet">
+        EMNLP 2021（The 2021 Conference on Empirical Methods in Natural Language Processing）将于2021年11月7日至11日以在线会议的形式举办。EMNLP是计算语言...
+      </div>
+
+      <article class="media">
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="http:&#x2F;&#x2F;ir.hit.edu.cn&#x2F;3677.html">哈工大SCIR 6篇主会&#x2F;2篇Findings&#x2F;1篇Demo 共9篇长文被EMNLP 2021录用</a>
+              
+            </h3>
+            EMNLP 2021（The 2021 Conference on Empirical Methods in Natural Language Processing）将于2021年11月7日至11日以在线会议的形式举办。EMNLP是计算语言...
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-fa-biao/">
+                  <span class="tag is-primary">
+                    论文发表
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-09-15">2021-09-15</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-09-15">2021-09-15</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创 | 首个任务型对话系统中生成模块资源库Awesome-TOD-NLG-Survey开源！
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | 首个任务型对话系统中生成模块资源库Awesome-TOD-NLG-Survey开源！.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        我们整理开源了一个仓库，详细、全面地总结了 NLG 领域发展过程中的工作，包括方法分类和相关的开源资源，并且涵盖了一些前沿方向的讨论。我们希望该工作能够对促进该领域发展贡献力量，也相信该资源库值得对 NLG 领域感兴趣的同学们了解和关注。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创 | 首个任务型对话系统中生成模块资源库Awesome-TOD-NLG-Survey开源！.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650803277&amp;idx=1&amp;sn=808e85eb2905e50a5b347974ee591ce3&amp;chksm=8cb899a6bbcf10b03a2cae94d21f53ec818639c8542381b5c8bba0647f9f0a7ac5f55f477e29&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创 | 首个任务型对话系统中生成模块资源库Awesome-TOD-NLG-Survey开源！</a>
+              
+            </h3>
+            我们整理开源了一个仓库，详细、全面地总结了 NLG 领域发展过程中的工作，包括方法分类和相关的开源资源，并且涵盖了一些前沿方向的讨论。我们希望该工作能够对促进该领域发展贡献力量，也相信该资源库值得对 NLG 领域感兴趣的同学们了解和关注。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-09-07">2021-09-07</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-09-07">2021-09-07</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          赛尔原创@ACL 2021 | 开放域对话结构发现
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@ACL 2021 | 开放域对话结构发现.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        本文录用于ACL 2021。本文设计了一种自监督的对话结构发现模型。实验结果表明，自监督的DVAE-GNN模型能发现有意义的层次化对话结构，且对话结构图对于提升多轮对话连贯性等有重要作用。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/赛尔原创@ACL 2021 | 开放域对话结构发现.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650803003&amp;idx=1&amp;sn=f648bb5d78be4ae2edcd8dfd80a53b14&amp;chksm=8cb89ed0bbcf17c654d164d10d44ae6637bb2a23c887940f8a7e55b245f0c8c44551bfe809f1&amp;token=728330758&amp;lang=zh_CN#rd">赛尔原创@ACL 2021 | 开放域对话结构发现</a>
+              
+            </h3>
+            本文录用于ACL 2021。本文设计了一种自监督的对话结构发现模型。实验结果表明，自监督的DVAE-GNN模型能发现有意义的层次化对话结构，且对话结构图对于提升多轮对话连贯性等有重要作用。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/lun-wen-tui-jian/">
+                  <span class="tag is-primary">
+                    论文推荐
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-08-06">2021-08-06</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-08-06">2021-08-06</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+
+    <div class="box card">
+      <header class="is-hidden-tablet">
+        <h3 class="title is-4">
+          
+          CCL2021学生研讨会！如何诞生Idea！如何跟审稿人Rebuttal！如何写自己的第一篇顶会文章等抢先看！
+          
+        </h3>
+      </header>
+
+      
+      <div class="card-image is-hidden-tablet">
+        <figure class="image is-1by1" style="overflow: hidden;">
+          
+          <img src="/images/news/CCL2021学生研讨会！如何诞生Idea！如何跟审稿人Rebuttal！如何写自己的第一篇顶会文章等抢先看！.jpg" style="height: auto; margin: auto;">
+          
+        </figure>
+      </div>
+      
+
+      <div class="card-content is-hidden-tablet">
+        CCL2021学生研讨会将于8月13日精彩呈现。我中心博士生覃立波担任本次研讨会的联合主席，并且带来题为浅谈科研中第一个Idea的诞生历程的报告；我中心博士生冯夏冲主持Panel讨论，浅谈科研的那些事。
+      </div>
+
+      <article class="media">
+        
+        <figure class="media-left is-flex is-justify-content-center is-hidden-mobile image is-128x128" style="overflow: hidden;">
+          
+          <img src="/images/news/CCL2021学生研讨会！如何诞生Idea！如何跟审稿人Rebuttal！如何写自己的第一篇顶会文章等抢先看！.jpg" style="width: auto; margin: auto;">
+          
+        </figure>
+        
+        <div class="media-content">
+          <div class="content is-hidden-mobile">
+            <h3 class="subtitle">
+              
+              <a href="https:&#x2F;&#x2F;mp.weixin.qq.com&#x2F;s?__biz=MzIxMjAzNDY5Mg==&amp;mid=2650802956&amp;idx=1&amp;sn=405f0093f005beb0de163cf22ed50907&amp;chksm=8cb89ee7bbcf17f1f5a4210fac28c666e50e6c7e08e9058345c41491bc27df6b0b48d02467a8&amp;token=728330758&amp;lang=zh_CN#rd">CCL2021学生研讨会！如何诞生Idea！如何跟审稿人Rebuttal！如何写自己的第一篇顶会文章等抢先看！</a>
+              
+            </h3>
+            CCL2021学生研讨会将于8月13日精彩呈现。我中心博士生覃立波担任本次研讨会的联合主席，并且带来题为浅谈科研中第一个Idea的诞生历程的报告；我中心博士生冯夏冲主持Panel讨论，浅谈科研的那些事。
+          </div>
+          <nav class="level">
+            <div class="level-left">
+              
+              
+              <div class="level-item">
+                <a href="/news-type/xue-shu-jiao-liu/">
+                  <span class="tag is-primary">
+                    学术交流
+                  </span>
+                </a>
+              </div>
+              
+              
+            </div>
+            <div class="level-right is-hidden-tablet">
+              
+              <div class="level-item">
+                
+                <time datetime="2021-07-31">2021-07-31</time>
+                
+              </div>
+
+              
+
+              
+            </div>
+          </nav>
+        </div>
+        <div class="media-right is-hidden-mobile">
+          
+          <div class="level-item">
+            
+            <time datetime="2021-07-31">2021-07-31</time>
+            
+          </div>
+
+          
+
+          
+        </div>
+      </article>
+    </div>
+    
+    
+
+    
+    
+
+    
+
+    
+    <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+      
+      <a class="pagination-previous" href="&#x2F;news&#x2F;page&#x2F;4&#x2F;">‹ Previous</a>
+      
+      
+      <a class="pagination-next" href="&#x2F;news&#x2F;page&#x2F;6&#x2F;">Next ›</a>
+      
+      <ul class="pagination-list">
+        
+
+        
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;">1</a></li>
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        
+
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;4&#x2F;">4</a></li>
+        
+        <li><a class="pagination-link is-current" aria-current="page">5</a></li>
+        
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;6&#x2F;">6</a></li>
+
+        
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        <li><a class="pagination-link" href="&#x2F;news&#x2F;page&#x2F;12&#x2F;">12</a></li>
+        
+
+        
+      </ul>
+    </nav>
+    
+  </section>
+</div>
+
+
+    <!-- Content -->
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2022 SCIR-LA in HIT 阿龙开发
+      </p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+
+    });
+  </script>
+</body>
+
+</html>

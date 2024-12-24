@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - AAAI</title>
+    <link rel="self" type="application/atom+xml" href="/publisher/aaai/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-01T00:00:00+00:00</updated>
+    <id>/publisher/aaai/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Exploring Equation as a Better Intermediate Meaning Representation for Numerical Reasoning of Large Language Models</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-exploring-equation-as-a-better-intermediate-meaning-representation-for-numerical-reasoning-of-large-language-models/"/>
+        <id>/publications/2024-exploring-equation-as-a-better-intermediate-meaning-representation-for-numerical-reasoning-of-large-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2024-exploring-equation-as-a-better-intermediate-meaning-representation-for-numerical-reasoning-of-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Semantic-Guided Generative Image Augmentation Method with Diffusion Models for Image Classification</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/"/>
+        <id>/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/</id>
+        
+        <content type="html" xml:base="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BridgeTower Building Bridges Between Encoders in Vision-Language Representation Learning</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-bridgetower-building-bridges-between-encoders-in-vision-language-representation-learning/"/>
+        <id>/publications/2023-bridgetower-building-bridges-between-encoders-in-vision-language-representation-learning/</id>
+        
+        <content type="html" xml:base="/publications/2023-bridgetower-building-bridges-between-encoders-in-vision-language-representation-learning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Text Is No More Enough A Benchmark for Profile-Based Spoken Language Understanding</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-text-is-no-more-enough-a-benchmark-for-profile-based-spoken-language-understanding/"/>
+        <id>/publications/2022-text-is-no-more-enough-a-benchmark-for-profile-based-spoken-language-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2022-text-is-no-more-enough-a-benchmark-for-profile-based-spoken-language-understanding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>C2c-genda Cluster-to-cluster generation for data augmentation of slot filling</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/"/>
+        <id>/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/</id>
+        
+        <content type="html" xml:base="/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Few-shot learning for multi-label intent detection</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-few-shot-learning-for-multi-label-intent-detection/"/>
+        <id>/publications/2021-few-shot-learning-for-multi-label-intent-detection/</id>
+        
+        <content type="html" xml:base="/publications/2021-few-shot-learning-for-multi-label-intent-detection/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Dcr-net A deep co-interactive relation network for joint dialog act recognition and sentiment classification</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-dcr-net-a-deep-co-interactive-relation-network-for-joint-dialog-act-recognition-and-sentiment-classification/"/>
+        <id>/publications/2020-dcr-net-a-deep-co-interactive-relation-network-for-joint-dialog-act-recognition-and-sentiment-classification/</id>
+        
+        <content type="html" xml:base="/publications/2020-dcr-net-a-deep-co-interactive-relation-network-for-joint-dialog-act-recognition-and-sentiment-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Discriminative Sentence Modeling for Story Ending Prediction</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-discriminative-sentence-modeling-for-story-ending-prediction/"/>
+        <id>/publications/2020-discriminative-sentence-modeling-for-story-ending-prediction/</id>
+        
+        <content type="html" xml:base="/publications/2020-discriminative-sentence-modeling-for-story-ending-prediction/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Knowledge graph grounded goal planning for open-domain conversation generation</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-knowledge-graph-grounded-goal-planning-for-open-domain-conversation-generation/"/>
+        <id>/publications/2020-knowledge-graph-grounded-goal-planning-for-open-domain-conversation-generation/</id>
+        
+        <content type="html" xml:base="/publications/2020-knowledge-graph-grounded-goal-planning-for-open-domain-conversation-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Multi-task self-supervised learning for disfluency detection</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-multi-task-self-supervised-learning-for-disfluency-detection/"/>
+        <id>/publications/2020-multi-task-self-supervised-learning-for-disfluency-detection/</id>
+        
+        <content type="html" xml:base="/publications/2020-multi-task-self-supervised-learning-for-disfluency-detection/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Understanding medical conversations with scattered keyword attention and weak supervision from responses</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-understanding-medical-conversations-with-scattered-keyword-attention-and-weak-supervision-from-responses/"/>
+        <id>/publications/2020-understanding-medical-conversations-with-scattered-keyword-attention-and-weak-supervision-from-responses/</id>
+        
+        <content type="html" xml:base="/publications/2020-understanding-medical-conversations-with-scattered-keyword-attention-and-weak-supervision-from-responses/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Neural Transition-Based Approach for Semantic Dependency Graph Parsing</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-a-neural-transition-based-approach-for-semantic-dependency-graph-parsing/"/>
+        <id>/publications/2018-a-neural-transition-based-approach-for-semantic-dependency-graph-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2018-a-neural-transition-based-approach-for-semantic-dependency-graph-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Representation Learning Framework for Multi-Source Transfer Parsing</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-a-representation-learning-framework-for-multi-source-transfer-parsing/"/>
+        <id>/publications/2016-a-representation-learning-framework-for-multi-source-transfer-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2016-a-representation-learning-framework-for-multi-source-transfer-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Effective Bilingual Constraints for Semi-Supervised Learning of NamedEntity Recognizers</title>
+        <published>2013-01-01T00:00:00+00:00</published>
+        <updated>2013-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2013-effective-bilingual-constraints-for-semi-supervised-learning-of-namedentity-recognizers/"/>
+        <id>/publications/2013-effective-bilingual-constraints-for-semi-supervised-learning-of-namedentity-recognizers/</id>
+        
+        <content type="html" xml:base="/publications/2013-effective-bilingual-constraints-for-semi-supervised-learning-of-namedentity-recognizers/"></content>
+        
+    </entry>
+</feed>

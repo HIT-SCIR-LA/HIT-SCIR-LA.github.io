@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - 硕士毕业</title>
+    <link rel="self" type="application/atom+xml" href="/news-type/shuo-shi-bi-ye/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-05-31T00:00:00+00:00</updated>
+    <id>/news-type/shuo-shi-bi-ye/atom.xml</id>
+    <entry xml:lang="en">
+        <title>哈工大SCIR 2023届29名同学顺利通过硕士答辩</title>
+        <published>2023-05-31T00:00:00+00:00</published>
+        <updated>2023-05-31T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scir-2023jie-29ming-tong-xue-shun-li-tong-guo-shuo-shi-da-bian/"/>
+        <id>/news/ha-gong-da-scir-2023jie-29ming-tong-xue-shun-li-tong-guo-shuo-shi-da-bian/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scir-2023jie-29ming-tong-xue-shun-li-tong-guo-shuo-shi-da-bian/"></content>
+        
+    </entry>
+</feed>
