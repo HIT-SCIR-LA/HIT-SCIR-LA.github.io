@@ -1,65 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Niu Zheng-Yu</title>
-	<link href="/authors/niu-zheng-yu/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-01-01T00:00:00+00:00</updated>
-	<id>/authors/niu-zheng-yu/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Graph-Grounded Goal Planning for Conversational Recommendation</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/" type="text/html"/>
-		<id>/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Discovering Dialog Structure Graph for Coherent Dialog Generation</title>
-		<published>2021-01-01T00:00:00+00:00</published>
-		<updated>2021-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/" type="text/html"/>
-		<id>/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Durecdial 20 A bilingual parallel corpus for conversational recommendation</title>
-		<published>2021-01-01T00:00:00+00:00</published>
-		<updated>2021-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/" type="text/html"/>
-		<id>/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/" type="text/html"/>
-		<id>/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Discovering dialog structure graph for open-domain dialog generation</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/" type="text/html"/>
-		<id>/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Towards Conversational Recommendation over Multi-Type Dialogs</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/" type="text/html"/>
-		<id>/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Coherent Dialog Generation with Query Graph</title>
-		<published>2010-01-01T00:00:00+00:00</published>
-		<updated>2010-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2010-coherent-dialog-generation-with-query-graph/" type="text/html"/>
-		<id>/publications/2010-coherent-dialog-generation-with-query-graph/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Niu Zheng-Yu</title>
+    <link rel="self" type="application/atom+xml" href="/authors/niu-zheng-yu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-01-01T00:00:00+00:00</updated>
+    <id>/authors/niu-zheng-yu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Graph-Grounded Goal Planning for Conversational Recommendation</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/"/>
+        <id>/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/</id>
+        
+        <content type="html" xml:base="/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Discovering Dialog Structure Graph for Coherent Dialog Generation</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/"/>
+        <id>/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/</id>
+        
+        <content type="html" xml:base="/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Durecdial 20 A bilingual parallel corpus for conversational recommendation</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/"/>
+        <id>/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/</id>
+        
+        <content type="html" xml:base="/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/"/>
+        <id>/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/</id>
+        
+        <content type="html" xml:base="/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Discovering dialog structure graph for open-domain dialog generation</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/"/>
+        <id>/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/</id>
+        
+        <content type="html" xml:base="/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Towards Conversational Recommendation over Multi-Type Dialogs</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/"/>
+        <id>/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/</id>
+        
+        <content type="html" xml:base="/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Coherent Dialog Generation with Query Graph</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-coherent-dialog-generation-with-query-graph/"/>
+        <id>/publications/2010-coherent-dialog-generation-with-query-graph/</id>
+        
+        <content type="html" xml:base="/publications/2010-coherent-dialog-generation-with-query-graph/"></content>
+        
+    </entry>
 </feed>

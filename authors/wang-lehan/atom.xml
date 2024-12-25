@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Wang Lehan</title>
-	<link href="/authors/wang-lehan/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2023-01-01T00:00:00+00:00</updated>
-	<id>/authors/wang-lehan/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Modularized Pre-Training for End-to-End Task-Oriented Dialogue</title>
-		<published>2023-01-01T00:00:00+00:00</published>
-		<updated>2023-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/" type="text/html"/>
-		<id>/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Wang Lehan</title>
+    <link rel="self" type="application/atom+xml" href="/authors/wang-lehan/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-01T00:00:00+00:00</updated>
+    <id>/authors/wang-lehan/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Modularized Pre-Training for End-to-End Task-Oriented Dialogue</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/"/>
+        <id>/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/</id>
+        
+        <content type="html" xml:base="/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/"></content>
+        
+    </entry>
 </feed>

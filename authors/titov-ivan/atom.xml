@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Titov Ivan</title>
-	<link href="/authors/titov-ivan/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2021-01-01T00:00:00+00:00</updated>
-	<id>/authors/titov-ivan/atom.xml</id>
-	<entry xml:lang="en">
-		<title>A Closer Look into the Robustness of Neural Dependency Parsers Using Better Adversarial Examples</title>
-		<published>2021-01-01T00:00:00+00:00</published>
-		<updated>2021-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2021-a-closer-look-into-the-robustness-of-neural-dependency-parsers-using-better-adversarial-examples/" type="text/html"/>
-		<id>/publications/2021-a-closer-look-into-the-robustness-of-neural-dependency-parsers-using-better-adversarial-examples/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Titov Ivan</title>
+    <link rel="self" type="application/atom+xml" href="/authors/titov-ivan/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-01-01T00:00:00+00:00</updated>
+    <id>/authors/titov-ivan/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Closer Look into the Robustness of Neural Dependency Parsers Using Better Adversarial Examples</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-a-closer-look-into-the-robustness-of-neural-dependency-parsers-using-better-adversarial-examples/"/>
+        <id>/publications/2021-a-closer-look-into-the-robustness-of-neural-dependency-parsers-using-better-adversarial-examples/</id>
+        
+        <content type="html" xml:base="/publications/2021-a-closer-look-into-the-robustness-of-neural-dependency-parsers-using-better-adversarial-examples/"></content>
+        
+    </entry>
 </feed>

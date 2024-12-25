@@ -1,41 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - SemEval</title>
-	<link href="/publisher/semeval/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2021-01-01T00:00:00+00:00</updated>
-	<id>/publisher/semeval/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Adversarial Training for Machine Reading Comprehension with Virtual Embeddings</title>
-		<published>2021-01-01T00:00:00+00:00</published>
-		<updated>2021-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2021-adversarial-training-for-machine-reading-comprehension-with-virtual-embeddings/" type="text/html"/>
-		<id>/publications/2021-adversarial-training-for-machine-reading-comprehension-with-virtual-embeddings/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>SemEval-2012 Task 5 Chinese Semantic Dependency Parsing</title>
-		<published>2012-01-01T00:00:00+00:00</published>
-		<updated>2012-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2012-semeval-2012-task-5-chinese-semantic-dependency-parsing/" type="text/html"/>
-		<id>/publications/2012-semeval-2012-task-5-chinese-semantic-dependency-parsing/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>HIT-CIR An Unsupervised WSD System Based on Domain Most Frequent Sense Estimation</title>
-		<published>2010-01-01T00:00:00+00:00</published>
-		<updated>2010-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2010-hit-cir-an-unsupervised-wsd-system-based-on-domain-most-frequent-sense-estimation/" type="text/html"/>
-		<id>/publications/2010-hit-cir-an-unsupervised-wsd-system-based-on-domain-most-frequent-sense-estimation/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>HIT-IR-WSD A WSD System for English Lexical Sample Task</title>
-		<published>2007-01-01T00:00:00+00:00</published>
-		<updated>2007-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2007-hit-ir-wsd-a-wsd-system-for-english-lexical-sample-task/" type="text/html"/>
-		<id>/publications/2007-hit-ir-wsd-a-wsd-system-for-english-lexical-sample-task/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - SemEval</title>
+    <link rel="self" type="application/atom+xml" href="/publisher/semeval/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-01-01T00:00:00+00:00</updated>
+    <id>/publisher/semeval/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Adversarial Training for Machine Reading Comprehension with Virtual Embeddings</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-adversarial-training-for-machine-reading-comprehension-with-virtual-embeddings/"/>
+        <id>/publications/2021-adversarial-training-for-machine-reading-comprehension-with-virtual-embeddings/</id>
+        
+        <content type="html" xml:base="/publications/2021-adversarial-training-for-machine-reading-comprehension-with-virtual-embeddings/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SemEval-2012 Task 5 Chinese Semantic Dependency Parsing</title>
+        <published>2012-01-01T00:00:00+00:00</published>
+        <updated>2012-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2012-semeval-2012-task-5-chinese-semantic-dependency-parsing/"/>
+        <id>/publications/2012-semeval-2012-task-5-chinese-semantic-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2012-semeval-2012-task-5-chinese-semantic-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>HIT-CIR An Unsupervised WSD System Based on Domain Most Frequent Sense Estimation</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2010-hit-cir-an-unsupervised-wsd-system-based-on-domain-most-frequent-sense-estimation/"/>
+        <id>/publications/2010-hit-cir-an-unsupervised-wsd-system-based-on-domain-most-frequent-sense-estimation/</id>
+        
+        <content type="html" xml:base="/publications/2010-hit-cir-an-unsupervised-wsd-system-based-on-domain-most-frequent-sense-estimation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>HIT-IR-WSD A WSD System for English Lexical Sample Task</title>
+        <published>2007-01-01T00:00:00+00:00</published>
+        <updated>2007-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2007-hit-ir-wsd-a-wsd-system-for-english-lexical-sample-task/"/>
+        <id>/publications/2007-hit-ir-wsd-a-wsd-system-for-english-lexical-sample-task/</id>
+        
+        <content type="html" xml:base="/publications/2007-hit-ir-wsd-a-wsd-system-for-english-lexical-sample-task/"></content>
+        
+    </entry>
 </feed>

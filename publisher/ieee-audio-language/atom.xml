@@ -1,57 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - IEEE&#x2F;AUDIO&#x2F;LANGUAGE</title>
-	<link href="/publisher/ieee-audio-language/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-01-01T00:00:00+00:00</updated>
-	<id>/publisher/ieee-audio-language/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Teaching machines to read answer and explain</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-teaching-machines-to-read-answer-and-explain/" type="text/html"/>
-		<id>/publications/2022-teaching-machines-to-read-answer-and-explain/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Knowing where to leverage Context-aware graph convolutional network with an adaptive fusion layer for contextual spoken language understanding</title>
-		<published>2021-01-01T00:00:00+00:00</published>
-		<updated>2021-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2021-knowing-where-to-leverage-context-aware-graph-convolutional-network-with-an-adaptive-fusion-layer-for-contextual-spoken-lan/" type="text/html"/>
-		<id>/publications/2021-knowing-where-to-leverage-context-aware-graph-convolutional-network-with-an-adaptive-fusion-layer-for-contextual-spoken-lan/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Exploring segment representations for neural semi-Markov conditional random fields</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-exploring-segment-representations-for-neural-semi-markov-conditional-random-fields/" type="text/html"/>
-		<id>/publications/2020-exploring-segment-representations-for-neural-semi-markov-conditional-random-fields/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Sentence compression for aspect-based sentiment analysis</title>
-		<published>2015-01-01T00:00:00+00:00</published>
-		<updated>2015-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2015-sentence-compression-for-aspect-based-sentiment-analysis/" type="text/html"/>
-		<id>/publications/2015-sentence-compression-for-aspect-based-sentiment-analysis/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Joint optimization for Chinese pos tagging and dependency parsing</title>
-		<published>2013-01-01T00:00:00+00:00</published>
-		<updated>2013-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2013-joint-optimization-for-chinese-pos-tagging-and-dependency-parsing/" type="text/html"/>
-		<id>/publications/2013-joint-optimization-for-chinese-pos-tagging-and-dependency-parsing/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Semantic role labeling using a grammar-driven convolution tree kernel</title>
-		<published>2008-01-01T00:00:00+00:00</published>
-		<updated>2008-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/" type="text/html"/>
-		<id>/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - IEEE&#x2F;AUDIO&#x2F;LANGUAGE</title>
+    <link rel="self" type="application/atom+xml" href="/publisher/ieee-audio-language/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-01-01T00:00:00+00:00</updated>
+    <id>/publisher/ieee-audio-language/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Teaching machines to read answer and explain</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-teaching-machines-to-read-answer-and-explain/"/>
+        <id>/publications/2022-teaching-machines-to-read-answer-and-explain/</id>
+        
+        <content type="html" xml:base="/publications/2022-teaching-machines-to-read-answer-and-explain/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Knowing where to leverage Context-aware graph convolutional network with an adaptive fusion layer for contextual spoken language understanding</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-knowing-where-to-leverage-context-aware-graph-convolutional-network-with-an-adaptive-fusion-layer-for-contextual-spoken-lan/"/>
+        <id>/publications/2021-knowing-where-to-leverage-context-aware-graph-convolutional-network-with-an-adaptive-fusion-layer-for-contextual-spoken-lan/</id>
+        
+        <content type="html" xml:base="/publications/2021-knowing-where-to-leverage-context-aware-graph-convolutional-network-with-an-adaptive-fusion-layer-for-contextual-spoken-lan/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Exploring segment representations for neural semi-Markov conditional random fields</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-exploring-segment-representations-for-neural-semi-markov-conditional-random-fields/"/>
+        <id>/publications/2020-exploring-segment-representations-for-neural-semi-markov-conditional-random-fields/</id>
+        
+        <content type="html" xml:base="/publications/2020-exploring-segment-representations-for-neural-semi-markov-conditional-random-fields/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sentence compression for aspect-based sentiment analysis</title>
+        <published>2015-01-01T00:00:00+00:00</published>
+        <updated>2015-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2015-sentence-compression-for-aspect-based-sentiment-analysis/"/>
+        <id>/publications/2015-sentence-compression-for-aspect-based-sentiment-analysis/</id>
+        
+        <content type="html" xml:base="/publications/2015-sentence-compression-for-aspect-based-sentiment-analysis/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Joint optimization for Chinese pos tagging and dependency parsing</title>
+        <published>2013-01-01T00:00:00+00:00</published>
+        <updated>2013-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2013-joint-optimization-for-chinese-pos-tagging-and-dependency-parsing/"/>
+        <id>/publications/2013-joint-optimization-for-chinese-pos-tagging-and-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2013-joint-optimization-for-chinese-pos-tagging-and-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Semantic role labeling using a grammar-driven convolution tree kernel</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/"/>
+        <id>/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/</id>
+        
+        <content type="html" xml:base="/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/"></content>
+        
+    </entry>
 </feed>

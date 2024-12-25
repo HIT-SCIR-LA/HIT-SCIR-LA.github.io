@@ -1,41 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Teng Dechuan</title>
-	<link href="/authors/teng-dechuan/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2024-01-01T00:00:00+00:00</updated>
-	<id>/authors/teng-dechuan/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement</title>
-		<published>2024-01-01T00:00:00+00:00</published>
-		<updated>2024-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/" type="text/html"/>
-		<id>/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Injecting word information with multi-level word adapter for chinese spoken language understanding</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-injecting-word-information-with-multi-level-word-adapter-for-chinese-spoken-language-understanding/" type="text/html"/>
-		<id>/publications/2020-injecting-word-information-with-multi-level-word-adapter-for-chinese-spoken-language-understanding/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Chinese Grammatical Error Diagnosis using Statistical and Prior Knowledge driven Features with Probabilistic Ensemble Enhancement</title>
-		<published>2018-01-01T00:00:00+00:00</published>
-		<updated>2018-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/" type="text/html"/>
-		<id>/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>The HIT-SCIR System for End-to-End Parsing of Universal Dependencies</title>
-		<published>2017-01-01T00:00:00+00:00</published>
-		<updated>2017-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/" type="text/html"/>
-		<id>/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Teng Dechuan</title>
+    <link rel="self" type="application/atom+xml" href="/authors/teng-dechuan/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-01T00:00:00+00:00</updated>
+    <id>/authors/teng-dechuan/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/"/>
+        <id>/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/</id>
+        
+        <content type="html" xml:base="/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Injecting word information with multi-level word adapter for chinese spoken language understanding</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-injecting-word-information-with-multi-level-word-adapter-for-chinese-spoken-language-understanding/"/>
+        <id>/publications/2020-injecting-word-information-with-multi-level-word-adapter-for-chinese-spoken-language-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2020-injecting-word-information-with-multi-level-word-adapter-for-chinese-spoken-language-understanding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chinese Grammatical Error Diagnosis using Statistical and Prior Knowledge driven Features with Probabilistic Ensemble Enhancement</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/"/>
+        <id>/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/</id>
+        
+        <content type="html" xml:base="/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The HIT-SCIR System for End-to-End Parsing of Universal Dependencies</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/"/>
+        <id>/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/</id>
+        
+        <content type="html" xml:base="/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/"></content>
+        
+    </entry>
 </feed>

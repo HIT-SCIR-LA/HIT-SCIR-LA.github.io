@@ -1,49 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - IJCAI</title>
-	<link href="/publisher/ijcai/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2020-01-01T00:00:00+00:00</updated>
-	<id>/publisher/ijcai/atom.xml</id>
-	<entry xml:lang="en">
-		<title>CoSDA-ML Multi-Lingual Code-Switching Data Augmentation for Zero-ShotCross-Lingual NLP</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-cosda-ml-multi-lingual-code-switching-data-augmentation-for-zero-shotcross-lingual-nlp/" type="text/html"/>
-		<id>/publications/2020-cosda-ml-multi-lingual-code-switching-data-augmentation-for-zero-shotcross-lingual-nlp/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Enhancing Dialog Coherence with Event Graph Grounded Content Planning</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-enhancing-dialog-coherence-with-event-graph-grounded-content-planning/" type="text/html"/>
-		<id>/publications/2020-enhancing-dialog-coherence-with-event-graph-grounded-content-planning/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Joint Extraction of Entities and Relations Based on a Novel GraphScheme</title>
-		<published>2018-01-01T00:00:00+00:00</published>
-		<updated>2018-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/" type="text/html"/>
-		<id>/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Exploring Segment Representations for Neural Segmentation Models</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-exploring-segment-representations-for-neural-segmentation-models/" type="text/html"/>
-		<id>/publications/2016-exploring-segment-representations-for-neural-segmentation-models/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>HC-Search for Incremental Parsing</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-hc-search-for-incremental-parsing/" type="text/html"/>
-		<id>/publications/2016-hc-search-for-incremental-parsing/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - IJCAI</title>
+    <link rel="self" type="application/atom+xml" href="/publisher/ijcai/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2020-01-01T00:00:00+00:00</updated>
+    <id>/publisher/ijcai/atom.xml</id>
+    <entry xml:lang="en">
+        <title>CoSDA-ML Multi-Lingual Code-Switching Data Augmentation for Zero-ShotCross-Lingual NLP</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-cosda-ml-multi-lingual-code-switching-data-augmentation-for-zero-shotcross-lingual-nlp/"/>
+        <id>/publications/2020-cosda-ml-multi-lingual-code-switching-data-augmentation-for-zero-shotcross-lingual-nlp/</id>
+        
+        <content type="html" xml:base="/publications/2020-cosda-ml-multi-lingual-code-switching-data-augmentation-for-zero-shotcross-lingual-nlp/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Enhancing Dialog Coherence with Event Graph Grounded Content Planning</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-enhancing-dialog-coherence-with-event-graph-grounded-content-planning/"/>
+        <id>/publications/2020-enhancing-dialog-coherence-with-event-graph-grounded-content-planning/</id>
+        
+        <content type="html" xml:base="/publications/2020-enhancing-dialog-coherence-with-event-graph-grounded-content-planning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Joint Extraction of Entities and Relations Based on a Novel GraphScheme</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/"/>
+        <id>/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/</id>
+        
+        <content type="html" xml:base="/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Exploring Segment Representations for Neural Segmentation Models</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-exploring-segment-representations-for-neural-segmentation-models/"/>
+        <id>/publications/2016-exploring-segment-representations-for-neural-segmentation-models/</id>
+        
+        <content type="html" xml:base="/publications/2016-exploring-segment-representations-for-neural-segmentation-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>HC-Search for Incremental Parsing</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-hc-search-for-incremental-parsing/"/>
+        <id>/publications/2016-hc-search-for-incremental-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2016-hc-search-for-incremental-parsing/"></content>
+        
+    </entry>
 </feed>

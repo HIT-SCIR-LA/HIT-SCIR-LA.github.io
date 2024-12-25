@@ -1,41 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Aw AiTi</title>
-	<link href="/authors/aw-aiti/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2008-01-01T00:00:00+00:00</updated>
-	<id>/authors/aw-aiti/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Fast Computing Grammar-driven Convolution Tree Kernel for Semantic Role Labeling</title>
-		<published>2008-01-01T00:00:00+00:00</published>
-		<updated>2008-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/" type="text/html"/>
-		<id>/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Semantic role labeling using a grammar-driven convolution tree kernel</title>
-		<published>2008-01-01T00:00:00+00:00</published>
-		<updated>2008-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/" type="text/html"/>
-		<id>/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Using a hybrid convolution tree kernel for semantic role labeling</title>
-		<published>2008-01-01T00:00:00+00:00</published>
-		<updated>2008-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/" type="text/html"/>
-		<id>/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>A Grammar-driven Convolution Tree Kernel for Semantic Role Classification</title>
-		<published>2007-01-01T00:00:00+00:00</published>
-		<updated>2007-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2007-a-grammar-driven-convolution-tree-kernel-for-semantic-role-classification/" type="text/html"/>
-		<id>/publications/2007-a-grammar-driven-convolution-tree-kernel-for-semantic-role-classification/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Aw AiTi</title>
+    <link rel="self" type="application/atom+xml" href="/authors/aw-aiti/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2008-01-01T00:00:00+00:00</updated>
+    <id>/authors/aw-aiti/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Fast Computing Grammar-driven Convolution Tree Kernel for Semantic Role Labeling</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/"/>
+        <id>/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/</id>
+        
+        <content type="html" xml:base="/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Semantic role labeling using a grammar-driven convolution tree kernel</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/"/>
+        <id>/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/</id>
+        
+        <content type="html" xml:base="/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Using a hybrid convolution tree kernel for semantic role labeling</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/"/>
+        <id>/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/</id>
+        
+        <content type="html" xml:base="/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Grammar-driven Convolution Tree Kernel for Semantic Role Classification</title>
+        <published>2007-01-01T00:00:00+00:00</published>
+        <updated>2007-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2007-a-grammar-driven-convolution-tree-kernel-for-semantic-role-classification/"/>
+        <id>/publications/2007-a-grammar-driven-convolution-tree-kernel-for-semantic-role-classification/</id>
+        
+        <content type="html" xml:base="/publications/2007-a-grammar-driven-convolution-tree-kernel-for-semantic-role-classification/"></content>
+        
+    </entry>
 </feed>

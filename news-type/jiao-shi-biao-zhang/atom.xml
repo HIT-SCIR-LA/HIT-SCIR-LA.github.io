@@ -1,33 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - 教师表彰</title>
-	<link href="/news-type/jiao-shi-biao-zhang/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2024-08-20T00:00:00+00:00</updated>
-	<id>/news-type/jiao-shi-biao-zhang/atom.xml</id>
-	<entry xml:lang="en">
-		<title>哈工大SCIR车万翔教授当选ACL 2025程序委员会主席</title>
-		<published>2024-08-20T00:00:00+00:00</published>
-		<updated>2024-08-20T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scirche-mo-xiang-jiao-shou-dang-xuan-acl-2025cheng-xu-wei-yuan-hui-zhu-xi/" type="text/html"/>
-		<id>/news/ha-gong-da-scirche-mo-xiang-jiao-shou-dang-xuan-acl-2025cheng-xu-wei-yuan-hui-zhu-xi/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR车万翔教授入选2019年度“龙江学者”青年学者</title>
-		<published>2019-12-23T00:00:00+00:00</published>
-		<updated>2019-12-23T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scirche-mo-xiang-jiao-shou-ru-xuan-2019nian-du-long-jiang-xue-zhe-qing-nian-xue-zhe/" type="text/html"/>
-		<id>/news/ha-gong-da-scirche-mo-xiang-jiao-shou-ru-xuan-2019nian-du-long-jiang-xue-zhe-qing-nian-xue-zhe/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>祝贺我中心车万翔老师晋升教授</title>
-		<published>2018-03-21T00:00:00+00:00</published>
-		<updated>2018-03-21T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/zhu-he-wo-zhong-xin-che-mo-xiang-lao-shi-jin-sheng-jiao-shou/" type="text/html"/>
-		<id>/news/zhu-he-wo-zhong-xin-che-mo-xiang-lao-shi-jin-sheng-jiao-shou/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - 教师表彰</title>
+    <link rel="self" type="application/atom+xml" href="/news-type/jiao-shi-biao-zhang/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-08-20T00:00:00+00:00</updated>
+    <id>/news-type/jiao-shi-biao-zhang/atom.xml</id>
+    <entry xml:lang="en">
+        <title>哈工大SCIR车万翔教授当选ACL 2025程序委员会主席</title>
+        <published>2024-08-20T00:00:00+00:00</published>
+        <updated>2024-08-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirche-mo-xiang-jiao-shou-dang-xuan-acl-2025cheng-xu-wei-yuan-hui-zhu-xi/"/>
+        <id>/news/ha-gong-da-scirche-mo-xiang-jiao-shou-dang-xuan-acl-2025cheng-xu-wei-yuan-hui-zhu-xi/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scirche-mo-xiang-jiao-shou-dang-xuan-acl-2025cheng-xu-wei-yuan-hui-zhu-xi/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR车万翔教授入选2019年度“龙江学者”青年学者</title>
+        <published>2019-12-23T00:00:00+00:00</published>
+        <updated>2019-12-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirche-mo-xiang-jiao-shou-ru-xuan-2019nian-du-long-jiang-xue-zhe-qing-nian-xue-zhe/"/>
+        <id>/news/ha-gong-da-scirche-mo-xiang-jiao-shou-ru-xuan-2019nian-du-long-jiang-xue-zhe-qing-nian-xue-zhe/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scirche-mo-xiang-jiao-shou-ru-xuan-2019nian-du-long-jiang-xue-zhe-qing-nian-xue-zhe/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>祝贺我中心车万翔老师晋升教授</title>
+        <published>2018-03-21T00:00:00+00:00</published>
+        <updated>2018-03-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/zhu-he-wo-zhong-xin-che-mo-xiang-lao-shi-jin-sheng-jiao-shou/"/>
+        <id>/news/zhu-he-wo-zhong-xin-che-mo-xiang-lao-shi-jin-sheng-jiao-shou/</id>
+        
+        <content type="html" xml:base="/news/zhu-he-wo-zhong-xin-che-mo-xiang-lao-shi-jin-sheng-jiao-shou/"></content>
+        
+    </entry>
 </feed>

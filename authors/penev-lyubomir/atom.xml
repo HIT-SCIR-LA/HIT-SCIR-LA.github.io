@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Penev Lyubomir</title>
-	<link href="/authors/penev-lyubomir/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2011-01-01T00:00:00+00:00</updated>
-	<id>/authors/penev-lyubomir/atom.xml</id>
-	<entry xml:lang="en">
-		<title>The data paper a mechanism to incentivize data publishing in biodiversity science</title>
-		<published>2011-01-01T00:00:00+00:00</published>
-		<updated>2011-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2011-the-data-paper-a-mechanism-to-incentivize-data-publishing-in-biodiversity-science/" type="text/html"/>
-		<id>/publications/2011-the-data-paper-a-mechanism-to-incentivize-data-publishing-in-biodiversity-science/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Penev Lyubomir</title>
+    <link rel="self" type="application/atom+xml" href="/authors/penev-lyubomir/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2011-01-01T00:00:00+00:00</updated>
+    <id>/authors/penev-lyubomir/atom.xml</id>
+    <entry xml:lang="en">
+        <title>The data paper a mechanism to incentivize data publishing in biodiversity science</title>
+        <published>2011-01-01T00:00:00+00:00</published>
+        <updated>2011-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2011-the-data-paper-a-mechanism-to-incentivize-data-publishing-in-biodiversity-science/"/>
+        <id>/publications/2011-the-data-paper-a-mechanism-to-incentivize-data-publishing-in-biodiversity-science/</id>
+        
+        <content type="html" xml:base="/publications/2011-the-data-paper-a-mechanism-to-incentivize-data-publishing-in-biodiversity-science/"></content>
+        
+    </entry>
 </feed>

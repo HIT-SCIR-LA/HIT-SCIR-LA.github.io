@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Si Chenglei</title>
-	<link href="/authors/si-chenglei/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2021-01-01T00:00:00+00:00</updated>
-	<id>/authors/si-chenglei/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Adversarial Training for Machine Reading Comprehension with Virtual Embeddings</title>
-		<published>2021-01-01T00:00:00+00:00</published>
-		<updated>2021-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2021-adversarial-training-for-machine-reading-comprehension-with-virtual-embeddings/" type="text/html"/>
-		<id>/publications/2021-adversarial-training-for-machine-reading-comprehension-with-virtual-embeddings/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Si Chenglei</title>
+    <link rel="self" type="application/atom+xml" href="/authors/si-chenglei/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-01-01T00:00:00+00:00</updated>
+    <id>/authors/si-chenglei/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Adversarial Training for Machine Reading Comprehension with Virtual Embeddings</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-adversarial-training-for-machine-reading-comprehension-with-virtual-embeddings/"/>
+        <id>/publications/2021-adversarial-training-for-machine-reading-comprehension-with-virtual-embeddings/</id>
+        
+        <content type="html" xml:base="/publications/2021-adversarial-training-for-machine-reading-comprehension-with-virtual-embeddings/"></content>
+        
+    </entry>
 </feed>

@@ -1,105 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - 2016</title>
-	<link href="/publish-year/2016/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2016-01-01T00:00:00+00:00</updated>
-	<id>/publish-year/2016/atom.xml</id>
-	<entry xml:lang="en">
-		<title>A distributed representation-based framework for cross-lingual transfer parsing</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/" type="text/html"/>
-		<id>/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>A Neural Attention Model for Disfluency Detection</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-a-neural-attention-model-for-disfluency-detection/" type="text/html"/>
-		<id>/publications/2016-a-neural-attention-model-for-disfluency-detection/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>A Representation Learning Framework for Multi-Source Transfer Parsing</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-a-representation-learning-framework-for-multi-source-transfer-parsing/" type="text/html"/>
-		<id>/publications/2016-a-representation-learning-framework-for-multi-source-transfer-parsing/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>A Unified Architecture for Semantic Role Labeling and Relation Classification</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/" type="text/html"/>
-		<id>/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>A Universal Framework for Inductive Transfer Parsing across Multi-typed Treebanks</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/" type="text/html"/>
-		<id>/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Chinese Grammatical Error Diagnosis with Long Short-Term Memory Networks</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/" type="text/html"/>
-		<id>/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Enhancing Neural Disfluency Detection with Hand-Crafted Features</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-enhancing-neural-disfluency-detection-with-hand-crafted-features/" type="text/html"/>
-		<id>/publications/2016-enhancing-neural-disfluency-detection-with-hand-crafted-features/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Exploiting multi-typed treebanks for parsing with deep multi-task learning</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/" type="text/html"/>
-		<id>/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Exploring Segment Representations for Neural Segmentation Models</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-exploring-segment-representations-for-neural-segmentation-models/" type="text/html"/>
-		<id>/publications/2016-exploring-segment-representations-for-neural-segmentation-models/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>HC-Search for Incremental Parsing</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-hc-search-for-incremental-parsing/" type="text/html"/>
-		<id>/publications/2016-hc-search-for-incremental-parsing/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Python 程序设计</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-python-cheng-xu-she-ji/" type="text/html"/>
-		<id>/publications/2016-python-cheng-xu-she-ji/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Transition-based chinese semantic dependency graph parsing</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-transition-based-chinese-semantic-dependency-graph-parsing/" type="text/html"/>
-		<id>/publications/2016-transition-based-chinese-semantic-dependency-graph-parsing/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - 2016</title>
+    <link rel="self" type="application/atom+xml" href="/publish-year/2016/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2016-01-01T00:00:00+00:00</updated>
+    <id>/publish-year/2016/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A distributed representation-based framework for cross-lingual transfer parsing</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/"/>
+        <id>/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Neural Attention Model for Disfluency Detection</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-a-neural-attention-model-for-disfluency-detection/"/>
+        <id>/publications/2016-a-neural-attention-model-for-disfluency-detection/</id>
+        
+        <content type="html" xml:base="/publications/2016-a-neural-attention-model-for-disfluency-detection/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Representation Learning Framework for Multi-Source Transfer Parsing</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-a-representation-learning-framework-for-multi-source-transfer-parsing/"/>
+        <id>/publications/2016-a-representation-learning-framework-for-multi-source-transfer-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2016-a-representation-learning-framework-for-multi-source-transfer-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Unified Architecture for Semantic Role Labeling and Relation Classification</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/"/>
+        <id>/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/</id>
+        
+        <content type="html" xml:base="/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Universal Framework for Inductive Transfer Parsing across Multi-typed Treebanks</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/"/>
+        <id>/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/</id>
+        
+        <content type="html" xml:base="/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chinese Grammatical Error Diagnosis with Long Short-Term Memory Networks</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/"/>
+        <id>/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/</id>
+        
+        <content type="html" xml:base="/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Enhancing Neural Disfluency Detection with Hand-Crafted Features</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-enhancing-neural-disfluency-detection-with-hand-crafted-features/"/>
+        <id>/publications/2016-enhancing-neural-disfluency-detection-with-hand-crafted-features/</id>
+        
+        <content type="html" xml:base="/publications/2016-enhancing-neural-disfluency-detection-with-hand-crafted-features/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Exploiting multi-typed treebanks for parsing with deep multi-task learning</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/"/>
+        <id>/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/</id>
+        
+        <content type="html" xml:base="/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Exploring Segment Representations for Neural Segmentation Models</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-exploring-segment-representations-for-neural-segmentation-models/"/>
+        <id>/publications/2016-exploring-segment-representations-for-neural-segmentation-models/</id>
+        
+        <content type="html" xml:base="/publications/2016-exploring-segment-representations-for-neural-segmentation-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>HC-Search for Incremental Parsing</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-hc-search-for-incremental-parsing/"/>
+        <id>/publications/2016-hc-search-for-incremental-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2016-hc-search-for-incremental-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Python 程序设计</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-python-cheng-xu-she-ji/"/>
+        <id>/publications/2016-python-cheng-xu-she-ji/</id>
+        
+        <content type="html" xml:base="/publications/2016-python-cheng-xu-she-ji/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Transition-based chinese semantic dependency graph parsing</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-transition-based-chinese-semantic-dependency-graph-parsing/"/>
+        <id>/publications/2016-transition-based-chinese-semantic-dependency-graph-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2016-transition-based-chinese-semantic-dependency-graph-parsing/"></content>
+        
+    </entry>
 </feed>

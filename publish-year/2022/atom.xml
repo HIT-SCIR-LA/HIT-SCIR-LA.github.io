@@ -1,169 +1,389 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - 2022</title>
-	<link href="/publish-year/2022/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-12-12T00:00:00+00:00</updated>
-	<id>/publish-year/2022/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Towards Knowledge-Intensive Text-to-SQL Semantic Parsing with Formulaic Knowledge</title>
-		<published>2022-12-12T00:00:00+00:00</published>
-		<updated>2022-12-12T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-towards-knowledge-intensive-text-to-sql-semantic-parsing-with-formulaic-knowledge/" type="text/html"/>
-		<id>/publications/2022-towards-knowledge-intensive-text-to-sql-semantic-parsing-with-formulaic-knowledge/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Adaptive Unsupervised Self-training for Disfluency Detection</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/" type="text/html"/>
-		<id>/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>CCTC A Cross-Sentence Chinese Text Correction Dataset for Native Speakers</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-cctc-a-cross-sentence-chinese-text-correction-dataset-for-native-speakers/" type="text/html"/>
-		<id>/publications/2022-cctc-a-cross-sentence-chinese-text-correction-dataset-for-native-speakers/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>CGIM A Cycle Guided Interactive Learning Model for Consistency Identification in Task-oriented Dialogue</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-cgim-a-cycle-guided-interactive-learning-model-for-consistency-identification-in-task-oriented-dialogue/" type="text/html"/>
-		<id>/publications/2022-cgim-a-cycle-guided-interactive-learning-model-for-consistency-identification-in-task-oriented-dialogue/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Data augmentation approaches in natural language processing A survey</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/" type="text/html"/>
-		<id>/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>ExpMRC explainability evaluation for machine reading comprehension</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-expmrc-explainability-evaluation-for-machine-reading-comprehension/" type="text/html"/>
-		<id>/publications/2022-expmrc-explainability-evaluation-for-machine-reading-comprehension/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>FewJoint few-shot learning for joint dialogue understanding</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/" type="text/html"/>
-		<id>/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>GL-CLeF A Global-Local Contrastive Learning Framework for Cross-lingual Spoken Language Understanding</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-gl-clef-a-global-local-contrastive-learning-framework-for-cross-lingual-spoken-language-understanding/" type="text/html"/>
-		<id>/publications/2022-gl-clef-a-global-local-contrastive-learning-framework-for-cross-lingual-spoken-language-understanding/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Graph-Grounded Goal Planning for Conversational Recommendation</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/" type="text/html"/>
-		<id>/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Improving Pre-trained Language Models with Syntactic Dependency Prediction Task for Chinese Semantic Error Recognition</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/" type="text/html"/>
-		<id>/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>InterHT Knowledge Graph Embeddings by Interaction between Head and Tail Entities</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-interht-knowledge-graph-embeddings-by-interaction-between-head-and-tail-entities/" type="text/html"/>
-		<id>/publications/2022-interht-knowledge-graph-embeddings-by-interaction-between-head-and-tail-entities/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Inverse is Better Fast and Accurate Prompt for Few-shot Slot Tagging</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/" type="text/html"/>
-		<id>/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Learning-based Hybrid Local Search for the Hard-label Textual Attack</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/" type="text/html"/>
-		<id>/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>MetaPrompting Learning to Learn Better Prompts</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-metaprompting-learning-to-learn-better-prompts/" type="text/html"/>
-		<id>/publications/2022-metaprompting-learning-to-learn-better-prompts/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Multilingual multi-aspect explainability analyses on machine reading comprehension models</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-multilingual-multi-aspect-explainability-analyses-on-machine-reading-comprehension-models/" type="text/html"/>
-		<id>/publications/2022-multilingual-multi-aspect-explainability-analyses-on-machine-reading-comprehension-models/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Overview of CTC 2021 Chinese Text Correction for Native Speakers</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-overview-of-ctc-2021-chinese-text-correction-for-native-speakers/" type="text/html"/>
-		<id>/publications/2022-overview-of-ctc-2021-chinese-text-correction-for-native-speakers/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Simple and Effective Graph-to-Graph Annotation Conversion</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-simple-and-effective-graph-to-graph-annotation-conversion/" type="text/html"/>
-		<id>/publications/2022-simple-and-effective-graph-to-graph-annotation-conversion/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Teaching machines to read answer and explain</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-teaching-machines-to-read-answer-and-explain/" type="text/html"/>
-		<id>/publications/2022-teaching-machines-to-read-answer-and-explain/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Text Is No More Enough A Benchmark for Profile-Based Spoken Language Understanding</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-text-is-no-more-enough-a-benchmark-for-profile-based-spoken-language-understanding/" type="text/html"/>
-		<id>/publications/2022-text-is-no-more-enough-a-benchmark-for-profile-based-spoken-language-understanding/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>UniSAr A Unified Structure-Aware Autoregressive Language Model for Text-to-SQL</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/" type="text/html"/>
-		<id>/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - 2022</title>
+    <link rel="self" type="application/atom+xml" href="/publish-year/2022/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-12-12T00:00:00+00:00</updated>
+    <id>/publish-year/2022/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Towards Knowledge-Intensive Text-to-SQL Semantic Parsing with Formulaic Knowledge</title>
+        <published>2022-12-12T00:00:00+00:00</published>
+        <updated>2022-12-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-towards-knowledge-intensive-text-to-sql-semantic-parsing-with-formulaic-knowledge/"/>
+        <id>/publications/2022-towards-knowledge-intensive-text-to-sql-semantic-parsing-with-formulaic-knowledge/</id>
+        
+        <content type="html" xml:base="/publications/2022-towards-knowledge-intensive-text-to-sql-semantic-parsing-with-formulaic-knowledge/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Adaptive Unsupervised Self-training for Disfluency Detection</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/"/>
+        <id>/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/</id>
+        
+        <content type="html" xml:base="/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CCTC A Cross-Sentence Chinese Text Correction Dataset for Native Speakers</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-cctc-a-cross-sentence-chinese-text-correction-dataset-for-native-speakers/"/>
+        <id>/publications/2022-cctc-a-cross-sentence-chinese-text-correction-dataset-for-native-speakers/</id>
+        
+        <content type="html" xml:base="/publications/2022-cctc-a-cross-sentence-chinese-text-correction-dataset-for-native-speakers/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CGIM A Cycle Guided Interactive Learning Model for Consistency Identification in Task-oriented Dialogue</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-cgim-a-cycle-guided-interactive-learning-model-for-consistency-identification-in-task-oriented-dialogue/"/>
+        <id>/publications/2022-cgim-a-cycle-guided-interactive-learning-model-for-consistency-identification-in-task-oriented-dialogue/</id>
+        
+        <content type="html" xml:base="/publications/2022-cgim-a-cycle-guided-interactive-learning-model-for-consistency-identification-in-task-oriented-dialogue/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Data augmentation approaches in natural language processing A survey</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/"/>
+        <id>/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/</id>
+        
+        <content type="html" xml:base="/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ExpMRC explainability evaluation for machine reading comprehension</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-expmrc-explainability-evaluation-for-machine-reading-comprehension/"/>
+        <id>/publications/2022-expmrc-explainability-evaluation-for-machine-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2022-expmrc-explainability-evaluation-for-machine-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>FewJoint few-shot learning for joint dialogue understanding</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/"/>
+        <id>/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>GL-CLeF A Global-Local Contrastive Learning Framework for Cross-lingual Spoken Language Understanding</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-gl-clef-a-global-local-contrastive-learning-framework-for-cross-lingual-spoken-language-understanding/"/>
+        <id>/publications/2022-gl-clef-a-global-local-contrastive-learning-framework-for-cross-lingual-spoken-language-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2022-gl-clef-a-global-local-contrastive-learning-framework-for-cross-lingual-spoken-language-understanding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Graph-Grounded Goal Planning for Conversational Recommendation</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/"/>
+        <id>/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/</id>
+        
+        <content type="html" xml:base="/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Improving Pre-trained Language Models with Syntactic Dependency Prediction Task for Chinese Semantic Error Recognition</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/"/>
+        <id>/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/</id>
+        
+        <content type="html" xml:base="/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>InterHT Knowledge Graph Embeddings by Interaction between Head and Tail Entities</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-interht-knowledge-graph-embeddings-by-interaction-between-head-and-tail-entities/"/>
+        <id>/publications/2022-interht-knowledge-graph-embeddings-by-interaction-between-head-and-tail-entities/</id>
+        
+        <content type="html" xml:base="/publications/2022-interht-knowledge-graph-embeddings-by-interaction-between-head-and-tail-entities/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Inverse is Better Fast and Accurate Prompt for Few-shot Slot Tagging</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/"/>
+        <id>/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/</id>
+        
+        <content type="html" xml:base="/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Learning-based Hybrid Local Search for the Hard-label Textual Attack</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/"/>
+        <id>/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/</id>
+        
+        <content type="html" xml:base="/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>MetaPrompting Learning to Learn Better Prompts</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-metaprompting-learning-to-learn-better-prompts/"/>
+        <id>/publications/2022-metaprompting-learning-to-learn-better-prompts/</id>
+        
+        <content type="html" xml:base="/publications/2022-metaprompting-learning-to-learn-better-prompts/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Multilingual multi-aspect explainability analyses on machine reading comprehension models</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-multilingual-multi-aspect-explainability-analyses-on-machine-reading-comprehension-models/"/>
+        <id>/publications/2022-multilingual-multi-aspect-explainability-analyses-on-machine-reading-comprehension-models/</id>
+        
+        <content type="html" xml:base="/publications/2022-multilingual-multi-aspect-explainability-analyses-on-machine-reading-comprehension-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Overview of CTC 2021 Chinese Text Correction for Native Speakers</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-overview-of-ctc-2021-chinese-text-correction-for-native-speakers/"/>
+        <id>/publications/2022-overview-of-ctc-2021-chinese-text-correction-for-native-speakers/</id>
+        
+        <content type="html" xml:base="/publications/2022-overview-of-ctc-2021-chinese-text-correction-for-native-speakers/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Simple and Effective Graph-to-Graph Annotation Conversion</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-simple-and-effective-graph-to-graph-annotation-conversion/"/>
+        <id>/publications/2022-simple-and-effective-graph-to-graph-annotation-conversion/</id>
+        
+        <content type="html" xml:base="/publications/2022-simple-and-effective-graph-to-graph-annotation-conversion/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Teaching machines to read answer and explain</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-teaching-machines-to-read-answer-and-explain/"/>
+        <id>/publications/2022-teaching-machines-to-read-answer-and-explain/</id>
+        
+        <content type="html" xml:base="/publications/2022-teaching-machines-to-read-answer-and-explain/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Text Is No More Enough A Benchmark for Profile-Based Spoken Language Understanding</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-text-is-no-more-enough-a-benchmark-for-profile-based-spoken-language-understanding/"/>
+        <id>/publications/2022-text-is-no-more-enough-a-benchmark-for-profile-based-spoken-language-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2022-text-is-no-more-enough-a-benchmark-for-profile-based-spoken-language-understanding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>UniSAr A Unified Structure-Aware Autoregressive Language Model for Text-to-SQL</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/"/>
+        <id>/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/</id>
+        
+        <content type="html" xml:base="/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/"></content>
+        
+    </entry>
 </feed>

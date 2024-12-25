@@ -1,65 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - 2008</title>
-	<link href="/publish-year/2008/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2008-01-01T00:00:00+00:00</updated>
-	<id>/publish-year/2008/atom.xml</id>
-	<entry xml:lang="en">
-		<title>A Cascaded Syntactic and Semantic Dependency Parsing System</title>
-		<published>2008-01-01T00:00:00+00:00</published>
-		<updated>2008-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2008-a-cascaded-syntactic-and-semantic-dependency-parsing-system/" type="text/html"/>
-		<id>/publications/2008-a-cascaded-syntactic-and-semantic-dependency-parsing-system/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>A Study on Constituentto-Dependency Conversion</title>
-		<published>2008-01-01T00:00:00+00:00</published>
-		<updated>2008-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2008-a-study-on-constituentto-dependency-conversion/" type="text/html"/>
-		<id>/publications/2008-a-study-on-constituentto-dependency-conversion/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Fast Computing Grammar-driven Convolution Tree Kernel for Semantic Role Labeling</title>
-		<published>2008-01-01T00:00:00+00:00</published>
-		<updated>2008-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/" type="text/html"/>
-		<id>/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Introduction to Information Retrieval System</title>
-		<published>2008-01-01T00:00:00+00:00</published>
-		<updated>2008-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2008-introduction-to-information-retrieval-system/" type="text/html"/>
-		<id>/publications/2008-introduction-to-information-retrieval-system/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Semantic role labeling using a grammar-driven convolution tree kernel</title>
-		<published>2008-01-01T00:00:00+00:00</published>
-		<updated>2008-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/" type="text/html"/>
-		<id>/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Using a hybrid convolution tree kernel for semantic role labeling</title>
-		<published>2008-01-01T00:00:00+00:00</published>
-		<updated>2008-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/" type="text/html"/>
-		<id>/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>信息检索系统导论</title>
-		<published>2008-01-01T00:00:00+00:00</published>
-		<updated>2008-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/" type="text/html"/>
-		<id>/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - 2008</title>
+    <link rel="self" type="application/atom+xml" href="/publish-year/2008/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2008-01-01T00:00:00+00:00</updated>
+    <id>/publish-year/2008/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Cascaded Syntactic and Semantic Dependency Parsing System</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-a-cascaded-syntactic-and-semantic-dependency-parsing-system/"/>
+        <id>/publications/2008-a-cascaded-syntactic-and-semantic-dependency-parsing-system/</id>
+        
+        <content type="html" xml:base="/publications/2008-a-cascaded-syntactic-and-semantic-dependency-parsing-system/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Study on Constituentto-Dependency Conversion</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-a-study-on-constituentto-dependency-conversion/"/>
+        <id>/publications/2008-a-study-on-constituentto-dependency-conversion/</id>
+        
+        <content type="html" xml:base="/publications/2008-a-study-on-constituentto-dependency-conversion/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Fast Computing Grammar-driven Convolution Tree Kernel for Semantic Role Labeling</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/"/>
+        <id>/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/</id>
+        
+        <content type="html" xml:base="/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Introduction to Information Retrieval System</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-introduction-to-information-retrieval-system/"/>
+        <id>/publications/2008-introduction-to-information-retrieval-system/</id>
+        
+        <content type="html" xml:base="/publications/2008-introduction-to-information-retrieval-system/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Semantic role labeling using a grammar-driven convolution tree kernel</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/"/>
+        <id>/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/</id>
+        
+        <content type="html" xml:base="/publications/2008-semantic-role-labeling-using-a-grammar-driven-convolution-tree-kernel/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Using a hybrid convolution tree kernel for semantic role labeling</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/"/>
+        <id>/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/</id>
+        
+        <content type="html" xml:base="/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>信息检索系统导论</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/"/>
+        <id>/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/</id>
+        
+        <content type="html" xml:base="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/"></content>
+        
+    </entry>
 </feed>

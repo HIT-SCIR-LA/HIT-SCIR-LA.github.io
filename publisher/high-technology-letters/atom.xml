@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - High technology letters</title>
-	<link href="/publisher/high-technology-letters/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2004-01-01T00:00:00+00:00</updated>
-	<id>/publisher/high-technology-letters/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Similar Chinese sentence retrieval based on improved edit-distance</title>
-		<published>2004-01-01T00:00:00+00:00</published>
-		<updated>2004-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2004-similar-chinese-sentence-retrieval-based-on-improved-edit-distance/" type="text/html"/>
-		<id>/publications/2004-similar-chinese-sentence-retrieval-based-on-improved-edit-distance/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - High technology letters</title>
+    <link rel="self" type="application/atom+xml" href="/publisher/high-technology-letters/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2004-01-01T00:00:00+00:00</updated>
+    <id>/publisher/high-technology-letters/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Similar Chinese sentence retrieval based on improved edit-distance</title>
+        <published>2004-01-01T00:00:00+00:00</published>
+        <updated>2004-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2004-similar-chinese-sentence-retrieval-based-on-improved-edit-distance/"/>
+        <id>/publications/2004-similar-chinese-sentence-retrieval-based-on-improved-edit-distance/</id>
+        
+        <content type="html" xml:base="/publications/2004-similar-chinese-sentence-retrieval-based-on-improved-edit-distance/"></content>
+        
+    </entry>
 </feed>

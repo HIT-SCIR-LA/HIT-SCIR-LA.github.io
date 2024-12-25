@@ -1,81 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Zheng Bo</title>
-	<link href="/authors/zheng-bo/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2021-01-01T00:00:00+00:00</updated>
-	<id>/authors/zheng-bo/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Allocating large vocabulary capacity for cross-lingual language model pre-training</title>
-		<published>2021-01-01T00:00:00+00:00</published>
-		<updated>2021-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2021-allocating-large-vocabulary-capacity-for-cross-lingual-language-model-pre-training/" type="text/html"/>
-		<id>/publications/2021-allocating-large-vocabulary-capacity-for-cross-lingual-language-model-pre-training/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Consistency Regularization for Cross-Lingual Fine-Tuning</title>
-		<published>2021-01-01T00:00:00+00:00</published>
-		<updated>2021-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2021-consistency-regularization-for-cross-lingual-fine-tuning/" type="text/html"/>
-		<id>/publications/2021-consistency-regularization-for-cross-lingual-fine-tuning/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Document Modeling with Graph Attention Networks for Multi-grained Machine Reading Comprehension</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-document-modeling-with-graph-attention-networks-for-multi-grained-machine-reading-comprehension/" type="text/html"/>
-		<id>/publications/2020-document-modeling-with-graph-attention-networks-for-multi-grained-machine-reading-comprehension/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Deep contextualized word embeddings for universal dependency parsing</title>
-		<published>2019-01-01T00:00:00+00:00</published>
-		<updated>2019-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2019-deep-contextualized-word-embeddings-for-universal-dependency-parsing/" type="text/html"/>
-		<id>/publications/2019-deep-contextualized-word-embeddings-for-universal-dependency-parsing/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>An AMR Aligner Tuned by Transition-based Parser</title>
-		<published>2018-01-01T00:00:00+00:00</published>
-		<updated>2018-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/" type="text/html"/>
-		<id>/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Towards Better UD Parsing Deep Contextualized Word Embeddings Ensemble and Treebank Concatenation</title>
-		<published>2018-01-01T00:00:00+00:00</published>
-		<updated>2018-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/" type="text/html"/>
-		<id>/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Enhancing LSTM-based word segmentation using unlabeled data</title>
-		<published>2017-01-01T00:00:00+00:00</published>
-		<updated>2017-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2017-enhancing-lstm-based-word-segmentation-using-unlabeled-data/" type="text/html"/>
-		<id>/publications/2017-enhancing-lstm-based-word-segmentation-using-unlabeled-data/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>The HIT-SCIR System for End-to-End Parsing of Universal Dependencies</title>
-		<published>2017-01-01T00:00:00+00:00</published>
-		<updated>2017-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/" type="text/html"/>
-		<id>/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Chinese Grammatical Error Diagnosis with Long Short-Term Memory Networks</title>
-		<published>2016-01-01T00:00:00+00:00</published>
-		<updated>2016-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/" type="text/html"/>
-		<id>/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Zheng Bo</title>
+    <link rel="self" type="application/atom+xml" href="/authors/zheng-bo/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-01-01T00:00:00+00:00</updated>
+    <id>/authors/zheng-bo/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Allocating large vocabulary capacity for cross-lingual language model pre-training</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-allocating-large-vocabulary-capacity-for-cross-lingual-language-model-pre-training/"/>
+        <id>/publications/2021-allocating-large-vocabulary-capacity-for-cross-lingual-language-model-pre-training/</id>
+        
+        <content type="html" xml:base="/publications/2021-allocating-large-vocabulary-capacity-for-cross-lingual-language-model-pre-training/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Consistency Regularization for Cross-Lingual Fine-Tuning</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-consistency-regularization-for-cross-lingual-fine-tuning/"/>
+        <id>/publications/2021-consistency-regularization-for-cross-lingual-fine-tuning/</id>
+        
+        <content type="html" xml:base="/publications/2021-consistency-regularization-for-cross-lingual-fine-tuning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Document Modeling with Graph Attention Networks for Multi-grained Machine Reading Comprehension</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-document-modeling-with-graph-attention-networks-for-multi-grained-machine-reading-comprehension/"/>
+        <id>/publications/2020-document-modeling-with-graph-attention-networks-for-multi-grained-machine-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2020-document-modeling-with-graph-attention-networks-for-multi-grained-machine-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Deep contextualized word embeddings for universal dependency parsing</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-deep-contextualized-word-embeddings-for-universal-dependency-parsing/"/>
+        <id>/publications/2019-deep-contextualized-word-embeddings-for-universal-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2019-deep-contextualized-word-embeddings-for-universal-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>An AMR Aligner Tuned by Transition-based Parser</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/"/>
+        <id>/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/</id>
+        
+        <content type="html" xml:base="/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Towards Better UD Parsing Deep Contextualized Word Embeddings Ensemble and Treebank Concatenation</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/"/>
+        <id>/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/</id>
+        
+        <content type="html" xml:base="/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Enhancing LSTM-based word segmentation using unlabeled data</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2017-enhancing-lstm-based-word-segmentation-using-unlabeled-data/"/>
+        <id>/publications/2017-enhancing-lstm-based-word-segmentation-using-unlabeled-data/</id>
+        
+        <content type="html" xml:base="/publications/2017-enhancing-lstm-based-word-segmentation-using-unlabeled-data/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The HIT-SCIR System for End-to-End Parsing of Universal Dependencies</title>
+        <published>2017-01-01T00:00:00+00:00</published>
+        <updated>2017-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/"/>
+        <id>/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/</id>
+        
+        <content type="html" xml:base="/publications/2017-the-hit-scir-system-for-end-to-end-parsing-of-universal-dependencies/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chinese Grammatical Error Diagnosis with Long Short-Term Memory Networks</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/"/>
+        <id>/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/</id>
+        
+        <content type="html" xml:base="/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/"></content>
+        
+    </entry>
 </feed>

@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Pan Mingyang</title>
-	<link href="/authors/pan-mingyang/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-01-01T00:00:00+00:00</updated>
-	<id>/authors/pan-mingyang/atom.xml</id>
-	<entry xml:lang="en">
-		<title>UniSAr A Unified Structure-Aware Autoregressive Language Model for Text-to-SQL</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/" type="text/html"/>
-		<id>/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Pan Mingyang</title>
+    <link rel="self" type="application/atom+xml" href="/authors/pan-mingyang/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-01-01T00:00:00+00:00</updated>
+    <id>/authors/pan-mingyang/atom.xml</id>
+    <entry xml:lang="en">
+        <title>UniSAr A Unified Structure-Aware Autoregressive Language Model for Text-to-SQL</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/"/>
+        <id>/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/</id>
+        
+        <content type="html" xml:base="/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/"></content>
+        
+    </entry>
 </feed>

@@ -1,209 +1,484 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - ACL</title>
-	<link href="/publisher/acl/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2024-01-01T00:00:00+00:00</updated>
-	<id>/publisher/acl/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Enhancing Numerical Reasoning with the Guidance of Reliable Reasoning Processes</title>
-		<published>2024-01-01T00:00:00+00:00</published>
-		<updated>2024-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2024-enhancing-numerical-reasoning-with-the-guidance-of-reliable-reasoning-processes/" type="text/html"/>
-		<id>/publications/2024-enhancing-numerical-reasoning-with-the-guidance-of-reliable-reasoning-processes/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Exploring Hybrid Question Answering via Program-based Prompting</title>
-		<published>2024-01-01T00:00:00+00:00</published>
-		<updated>2024-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2024-exploring-hybrid-question-answering-via-program-based-prompting/" type="text/html"/>
-		<id>/publications/2024-exploring-hybrid-question-answering-via-program-based-prompting/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>M3CoT A Novel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought</title>
-		<published>2024-01-01T00:00:00+00:00</published>
-		<updated>2024-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/" type="text/html"/>
-		<id>/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>ManagerTower Aggregating the Insights of Uni-Modal Experts for Vision-Language Representation Learning</title>
-		<published>2023-01-01T00:00:00+00:00</published>
-		<updated>2023-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2023-managertower-aggregating-the-insights-of-uni-modal-experts-for-vision-language-representation-learning/" type="text/html"/>
-		<id>/publications/2023-managertower-aggregating-the-insights-of-uni-modal-experts-for-vision-language-representation-learning/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>GL-CLeF A Global-Local Contrastive Learning Framework for Cross-lingual Spoken Language Understanding</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-gl-clef-a-global-local-contrastive-learning-framework-for-cross-lingual-spoken-language-understanding/" type="text/html"/>
-		<id>/publications/2022-gl-clef-a-global-local-contrastive-learning-framework-for-cross-lingual-spoken-language-understanding/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Consistency Regularization for Cross-Lingual Fine-Tuning</title>
-		<published>2021-01-01T00:00:00+00:00</published>
-		<updated>2021-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2021-consistency-regularization-for-cross-lingual-fine-tuning/" type="text/html"/>
-		<id>/publications/2021-consistency-regularization-for-cross-lingual-fine-tuning/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Discovering Dialog Structure Graph for Coherent Dialog Generation</title>
-		<published>2021-01-01T00:00:00+00:00</published>
-		<updated>2021-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/" type="text/html"/>
-		<id>/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>GL-GIN Fast and Accurate Non-Autoregressive Model for Joint Multiple Intent Detection and Slot Filling</title>
-		<published>2021-01-01T00:00:00+00:00</published>
-		<updated>2021-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2021-gl-gin-fast-and-accurate-non-autoregressive-model-for-joint-multiple-intent-detection-and-slot-filling/" type="text/html"/>
-		<id>/publications/2021-gl-gin-fast-and-accurate-non-autoregressive-model-for-joint-multiple-intent-detection-and-slot-filling/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>LayoutLMv2 Multi-modal Pre-training for Visually-rich Document Understanding</title>
-		<published>2021-01-01T00:00:00+00:00</published>
-		<updated>2021-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2021-layoutlmv2-multi-modal-pre-training-for-visually-rich-document-understanding/" type="text/html"/>
-		<id>/publications/2021-layoutlmv2-multi-modal-pre-training-for-visually-rich-document-understanding/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/" type="text/html"/>
-		<id>/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Document Modeling with Graph Attention Networks for Multi-grained Machine Reading Comprehension</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-document-modeling-with-graph-attention-networks-for-multi-grained-machine-reading-comprehension/" type="text/html"/>
-		<id>/publications/2020-document-modeling-with-graph-attention-networks-for-multi-grained-machine-reading-comprehension/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Dynamic Fusion Network for Multi-Domain End-to-end Task-Oriented Dialog</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-dynamic-fusion-network-for-multi-domain-end-to-end-task-oriented-dialog/" type="text/html"/>
-		<id>/publications/2020-dynamic-fusion-network-for-multi-domain-end-to-end-task-oriented-dialog/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-few-shot-slot-tagging-with-collapsed-dependency-transfer-and-label-enhanced-task-adaptive-projection-network/" type="text/html"/>
-		<id>/publications/2020-few-shot-slot-tagging-with-collapsed-dependency-transfer-and-label-enhanced-task-adaptive-projection-network/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Slot-consistent NLG for Task-oriented Dialogue Systems with Iterative Rectification Network</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-slot-consistent-nlg-for-task-oriented-dialogue-systems-with-iterative-rectification-network/" type="text/html"/>
-		<id>/publications/2020-slot-consistent-nlg-for-task-oriented-dialogue-systems-with-iterative-rectification-network/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Towards Conversational Recommendation over Multi-Type Dialogs</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/" type="text/html"/>
-		<id>/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency</title>
-		<published>2019-01-01T00:00:00+00:00</published>
-		<updated>2019-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2019-generating-natural-language-adversarial-examples-through-probability-weighted-word-saliency/" type="text/html"/>
-		<id>/publications/2019-generating-natural-language-adversarial-examples-through-probability-weighted-word-saliency/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Distilling Knowledge for Search-based Structured Prediction</title>
-		<published>2018-01-01T00:00:00+00:00</published>
-		<updated>2018-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2018-distilling-knowledge-for-search-based-structured-prediction/" type="text/html"/>
-		<id>/publications/2018-distilling-knowledge-for-search-based-structured-prediction/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Cross-lingual Dependency Parsing Based on Distributed Representations</title>
-		<published>2015-01-01T00:00:00+00:00</published>
-		<updated>2015-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/" type="text/html"/>
-		<id>/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Character-Level Chinese Dependency Parsing</title>
-		<published>2014-01-01T00:00:00+00:00</published>
-		<updated>2014-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2014-character-level-chinese-dependency-parsing/" type="text/html"/>
-		<id>/publications/2014-character-level-chinese-dependency-parsing/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Learning Semantic Hierarchies via Word Embeddings</title>
-		<published>2014-01-01T00:00:00+00:00</published>
-		<updated>2014-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2014-learning-semantic-hierarchies-via-word-embeddings/" type="text/html"/>
-		<id>/publications/2014-learning-semantic-hierarchies-via-word-embeddings/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Chinese Parsing Exploiting Characters</title>
-		<published>2013-01-01T00:00:00+00:00</published>
-		<updated>2013-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2013-chinese-parsing-exploiting-characters/" type="text/html"/>
-		<id>/publications/2013-chinese-parsing-exploiting-characters/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Joint Word Alignment and Bilingual Named Entity Recognition Using Dual Decomposition</title>
-		<published>2013-01-01T00:00:00+00:00</published>
-		<updated>2013-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2013-joint-word-alignment-and-bilingual-named-entity-recognition-using-dual-decomposition/" type="text/html"/>
-		<id>/publications/2013-joint-word-alignment-and-bilingual-named-entity-recognition-using-dual-decomposition/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>A Comparison of Chinese Parsers for Stanford Dependencies</title>
-		<published>2012-01-01T00:00:00+00:00</published>
-		<updated>2012-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2012-a-comparison-of-chinese-parsers-for-stanford-dependencies/" type="text/html"/>
-		<id>/publications/2012-a-comparison-of-chinese-parsers-for-stanford-dependencies/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Exploiting Multiple Treebanks for Parsing with Quasi-synchronous Grammars</title>
-		<published>2012-01-01T00:00:00+00:00</published>
-		<updated>2012-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2012-exploiting-multiple-treebanks-for-parsing-with-quasi-synchronous-grammars/" type="text/html"/>
-		<id>/publications/2012-exploiting-multiple-treebanks-for-parsing-with-quasi-synchronous-grammars/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>A Grammar-driven Convolution Tree Kernel for Semantic Role Classification</title>
-		<published>2007-01-01T00:00:00+00:00</published>
-		<updated>2007-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2007-a-grammar-driven-convolution-tree-kernel-for-semantic-role-classification/" type="text/html"/>
-		<id>/publications/2007-a-grammar-driven-convolution-tree-kernel-for-semantic-role-classification/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - ACL</title>
+    <link rel="self" type="application/atom+xml" href="/publisher/acl/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-01T00:00:00+00:00</updated>
+    <id>/publisher/acl/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Enhancing Numerical Reasoning with the Guidance of Reliable Reasoning Processes</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-enhancing-numerical-reasoning-with-the-guidance-of-reliable-reasoning-processes/"/>
+        <id>/publications/2024-enhancing-numerical-reasoning-with-the-guidance-of-reliable-reasoning-processes/</id>
+        
+        <content type="html" xml:base="/publications/2024-enhancing-numerical-reasoning-with-the-guidance-of-reliable-reasoning-processes/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Exploring Hybrid Question Answering via Program-based Prompting</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-exploring-hybrid-question-answering-via-program-based-prompting/"/>
+        <id>/publications/2024-exploring-hybrid-question-answering-via-program-based-prompting/</id>
+        
+        <content type="html" xml:base="/publications/2024-exploring-hybrid-question-answering-via-program-based-prompting/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>M3CoT A Novel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/"/>
+        <id>/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/</id>
+        
+        <content type="html" xml:base="/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ManagerTower Aggregating the Insights of Uni-Modal Experts for Vision-Language Representation Learning</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-managertower-aggregating-the-insights-of-uni-modal-experts-for-vision-language-representation-learning/"/>
+        <id>/publications/2023-managertower-aggregating-the-insights-of-uni-modal-experts-for-vision-language-representation-learning/</id>
+        
+        <content type="html" xml:base="/publications/2023-managertower-aggregating-the-insights-of-uni-modal-experts-for-vision-language-representation-learning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>GL-CLeF A Global-Local Contrastive Learning Framework for Cross-lingual Spoken Language Understanding</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-gl-clef-a-global-local-contrastive-learning-framework-for-cross-lingual-spoken-language-understanding/"/>
+        <id>/publications/2022-gl-clef-a-global-local-contrastive-learning-framework-for-cross-lingual-spoken-language-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2022-gl-clef-a-global-local-contrastive-learning-framework-for-cross-lingual-spoken-language-understanding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Consistency Regularization for Cross-Lingual Fine-Tuning</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-consistency-regularization-for-cross-lingual-fine-tuning/"/>
+        <id>/publications/2021-consistency-regularization-for-cross-lingual-fine-tuning/</id>
+        
+        <content type="html" xml:base="/publications/2021-consistency-regularization-for-cross-lingual-fine-tuning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Discovering Dialog Structure Graph for Coherent Dialog Generation</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/"/>
+        <id>/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/</id>
+        
+        <content type="html" xml:base="/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>GL-GIN Fast and Accurate Non-Autoregressive Model for Joint Multiple Intent Detection and Slot Filling</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-gl-gin-fast-and-accurate-non-autoregressive-model-for-joint-multiple-intent-detection-and-slot-filling/"/>
+        <id>/publications/2021-gl-gin-fast-and-accurate-non-autoregressive-model-for-joint-multiple-intent-detection-and-slot-filling/</id>
+        
+        <content type="html" xml:base="/publications/2021-gl-gin-fast-and-accurate-non-autoregressive-model-for-joint-multiple-intent-detection-and-slot-filling/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>LayoutLMv2 Multi-modal Pre-training for Visually-rich Document Understanding</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-layoutlmv2-multi-modal-pre-training-for-visually-rich-document-understanding/"/>
+        <id>/publications/2021-layoutlmv2-multi-modal-pre-training-for-visually-rich-document-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2021-layoutlmv2-multi-modal-pre-training-for-visually-rich-document-understanding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/"/>
+        <id>/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/</id>
+        
+        <content type="html" xml:base="/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Document Modeling with Graph Attention Networks for Multi-grained Machine Reading Comprehension</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-document-modeling-with-graph-attention-networks-for-multi-grained-machine-reading-comprehension/"/>
+        <id>/publications/2020-document-modeling-with-graph-attention-networks-for-multi-grained-machine-reading-comprehension/</id>
+        
+        <content type="html" xml:base="/publications/2020-document-modeling-with-graph-attention-networks-for-multi-grained-machine-reading-comprehension/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Dynamic Fusion Network for Multi-Domain End-to-end Task-Oriented Dialog</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-dynamic-fusion-network-for-multi-domain-end-to-end-task-oriented-dialog/"/>
+        <id>/publications/2020-dynamic-fusion-network-for-multi-domain-end-to-end-task-oriented-dialog/</id>
+        
+        <content type="html" xml:base="/publications/2020-dynamic-fusion-network-for-multi-domain-end-to-end-task-oriented-dialog/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-few-shot-slot-tagging-with-collapsed-dependency-transfer-and-label-enhanced-task-adaptive-projection-network/"/>
+        <id>/publications/2020-few-shot-slot-tagging-with-collapsed-dependency-transfer-and-label-enhanced-task-adaptive-projection-network/</id>
+        
+        <content type="html" xml:base="/publications/2020-few-shot-slot-tagging-with-collapsed-dependency-transfer-and-label-enhanced-task-adaptive-projection-network/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Slot-consistent NLG for Task-oriented Dialogue Systems with Iterative Rectification Network</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-slot-consistent-nlg-for-task-oriented-dialogue-systems-with-iterative-rectification-network/"/>
+        <id>/publications/2020-slot-consistent-nlg-for-task-oriented-dialogue-systems-with-iterative-rectification-network/</id>
+        
+        <content type="html" xml:base="/publications/2020-slot-consistent-nlg-for-task-oriented-dialogue-systems-with-iterative-rectification-network/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Towards Conversational Recommendation over Multi-Type Dialogs</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/"/>
+        <id>/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/</id>
+        
+        <content type="html" xml:base="/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency</title>
+        <published>2019-01-01T00:00:00+00:00</published>
+        <updated>2019-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2019-generating-natural-language-adversarial-examples-through-probability-weighted-word-saliency/"/>
+        <id>/publications/2019-generating-natural-language-adversarial-examples-through-probability-weighted-word-saliency/</id>
+        
+        <content type="html" xml:base="/publications/2019-generating-natural-language-adversarial-examples-through-probability-weighted-word-saliency/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Distilling Knowledge for Search-based Structured Prediction</title>
+        <published>2018-01-01T00:00:00+00:00</published>
+        <updated>2018-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-distilling-knowledge-for-search-based-structured-prediction/"/>
+        <id>/publications/2018-distilling-knowledge-for-search-based-structured-prediction/</id>
+        
+        <content type="html" xml:base="/publications/2018-distilling-knowledge-for-search-based-structured-prediction/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cross-lingual Dependency Parsing Based on Distributed Representations</title>
+        <published>2015-01-01T00:00:00+00:00</published>
+        <updated>2015-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/"/>
+        <id>/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/</id>
+        
+        <content type="html" xml:base="/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Character-Level Chinese Dependency Parsing</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-character-level-chinese-dependency-parsing/"/>
+        <id>/publications/2014-character-level-chinese-dependency-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2014-character-level-chinese-dependency-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Learning Semantic Hierarchies via Word Embeddings</title>
+        <published>2014-01-01T00:00:00+00:00</published>
+        <updated>2014-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2014-learning-semantic-hierarchies-via-word-embeddings/"/>
+        <id>/publications/2014-learning-semantic-hierarchies-via-word-embeddings/</id>
+        
+        <content type="html" xml:base="/publications/2014-learning-semantic-hierarchies-via-word-embeddings/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chinese Parsing Exploiting Characters</title>
+        <published>2013-01-01T00:00:00+00:00</published>
+        <updated>2013-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2013-chinese-parsing-exploiting-characters/"/>
+        <id>/publications/2013-chinese-parsing-exploiting-characters/</id>
+        
+        <content type="html" xml:base="/publications/2013-chinese-parsing-exploiting-characters/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Joint Word Alignment and Bilingual Named Entity Recognition Using Dual Decomposition</title>
+        <published>2013-01-01T00:00:00+00:00</published>
+        <updated>2013-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2013-joint-word-alignment-and-bilingual-named-entity-recognition-using-dual-decomposition/"/>
+        <id>/publications/2013-joint-word-alignment-and-bilingual-named-entity-recognition-using-dual-decomposition/</id>
+        
+        <content type="html" xml:base="/publications/2013-joint-word-alignment-and-bilingual-named-entity-recognition-using-dual-decomposition/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Comparison of Chinese Parsers for Stanford Dependencies</title>
+        <published>2012-01-01T00:00:00+00:00</published>
+        <updated>2012-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2012-a-comparison-of-chinese-parsers-for-stanford-dependencies/"/>
+        <id>/publications/2012-a-comparison-of-chinese-parsers-for-stanford-dependencies/</id>
+        
+        <content type="html" xml:base="/publications/2012-a-comparison-of-chinese-parsers-for-stanford-dependencies/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Exploiting Multiple Treebanks for Parsing with Quasi-synchronous Grammars</title>
+        <published>2012-01-01T00:00:00+00:00</published>
+        <updated>2012-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2012-exploiting-multiple-treebanks-for-parsing-with-quasi-synchronous-grammars/"/>
+        <id>/publications/2012-exploiting-multiple-treebanks-for-parsing-with-quasi-synchronous-grammars/</id>
+        
+        <content type="html" xml:base="/publications/2012-exploiting-multiple-treebanks-for-parsing-with-quasi-synchronous-grammars/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A Grammar-driven Convolution Tree Kernel for Semantic Role Classification</title>
+        <published>2007-01-01T00:00:00+00:00</published>
+        <updated>2007-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2007-a-grammar-driven-convolution-tree-kernel-for-semantic-role-classification/"/>
+        <id>/publications/2007-a-grammar-driven-convolution-tree-kernel-for-semantic-role-classification/</id>
+        
+        <content type="html" xml:base="/publications/2007-a-grammar-driven-convolution-tree-kernel-for-semantic-role-classification/"></content>
+        
+    </entry>
 </feed>

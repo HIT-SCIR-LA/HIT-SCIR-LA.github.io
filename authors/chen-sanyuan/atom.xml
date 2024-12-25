@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Chen Sanyuan</title>
-	<link href="/authors/chen-sanyuan/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2021-01-01T00:00:00+00:00</updated>
-	<id>/authors/chen-sanyuan/atom.xml</id>
-	<entry xml:lang="en">
-		<title>C2c-genda Cluster-to-cluster generation for data augmentation of slot filling</title>
-		<published>2021-01-01T00:00:00+00:00</published>
-		<updated>2021-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/" type="text/html"/>
-		<id>/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Recall and Learn Fine-tuning Deep Pretrained Language Models with Less Forgetting</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/" type="text/html"/>
-		<id>/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Chen Sanyuan</title>
+    <link rel="self" type="application/atom+xml" href="/authors/chen-sanyuan/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-01-01T00:00:00+00:00</updated>
+    <id>/authors/chen-sanyuan/atom.xml</id>
+    <entry xml:lang="en">
+        <title>C2c-genda Cluster-to-cluster generation for data augmentation of slot filling</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/"/>
+        <id>/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/</id>
+        
+        <content type="html" xml:base="/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Recall and Learn Fine-tuning Deep Pretrained Language Models with Less Forgetting</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/"/>
+        <id>/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/</id>
+        
+        <content type="html" xml:base="/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/"></content>
+        
+    </entry>
 </feed>

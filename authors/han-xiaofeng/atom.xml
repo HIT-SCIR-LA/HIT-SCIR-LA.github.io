@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Han Xiaofeng</title>
-	<link href="/authors/han-xiaofeng/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2024-01-01T00:00:00+00:00</updated>
-	<id>/authors/han-xiaofeng/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Beyond Static Evaluation A Dynamic Approach to Assessing AI Assistants API Invocation Capabilities</title>
-		<published>2024-01-01T00:00:00+00:00</published>
-		<updated>2024-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/" type="text/html"/>
-		<id>/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Han Xiaofeng</title>
+    <link rel="self" type="application/atom+xml" href="/authors/han-xiaofeng/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-01T00:00:00+00:00</updated>
+    <id>/authors/han-xiaofeng/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Beyond Static Evaluation A Dynamic Approach to Assessing AI Assistants API Invocation Capabilities</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/"/>
+        <id>/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/</id>
+        
+        <content type="html" xml:base="/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/"></content>
+        
+    </entry>
 </feed>

@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Gao Cuiyun</title>
-	<link href="/authors/gao-cuiyun/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2024-01-01T00:00:00+00:00</updated>
-	<id>/authors/gao-cuiyun/atom.xml</id>
-	<entry xml:lang="en">
-		<title>A Survey on Natural Language Processing for Programming</title>
-		<published>2024-01-01T00:00:00+00:00</published>
-		<updated>2024-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2024-a-survey-on-natural-language-processing-for-programming/" type="text/html"/>
-		<id>/publications/2024-a-survey-on-natural-language-processing-for-programming/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Gao Cuiyun</title>
+    <link rel="self" type="application/atom+xml" href="/authors/gao-cuiyun/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-01T00:00:00+00:00</updated>
+    <id>/authors/gao-cuiyun/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Survey on Natural Language Processing for Programming</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-a-survey-on-natural-language-processing-for-programming/"/>
+        <id>/publications/2024-a-survey-on-natural-language-processing-for-programming/</id>
+        
+        <content type="html" xml:base="/publications/2024-a-survey-on-natural-language-processing-for-programming/"></content>
+        
+    </entry>
 </feed>

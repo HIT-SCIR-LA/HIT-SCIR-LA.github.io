@@ -1,169 +1,389 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - 论文发表</title>
-	<link href="/news-type/lun-wen-fa-biao/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2024-12-09T00:00:00+00:00</updated>
-	<id>/news-type/lun-wen-fa-biao/atom.xml</id>
-	<entry xml:lang="en">
-		<title>哈工大SCIR 8篇长文被 COLING 2025录用</title>
-		<published>2024-12-09T00:00:00+00:00</published>
-		<updated>2024-12-09T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scir-8pian-chang-wen-bei-coling-2025lu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scir-8pian-chang-wen-bei-coling-2025lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR 9篇论文被 NeurIPS 2024录用</title>
-		<published>2024-09-29T00:00:00+00:00</published>
-		<updated>2024-09-29T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scir-9pian-lun-wen-bei-neurips-2024lu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scir-9pian-lun-wen-bei-neurips-2024lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR 14篇长文被EMNLP 2024主会&#x2F;Findings录用</title>
-		<published>2024-09-25T00:00:00+00:00</published>
-		<updated>2024-09-25T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scir-14pian-chang-wen-bei-emnlp-2024zhu-hui-findingslu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scir-14pian-chang-wen-bei-emnlp-2024zhu-hui-findingslu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR 20篇长文被ACL 2024主会&#x2F;Findings录用</title>
-		<published>2024-05-20T00:00:00+00:00</published>
-		<updated>2024-05-20T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scir-20pian-chang-wen-bei-acl-2024zhu-hui-findingslu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scir-20pian-chang-wen-bei-acl-2024zhu-hui-findingslu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR 13篇长文被ACL 2023主会&#x2F;Findings录用</title>
-		<published>2023-05-08T00:00:00+00:00</published>
-		<updated>2023-05-08T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scir-13pian-chang-wen-bei-acl-2023zhu-hui-findingslu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scir-13pian-chang-wen-bei-acl-2023zhu-hui-findingslu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR十篇长文被EMNLP 2022主会及子刊录用</title>
-		<published>2022-10-12T00:00:00+00:00</published>
-		<updated>2022-10-12T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scirshi-pian-chang-wen-bei-emnlp-2022zhu-hui-ji-zi-kan-lu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scirshi-pian-chang-wen-bei-emnlp-2022zhu-hui-ji-zi-kan-lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR 6篇主会&#x2F;2篇Findings&#x2F;1篇Demo 共9篇长文被EMNLP 2021录用</title>
-		<published>2021-09-15T00:00:00+00:00</published>
-		<updated>2021-09-15T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scir-6pian-zhu-hui-2pian-findings-1pian-demo-gong-9pian-chang-wen-bei-emnlp-2021lu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scir-6pian-zhu-hui-2pian-findings-1pian-demo-gong-9pian-chang-wen-bei-emnlp-2021lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR 14篇长文被ACL 2021主会&#x2F;Findings和IJCAI 2021录用</title>
-		<published>2021-05-07T00:00:00+00:00</published>
-		<updated>2021-05-07T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scir-14pian-chang-wen-bei-acl-2021zhu-hui-findingshe-ijcai-2021lu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scir-14pian-chang-wen-bei-acl-2021zhu-hui-findingshe-ijcai-2021lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR三篇长文被AAAI 2021录用</title>
-		<published>2021-01-01T00:00:00+00:00</published>
-		<updated>2021-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scirsan-pian-chang-wen-bei-aaai-2021lu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scirsan-pian-chang-wen-bei-aaai-2021lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR九篇长文被EMNLP 2020及子刊录用</title>
-		<published>2020-10-05T00:00:00+00:00</published>
-		<updated>2020-10-05T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scirjiu-pian-chang-wen-bei-emnlp-2020ji-zi-kan-lu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scirjiu-pian-chang-wen-bei-emnlp-2020ji-zi-kan-lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR六篇文章被COLING 2020录用</title>
-		<published>2020-10-05T00:00:00+00:00</published>
-		<updated>2020-10-05T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scirliu-pian-wen-zhang-bei-coling-2020lu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scirliu-pian-wen-zhang-bei-coling-2020lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR三篇长文被IJCAI-PRICAI 2020录用</title>
-		<published>2020-04-21T00:00:00+00:00</published>
-		<updated>2020-04-21T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scirsan-pian-chang-wen-bei-ijcai-pricai-2020lu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scirsan-pian-chang-wen-bei-ijcai-pricai-2020lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR八篇长文被ACL 2020录用</title>
-		<published>2020-04-05T00:00:00+00:00</published>
-		<updated>2020-04-05T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scirba-pian-chang-wen-bei-acl-2020lu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scirba-pian-chang-wen-bei-acl-2020lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR八篇论文被AAAI-20录用</title>
-		<published>2019-11-11T00:00:00+00:00</published>
-		<updated>2019-11-11T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scirba-pian-lun-wen-bei-aaai-20lu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scirba-pian-lun-wen-bei-aaai-20lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR八篇论文被EMNLP-IJCNLP 2019录用</title>
-		<published>2019-08-26T00:00:00+00:00</published>
-		<updated>2019-08-26T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scirba-pian-lun-wen-bei-emnlp-ijcnlp-2019lu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scirba-pian-lun-wen-bei-emnlp-ijcnlp-2019lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR三篇论文被ACL 2019录用</title>
-		<published>2019-05-17T00:00:00+00:00</published>
-		<updated>2019-05-17T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scirsan-pian-lun-wen-bei-acl-2019lu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scirsan-pian-lun-wen-bei-acl-2019lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>哈工大SCIR六篇长文被COLING 2018录用</title>
-		<published>2018-05-17T00:00:00+00:00</published>
-		<updated>2018-05-17T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/ha-gong-da-scirliu-pian-chang-wen-bei-coling-2018lu-yong/" type="text/html"/>
-		<id>/news/ha-gong-da-scirliu-pian-chang-wen-bei-coling-2018lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>我中心3篇长文被ACL 2018录用</title>
-		<published>2018-04-25T00:00:00+00:00</published>
-		<updated>2018-04-25T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/wo-zhong-xin-3pian-chang-wen-bei-acl-2018lu-yong/" type="text/html"/>
-		<id>/news/wo-zhong-xin-3pian-chang-wen-bei-acl-2018lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>我中心6篇长文被IJCAI-ECAI 2018录用</title>
-		<published>2018-04-18T00:00:00+00:00</published>
-		<updated>2018-04-18T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/wo-zhong-xin-6pian-chang-wen-bei-ijcai-ecai-2018lu-yong/" type="text/html"/>
-		<id>/news/wo-zhong-xin-6pian-chang-wen-bei-ijcai-ecai-2018lu-yong/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>我中心3篇长文被AAAI 2018录用</title>
-		<published>2017-11-22T00:00:00+00:00</published>
-		<updated>2017-11-22T00:00:00+00:00</updated>
-		<link rel="alternate" href="/news/wo-zhong-xin-3pian-chang-wen-bei-aaai-2018lu-yong/" type="text/html"/>
-		<id>/news/wo-zhong-xin-3pian-chang-wen-bei-aaai-2018lu-yong/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - 论文发表</title>
+    <link rel="self" type="application/atom+xml" href="/news-type/lun-wen-fa-biao/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-12-09T00:00:00+00:00</updated>
+    <id>/news-type/lun-wen-fa-biao/atom.xml</id>
+    <entry xml:lang="en">
+        <title>哈工大SCIR 8篇长文被 COLING 2025录用</title>
+        <published>2024-12-09T00:00:00+00:00</published>
+        <updated>2024-12-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scir-8pian-chang-wen-bei-coling-2025lu-yong/"/>
+        <id>/news/ha-gong-da-scir-8pian-chang-wen-bei-coling-2025lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scir-8pian-chang-wen-bei-coling-2025lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR 9篇论文被 NeurIPS 2024录用</title>
+        <published>2024-09-29T00:00:00+00:00</published>
+        <updated>2024-09-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scir-9pian-lun-wen-bei-neurips-2024lu-yong/"/>
+        <id>/news/ha-gong-da-scir-9pian-lun-wen-bei-neurips-2024lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scir-9pian-lun-wen-bei-neurips-2024lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR 14篇长文被EMNLP 2024主会&#x2F;Findings录用</title>
+        <published>2024-09-25T00:00:00+00:00</published>
+        <updated>2024-09-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scir-14pian-chang-wen-bei-emnlp-2024zhu-hui-findingslu-yong/"/>
+        <id>/news/ha-gong-da-scir-14pian-chang-wen-bei-emnlp-2024zhu-hui-findingslu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scir-14pian-chang-wen-bei-emnlp-2024zhu-hui-findingslu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR 20篇长文被ACL 2024主会&#x2F;Findings录用</title>
+        <published>2024-05-20T00:00:00+00:00</published>
+        <updated>2024-05-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scir-20pian-chang-wen-bei-acl-2024zhu-hui-findingslu-yong/"/>
+        <id>/news/ha-gong-da-scir-20pian-chang-wen-bei-acl-2024zhu-hui-findingslu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scir-20pian-chang-wen-bei-acl-2024zhu-hui-findingslu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR 13篇长文被ACL 2023主会&#x2F;Findings录用</title>
+        <published>2023-05-08T00:00:00+00:00</published>
+        <updated>2023-05-08T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scir-13pian-chang-wen-bei-acl-2023zhu-hui-findingslu-yong/"/>
+        <id>/news/ha-gong-da-scir-13pian-chang-wen-bei-acl-2023zhu-hui-findingslu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scir-13pian-chang-wen-bei-acl-2023zhu-hui-findingslu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR十篇长文被EMNLP 2022主会及子刊录用</title>
+        <published>2022-10-12T00:00:00+00:00</published>
+        <updated>2022-10-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirshi-pian-chang-wen-bei-emnlp-2022zhu-hui-ji-zi-kan-lu-yong/"/>
+        <id>/news/ha-gong-da-scirshi-pian-chang-wen-bei-emnlp-2022zhu-hui-ji-zi-kan-lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scirshi-pian-chang-wen-bei-emnlp-2022zhu-hui-ji-zi-kan-lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR 6篇主会&#x2F;2篇Findings&#x2F;1篇Demo 共9篇长文被EMNLP 2021录用</title>
+        <published>2021-09-15T00:00:00+00:00</published>
+        <updated>2021-09-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scir-6pian-zhu-hui-2pian-findings-1pian-demo-gong-9pian-chang-wen-bei-emnlp-2021lu-yong/"/>
+        <id>/news/ha-gong-da-scir-6pian-zhu-hui-2pian-findings-1pian-demo-gong-9pian-chang-wen-bei-emnlp-2021lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scir-6pian-zhu-hui-2pian-findings-1pian-demo-gong-9pian-chang-wen-bei-emnlp-2021lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR 14篇长文被ACL 2021主会&#x2F;Findings和IJCAI 2021录用</title>
+        <published>2021-05-07T00:00:00+00:00</published>
+        <updated>2021-05-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scir-14pian-chang-wen-bei-acl-2021zhu-hui-findingshe-ijcai-2021lu-yong/"/>
+        <id>/news/ha-gong-da-scir-14pian-chang-wen-bei-acl-2021zhu-hui-findingshe-ijcai-2021lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scir-14pian-chang-wen-bei-acl-2021zhu-hui-findingshe-ijcai-2021lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR三篇长文被AAAI 2021录用</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirsan-pian-chang-wen-bei-aaai-2021lu-yong/"/>
+        <id>/news/ha-gong-da-scirsan-pian-chang-wen-bei-aaai-2021lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scirsan-pian-chang-wen-bei-aaai-2021lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR九篇长文被EMNLP 2020及子刊录用</title>
+        <published>2020-10-05T00:00:00+00:00</published>
+        <updated>2020-10-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirjiu-pian-chang-wen-bei-emnlp-2020ji-zi-kan-lu-yong/"/>
+        <id>/news/ha-gong-da-scirjiu-pian-chang-wen-bei-emnlp-2020ji-zi-kan-lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scirjiu-pian-chang-wen-bei-emnlp-2020ji-zi-kan-lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR六篇文章被COLING 2020录用</title>
+        <published>2020-10-05T00:00:00+00:00</published>
+        <updated>2020-10-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirliu-pian-wen-zhang-bei-coling-2020lu-yong/"/>
+        <id>/news/ha-gong-da-scirliu-pian-wen-zhang-bei-coling-2020lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scirliu-pian-wen-zhang-bei-coling-2020lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR三篇长文被IJCAI-PRICAI 2020录用</title>
+        <published>2020-04-21T00:00:00+00:00</published>
+        <updated>2020-04-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirsan-pian-chang-wen-bei-ijcai-pricai-2020lu-yong/"/>
+        <id>/news/ha-gong-da-scirsan-pian-chang-wen-bei-ijcai-pricai-2020lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scirsan-pian-chang-wen-bei-ijcai-pricai-2020lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR八篇长文被ACL 2020录用</title>
+        <published>2020-04-05T00:00:00+00:00</published>
+        <updated>2020-04-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirba-pian-chang-wen-bei-acl-2020lu-yong/"/>
+        <id>/news/ha-gong-da-scirba-pian-chang-wen-bei-acl-2020lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scirba-pian-chang-wen-bei-acl-2020lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR八篇论文被AAAI-20录用</title>
+        <published>2019-11-11T00:00:00+00:00</published>
+        <updated>2019-11-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirba-pian-lun-wen-bei-aaai-20lu-yong/"/>
+        <id>/news/ha-gong-da-scirba-pian-lun-wen-bei-aaai-20lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scirba-pian-lun-wen-bei-aaai-20lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR八篇论文被EMNLP-IJCNLP 2019录用</title>
+        <published>2019-08-26T00:00:00+00:00</published>
+        <updated>2019-08-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirba-pian-lun-wen-bei-emnlp-ijcnlp-2019lu-yong/"/>
+        <id>/news/ha-gong-da-scirba-pian-lun-wen-bei-emnlp-ijcnlp-2019lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scirba-pian-lun-wen-bei-emnlp-ijcnlp-2019lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR三篇论文被ACL 2019录用</title>
+        <published>2019-05-17T00:00:00+00:00</published>
+        <updated>2019-05-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirsan-pian-lun-wen-bei-acl-2019lu-yong/"/>
+        <id>/news/ha-gong-da-scirsan-pian-lun-wen-bei-acl-2019lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scirsan-pian-lun-wen-bei-acl-2019lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR六篇长文被COLING 2018录用</title>
+        <published>2018-05-17T00:00:00+00:00</published>
+        <updated>2018-05-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirliu-pian-chang-wen-bei-coling-2018lu-yong/"/>
+        <id>/news/ha-gong-da-scirliu-pian-chang-wen-bei-coling-2018lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scirliu-pian-chang-wen-bei-coling-2018lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>我中心3篇长文被ACL 2018录用</title>
+        <published>2018-04-25T00:00:00+00:00</published>
+        <updated>2018-04-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/wo-zhong-xin-3pian-chang-wen-bei-acl-2018lu-yong/"/>
+        <id>/news/wo-zhong-xin-3pian-chang-wen-bei-acl-2018lu-yong/</id>
+        
+        <content type="html" xml:base="/news/wo-zhong-xin-3pian-chang-wen-bei-acl-2018lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>我中心6篇长文被IJCAI-ECAI 2018录用</title>
+        <published>2018-04-18T00:00:00+00:00</published>
+        <updated>2018-04-18T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/wo-zhong-xin-6pian-chang-wen-bei-ijcai-ecai-2018lu-yong/"/>
+        <id>/news/wo-zhong-xin-6pian-chang-wen-bei-ijcai-ecai-2018lu-yong/</id>
+        
+        <content type="html" xml:base="/news/wo-zhong-xin-6pian-chang-wen-bei-ijcai-ecai-2018lu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>我中心3篇长文被AAAI 2018录用</title>
+        <published>2017-11-22T00:00:00+00:00</published>
+        <updated>2017-11-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/wo-zhong-xin-3pian-chang-wen-bei-aaai-2018lu-yong/"/>
+        <id>/news/wo-zhong-xin-3pian-chang-wen-bei-aaai-2018lu-yong/</id>
+        
+        <content type="html" xml:base="/news/wo-zhong-xin-3pian-chang-wen-bei-aaai-2018lu-yong/"></content>
+        
+    </entry>
 </feed>

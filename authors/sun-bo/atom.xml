@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Sun Bo</title>
-	<link href="/authors/sun-bo/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2023-01-01T00:00:00+00:00</updated>
-	<id>/authors/sun-bo/atom.xml</id>
-	<entry xml:lang="en">
-		<title>CSED A Chinese Semantic Error Diagnosis Corpus</title>
-		<published>2023-01-01T00:00:00+00:00</published>
-		<updated>2023-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/" type="text/html"/>
-		<id>/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Improving Pre-trained Language Models with Syntactic Dependency Prediction Task for Chinese Semantic Error Recognition</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/" type="text/html"/>
-		<id>/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Sun Bo</title>
+    <link rel="self" type="application/atom+xml" href="/authors/sun-bo/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-01T00:00:00+00:00</updated>
+    <id>/authors/sun-bo/atom.xml</id>
+    <entry xml:lang="en">
+        <title>CSED A Chinese Semantic Error Diagnosis Corpus</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/"/>
+        <id>/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/</id>
+        
+        <content type="html" xml:base="/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Improving Pre-trained Language Models with Syntactic Dependency Prediction Task for Chinese Semantic Error Recognition</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/"/>
+        <id>/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/</id>
+        
+        <content type="html" xml:base="/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/"></content>
+        
+    </entry>
 </feed>

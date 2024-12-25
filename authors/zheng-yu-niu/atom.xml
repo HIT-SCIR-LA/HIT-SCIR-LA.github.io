@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Zheng{-}Yu Niu</title>
-	<link href="/authors/zheng-yu-niu/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2020-01-01T00:00:00+00:00</updated>
-	<id>/authors/zheng-yu-niu/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Enhancing Dialog Coherence with Event Graph Grounded Content Planning</title>
-		<published>2020-01-01T00:00:00+00:00</published>
-		<updated>2020-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2020-enhancing-dialog-coherence-with-event-graph-grounded-content-planning/" type="text/html"/>
-		<id>/publications/2020-enhancing-dialog-coherence-with-event-graph-grounded-content-planning/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Zheng{-}Yu Niu</title>
+    <link rel="self" type="application/atom+xml" href="/authors/zheng-yu-niu/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2020-01-01T00:00:00+00:00</updated>
+    <id>/authors/zheng-yu-niu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Enhancing Dialog Coherence with Event Graph Grounded Content Planning</title>
+        <published>2020-01-01T00:00:00+00:00</published>
+        <updated>2020-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2020-enhancing-dialog-coherence-with-event-graph-grounded-content-planning/"/>
+        <id>/publications/2020-enhancing-dialog-coherence-with-event-graph-grounded-content-planning/</id>
+        
+        <content type="html" xml:base="/publications/2020-enhancing-dialog-coherence-with-event-graph-grounded-content-planning/"></content>
+        
+    </entry>
 </feed>

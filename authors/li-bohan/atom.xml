@@ -1,57 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title> - Li Bohan</title>
-	<link href="/authors/li-bohan/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2024-01-01T00:00:00+00:00</updated>
-	<id>/authors/li-bohan/atom.xml</id>
-	<entry xml:lang="en">
-		<title>A Two-Stage Framework with Self-Supervised Distillation For Cross-Domain Text Classification</title>
-		<published>2024-01-01T00:00:00+00:00</published>
-		<updated>2024-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/" type="text/html"/>
-		<id>/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Semantic-Guided Generative Image Augmentation Method with Diffusion Models for Image Classification</title>
-		<published>2024-01-01T00:00:00+00:00</published>
-		<updated>2024-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/" type="text/html"/>
-		<id>/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Data augmentation approaches in natural language processing A survey</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/" type="text/html"/>
-		<id>/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>FewJoint few-shot learning for joint dialogue understanding</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/" type="text/html"/>
-		<id>/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Inverse is Better Fast and Accurate Prompt for Few-shot Slot Tagging</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/" type="text/html"/>
-		<id>/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>MetaPrompting Learning to Learn Better Prompts</title>
-		<published>2022-01-01T00:00:00+00:00</published>
-		<updated>2022-01-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="/publications/2022-metaprompting-learning-to-learn-better-prompts/" type="text/html"/>
-		<id>/publications/2022-metaprompting-learning-to-learn-better-prompts/</id>
-		<content type="html"></content>
-	</entry>
+    <title> - Li Bohan</title>
+    <link rel="self" type="application/atom+xml" href="/authors/li-bohan/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-01T00:00:00+00:00</updated>
+    <id>/authors/li-bohan/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A Two-Stage Framework with Self-Supervised Distillation For Cross-Domain Text Classification</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/"/>
+        <id>/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/</id>
+        
+        <content type="html" xml:base="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Semantic-Guided Generative Image Augmentation Method with Diffusion Models for Image Classification</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/"/>
+        <id>/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/</id>
+        
+        <content type="html" xml:base="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Data augmentation approaches in natural language processing A survey</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/"/>
+        <id>/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/</id>
+        
+        <content type="html" xml:base="/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>FewJoint few-shot learning for joint dialogue understanding</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/"/>
+        <id>/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Inverse is Better Fast and Accurate Prompt for Few-shot Slot Tagging</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/"/>
+        <id>/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/</id>
+        
+        <content type="html" xml:base="/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>MetaPrompting Learning to Learn Better Prompts</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-metaprompting-learning-to-learn-better-prompts/"/>
+        <id>/publications/2022-metaprompting-learning-to-learn-better-prompts/</id>
+        
+        <content type="html" xml:base="/publications/2022-metaprompting-learning-to-learn-better-prompts/"></content>
+        
+    </entry>
 </feed>
