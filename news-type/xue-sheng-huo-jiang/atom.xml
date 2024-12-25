@@ -1,104 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - 学生获奖</title>
-    <link rel="self" type="application/atom+xml" href="/news-type/xue-sheng-huo-jiang/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-09-30T00:00:00+00:00</updated>
-    <id>/news-type/xue-sheng-huo-jiang/atom.xml</id>
-    <entry xml:lang="en">
-        <title>今天，哈工大再获国家表彰！</title>
-        <published>2024-09-30T00:00:00+00:00</published>
-        <updated>2024-09-30T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/jin-tian-ha-gong-da-zai-huo-guo-jia-biao-zhang/"/>
-        <id>/news/jin-tian-ha-gong-da-zai-huo-guo-jia-biao-zhang/</id>
-        
-        <content type="html" xml:base="/news/jin-tian-ha-gong-da-zai-huo-guo-jia-biao-zhang/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>青春的选择丨哈工大这个团队立于生成式AI潮头！</title>
-        <published>2024-05-17T00:00:00+00:00</published>
-        <updated>2024-05-17T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/qing-chun-de-xuan-ze-gun-ha-gong-da-zhe-ge-tuan-dui-li-yu-sheng-cheng-shi-aichao-tou/"/>
-        <id>/news/qing-chun-de-xuan-ze-gun-ha-gong-da-zhe-ge-tuan-dui-li-yu-sheng-cheng-shi-aichao-tou/</id>
-        
-        <content type="html" xml:base="/news/qing-chun-de-xuan-ze-gun-ha-gong-da-zhe-ge-tuan-dui-li-yu-sheng-cheng-shi-aichao-tou/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>哈工大SCIR博士生覃立波获2021年“微软学者”称号</title>
-        <published>2021-10-21T00:00:00+00:00</published>
-        <updated>2021-10-21T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirbo-shi-sheng-tan-li-bo-huo-2021nian-wei-ruan-xue-zhe-cheng-hao/"/>
-        <id>/news/ha-gong-da-scirbo-shi-sheng-tan-li-bo-huo-2021nian-wei-ruan-xue-zhe-cheng-hao/</id>
-        
-        <content type="html" xml:base="/news/ha-gong-da-scirbo-shi-sheng-tan-li-bo-huo-2021nian-wei-ruan-xue-zhe-cheng-hao/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>哈工大SCIR博士生覃立波获得第八届百度奖学金</title>
-        <published>2021-05-24T00:00:00+00:00</published>
-        <updated>2021-05-24T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirbo-shi-sheng-tan-li-bo-huo-de-di-ba-jie-bai-du-jiang-xue-jin/"/>
-        <id>/news/ha-gong-da-scirbo-shi-sheng-tan-li-bo-huo-de-di-ba-jie-bai-du-jiang-xue-jin/</id>
-        
-        <content type="html" xml:base="/news/ha-gong-da-scirbo-shi-sheng-tan-li-bo-huo-de-di-ba-jie-bai-du-jiang-xue-jin/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>哈工大SCIR博士生刘一佳获得第六届百度奖学金</title>
-        <published>2019-01-08T00:00:00+00:00</published>
-        <updated>2019-01-08T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirbo-shi-sheng-liu-yi-jia-huo-de-di-liu-jie-bai-du-jiang-xue-jin/"/>
-        <id>/news/ha-gong-da-scirbo-shi-sheng-liu-yi-jia-huo-de-di-liu-jie-bai-du-jiang-xue-jin/</id>
-        
-        <content type="html" xml:base="/news/ha-gong-da-scirbo-shi-sheng-liu-yi-jia-huo-de-di-liu-jie-bai-du-jiang-xue-jin/"></content>
-        
-    </entry>
+	<title> - 学生获奖</title>
+	<link href="/news-type/xue-sheng-huo-jiang/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2024-09-30T00:00:00+00:00</updated>
+	<id>/news-type/xue-sheng-huo-jiang/atom.xml</id>
+	<entry xml:lang="en">
+		<title>今天，哈工大再获国家表彰！</title>
+		<published>2024-09-30T00:00:00+00:00</published>
+		<updated>2024-09-30T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/jin-tian-ha-gong-da-zai-huo-guo-jia-biao-zhang/" type="text/html"/>
+		<id>/news/jin-tian-ha-gong-da-zai-huo-guo-jia-biao-zhang/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>青春的选择丨哈工大这个团队立于生成式AI潮头！</title>
+		<published>2024-05-17T00:00:00+00:00</published>
+		<updated>2024-05-17T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/qing-chun-de-xuan-ze-gun-ha-gong-da-zhe-ge-tuan-dui-li-yu-sheng-cheng-shi-aichao-tou/" type="text/html"/>
+		<id>/news/qing-chun-de-xuan-ze-gun-ha-gong-da-zhe-ge-tuan-dui-li-yu-sheng-cheng-shi-aichao-tou/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>哈工大SCIR博士生覃立波获2021年“微软学者”称号</title>
+		<published>2021-10-21T00:00:00+00:00</published>
+		<updated>2021-10-21T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/ha-gong-da-scirbo-shi-sheng-tan-li-bo-huo-2021nian-wei-ruan-xue-zhe-cheng-hao/" type="text/html"/>
+		<id>/news/ha-gong-da-scirbo-shi-sheng-tan-li-bo-huo-2021nian-wei-ruan-xue-zhe-cheng-hao/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>哈工大SCIR博士生覃立波获得第八届百度奖学金</title>
+		<published>2021-05-24T00:00:00+00:00</published>
+		<updated>2021-05-24T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/ha-gong-da-scirbo-shi-sheng-tan-li-bo-huo-de-di-ba-jie-bai-du-jiang-xue-jin/" type="text/html"/>
+		<id>/news/ha-gong-da-scirbo-shi-sheng-tan-li-bo-huo-de-di-ba-jie-bai-du-jiang-xue-jin/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>哈工大SCIR博士生刘一佳获得第六届百度奖学金</title>
+		<published>2019-01-08T00:00:00+00:00</published>
+		<updated>2019-01-08T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/ha-gong-da-scirbo-shi-sheng-liu-yi-jia-huo-de-di-liu-jie-bai-du-jiang-xue-jin/" type="text/html"/>
+		<id>/news/ha-gong-da-scirbo-shi-sheng-liu-yi-jia-huo-de-di-liu-jie-bai-du-jiang-xue-jin/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

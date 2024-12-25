@@ -1,142 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - ACL(Findings)</title>
-    <link rel="self" type="application/atom+xml" href="/publisher/acl-findings/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-01-01T00:00:00+00:00</updated>
-    <id>/publisher/acl-findings/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Concise and Precise Context Compression for Tool-Using Language Models</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/"/>
-        <id>/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/</id>
-        
-        <content type="html" xml:base="/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Improving Grammatical Error Correction via Contextual Data Augmentation</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/"/>
-        <id>/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/</id>
-        
-        <content type="html" xml:base="/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Language Anisotropic Cross-Lingual Model Editing</title>
-        <published>2023-01-01T00:00:00+00:00</published>
-        <updated>2023-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2023-language-anisotropic-cross-lingual-model-editing/"/>
-        <id>/publications/2023-language-anisotropic-cross-lingual-model-editing/</id>
-        
-        <content type="html" xml:base="/publications/2023-language-anisotropic-cross-lingual-model-editing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Inverse is Better Fast and Accurate Prompt for Few-shot Slot Tagging</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/"/>
-        <id>/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/</id>
-        
-        <content type="html" xml:base="/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Closer Look into the Robustness of Neural Dependency Parsers Using Better Adversarial Examples</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-a-closer-look-into-the-robustness-of-neural-dependency-parsers-using-better-adversarial-examples/"/>
-        <id>/publications/2021-a-closer-look-into-the-robustness-of-neural-dependency-parsers-using-better-adversarial-examples/</id>
-        
-        <content type="html" xml:base="/publications/2021-a-closer-look-into-the-robustness-of-neural-dependency-parsers-using-better-adversarial-examples/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Dynamic Connected Networks for Chinese Spelling Check</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-dynamic-connected-networks-for-chinese-spelling-check/"/>
-        <id>/publications/2021-dynamic-connected-networks-for-chinese-spelling-check/</id>
-        
-        <content type="html" xml:base="/publications/2021-dynamic-connected-networks-for-chinese-spelling-check/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Learning to Bridge Metric Spaces Few-shot Joint Learning of Intent Detection and Slot Filling</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-learning-to-bridge-metric-spaces-few-shot-joint-learning-of-intent-detection-and-slot-filling/"/>
-        <id>/publications/2021-learning-to-bridge-metric-spaces-few-shot-joint-learning-of-intent-detection-and-slot-filling/</id>
-        
-        <content type="html" xml:base="/publications/2021-learning-to-bridge-metric-spaces-few-shot-joint-learning-of-intent-detection-and-slot-filling/"></content>
-        
-    </entry>
+	<title> - ACL(Findings)</title>
+	<link href="/publisher/acl-findings/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2024-01-01T00:00:00+00:00</updated>
+	<id>/publisher/acl-findings/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Concise and Precise Context Compression for Tool-Using Language Models</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/" type="text/html"/>
+		<id>/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Improving Grammatical Error Correction via Contextual Data Augmentation</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/" type="text/html"/>
+		<id>/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Language Anisotropic Cross-Lingual Model Editing</title>
+		<published>2023-01-01T00:00:00+00:00</published>
+		<updated>2023-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2023-language-anisotropic-cross-lingual-model-editing/" type="text/html"/>
+		<id>/publications/2023-language-anisotropic-cross-lingual-model-editing/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Inverse is Better Fast and Accurate Prompt for Few-shot Slot Tagging</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/" type="text/html"/>
+		<id>/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Closer Look into the Robustness of Neural Dependency Parsers Using Better Adversarial Examples</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-a-closer-look-into-the-robustness-of-neural-dependency-parsers-using-better-adversarial-examples/" type="text/html"/>
+		<id>/publications/2021-a-closer-look-into-the-robustness-of-neural-dependency-parsers-using-better-adversarial-examples/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Dynamic Connected Networks for Chinese Spelling Check</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-dynamic-connected-networks-for-chinese-spelling-check/" type="text/html"/>
+		<id>/publications/2021-dynamic-connected-networks-for-chinese-spelling-check/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Learning to Bridge Metric Spaces Few-shot Joint Learning of Intent Detection and Slot Filling</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-learning-to-bridge-metric-spaces-few-shot-joint-learning-of-intent-detection-and-slot-filling/" type="text/html"/>
+		<id>/publications/2021-learning-to-bridge-metric-spaces-few-shot-joint-learning-of-intent-detection-and-slot-filling/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

@@ -1,199 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - Xu Xiao</title>
-    <link rel="self" type="application/atom+xml" href="/authors/xu-xiao/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-01-01T00:00:00+00:00</updated>
-    <id>/authors/xu-xiao/atom.xml</id>
-    <entry xml:lang="en">
-        <title>A Two-Stage Framework with Self-Supervised Distillation For Cross-Domain Text Classification</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/"/>
-        <id>/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/</id>
-        
-        <content type="html" xml:base="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>M3CoT A Novel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/"/>
-        <id>/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/</id>
-        
-        <content type="html" xml:base="/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/"/>
-        <id>/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/</id>
-        
-        <content type="html" xml:base="/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Semantic-Guided Generative Image Augmentation Method with Diffusion Models for Image Classification</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/"/>
-        <id>/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/</id>
-        
-        <content type="html" xml:base="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Modularized Pre-Training for End-to-End Task-Oriented Dialogue</title>
-        <published>2023-01-01T00:00:00+00:00</published>
-        <updated>2023-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/"/>
-        <id>/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/</id>
-        
-        <content type="html" xml:base="/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Text Is No More Enough A Benchmark for Profile-Based Spoken Language Understanding</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-text-is-no-more-enough-a-benchmark-for-profile-based-spoken-language-understanding/"/>
-        <id>/publications/2022-text-is-no-more-enough-a-benchmark-for-profile-based-spoken-language-understanding/</id>
-        
-        <content type="html" xml:base="/publications/2022-text-is-no-more-enough-a-benchmark-for-profile-based-spoken-language-understanding/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Dont be Contradicted with Anything CI-ToD Towards Benchmarking Consistency for Task-oriented Dialogue System</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-dont-be-contradicted-with-anything-ci-tod-towards-benchmarking-consistency-for-task-oriented-dialogue-system/"/>
-        <id>/publications/2021-dont-be-contradicted-with-anything-ci-tod-towards-benchmarking-consistency-for-task-oriented-dialogue-system/</id>
-        
-        <content type="html" xml:base="/publications/2021-dont-be-contradicted-with-anything-ci-tod-towards-benchmarking-consistency-for-task-oriented-dialogue-system/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>GL-GIN Fast and Accurate Non-Autoregressive Model for Joint Multiple Intent Detection and Slot Filling</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-gl-gin-fast-and-accurate-non-autoregressive-model-for-joint-multiple-intent-detection-and-slot-filling/"/>
-        <id>/publications/2021-gl-gin-fast-and-accurate-non-autoregressive-model-for-joint-multiple-intent-detection-and-slot-filling/</id>
-        
-        <content type="html" xml:base="/publications/2021-gl-gin-fast-and-accurate-non-autoregressive-model-for-joint-multiple-intent-detection-and-slot-filling/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>AGIF An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-agif-an-adaptive-graph-interactive-framework-for-joint-multiple-intent-detection-and-slot-filling/"/>
-        <id>/publications/2020-agif-an-adaptive-graph-interactive-framework-for-joint-multiple-intent-detection-and-slot-filling/</id>
-        
-        <content type="html" xml:base="/publications/2020-agif-an-adaptive-graph-interactive-framework-for-joint-multiple-intent-detection-and-slot-filling/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Dynamic Fusion Network for Multi-Domain End-to-end Task-Oriented Dialog</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-dynamic-fusion-network-for-multi-domain-end-to-end-task-oriented-dialog/"/>
-        <id>/publications/2020-dynamic-fusion-network-for-multi-domain-end-to-end-task-oriented-dialog/</id>
-        
-        <content type="html" xml:base="/publications/2020-dynamic-fusion-network-for-multi-domain-end-to-end-task-oriented-dialog/"></content>
-        
-    </entry>
+	<title> - Xu Xiao</title>
+	<link href="/authors/xu-xiao/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2024-01-01T00:00:00+00:00</updated>
+	<id>/authors/xu-xiao/atom.xml</id>
+	<entry xml:lang="en">
+		<title>A Two-Stage Framework with Self-Supervised Distillation For Cross-Domain Text Classification</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/" type="text/html"/>
+		<id>/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>M3CoT A Novel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/" type="text/html"/>
+		<id>/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/" type="text/html"/>
+		<id>/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Semantic-Guided Generative Image Augmentation Method with Diffusion Models for Image Classification</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/" type="text/html"/>
+		<id>/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Modularized Pre-Training for End-to-End Task-Oriented Dialogue</title>
+		<published>2023-01-01T00:00:00+00:00</published>
+		<updated>2023-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/" type="text/html"/>
+		<id>/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Text Is No More Enough A Benchmark for Profile-Based Spoken Language Understanding</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2022-text-is-no-more-enough-a-benchmark-for-profile-based-spoken-language-understanding/" type="text/html"/>
+		<id>/publications/2022-text-is-no-more-enough-a-benchmark-for-profile-based-spoken-language-understanding/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Dont be Contradicted with Anything CI-ToD Towards Benchmarking Consistency for Task-oriented Dialogue System</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-dont-be-contradicted-with-anything-ci-tod-towards-benchmarking-consistency-for-task-oriented-dialogue-system/" type="text/html"/>
+		<id>/publications/2021-dont-be-contradicted-with-anything-ci-tod-towards-benchmarking-consistency-for-task-oriented-dialogue-system/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>GL-GIN Fast and Accurate Non-Autoregressive Model for Joint Multiple Intent Detection and Slot Filling</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-gl-gin-fast-and-accurate-non-autoregressive-model-for-joint-multiple-intent-detection-and-slot-filling/" type="text/html"/>
+		<id>/publications/2021-gl-gin-fast-and-accurate-non-autoregressive-model-for-joint-multiple-intent-detection-and-slot-filling/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>AGIF An Adaptive Graph-Interactive Framework for Joint Multiple Intent Detection and Slot Filling</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-agif-an-adaptive-graph-interactive-framework-for-joint-multiple-intent-detection-and-slot-filling/" type="text/html"/>
+		<id>/publications/2020-agif-an-adaptive-graph-interactive-framework-for-joint-multiple-intent-detection-and-slot-filling/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Dynamic Fusion Network for Multi-Domain End-to-end Task-Oriented Dialog</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-dynamic-fusion-network-for-multi-domain-end-to-end-task-oriented-dialog/" type="text/html"/>
+		<id>/publications/2020-dynamic-fusion-network-for-multi-domain-end-to-end-task-oriented-dialog/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

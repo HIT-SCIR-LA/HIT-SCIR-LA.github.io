@@ -1,123 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - Li Yangming</title>
-    <link rel="self" type="application/atom+xml" href="/authors/li-yangming/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2021-01-01T00:00:00+00:00</updated>
-    <id>/authors/li-yangming/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Knowing where to leverage Context-aware graph convolutional network with an adaptive fusion layer for contextual spoken language understanding</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-knowing-where-to-leverage-context-aware-graph-convolutional-network-with-an-adaptive-fusion-layer-for-contextual-spoken-lan/"/>
-        <id>/publications/2021-knowing-where-to-leverage-context-aware-graph-convolutional-network-with-an-adaptive-fusion-layer-for-contextual-spoken-lan/</id>
-        
-        <content type="html" xml:base="/publications/2021-knowing-where-to-leverage-context-aware-graph-convolutional-network-with-an-adaptive-fusion-layer-for-contextual-spoken-lan/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Dcr-net A deep co-interactive relation network for joint dialog act recognition and sentiment classification</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-dcr-net-a-deep-co-interactive-relation-network-for-joint-dialog-act-recognition-and-sentiment-classification/"/>
-        <id>/publications/2020-dcr-net-a-deep-co-interactive-relation-network-for-joint-dialog-act-recognition-and-sentiment-classification/</id>
-        
-        <content type="html" xml:base="/publications/2020-dcr-net-a-deep-co-interactive-relation-network-for-joint-dialog-act-recognition-and-sentiment-classification/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Multi-domain spoken language understanding using domain-and task-aware parameterization</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-multi-domain-spoken-language-understanding-using-domain-and-task-aware-parameterization/"/>
-        <id>/publications/2020-multi-domain-spoken-language-understanding-using-domain-and-task-aware-parameterization/</id>
-        
-        <content type="html" xml:base="/publications/2020-multi-domain-spoken-language-understanding-using-domain-and-task-aware-parameterization/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Slot-consistent NLG for Task-oriented Dialogue Systems with Iterative Rectification Network</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-slot-consistent-nlg-for-task-oriented-dialogue-systems-with-iterative-rectification-network/"/>
-        <id>/publications/2020-slot-consistent-nlg-for-task-oriented-dialogue-systems-with-iterative-rectification-network/</id>
-        
-        <content type="html" xml:base="/publications/2020-slot-consistent-nlg-for-task-oriented-dialogue-systems-with-iterative-rectification-network/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding/"/>
-        <id>/publications/2019-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding/</id>
-        
-        <content type="html" xml:base="/publications/2019-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Entity-Consistent End-to-end Task-Oriented Dialogue System with KB Retriever</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-entity-consistent-end-to-end-task-oriented-dialogue-system-with-kb-retriever/"/>
-        <id>/publications/2019-entity-consistent-end-to-end-task-oriented-dialogue-system-with-kb-retriever/</id>
-        
-        <content type="html" xml:base="/publications/2019-entity-consistent-end-to-end-task-oriented-dialogue-system-with-kb-retriever/"></content>
-        
-    </entry>
+	<title> - Li Yangming</title>
+	<link href="/authors/li-yangming/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-01-01T00:00:00+00:00</updated>
+	<id>/authors/li-yangming/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Knowing where to leverage Context-aware graph convolutional network with an adaptive fusion layer for contextual spoken language understanding</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-knowing-where-to-leverage-context-aware-graph-convolutional-network-with-an-adaptive-fusion-layer-for-contextual-spoken-lan/" type="text/html"/>
+		<id>/publications/2021-knowing-where-to-leverage-context-aware-graph-convolutional-network-with-an-adaptive-fusion-layer-for-contextual-spoken-lan/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Dcr-net A deep co-interactive relation network for joint dialog act recognition and sentiment classification</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-dcr-net-a-deep-co-interactive-relation-network-for-joint-dialog-act-recognition-and-sentiment-classification/" type="text/html"/>
+		<id>/publications/2020-dcr-net-a-deep-co-interactive-relation-network-for-joint-dialog-act-recognition-and-sentiment-classification/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Multi-domain spoken language understanding using domain-and task-aware parameterization</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-multi-domain-spoken-language-understanding-using-domain-and-task-aware-parameterization/" type="text/html"/>
+		<id>/publications/2020-multi-domain-spoken-language-understanding-using-domain-and-task-aware-parameterization/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Slot-consistent NLG for Task-oriented Dialogue Systems with Iterative Rectification Network</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-slot-consistent-nlg-for-task-oriented-dialogue-systems-with-iterative-rectification-network/" type="text/html"/>
+		<id>/publications/2020-slot-consistent-nlg-for-task-oriented-dialogue-systems-with-iterative-rectification-network/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding/" type="text/html"/>
+		<id>/publications/2019-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Entity-Consistent End-to-end Task-Oriented Dialogue System with KB Retriever</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-entity-consistent-end-to-end-task-oriented-dialogue-system-with-kb-retriever/" type="text/html"/>
+		<id>/publications/2019-entity-consistent-end-to-end-task-oriented-dialogue-system-with-kb-retriever/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

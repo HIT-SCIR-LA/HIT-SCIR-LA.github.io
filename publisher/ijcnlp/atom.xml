@@ -1,104 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - IJCNLP</title>
-    <link rel="self" type="application/atom+xml" href="/publisher/ijcnlp/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2017-01-01T00:00:00+00:00</updated>
-    <id>/publisher/ijcnlp/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Deep Learning in Lexical Analysis and Parsing</title>
-        <published>2017-01-01T00:00:00+00:00</published>
-        <updated>2017-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2017-deep-learning-in-lexical-analysis-and-parsing/"/>
-        <id>/publications/2017-deep-learning-in-lexical-analysis-and-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2017-deep-learning-in-lexical-analysis-and-parsing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Graph-based Method for Entity Linking</title>
-        <published>2011-01-01T00:00:00+00:00</published>
-        <updated>2011-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2011-a-graph-based-method-for-entity-linking/"/>
-        <id>/publications/2011-a-graph-based-method-for-entity-linking/</id>
-        
-        <content type="html" xml:base="/publications/2011-a-graph-based-method-for-entity-linking/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Improving Chinese POS Tagging with Dependency Parsing</title>
-        <published>2011-01-01T00:00:00+00:00</published>
-        <updated>2011-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2011-improving-chinese-pos-tagging-with-dependency-parsing/"/>
-        <id>/publications/2011-improving-chinese-pos-tagging-with-dependency-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2011-improving-chinese-pos-tagging-with-dependency-parsing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Word Sense Disambiguation Corpora Acquisition via Confirmation Code</title>
-        <published>2011-01-01T00:00:00+00:00</published>
-        <updated>2011-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2011-word-sense-disambiguation-corpora-acquisition-via-confirmation-code/"/>
-        <id>/publications/2011-word-sense-disambiguation-corpora-acquisition-via-confirmation-code/</id>
-        
-        <content type="html" xml:base="/publications/2011-word-sense-disambiguation-corpora-acquisition-via-confirmation-code/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Fast Computing Grammar-driven Convolution Tree Kernel for Semantic Role Labeling</title>
-        <published>2008-01-01T00:00:00+00:00</published>
-        <updated>2008-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/"/>
-        <id>/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/</id>
-        
-        <content type="html" xml:base="/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/"></content>
-        
-    </entry>
+	<title> - IJCNLP</title>
+	<link href="/publisher/ijcnlp/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2017-01-01T00:00:00+00:00</updated>
+	<id>/publisher/ijcnlp/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Deep Learning in Lexical Analysis and Parsing</title>
+		<published>2017-01-01T00:00:00+00:00</published>
+		<updated>2017-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2017-deep-learning-in-lexical-analysis-and-parsing/" type="text/html"/>
+		<id>/publications/2017-deep-learning-in-lexical-analysis-and-parsing/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Graph-based Method for Entity Linking</title>
+		<published>2011-01-01T00:00:00+00:00</published>
+		<updated>2011-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2011-a-graph-based-method-for-entity-linking/" type="text/html"/>
+		<id>/publications/2011-a-graph-based-method-for-entity-linking/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Improving Chinese POS Tagging with Dependency Parsing</title>
+		<published>2011-01-01T00:00:00+00:00</published>
+		<updated>2011-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2011-improving-chinese-pos-tagging-with-dependency-parsing/" type="text/html"/>
+		<id>/publications/2011-improving-chinese-pos-tagging-with-dependency-parsing/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Word Sense Disambiguation Corpora Acquisition via Confirmation Code</title>
+		<published>2011-01-01T00:00:00+00:00</published>
+		<updated>2011-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2011-word-sense-disambiguation-corpora-acquisition-via-confirmation-code/" type="text/html"/>
+		<id>/publications/2011-word-sense-disambiguation-corpora-acquisition-via-confirmation-code/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Fast Computing Grammar-driven Convolution Tree Kernel for Semantic Role Labeling</title>
+		<published>2008-01-01T00:00:00+00:00</published>
+		<updated>2008-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/" type="text/html"/>
+		<id>/publications/2008-fast-computing-grammar-driven-convolution-tree-kernel-for-semantic-role-labeling/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

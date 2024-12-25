@@ -1,256 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - Zhang Meishan</title>
-    <link rel="self" type="application/atom+xml" href="/authors/zhang-meishan/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2017-01-01T00:00:00+00:00</updated>
-    <id>/authors/zhang-meishan/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Transition-Based Disfluency Detection using LSTMs</title>
-        <published>2017-01-01T00:00:00+00:00</published>
-        <updated>2017-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2017-transition-based-disfluency-detection-using-lstms/"/>
-        <id>/publications/2017-transition-based-disfluency-detection-using-lstms/</id>
-        
-        <content type="html" xml:base="/publications/2017-transition-based-disfluency-detection-using-lstms/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A semantics oriented grammar for chinese treebanking</title>
-        <published>2014-01-01T00:00:00+00:00</published>
-        <updated>2014-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2014-a-semantics-oriented-grammar-for-chinese-treebanking/"/>
-        <id>/publications/2014-a-semantics-oriented-grammar-for-chinese-treebanking/</id>
-        
-        <content type="html" xml:base="/publications/2014-a-semantics-oriented-grammar-for-chinese-treebanking/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Character-Level Chinese Dependency Parsing</title>
-        <published>2014-01-01T00:00:00+00:00</published>
-        <updated>2014-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2014-character-level-chinese-dependency-parsing/"/>
-        <id>/publications/2014-character-level-chinese-dependency-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2014-character-level-chinese-dependency-parsing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Jointly or Separately Which is Better for Parsing Heterogeneous Dependencies</title>
-        <published>2014-01-01T00:00:00+00:00</published>
-        <updated>2014-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2014-jointly-or-separately-which-is-better-for-parsing-heterogeneous-dependencies/"/>
-        <id>/publications/2014-jointly-or-separately-which-is-better-for-parsing-heterogeneous-dependencies/</id>
-        
-        <content type="html" xml:base="/publications/2014-jointly-or-separately-which-is-better-for-parsing-heterogeneous-dependencies/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Type-Supervised Domain Adaptation for Joint Segmentation and POS-Tagging</title>
-        <published>2014-01-01T00:00:00+00:00</published>
-        <updated>2014-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2014-type-supervised-domain-adaptation-for-joint-segmentation-and-pos-tagging/"/>
-        <id>/publications/2014-type-supervised-domain-adaptation-for-joint-segmentation-and-pos-tagging/</id>
-        
-        <content type="html" xml:base="/publications/2014-type-supervised-domain-adaptation-for-joint-segmentation-and-pos-tagging/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Chinese Parsing Exploiting Characters</title>
-        <published>2013-01-01T00:00:00+00:00</published>
-        <updated>2013-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2013-chinese-parsing-exploiting-characters/"/>
-        <id>/publications/2013-chinese-parsing-exploiting-characters/</id>
-        
-        <content type="html" xml:base="/publications/2013-chinese-parsing-exploiting-characters/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Combining statistical model and dictionary for domain adaption of Chinese word segmentation</title>
-        <published>2012-01-01T00:00:00+00:00</published>
-        <updated>2012-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2012-combining-statistical-model-and-dictionary-for-domain-adaption-of-chinese-word-segmentation/"/>
-        <id>/publications/2012-combining-statistical-model-and-dictionary-for-domain-adaption-of-chinese-word-segmentation/</id>
-        
-        <content type="html" xml:base="/publications/2012-combining-statistical-model-and-dictionary-for-domain-adaption-of-chinese-word-segmentation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Hit dependency parsing Bootstrap aggregating heterogeneous parsers</title>
-        <published>2012-01-01T00:00:00+00:00</published>
-        <updated>2012-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2012-hit-dependency-parsing-bootstrap-aggregating-heterogeneous-parsers/"/>
-        <id>/publications/2012-hit-dependency-parsing-bootstrap-aggregating-heterogeneous-parsers/</id>
-        
-        <content type="html" xml:base="/publications/2012-hit-dependency-parsing-bootstrap-aggregating-heterogeneous-parsers/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Improve Chinese Semantic Dependency Parsing via Syntactic Dependency Parsing</title>
-        <published>2012-01-01T00:00:00+00:00</published>
-        <updated>2012-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2012-improve-chinese-semantic-dependency-parsing-via-syntactic-dependency-parsing/"/>
-        <id>/publications/2012-improve-chinese-semantic-dependency-parsing-via-syntactic-dependency-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2012-improve-chinese-semantic-dependency-parsing-via-syntactic-dependency-parsing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Micro blogs Oriented Word Segmentation System</title>
-        <published>2012-01-01T00:00:00+00:00</published>
-        <updated>2012-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2012-micro-blogs-oriented-word-segmentation-system/"/>
-        <id>/publications/2012-micro-blogs-oriented-word-segmentation-system/</id>
-        
-        <content type="html" xml:base="/publications/2012-micro-blogs-oriented-word-segmentation-system/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Multiple TreeBanks Integration for Chinese Phrase Structure Grammar Parsing Using Bagging</title>
-        <published>2012-01-01T00:00:00+00:00</published>
-        <updated>2012-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2012-multiple-treebanks-integration-for-chinese-phrase-structure-grammar-parsing-using-bagging/"/>
-        <id>/publications/2012-multiple-treebanks-integration-for-chinese-phrase-structure-grammar-parsing-using-bagging/</id>
-        
-        <content type="html" xml:base="/publications/2012-multiple-treebanks-integration-for-chinese-phrase-structure-grammar-parsing-using-bagging/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>SemEval-2012 Task 5 Chinese Semantic Dependency Parsing</title>
-        <published>2012-01-01T00:00:00+00:00</published>
-        <updated>2012-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2012-semeval-2012-task-5-chinese-semantic-dependency-parsing/"/>
-        <id>/publications/2012-semeval-2012-task-5-chinese-semantic-dependency-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2012-semeval-2012-task-5-chinese-semantic-dependency-parsing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Stacking Heterogeneous Joint Models of Chinese POS Tagging and Dependency Parsing</title>
-        <published>2012-01-01T00:00:00+00:00</published>
-        <updated>2012-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2012-stacking-heterogeneous-joint-models-of-chinese-pos-tagging-and-dependency-parsing/"/>
-        <id>/publications/2012-stacking-heterogeneous-joint-models-of-chinese-pos-tagging-and-dependency-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2012-stacking-heterogeneous-joint-models-of-chinese-pos-tagging-and-dependency-parsing/"></content>
-        
-    </entry>
+	<title> - Zhang Meishan</title>
+	<link href="/authors/zhang-meishan/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2017-01-01T00:00:00+00:00</updated>
+	<id>/authors/zhang-meishan/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Transition-Based Disfluency Detection using LSTMs</title>
+		<published>2017-01-01T00:00:00+00:00</published>
+		<updated>2017-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2017-transition-based-disfluency-detection-using-lstms/" type="text/html"/>
+		<id>/publications/2017-transition-based-disfluency-detection-using-lstms/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A semantics oriented grammar for chinese treebanking</title>
+		<published>2014-01-01T00:00:00+00:00</published>
+		<updated>2014-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2014-a-semantics-oriented-grammar-for-chinese-treebanking/" type="text/html"/>
+		<id>/publications/2014-a-semantics-oriented-grammar-for-chinese-treebanking/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Character-Level Chinese Dependency Parsing</title>
+		<published>2014-01-01T00:00:00+00:00</published>
+		<updated>2014-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2014-character-level-chinese-dependency-parsing/" type="text/html"/>
+		<id>/publications/2014-character-level-chinese-dependency-parsing/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Jointly or Separately Which is Better for Parsing Heterogeneous Dependencies</title>
+		<published>2014-01-01T00:00:00+00:00</published>
+		<updated>2014-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2014-jointly-or-separately-which-is-better-for-parsing-heterogeneous-dependencies/" type="text/html"/>
+		<id>/publications/2014-jointly-or-separately-which-is-better-for-parsing-heterogeneous-dependencies/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Type-Supervised Domain Adaptation for Joint Segmentation and POS-Tagging</title>
+		<published>2014-01-01T00:00:00+00:00</published>
+		<updated>2014-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2014-type-supervised-domain-adaptation-for-joint-segmentation-and-pos-tagging/" type="text/html"/>
+		<id>/publications/2014-type-supervised-domain-adaptation-for-joint-segmentation-and-pos-tagging/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Chinese Parsing Exploiting Characters</title>
+		<published>2013-01-01T00:00:00+00:00</published>
+		<updated>2013-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2013-chinese-parsing-exploiting-characters/" type="text/html"/>
+		<id>/publications/2013-chinese-parsing-exploiting-characters/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Combining statistical model and dictionary for domain adaption of Chinese word segmentation</title>
+		<published>2012-01-01T00:00:00+00:00</published>
+		<updated>2012-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2012-combining-statistical-model-and-dictionary-for-domain-adaption-of-chinese-word-segmentation/" type="text/html"/>
+		<id>/publications/2012-combining-statistical-model-and-dictionary-for-domain-adaption-of-chinese-word-segmentation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Hit dependency parsing Bootstrap aggregating heterogeneous parsers</title>
+		<published>2012-01-01T00:00:00+00:00</published>
+		<updated>2012-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2012-hit-dependency-parsing-bootstrap-aggregating-heterogeneous-parsers/" type="text/html"/>
+		<id>/publications/2012-hit-dependency-parsing-bootstrap-aggregating-heterogeneous-parsers/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Improve Chinese Semantic Dependency Parsing via Syntactic Dependency Parsing</title>
+		<published>2012-01-01T00:00:00+00:00</published>
+		<updated>2012-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2012-improve-chinese-semantic-dependency-parsing-via-syntactic-dependency-parsing/" type="text/html"/>
+		<id>/publications/2012-improve-chinese-semantic-dependency-parsing-via-syntactic-dependency-parsing/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Micro blogs Oriented Word Segmentation System</title>
+		<published>2012-01-01T00:00:00+00:00</published>
+		<updated>2012-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2012-micro-blogs-oriented-word-segmentation-system/" type="text/html"/>
+		<id>/publications/2012-micro-blogs-oriented-word-segmentation-system/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Multiple TreeBanks Integration for Chinese Phrase Structure Grammar Parsing Using Bagging</title>
+		<published>2012-01-01T00:00:00+00:00</published>
+		<updated>2012-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2012-multiple-treebanks-integration-for-chinese-phrase-structure-grammar-parsing-using-bagging/" type="text/html"/>
+		<id>/publications/2012-multiple-treebanks-integration-for-chinese-phrase-structure-grammar-parsing-using-bagging/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>SemEval-2012 Task 5 Chinese Semantic Dependency Parsing</title>
+		<published>2012-01-01T00:00:00+00:00</published>
+		<updated>2012-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2012-semeval-2012-task-5-chinese-semantic-dependency-parsing/" type="text/html"/>
+		<id>/publications/2012-semeval-2012-task-5-chinese-semantic-dependency-parsing/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Stacking Heterogeneous Joint Models of Chinese POS Tagging and Dependency Parsing</title>
+		<published>2012-01-01T00:00:00+00:00</published>
+		<updated>2012-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2012-stacking-heterogeneous-joint-models-of-chinese-pos-tagging-and-dependency-parsing/" type="text/html"/>
+		<id>/publications/2012-stacking-heterogeneous-joint-models-of-chinese-pos-tagging-and-dependency-parsing/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

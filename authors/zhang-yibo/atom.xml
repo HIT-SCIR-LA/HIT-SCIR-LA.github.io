@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - Zhang Yibo</title>
-    <link rel="self" type="application/atom+xml" href="/authors/zhang-yibo/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2019-01-01T00:00:00+00:00</updated>
-    <id>/authors/zhang-yibo/atom.xml</id>
-    <entry xml:lang="en">
-        <title>An evaluation of chinese human-computer dialogue technology</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-an-evaluation-of-chinese-human-computer-dialogue-technology/"/>
-        <id>/publications/2019-an-evaluation-of-chinese-human-computer-dialogue-technology/</id>
-        
-        <content type="html" xml:base="/publications/2019-an-evaluation-of-chinese-human-computer-dialogue-technology/"></content>
-        
-    </entry>
+	<title> - Zhang Yibo</title>
+	<link href="/authors/zhang-yibo/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2019-01-01T00:00:00+00:00</updated>
+	<id>/authors/zhang-yibo/atom.xml</id>
+	<entry xml:lang="en">
+		<title>An evaluation of chinese human-computer dialogue technology</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-an-evaluation-of-chinese-human-computer-dialogue-technology/" type="text/html"/>
+		<id>/publications/2019-an-evaluation-of-chinese-human-computer-dialogue-technology/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

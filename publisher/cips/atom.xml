@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - CIPS</title>
-    <link rel="self" type="application/atom+xml" href="/publisher/cips/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2001-01-01T00:00:00+00:00</updated>
-    <id>/publisher/cips/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Fast deletion algorithm for large scale duplicated web pages</title>
-        <published>2001-01-01T00:00:00+00:00</published>
-        <updated>2001-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2001-fast-deletion-algorithm-for-large-scale-duplicated-web-pages/"/>
-        <id>/publications/2001-fast-deletion-algorithm-for-large-scale-duplicated-web-pages/</id>
-        
-        <content type="html" xml:base="/publications/2001-fast-deletion-algorithm-for-large-scale-duplicated-web-pages/"></content>
-        
-    </entry>
+	<title> - CIPS</title>
+	<link href="/publisher/cips/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2001-01-01T00:00:00+00:00</updated>
+	<id>/publisher/cips/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Fast deletion algorithm for large scale duplicated web pages</title>
+		<published>2001-01-01T00:00:00+00:00</published>
+		<updated>2001-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2001-fast-deletion-algorithm-for-large-scale-duplicated-web-pages/" type="text/html"/>
+		<id>/publications/2001-fast-deletion-algorithm-for-large-scale-duplicated-web-pages/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

@@ -983,7 +983,7 @@
         <loc>/direction/wen-ben-shun-hua/</loc>
     </url>
     <url>
-        <loc>/direction/yu-yan-ji-shu-ping-tai/</loc>
+        <loc>/direction/yu-yan-ji-zhu-ping-tai/</loc>
     </url>
     <url>
         <loc>/direction/yu-yi-jie-xi/</loc>
@@ -993,39 +993,6 @@
     </url>
     <url>
         <loc>/joinus/</loc>
-    </url>
-    <url>
-        <loc>/news-type/</loc>
-    </url>
-    <url>
-        <loc>/news-type/bo-shi-bi-ye/</loc>
-    </url>
-    <url>
-        <loc>/news-type/gong-cheng-xiang-mu/</loc>
-    </url>
-    <url>
-        <loc>/news-type/jiao-shi-biao-zhang/</loc>
-    </url>
-    <url>
-        <loc>/news-type/lun-wen-fa-biao/</loc>
-    </url>
-    <url>
-        <loc>/news-type/lun-wen-tui-jian/</loc>
-    </url>
-    <url>
-        <loc>/news-type/ping-ce/</loc>
-    </url>
-    <url>
-        <loc>/news-type/shu-ji-chu-ban/</loc>
-    </url>
-    <url>
-        <loc>/news-type/shuo-shi-bi-ye/</loc>
-    </url>
-    <url>
-        <loc>/news-type/xue-sheng-huo-jiang/</loc>
-    </url>
-    <url>
-        <loc>/news-type/xue-shu-jiao-liu/</loc>
     </url>
     <url>
         <loc>/news/</loc>
@@ -1047,7 +1014,7 @@
         <lastmod>2020-04-02</lastmod>
     </url>
     <url>
-        <loc>/news/di-er-jie-thunlp-hit-scirxue-shu-lian-yi-hui-cheng-gong-ju-ban/</loc>
+        <loc>/news/di-er-jie-thunlp-hit-scirxue-zhu-lian-yi-hui-cheng-gong-ju-ban/</loc>
         <lastmod>2021-06-07</lastmod>
     </url>
     <url>
@@ -1247,7 +1214,7 @@
         <lastmod>2022-08-17</lastmod>
     </url>
     <url>
-        <loc>/news/ha-gong-da-xun-fei-lian-he-shi-yan-shi-yan-zhi-de-wen-ben-shun-hua-ji-shu-cheng-gong-jie-ru-xun-fei-ting-jian-xi-tong/</loc>
+        <loc>/news/ha-gong-da-xun-fei-lian-he-shi-yan-shi-yan-zhi-de-wen-ben-shun-hua-ji-zhu-cheng-gong-jie-ru-xun-fei-ting-jian-xi-tong/</loc>
         <lastmod>2017-01-10</lastmod>
     </url>
     <url>
@@ -1311,7 +1278,7 @@
         <lastmod>2024-05-17</lastmod>
     </url>
     <url>
-        <loc>/news/sai-er-bi-ji-da-mo-xing-shang-xia-wen-chang-du-kuo-zhan-zhong-de-jian-suo-zeng-qiang-ji-shu-jian-shu/</loc>
+        <loc>/news/sai-er-bi-ji-da-mo-xing-shang-xia-wen-chang-du-kuo-zhan-zhong-de-jian-suo-zeng-qiang-ji-zhu-jian-shu/</loc>
         <lastmod>2024-06-29</lastmod>
     </url>
     <url>
@@ -1483,7 +1450,7 @@
         <lastmod>2017-03-06</lastmod>
     </url>
     <url>
-        <loc>/news/wo-zhong-xin-che-mo-xiang-jiao-shou-shou-yao-can-jia-di-er-jie-teng-xun-ai-labxue-shu-lun-tan/</loc>
+        <loc>/news/wo-zhong-xin-che-mo-xiang-jiao-shou-shou-yao-can-jia-di-er-jie-teng-xun-ai-labxue-zhu-lun-tan/</loc>
         <lastmod>2018-03-21</lastmod>
     </url>
     <url>
@@ -1507,7 +1474,7 @@
         <lastmod>2017-09-19</lastmod>
     </url>
     <url>
-        <loc>/news/xin-wen-di-san-jie-hit-scir-thunlp-fudannlpxue-shu-lian-yi-hui-cheng-gong-ju-ban/</loc>
+        <loc>/news/xin-wen-di-san-jie-hit-scir-thunlp-fudannlpxue-zhu-lian-yi-hui-cheng-gong-ju-ban/</loc>
         <lastmod>2024-07-23</lastmod>
     </url>
     <url>
@@ -1515,11 +1482,11 @@
         <lastmod>2021-05-14</lastmod>
     </url>
     <url>
-        <loc>/news/yu-yan-ji-shu-ping-tai-ltp-tui-chu-v4-2-ban-ben/</loc>
+        <loc>/news/yu-yan-ji-zhu-ping-tai-ltp-tui-chu-v4-2-ban-ben/</loc>
         <lastmod>2022-08-22</lastmod>
     </url>
     <url>
-        <loc>/news/yu-yan-ji-shu-ping-tai-ltp-you-xin-jia-la/</loc>
+        <loc>/news/yu-yan-ji-zhu-ping-tai-ltp-you-xin-jia-la/</loc>
         <lastmod>2017-07-18</lastmod>
     </url>
     <url>
@@ -1529,6 +1496,39 @@
     <url>
         <loc>/news/zui-xin-ha-gong-da-scirzai-guo-ji-duo-yu-yan-tong-yong-yi-cun-fen-xi-ping-ce-zhong-duo-de-guan-jun/</loc>
         <lastmod>2018-07-04</lastmod>
+    </url>
+    <url>
+        <loc>/news_type/</loc>
+    </url>
+    <url>
+        <loc>/news_type/bo-shi-bi-ye/</loc>
+    </url>
+    <url>
+        <loc>/news_type/gong-cheng-xiang-mu/</loc>
+    </url>
+    <url>
+        <loc>/news_type/jiao-shi-biao-zhang/</loc>
+    </url>
+    <url>
+        <loc>/news_type/lun-wen-fa-biao/</loc>
+    </url>
+    <url>
+        <loc>/news_type/lun-wen-tui-jian/</loc>
+    </url>
+    <url>
+        <loc>/news_type/ping-ce/</loc>
+    </url>
+    <url>
+        <loc>/news_type/shu-ji-chu-ban/</loc>
+    </url>
+    <url>
+        <loc>/news_type/shuo-shi-bi-ye/</loc>
+    </url>
+    <url>
+        <loc>/news_type/xue-sheng-huo-jiang/</loc>
+    </url>
+    <url>
+        <loc>/news_type/xue-zhu-jiao-liu/</loc>
     </url>
     <url>
         <loc>/people/</loc>
@@ -1898,11 +1898,11 @@
         <lastmod>2014-01-01</lastmod>
     </url>
     <url>
-        <loc>/projects/yi-yu-yi-cun-ju-fa-fen-xi-ruo-gan-guan-jian-ji-shu-yan-jiu/</loc>
+        <loc>/projects/yi-yu-yi-cun-ju-fa-fen-xi-ruo-gan-guan-jian-ji-zhu-yan-jiu/</loc>
         <lastmod>2009-01-01</lastmod>
     </url>
     <url>
-        <loc>/projects/yu-yan-ji-shu-ping-tai/</loc>
+        <loc>/projects/yu-yan-ji-zhu-ping-tai/</loc>
         <lastmod>2021-02-10</lastmod>
     </url>
     <url>
@@ -2797,73 +2797,73 @@
         <lastmod>2024-01-01</lastmod>
     </url>
     <url>
-        <loc>/publish-year/</loc>
+        <loc>/publish_year/</loc>
     </url>
     <url>
-        <loc>/publish-year/2001/</loc>
+        <loc>/publish_year/2001/</loc>
     </url>
     <url>
-        <loc>/publish-year/2004/</loc>
+        <loc>/publish_year/2004/</loc>
     </url>
     <url>
-        <loc>/publish-year/2005/</loc>
+        <loc>/publish_year/2005/</loc>
     </url>
     <url>
-        <loc>/publish-year/2006/</loc>
+        <loc>/publish_year/2006/</loc>
     </url>
     <url>
-        <loc>/publish-year/2007/</loc>
+        <loc>/publish_year/2007/</loc>
     </url>
     <url>
-        <loc>/publish-year/2008/</loc>
+        <loc>/publish_year/2008/</loc>
     </url>
     <url>
-        <loc>/publish-year/2009/</loc>
+        <loc>/publish_year/2009/</loc>
     </url>
     <url>
-        <loc>/publish-year/2010/</loc>
+        <loc>/publish_year/2010/</loc>
     </url>
     <url>
-        <loc>/publish-year/2011/</loc>
+        <loc>/publish_year/2011/</loc>
     </url>
     <url>
-        <loc>/publish-year/2012/</loc>
+        <loc>/publish_year/2012/</loc>
     </url>
     <url>
-        <loc>/publish-year/2013/</loc>
+        <loc>/publish_year/2013/</loc>
     </url>
     <url>
-        <loc>/publish-year/2014/</loc>
+        <loc>/publish_year/2014/</loc>
     </url>
     <url>
-        <loc>/publish-year/2015/</loc>
+        <loc>/publish_year/2015/</loc>
     </url>
     <url>
-        <loc>/publish-year/2016/</loc>
+        <loc>/publish_year/2016/</loc>
     </url>
     <url>
-        <loc>/publish-year/2017/</loc>
+        <loc>/publish_year/2017/</loc>
     </url>
     <url>
-        <loc>/publish-year/2018/</loc>
+        <loc>/publish_year/2018/</loc>
     </url>
     <url>
-        <loc>/publish-year/2019/</loc>
+        <loc>/publish_year/2019/</loc>
     </url>
     <url>
-        <loc>/publish-year/2020/</loc>
+        <loc>/publish_year/2020/</loc>
     </url>
     <url>
-        <loc>/publish-year/2021/</loc>
+        <loc>/publish_year/2021/</loc>
     </url>
     <url>
-        <loc>/publish-year/2022/</loc>
+        <loc>/publish_year/2022/</loc>
     </url>
     <url>
-        <loc>/publish-year/2023/</loc>
+        <loc>/publish_year/2023/</loc>
     </url>
     <url>
-        <loc>/publish-year/2024/</loc>
+        <loc>/publish_year/2024/</loc>
     </url>
     <url>
         <loc>/publisher/</loc>
@@ -3066,7 +3066,7 @@
         <loc>/research/通用语言分析/</loc>
     </url>
     <url>
-        <loc>/research/通用语言分析/yu-yan-ji-shu-ping-tai/</loc>
+        <loc>/research/通用语言分析/yu-yan-ji-zhu-ping-tai/</loc>
         <lastmod>2000-01-24</lastmod>
     </url>
     <url>

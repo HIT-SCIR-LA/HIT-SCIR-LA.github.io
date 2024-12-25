@@ -1,218 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - 2018</title>
-    <link rel="self" type="application/atom+xml" href="/publish-year/2018/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2098-01-01T00:00:00+00:00</updated>
-    <id>/publish-year/2018/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Deep Learning in Lexical Analysis and Parsing</title>
-        <published>2098-01-01T00:00:00+00:00</published>
-        <updated>2098-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-deep-learning-in-lexical-analysis-and-parsing/"/>
-        <id>/publications/2018-deep-learning-in-lexical-analysis-and-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2018-deep-learning-in-lexical-analysis-and-parsing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>基于深度学习的自然语言处理</title>
-        <published>2018-05-01T00:00:00+00:00</published>
-        <updated>2018-05-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-ji-yu-shen-du-xue-xi-de-zi-ran-yu-yan-chu-li/"/>
-        <id>/publications/2018-ji-yu-shen-du-xue-xi-de-zi-ran-yu-yan-chu-li/</id>
-        
-        <content type="html" xml:base="/publications/2018-ji-yu-shen-du-xue-xi-de-zi-ran-yu-yan-chu-li/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Neural Transition-Based Approach for Semantic Dependency Graph Parsing</title>
-        <published>2018-01-01T00:00:00+00:00</published>
-        <updated>2018-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-a-neural-transition-based-approach-for-semantic-dependency-graph-parsing/"/>
-        <id>/publications/2018-a-neural-transition-based-approach-for-semantic-dependency-graph-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2018-a-neural-transition-based-approach-for-semantic-dependency-graph-parsing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>An AMR Aligner Tuned by Transition-based Parser</title>
-        <published>2018-01-01T00:00:00+00:00</published>
-        <updated>2018-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/"/>
-        <id>/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/</id>
-        
-        <content type="html" xml:base="/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Chinese Grammatical Error Diagnosis using Statistical and Prior Knowledge driven Features with Probabilistic Ensemble Enhancement</title>
-        <published>2018-01-01T00:00:00+00:00</published>
-        <updated>2018-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/"/>
-        <id>/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/</id>
-        
-        <content type="html" xml:base="/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Distilling Knowledge for Search-based Structured Prediction</title>
-        <published>2018-01-01T00:00:00+00:00</published>
-        <updated>2018-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-distilling-knowledge-for-search-based-structured-prediction/"/>
-        <id>/publications/2018-distilling-knowledge-for-search-based-structured-prediction/</id>
-        
-        <content type="html" xml:base="/publications/2018-distilling-knowledge-for-search-based-structured-prediction/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Joint Extraction of Entities and Relations Based on a Novel GraphScheme</title>
-        <published>2018-01-01T00:00:00+00:00</published>
-        <updated>2018-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/"/>
-        <id>/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/</id>
-        
-        <content type="html" xml:base="/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Parsing Tweets into Universal Dependencies</title>
-        <published>2018-01-01T00:00:00+00:00</published>
-        <updated>2018-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-parsing-tweets-into-universal-dependencies/"/>
-        <id>/publications/2018-parsing-tweets-into-universal-dependencies/</id>
-        
-        <content type="html" xml:base="/publications/2018-parsing-tweets-into-universal-dependencies/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Sequence-to-Sequence Data Augmentation for Dialogue Language Understanding</title>
-        <published>2018-01-01T00:00:00+00:00</published>
-        <updated>2018-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-sequence-to-sequence-data-augmentation-for-dialogue-language-understanding/"/>
-        <id>/publications/2018-sequence-to-sequence-data-augmentation-for-dialogue-language-understanding/</id>
-        
-        <content type="html" xml:base="/publications/2018-sequence-to-sequence-data-augmentation-for-dialogue-language-understanding/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Sequence-to-Sequence Learning for Task-oriented Dialogue with Dialogue State Representation</title>
-        <published>2018-01-01T00:00:00+00:00</published>
-        <updated>2018-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-sequence-to-sequence-learning-for-task-oriented-dialogue-with-dialogue-state-representation/"/>
-        <id>/publications/2018-sequence-to-sequence-learning-for-task-oriented-dialogue-with-dialogue-state-representation/</id>
-        
-        <content type="html" xml:base="/publications/2018-sequence-to-sequence-learning-for-task-oriented-dialogue-with-dialogue-state-representation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Towards Better UD Parsing Deep Contextualized Word Embeddings Ensemble and Treebank Concatenation</title>
-        <published>2018-01-01T00:00:00+00:00</published>
-        <updated>2018-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/"/>
-        <id>/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/</id>
-        
-        <content type="html" xml:base="/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/"></content>
-        
-    </entry>
+	<title> - 2018</title>
+	<link href="/publish-year/2018/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2098-01-01T00:00:00+00:00</updated>
+	<id>/publish-year/2018/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Deep Learning in Lexical Analysis and Parsing</title>
+		<published>2098-01-01T00:00:00+00:00</published>
+		<updated>2098-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-deep-learning-in-lexical-analysis-and-parsing/" type="text/html"/>
+		<id>/publications/2018-deep-learning-in-lexical-analysis-and-parsing/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>基于深度学习的自然语言处理</title>
+		<published>2018-05-01T00:00:00+00:00</published>
+		<updated>2018-05-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-ji-yu-shen-du-xue-xi-de-zi-ran-yu-yan-chu-li/" type="text/html"/>
+		<id>/publications/2018-ji-yu-shen-du-xue-xi-de-zi-ran-yu-yan-chu-li/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Neural Transition-Based Approach for Semantic Dependency Graph Parsing</title>
+		<published>2018-01-01T00:00:00+00:00</published>
+		<updated>2018-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-a-neural-transition-based-approach-for-semantic-dependency-graph-parsing/" type="text/html"/>
+		<id>/publications/2018-a-neural-transition-based-approach-for-semantic-dependency-graph-parsing/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>An AMR Aligner Tuned by Transition-based Parser</title>
+		<published>2018-01-01T00:00:00+00:00</published>
+		<updated>2018-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/" type="text/html"/>
+		<id>/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Chinese Grammatical Error Diagnosis using Statistical and Prior Knowledge driven Features with Probabilistic Ensemble Enhancement</title>
+		<published>2018-01-01T00:00:00+00:00</published>
+		<updated>2018-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/" type="text/html"/>
+		<id>/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Distilling Knowledge for Search-based Structured Prediction</title>
+		<published>2018-01-01T00:00:00+00:00</published>
+		<updated>2018-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-distilling-knowledge-for-search-based-structured-prediction/" type="text/html"/>
+		<id>/publications/2018-distilling-knowledge-for-search-based-structured-prediction/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Joint Extraction of Entities and Relations Based on a Novel GraphScheme</title>
+		<published>2018-01-01T00:00:00+00:00</published>
+		<updated>2018-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/" type="text/html"/>
+		<id>/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Parsing Tweets into Universal Dependencies</title>
+		<published>2018-01-01T00:00:00+00:00</published>
+		<updated>2018-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-parsing-tweets-into-universal-dependencies/" type="text/html"/>
+		<id>/publications/2018-parsing-tweets-into-universal-dependencies/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Sequence-to-Sequence Data Augmentation for Dialogue Language Understanding</title>
+		<published>2018-01-01T00:00:00+00:00</published>
+		<updated>2018-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-sequence-to-sequence-data-augmentation-for-dialogue-language-understanding/" type="text/html"/>
+		<id>/publications/2018-sequence-to-sequence-data-augmentation-for-dialogue-language-understanding/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Sequence-to-Sequence Learning for Task-oriented Dialogue with Dialogue State Representation</title>
+		<published>2018-01-01T00:00:00+00:00</published>
+		<updated>2018-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-sequence-to-sequence-learning-for-task-oriented-dialogue-with-dialogue-state-representation/" type="text/html"/>
+		<id>/publications/2018-sequence-to-sequence-learning-for-task-oriented-dialogue-with-dialogue-state-representation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Towards Better UD Parsing Deep Contextualized Word Embeddings Ensemble and Treebank Concatenation</title>
+		<published>2018-01-01T00:00:00+00:00</published>
+		<updated>2018-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/" type="text/html"/>
+		<id>/publications/2018-towards-better-ud-parsing-deep-contextualized-word-embeddings-ensemble-and-treebank-concatenation/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

@@ -1,142 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - Xu Jun</title>
-    <link rel="self" type="application/atom+xml" href="/authors/xu-jun/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2021-01-01T00:00:00+00:00</updated>
-    <id>/authors/xu-jun/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Discovering Dialog Structure Graph for Coherent Dialog Generation</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/"/>
-        <id>/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/</id>
-        
-        <content type="html" xml:base="/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/"/>
-        <id>/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/</id>
-        
-        <content type="html" xml:base="/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Discovering dialog structure graph for open-domain dialog generation</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/"/>
-        <id>/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/</id>
-        
-        <content type="html" xml:base="/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Knowledge graph grounded goal planning for open-domain conversation generation</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-knowledge-graph-grounded-goal-planning-for-open-domain-conversation-generation/"/>
-        <id>/publications/2020-knowledge-graph-grounded-goal-planning-for-open-domain-conversation-generation/</id>
-        
-        <content type="html" xml:base="/publications/2020-knowledge-graph-grounded-goal-planning-for-open-domain-conversation-generation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Key-Phrase Aware End2end Neural Response Generation Model</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-a-key-phrase-aware-end2end-neural-response-generation-model/"/>
-        <id>/publications/2019-a-key-phrase-aware-end2end-neural-response-generation-model/</id>
-        
-        <content type="html" xml:base="/publications/2019-a-key-phrase-aware-end2end-neural-response-generation-model/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Unified Architecture for Semantic Role Labeling and Relation Classification</title>
-        <published>2016-01-01T00:00:00+00:00</published>
-        <updated>2016-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/"/>
-        <id>/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/</id>
-        
-        <content type="html" xml:base="/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Coherent Dialog Generation with Query Graph</title>
-        <published>2010-01-01T00:00:00+00:00</published>
-        <updated>2010-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2010-coherent-dialog-generation-with-query-graph/"/>
-        <id>/publications/2010-coherent-dialog-generation-with-query-graph/</id>
-        
-        <content type="html" xml:base="/publications/2010-coherent-dialog-generation-with-query-graph/"></content>
-        
-    </entry>
+	<title> - Xu Jun</title>
+	<link href="/authors/xu-jun/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-01-01T00:00:00+00:00</updated>
+	<id>/authors/xu-jun/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Discovering Dialog Structure Graph for Coherent Dialog Generation</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/" type="text/html"/>
+		<id>/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/" type="text/html"/>
+		<id>/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Discovering dialog structure graph for open-domain dialog generation</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/" type="text/html"/>
+		<id>/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Knowledge graph grounded goal planning for open-domain conversation generation</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-knowledge-graph-grounded-goal-planning-for-open-domain-conversation-generation/" type="text/html"/>
+		<id>/publications/2020-knowledge-graph-grounded-goal-planning-for-open-domain-conversation-generation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Key-Phrase Aware End2end Neural Response Generation Model</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-a-key-phrase-aware-end2end-neural-response-generation-model/" type="text/html"/>
+		<id>/publications/2019-a-key-phrase-aware-end2end-neural-response-generation-model/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Unified Architecture for Semantic Role Labeling and Relation Classification</title>
+		<published>2016-01-01T00:00:00+00:00</published>
+		<updated>2016-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/" type="text/html"/>
+		<id>/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Coherent Dialog Generation with Query Graph</title>
+		<published>2010-01-01T00:00:00+00:00</published>
+		<updated>2010-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2010-coherent-dialog-generation-with-query-graph/" type="text/html"/>
+		<id>/publications/2010-coherent-dialog-generation-with-query-graph/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

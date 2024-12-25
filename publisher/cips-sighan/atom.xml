@@ -1,47 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - CIPS-SIGHAN</title>
-    <link rel="self" type="application/atom+xml" href="/publisher/cips-sighan/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2012-01-01T00:00:00+00:00</updated>
-    <id>/publisher/cips-sighan/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Micro blogs Oriented Word Segmentation System</title>
-        <published>2012-01-01T00:00:00+00:00</published>
-        <updated>2012-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2012-micro-blogs-oriented-word-segmentation-system/"/>
-        <id>/publications/2012-micro-blogs-oriented-word-segmentation-system/</id>
-        
-        <content type="html" xml:base="/publications/2012-micro-blogs-oriented-word-segmentation-system/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Multiple TreeBanks Integration for Chinese Phrase Structure Grammar Parsing Using Bagging</title>
-        <published>2012-01-01T00:00:00+00:00</published>
-        <updated>2012-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2012-multiple-treebanks-integration-for-chinese-phrase-structure-grammar-parsing-using-bagging/"/>
-        <id>/publications/2012-multiple-treebanks-integration-for-chinese-phrase-structure-grammar-parsing-using-bagging/</id>
-        
-        <content type="html" xml:base="/publications/2012-multiple-treebanks-integration-for-chinese-phrase-structure-grammar-parsing-using-bagging/"></content>
-        
-    </entry>
+	<title> - CIPS-SIGHAN</title>
+	<link href="/publisher/cips-sighan/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2012-01-01T00:00:00+00:00</updated>
+	<id>/publisher/cips-sighan/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Micro blogs Oriented Word Segmentation System</title>
+		<published>2012-01-01T00:00:00+00:00</published>
+		<updated>2012-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2012-micro-blogs-oriented-word-segmentation-system/" type="text/html"/>
+		<id>/publications/2012-micro-blogs-oriented-word-segmentation-system/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Multiple TreeBanks Integration for Chinese Phrase Structure Grammar Parsing Using Bagging</title>
+		<published>2012-01-01T00:00:00+00:00</published>
+		<updated>2012-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2012-multiple-treebanks-integration-for-chinese-phrase-structure-grammar-parsing-using-bagging/" type="text/html"/>
+		<id>/publications/2012-multiple-treebanks-integration-for-chinese-phrase-structure-grammar-parsing-using-bagging/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

@@ -1,142 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - 评测</title>
-    <link rel="self" type="application/atom+xml" href="/news-type/ping-ce/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2022-09-21T00:00:00+00:00</updated>
-    <id>/news-type/ping-ce/atom.xml</id>
-    <entry xml:lang="en">
-        <title>哈工大SCIR取得CCIR Cup 2022混合表格与文本数据问答赛道冠军</title>
-        <published>2022-09-21T00:00:00+00:00</published>
-        <updated>2022-09-21T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirqu-de-ccir-cup-2022hun-he-biao-ge-yu-wen-ben-shu-ju-wen-da-sai-dao-guan-jun/"/>
-        <id>/news/ha-gong-da-scirqu-de-ccir-cup-2022hun-he-biao-ge-yu-wen-ben-shu-ju-wen-da-sai-dao-guan-jun/</id>
-        
-        <content type="html" xml:base="/news/ha-gong-da-scirqu-de-ccir-cup-2022hun-he-biao-ge-yu-wen-ben-shu-ju-wen-da-sai-dao-guan-jun/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>哈工大SCIR在MMNLU-22多语言任务型对话自然语言理解评测取得Full Dataset赛道第一名</title>
-        <published>2022-08-17T00:00:00+00:00</published>
-        <updated>2022-08-17T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirzai-mmnlu-22duo-yu-yan-ren-wu-xing-dui-hua-zi-ran-yu-yan-li-jie-ping-ce-qu-de-full-datasetsai-dao-di-yi-ming/"/>
-        <id>/news/ha-gong-da-scirzai-mmnlu-22duo-yu-yan-ren-wu-xing-dui-hua-zi-ran-yu-yan-li-jie-ping-ce-qu-de-full-datasetsai-dao-di-yi-ming/</id>
-        
-        <content type="html" xml:base="/news/ha-gong-da-scirzai-mmnlu-22duo-yu-yan-ren-wu-xing-dui-hua-zi-ran-yu-yan-li-jie-ping-ce-qu-de-full-datasetsai-dao-di-yi-ming/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>哈工大SCIR取得国家电网调控AI创新大赛赛道2（Text2SQL）冠军</title>
-        <published>2021-11-13T00:00:00+00:00</published>
-        <updated>2021-11-13T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirqu-de-guo-jia-dian-wang-diao-kong-aichuang-xin-da-sai-sai-dao-2-text2sql-guan-jun/"/>
-        <id>/news/ha-gong-da-scirqu-de-guo-jia-dian-wang-diao-kong-aichuang-xin-da-sai-sai-dao-2-text2sql-guan-jun/</id>
-        
-        <content type="html" xml:base="/news/ha-gong-da-scirqu-de-guo-jia-dian-wang-diao-kong-aichuang-xin-da-sai-sai-dao-2-text2sql-guan-jun/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>哈工大SCIR在CoNLL-2019国际跨框架语义分析评测中取得第一名</title>
-        <published>2019-08-13T00:00:00+00:00</published>
-        <updated>2019-08-13T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirzai-conll-2019guo-ji-kua-kuang-jia-yu-yi-fen-xi-ping-ce-zhong-qu-de-di-yi-ming/"/>
-        <id>/news/ha-gong-da-scirzai-conll-2019guo-ji-kua-kuang-jia-yu-yi-fen-xi-ping-ce-zhong-qu-de-di-yi-ming/</id>
-        
-        <content type="html" xml:base="/news/ha-gong-da-scirzai-conll-2019guo-ji-kua-kuang-jia-yu-yi-fen-xi-ping-ce-zhong-qu-de-di-yi-ming/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>最新！哈工大SCIR在国际多语言通用依存分析评测中夺得冠军</title>
-        <published>2018-07-04T00:00:00+00:00</published>
-        <updated>2018-07-04T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/zui-xin-ha-gong-da-scirzai-guo-ji-duo-yu-yan-tong-yong-yi-cun-fen-xi-ping-ce-zhong-duo-de-guan-jun/"/>
-        <id>/news/zui-xin-ha-gong-da-scirzai-guo-ji-duo-yu-yan-tong-yong-yi-cun-fen-xi-ping-ce-zhong-duo-de-guan-jun/</id>
-        
-        <content type="html" xml:base="/news/zui-xin-ha-gong-da-scirzai-guo-ji-duo-yu-yan-tong-yong-yi-cun-fen-xi-ping-ce-zhong-duo-de-guan-jun/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>SemEval-2016 Task 9中文语义依存图数据对外发布</title>
-        <published>2018-04-10T00:00:00+00:00</published>
-        <updated>2018-04-10T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/semeval-2016-task-9zhong-wen-yu-yi-yi-cun-tu-shu-ju-dui-wai-fa-bu/"/>
-        <id>/news/semeval-2016-task-9zhong-wen-yu-yi-yi-cun-tu-shu-ju-dui-wai-fa-bu/</id>
-        
-        <content type="html" xml:base="/news/semeval-2016-task-9zhong-wen-yu-yi-yi-cun-tu-shu-ju-dui-wai-fa-bu/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>哈工大SCIR在CoNLL-2017多语言通用依存句法分析评测中取得佳绩</title>
-        <published>2017-06-05T00:00:00+00:00</published>
-        <updated>2017-06-05T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirzai-conll-2017duo-yu-yan-tong-yong-yi-cun-ju-fa-fen-xi-ping-ce-zhong-qu-de-jia-ji/"/>
-        <id>/news/ha-gong-da-scirzai-conll-2017duo-yu-yan-tong-yong-yi-cun-ju-fa-fen-xi-ping-ce-zhong-qu-de-jia-ji/</id>
-        
-        <content type="html" xml:base="/news/ha-gong-da-scirzai-conll-2017duo-yu-yan-tong-yong-yi-cun-ju-fa-fen-xi-ping-ce-zhong-qu-de-jia-ji/"></content>
-        
-    </entry>
+	<title> - 评测</title>
+	<link href="/news-type/ping-ce/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-09-21T00:00:00+00:00</updated>
+	<id>/news-type/ping-ce/atom.xml</id>
+	<entry xml:lang="en">
+		<title>哈工大SCIR取得CCIR Cup 2022混合表格与文本数据问答赛道冠军</title>
+		<published>2022-09-21T00:00:00+00:00</published>
+		<updated>2022-09-21T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/ha-gong-da-scirqu-de-ccir-cup-2022hun-he-biao-ge-yu-wen-ben-shu-ju-wen-da-sai-dao-guan-jun/" type="text/html"/>
+		<id>/news/ha-gong-da-scirqu-de-ccir-cup-2022hun-he-biao-ge-yu-wen-ben-shu-ju-wen-da-sai-dao-guan-jun/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>哈工大SCIR在MMNLU-22多语言任务型对话自然语言理解评测取得Full Dataset赛道第一名</title>
+		<published>2022-08-17T00:00:00+00:00</published>
+		<updated>2022-08-17T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/ha-gong-da-scirzai-mmnlu-22duo-yu-yan-ren-wu-xing-dui-hua-zi-ran-yu-yan-li-jie-ping-ce-qu-de-full-datasetsai-dao-di-yi-ming/" type="text/html"/>
+		<id>/news/ha-gong-da-scirzai-mmnlu-22duo-yu-yan-ren-wu-xing-dui-hua-zi-ran-yu-yan-li-jie-ping-ce-qu-de-full-datasetsai-dao-di-yi-ming/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>哈工大SCIR取得国家电网调控AI创新大赛赛道2（Text2SQL）冠军</title>
+		<published>2021-11-13T00:00:00+00:00</published>
+		<updated>2021-11-13T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/ha-gong-da-scirqu-de-guo-jia-dian-wang-diao-kong-aichuang-xin-da-sai-sai-dao-2-text2sql-guan-jun/" type="text/html"/>
+		<id>/news/ha-gong-da-scirqu-de-guo-jia-dian-wang-diao-kong-aichuang-xin-da-sai-sai-dao-2-text2sql-guan-jun/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>哈工大SCIR在CoNLL-2019国际跨框架语义分析评测中取得第一名</title>
+		<published>2019-08-13T00:00:00+00:00</published>
+		<updated>2019-08-13T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/ha-gong-da-scirzai-conll-2019guo-ji-kua-kuang-jia-yu-yi-fen-xi-ping-ce-zhong-qu-de-di-yi-ming/" type="text/html"/>
+		<id>/news/ha-gong-da-scirzai-conll-2019guo-ji-kua-kuang-jia-yu-yi-fen-xi-ping-ce-zhong-qu-de-di-yi-ming/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>最新！哈工大SCIR在国际多语言通用依存分析评测中夺得冠军</title>
+		<published>2018-07-04T00:00:00+00:00</published>
+		<updated>2018-07-04T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/zui-xin-ha-gong-da-scirzai-guo-ji-duo-yu-yan-tong-yong-yi-cun-fen-xi-ping-ce-zhong-duo-de-guan-jun/" type="text/html"/>
+		<id>/news/zui-xin-ha-gong-da-scirzai-guo-ji-duo-yu-yan-tong-yong-yi-cun-fen-xi-ping-ce-zhong-duo-de-guan-jun/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>SemEval-2016 Task 9中文语义依存图数据对外发布</title>
+		<published>2018-04-10T00:00:00+00:00</published>
+		<updated>2018-04-10T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/semeval-2016-task-9zhong-wen-yu-yi-yi-cun-tu-shu-ju-dui-wai-fa-bu/" type="text/html"/>
+		<id>/news/semeval-2016-task-9zhong-wen-yu-yi-yi-cun-tu-shu-ju-dui-wai-fa-bu/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>哈工大SCIR在CoNLL-2017多语言通用依存句法分析评测中取得佳绩</title>
+		<published>2017-06-05T00:00:00+00:00</published>
+		<updated>2017-06-05T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/ha-gong-da-scirzai-conll-2017duo-yu-yan-tong-yong-yi-cun-ju-fa-fen-xi-ping-ce-zhong-qu-de-jia-ji/" type="text/html"/>
+		<id>/news/ha-gong-da-scirzai-conll-2017duo-yu-yan-tong-yong-yi-cun-ju-fa-fen-xi-ping-ce-zhong-qu-de-jia-ji/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

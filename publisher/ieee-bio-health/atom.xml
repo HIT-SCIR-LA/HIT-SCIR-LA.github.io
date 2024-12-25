@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - IEEE&#x2F;BIO&#x2F;HEALTH</title>
-    <link rel="self" type="application/atom+xml" href="/publisher/ieee-bio-health/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2021-01-01T00:00:00+00:00</updated>
-    <id>/publisher/ieee-bio-health/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Understanding Patient Query with Weak Supervision from Doctor Response</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-understanding-patient-query-with-weak-supervision-from-doctor-response/"/>
-        <id>/publications/2021-understanding-patient-query-with-weak-supervision-from-doctor-response/</id>
-        
-        <content type="html" xml:base="/publications/2021-understanding-patient-query-with-weak-supervision-from-doctor-response/"></content>
-        
-    </entry>
+	<title> - IEEE&#x2F;BIO&#x2F;HEALTH</title>
+	<link href="/publisher/ieee-bio-health/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-01-01T00:00:00+00:00</updated>
+	<id>/publisher/ieee-bio-health/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Understanding Patient Query with Weak Supervision from Doctor Response</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-understanding-patient-query-with-weak-supervision-from-doctor-response/" type="text/html"/>
+		<id>/publications/2021-understanding-patient-query-with-weak-supervision-from-doctor-response/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

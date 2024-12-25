@@ -1,294 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - EMNLP</title>
-    <link rel="self" type="application/atom+xml" href="/publisher/emnlp/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-01-01T00:00:00+00:00</updated>
-    <id>/publisher/emnlp/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Make Some Noise Unlocking Language Model Parallel Inference Capability through Noisy Training</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/"/>
-        <id>/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/</id>
-        
-        <content type="html" xml:base="/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Cross-lingual Prompting Improving Zero-shot Chain-of-Thought Reasoning across Languages</title>
-        <published>2023-01-01T00:00:00+00:00</published>
-        <updated>2023-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2023-cross-lingual-prompting-improving-zero-shot-chain-of-thought-reasoning-across-languages/"/>
-        <id>/publications/2023-cross-lingual-prompting-improving-zero-shot-chain-of-thought-reasoning-across-languages/</id>
-        
-        <content type="html" xml:base="/publications/2023-cross-lingual-prompting-improving-zero-shot-chain-of-thought-reasoning-across-languages/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Towards Knowledge-Intensive Text-to-SQL Semantic Parsing with Formulaic Knowledge</title>
-        <published>2022-12-12T00:00:00+00:00</published>
-        <updated>2022-12-12T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-towards-knowledge-intensive-text-to-sql-semantic-parsing-with-formulaic-knowledge/"/>
-        <id>/publications/2022-towards-knowledge-intensive-text-to-sql-semantic-parsing-with-formulaic-knowledge/</id>
-        
-        <content type="html" xml:base="/publications/2022-towards-knowledge-intensive-text-to-sql-semantic-parsing-with-formulaic-knowledge/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Combining Self-Training and Self-Supervised Learning for Unsupervised Disfluency Detection</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-combining-self-training-and-self-supervised-learning-for-unsupervised-disfluency-detection/"/>
-        <id>/publications/2020-combining-self-training-and-self-supervised-learning-for-unsupervised-disfluency-detection/</id>
-        
-        <content type="html" xml:base="/publications/2020-combining-self-training-and-self-supervised-learning-for-unsupervised-disfluency-detection/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Recall and Learn Fine-tuning Deep Pretrained Language Models with Less Forgetting</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/"/>
-        <id>/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/</id>
-        
-        <content type="html" xml:base="/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Span-Extraction Dataset for Chinese Machine Reading Comprehension</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-a-span-extraction-dataset-for-chinese-machine-reading-comprehension/"/>
-        <id>/publications/2019-a-span-extraction-dataset-for-chinese-machine-reading-comprehension/</id>
-        
-        <content type="html" xml:base="/publications/2019-a-span-extraction-dataset-for-chinese-machine-reading-comprehension/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding/"/>
-        <id>/publications/2019-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding/</id>
-        
-        <content type="html" xml:base="/publications/2019-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Cross-Lingual BERT Transformation for Zero-Shot Dependency Parsing</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-cross-lingual-bert-transformation-for-zero-shot-dependency-parsing/"/>
-        <id>/publications/2019-cross-lingual-bert-transformation-for-zero-shot-dependency-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2019-cross-lingual-bert-transformation-for-zero-shot-dependency-parsing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Cross-Lingual Machine Reading Comprehension</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-cross-lingual-machine-reading-comprehension/"/>
-        <id>/publications/2019-cross-lingual-machine-reading-comprehension/</id>
-        
-        <content type="html" xml:base="/publications/2019-cross-lingual-machine-reading-comprehension/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Entity-Consistent End-to-end Task-Oriented Dialogue System with KB Retriever</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-entity-consistent-end-to-end-task-oriented-dialogue-system-with-kb-retriever/"/>
-        <id>/publications/2019-entity-consistent-end-to-end-task-oriented-dialogue-system-with-kb-retriever/</id>
-        
-        <content type="html" xml:base="/publications/2019-entity-consistent-end-to-end-task-oriented-dialogue-system-with-kb-retriever/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>An AMR Aligner Tuned by Transition-based Parser</title>
-        <published>2018-01-01T00:00:00+00:00</published>
-        <updated>2018-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/"/>
-        <id>/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/</id>
-        
-        <content type="html" xml:base="/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Transition-Based Disfluency Detection using LSTMs</title>
-        <published>2017-01-01T00:00:00+00:00</published>
-        <updated>2017-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2017-transition-based-disfluency-detection-using-lstms/"/>
-        <id>/publications/2017-transition-based-disfluency-detection-using-lstms/</id>
-        
-        <content type="html" xml:base="/publications/2017-transition-based-disfluency-detection-using-lstms/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Domain Adaptation for CRF-based Chinese Word Segmentation using Free Annotations</title>
-        <published>2014-01-01T00:00:00+00:00</published>
-        <updated>2014-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2014-domain-adaptation-for-crf-based-chinese-word-segmentation-using-free-annotations/"/>
-        <id>/publications/2014-domain-adaptation-for-crf-based-chinese-word-segmentation-using-free-annotations/</id>
-        
-        <content type="html" xml:base="/publications/2014-domain-adaptation-for-crf-based-chinese-word-segmentation-using-free-annotations/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Revisiting Embedding Features for Simple Semi-supervised Learning</title>
-        <published>2014-01-01T00:00:00+00:00</published>
-        <updated>2014-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2014-revisiting-embedding-features-for-simple-semi-supervised-learning/"/>
-        <id>/publications/2014-revisiting-embedding-features-for-simple-semi-supervised-learning/</id>
-        
-        <content type="html" xml:base="/publications/2014-revisiting-embedding-features-for-simple-semi-supervised-learning/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Joint Models for Chinese POS Tagging and Dependency Parsing</title>
-        <published>2011-01-01T00:00:00+00:00</published>
-        <updated>2011-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2011-joint-models-for-chinese-pos-tagging-and-dependency-parsing/"/>
-        <id>/publications/2011-joint-models-for-chinese-pos-tagging-and-dependency-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2011-joint-models-for-chinese-pos-tagging-and-dependency-parsing/"></content>
-        
-    </entry>
+	<title> - EMNLP</title>
+	<link href="/publisher/emnlp/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2024-01-01T00:00:00+00:00</updated>
+	<id>/publisher/emnlp/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Make Some Noise Unlocking Language Model Parallel Inference Capability through Noisy Training</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/" type="text/html"/>
+		<id>/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Cross-lingual Prompting Improving Zero-shot Chain-of-Thought Reasoning across Languages</title>
+		<published>2023-01-01T00:00:00+00:00</published>
+		<updated>2023-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2023-cross-lingual-prompting-improving-zero-shot-chain-of-thought-reasoning-across-languages/" type="text/html"/>
+		<id>/publications/2023-cross-lingual-prompting-improving-zero-shot-chain-of-thought-reasoning-across-languages/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Towards Knowledge-Intensive Text-to-SQL Semantic Parsing with Formulaic Knowledge</title>
+		<published>2022-12-12T00:00:00+00:00</published>
+		<updated>2022-12-12T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2022-towards-knowledge-intensive-text-to-sql-semantic-parsing-with-formulaic-knowledge/" type="text/html"/>
+		<id>/publications/2022-towards-knowledge-intensive-text-to-sql-semantic-parsing-with-formulaic-knowledge/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Combining Self-Training and Self-Supervised Learning for Unsupervised Disfluency Detection</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-combining-self-training-and-self-supervised-learning-for-unsupervised-disfluency-detection/" type="text/html"/>
+		<id>/publications/2020-combining-self-training-and-self-supervised-learning-for-unsupervised-disfluency-detection/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Recall and Learn Fine-tuning Deep Pretrained Language Models with Less Forgetting</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/" type="text/html"/>
+		<id>/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Span-Extraction Dataset for Chinese Machine Reading Comprehension</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-a-span-extraction-dataset-for-chinese-machine-reading-comprehension/" type="text/html"/>
+		<id>/publications/2019-a-span-extraction-dataset-for-chinese-machine-reading-comprehension/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding/" type="text/html"/>
+		<id>/publications/2019-a-stack-propagation-framework-with-token-level-intent-detection-for-spoken-language-understanding/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Cross-Lingual BERT Transformation for Zero-Shot Dependency Parsing</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-cross-lingual-bert-transformation-for-zero-shot-dependency-parsing/" type="text/html"/>
+		<id>/publications/2019-cross-lingual-bert-transformation-for-zero-shot-dependency-parsing/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Cross-Lingual Machine Reading Comprehension</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-cross-lingual-machine-reading-comprehension/" type="text/html"/>
+		<id>/publications/2019-cross-lingual-machine-reading-comprehension/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Entity-Consistent End-to-end Task-Oriented Dialogue System with KB Retriever</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-entity-consistent-end-to-end-task-oriented-dialogue-system-with-kb-retriever/" type="text/html"/>
+		<id>/publications/2019-entity-consistent-end-to-end-task-oriented-dialogue-system-with-kb-retriever/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>An AMR Aligner Tuned by Transition-based Parser</title>
+		<published>2018-01-01T00:00:00+00:00</published>
+		<updated>2018-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/" type="text/html"/>
+		<id>/publications/2018-an-amr-aligner-tuned-by-transition-based-parser/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Transition-Based Disfluency Detection using LSTMs</title>
+		<published>2017-01-01T00:00:00+00:00</published>
+		<updated>2017-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2017-transition-based-disfluency-detection-using-lstms/" type="text/html"/>
+		<id>/publications/2017-transition-based-disfluency-detection-using-lstms/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Domain Adaptation for CRF-based Chinese Word Segmentation using Free Annotations</title>
+		<published>2014-01-01T00:00:00+00:00</published>
+		<updated>2014-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2014-domain-adaptation-for-crf-based-chinese-word-segmentation-using-free-annotations/" type="text/html"/>
+		<id>/publications/2014-domain-adaptation-for-crf-based-chinese-word-segmentation-using-free-annotations/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Revisiting Embedding Features for Simple Semi-supervised Learning</title>
+		<published>2014-01-01T00:00:00+00:00</published>
+		<updated>2014-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2014-revisiting-embedding-features-for-simple-semi-supervised-learning/" type="text/html"/>
+		<id>/publications/2014-revisiting-embedding-features-for-simple-semi-supervised-learning/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Joint Models for Chinese POS Tagging and Dependency Parsing</title>
+		<published>2011-01-01T00:00:00+00:00</published>
+		<updated>2011-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2011-joint-models-for-chinese-pos-tagging-and-dependency-parsing/" type="text/html"/>
+		<id>/publications/2011-joint-models-for-chinese-pos-tagging-and-dependency-parsing/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

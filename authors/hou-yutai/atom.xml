@@ -1,332 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - Hou Yutai</title>
-    <link rel="self" type="application/atom+xml" href="/authors/hou-yutai/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-01-01T00:00:00+00:00</updated>
-    <id>/authors/hou-yutai/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Beyond Static Evaluation A Dynamic Approach to Assessing AI Assistants API Invocation Capabilities</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/"/>
-        <id>/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/</id>
-        
-        <content type="html" xml:base="/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Concise and Precise Context Compression for Tool-Using Language Models</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/"/>
-        <id>/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/</id>
-        
-        <content type="html" xml:base="/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Semantic-Guided Generative Image Augmentation Method with Diffusion Models for Image Classification</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/"/>
-        <id>/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/</id>
-        
-        <content type="html" xml:base="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Data augmentation approaches in natural language processing A survey</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/"/>
-        <id>/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/</id>
-        
-        <content type="html" xml:base="/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>FewJoint few-shot learning for joint dialogue understanding</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/"/>
-        <id>/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/</id>
-        
-        <content type="html" xml:base="/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Inverse is Better Fast and Accurate Prompt for Few-shot Slot Tagging</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/"/>
-        <id>/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/</id>
-        
-        <content type="html" xml:base="/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>MetaPrompting Learning to Learn Better Prompts</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-metaprompting-learning-to-learn-better-prompts/"/>
-        <id>/publications/2022-metaprompting-learning-to-learn-better-prompts/</id>
-        
-        <content type="html" xml:base="/publications/2022-metaprompting-learning-to-learn-better-prompts/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>C2c-genda Cluster-to-cluster generation for data augmentation of slot filling</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/"/>
-        <id>/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/</id>
-        
-        <content type="html" xml:base="/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Discovering Drug-Target Interaction Knowledge from Biomedical Literature</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"/>
-        <id>/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/</id>
-        
-        <content type="html" xml:base="/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Few-shot learning for multi-label intent detection</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-few-shot-learning-for-multi-label-intent-detection/"/>
-        <id>/publications/2021-few-shot-learning-for-multi-label-intent-detection/</id>
-        
-        <content type="html" xml:base="/publications/2021-few-shot-learning-for-multi-label-intent-detection/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Learning to Bridge Metric Spaces Few-shot Joint Learning of Intent Detection and Slot Filling</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-learning-to-bridge-metric-spaces-few-shot-joint-learning-of-intent-detection-and-slot-filling/"/>
-        <id>/publications/2021-learning-to-bridge-metric-spaces-few-shot-joint-learning-of-intent-detection-and-slot-filling/</id>
-        
-        <content type="html" xml:base="/publications/2021-learning-to-bridge-metric-spaces-few-shot-joint-learning-of-intent-detection-and-slot-filling/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-few-shot-slot-tagging-with-collapsed-dependency-transfer-and-label-enhanced-task-adaptive-projection-network/"/>
-        <id>/publications/2020-few-shot-slot-tagging-with-collapsed-dependency-transfer-and-label-enhanced-task-adaptive-projection-network/</id>
-        
-        <content type="html" xml:base="/publications/2020-few-shot-slot-tagging-with-collapsed-dependency-transfer-and-label-enhanced-task-adaptive-projection-network/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Fewjoint a few-shot learning benchmark for joint language understanding</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-fewjoint-a-few-shot-learning-benchmark-for-joint-language-understanding/"/>
-        <id>/publications/2020-fewjoint-a-few-shot-learning-benchmark-for-joint-language-understanding/</id>
-        
-        <content type="html" xml:base="/publications/2020-fewjoint-a-few-shot-learning-benchmark-for-joint-language-understanding/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>From static to dynamic word representations a survey</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-from-static-to-dynamic-word-representations-a-survey/"/>
-        <id>/publications/2020-from-static-to-dynamic-word-representations-a-survey/</id>
-        
-        <content type="html" xml:base="/publications/2020-from-static-to-dynamic-word-representations-a-survey/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Recall and Learn Fine-tuning Deep Pretrained Language Models with Less Forgetting</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/"/>
-        <id>/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/</id>
-        
-        <content type="html" xml:base="/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A corpus-free state2seq user simulator for task-oriented dialogue</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-a-corpus-free-state2seq-user-simulator-for-task-oriented-dialogue/"/>
-        <id>/publications/2019-a-corpus-free-state2seq-user-simulator-for-task-oriented-dialogue/</id>
-        
-        <content type="html" xml:base="/publications/2019-a-corpus-free-state2seq-user-simulator-for-task-oriented-dialogue/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Sequence-to-Sequence Data Augmentation for Dialogue Language Understanding</title>
-        <published>2018-01-01T00:00:00+00:00</published>
-        <updated>2018-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-sequence-to-sequence-data-augmentation-for-dialogue-language-understanding/"/>
-        <id>/publications/2018-sequence-to-sequence-data-augmentation-for-dialogue-language-understanding/</id>
-        
-        <content type="html" xml:base="/publications/2018-sequence-to-sequence-data-augmentation-for-dialogue-language-understanding/"></content>
-        
-    </entry>
+	<title> - Hou Yutai</title>
+	<link href="/authors/hou-yutai/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2024-01-01T00:00:00+00:00</updated>
+	<id>/authors/hou-yutai/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Beyond Static Evaluation A Dynamic Approach to Assessing AI Assistants API Invocation Capabilities</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/" type="text/html"/>
+		<id>/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Concise and Precise Context Compression for Tool-Using Language Models</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/" type="text/html"/>
+		<id>/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Semantic-Guided Generative Image Augmentation Method with Diffusion Models for Image Classification</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/" type="text/html"/>
+		<id>/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Data augmentation approaches in natural language processing A survey</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/" type="text/html"/>
+		<id>/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>FewJoint few-shot learning for joint dialogue understanding</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/" type="text/html"/>
+		<id>/publications/2022-fewjoint-few-shot-learning-for-joint-dialogue-understanding/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Inverse is Better Fast and Accurate Prompt for Few-shot Slot Tagging</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/" type="text/html"/>
+		<id>/publications/2022-inverse-is-better-fast-and-accurate-prompt-for-few-shot-slot-tagging/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>MetaPrompting Learning to Learn Better Prompts</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2022-metaprompting-learning-to-learn-better-prompts/" type="text/html"/>
+		<id>/publications/2022-metaprompting-learning-to-learn-better-prompts/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>C2c-genda Cluster-to-cluster generation for data augmentation of slot filling</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/" type="text/html"/>
+		<id>/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Discovering Drug-Target Interaction Knowledge from Biomedical Literature</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/" type="text/html"/>
+		<id>/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Few-shot learning for multi-label intent detection</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-few-shot-learning-for-multi-label-intent-detection/" type="text/html"/>
+		<id>/publications/2021-few-shot-learning-for-multi-label-intent-detection/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Learning to Bridge Metric Spaces Few-shot Joint Learning of Intent Detection and Slot Filling</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-learning-to-bridge-metric-spaces-few-shot-joint-learning-of-intent-detection-and-slot-filling/" type="text/html"/>
+		<id>/publications/2021-learning-to-bridge-metric-spaces-few-shot-joint-learning-of-intent-detection-and-slot-filling/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Few-shot Slot Tagging with Collapsed Dependency Transfer and Label-enhanced Task-adaptive Projection Network</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-few-shot-slot-tagging-with-collapsed-dependency-transfer-and-label-enhanced-task-adaptive-projection-network/" type="text/html"/>
+		<id>/publications/2020-few-shot-slot-tagging-with-collapsed-dependency-transfer-and-label-enhanced-task-adaptive-projection-network/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Fewjoint a few-shot learning benchmark for joint language understanding</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-fewjoint-a-few-shot-learning-benchmark-for-joint-language-understanding/" type="text/html"/>
+		<id>/publications/2020-fewjoint-a-few-shot-learning-benchmark-for-joint-language-understanding/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>From static to dynamic word representations a survey</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-from-static-to-dynamic-word-representations-a-survey/" type="text/html"/>
+		<id>/publications/2020-from-static-to-dynamic-word-representations-a-survey/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Recall and Learn Fine-tuning Deep Pretrained Language Models with Less Forgetting</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/" type="text/html"/>
+		<id>/publications/2020-recall-and-learn-fine-tuning-deep-pretrained-language-models-with-less-forgetting/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A corpus-free state2seq user simulator for task-oriented dialogue</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-a-corpus-free-state2seq-user-simulator-for-task-oriented-dialogue/" type="text/html"/>
+		<id>/publications/2019-a-corpus-free-state2seq-user-simulator-for-task-oriented-dialogue/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Sequence-to-Sequence Data Augmentation for Dialogue Language Understanding</title>
+		<published>2018-01-01T00:00:00+00:00</published>
+		<updated>2018-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-sequence-to-sequence-data-augmentation-for-dialogue-language-understanding/" type="text/html"/>
+		<id>/publications/2018-sequence-to-sequence-data-augmentation-for-dialogue-language-understanding/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

@@ -1,47 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - Yarowsky David</title>
-    <link rel="self" type="application/atom+xml" href="/authors/yarowsky-david/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2016-01-01T00:00:00+00:00</updated>
-    <id>/authors/yarowsky-david/atom.xml</id>
-    <entry xml:lang="en">
-        <title>A distributed representation-based framework for cross-lingual transfer parsing</title>
-        <published>2016-01-01T00:00:00+00:00</published>
-        <updated>2016-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/"/>
-        <id>/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Cross-lingual Dependency Parsing Based on Distributed Representations</title>
-        <published>2015-01-01T00:00:00+00:00</published>
-        <updated>2015-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/"/>
-        <id>/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/</id>
-        
-        <content type="html" xml:base="/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/"></content>
-        
-    </entry>
+	<title> - Yarowsky David</title>
+	<link href="/authors/yarowsky-david/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2016-01-01T00:00:00+00:00</updated>
+	<id>/authors/yarowsky-david/atom.xml</id>
+	<entry xml:lang="en">
+		<title>A distributed representation-based framework for cross-lingual transfer parsing</title>
+		<published>2016-01-01T00:00:00+00:00</published>
+		<updated>2016-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/" type="text/html"/>
+		<id>/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Cross-lingual Dependency Parsing Based on Distributed Representations</title>
+		<published>2015-01-01T00:00:00+00:00</published>
+		<updated>2015-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/" type="text/html"/>
+		<id>/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

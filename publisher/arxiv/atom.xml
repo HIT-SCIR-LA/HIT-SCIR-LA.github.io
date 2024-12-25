@@ -1,769 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - ArXiv</title>
-    <link rel="self" type="application/atom+xml" href="/publisher/arxiv/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-01-01T00:00:00+00:00</updated>
-    <id>/publisher/arxiv/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Can Large Language Models Understand You Better An MBTI Personality Detection Dataset Aligned with Population Traits</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"/>
-        <id>/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</id>
-        
-        <content type="html" xml:base="/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Multi-Hop Table Retrieval for Open-Domain Text-to-SQL</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-multi-hop-table-retrieval-for-open-domain-text-to-sql/"/>
-        <id>/publications/2024-multi-hop-table-retrieval-for-open-domain-text-to-sql/</id>
-        
-        <content type="html" xml:base="/publications/2024-multi-hop-table-retrieval-for-open-domain-text-to-sql/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>OneBit Towards Extremely Low-bit Large Language Models</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-onebit-towards-extremely-low-bit-large-language-models/"/>
-        <id>/publications/2024-onebit-towards-extremely-low-bit-large-language-models/</id>
-        
-        <content type="html" xml:base="/publications/2024-onebit-towards-extremely-low-bit-large-language-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Unlocking the Capabilities of Thought A Reasoning Boundary Framework to Quantify and Optimize Chain-of-Thought</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/"/>
-        <id>/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/</id>
-        
-        <content type="html" xml:base="/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Preliminary Evaluation of ChatGPT for Zero-shot Dialogue Understanding</title>
-        <published>2023-01-01T00:00:00+00:00</published>
-        <updated>2023-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2023-a-preliminary-evaluation-of-chatgpt-for-zero-shot-dialogue-understanding/"/>
-        <id>/publications/2023-a-preliminary-evaluation-of-chatgpt-for-zero-shot-dialogue-understanding/</id>
-        
-        <content type="html" xml:base="/publications/2023-a-preliminary-evaluation-of-chatgpt-for-zero-shot-dialogue-understanding/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Controllable Data Augmentation for Context-Dependent Text-to-SQL</title>
-        <published>2023-01-01T00:00:00+00:00</published>
-        <updated>2023-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2023-controllable-data-augmentation-for-context-dependent-text-to-sql/"/>
-        <id>/publications/2023-controllable-data-augmentation-for-context-dependent-text-to-sql/</id>
-        
-        <content type="html" xml:base="/publications/2023-controllable-data-augmentation-for-context-dependent-text-to-sql/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>CSED A Chinese Semantic Error Diagnosis Corpus</title>
-        <published>2023-01-01T00:00:00+00:00</published>
-        <updated>2023-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/"/>
-        <id>/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/</id>
-        
-        <content type="html" xml:base="/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>MixPro Simple yet Effective Data Augmentation for Prompt-based Learning</title>
-        <published>2023-01-01T00:00:00+00:00</published>
-        <updated>2023-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"/>
-        <id>/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/</id>
-        
-        <content type="html" xml:base="/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>OpenSLU A Unified Modularized and Extensible Toolkit for Spoken Language Understanding</title>
-        <published>2023-01-01T00:00:00+00:00</published>
-        <updated>2023-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2023-openslu-a-unified-modularized-and-extensible-toolkit-for-spoken-language-understanding/"/>
-        <id>/publications/2023-openslu-a-unified-modularized-and-extensible-toolkit-for-spoken-language-understanding/</id>
-        
-        <content type="html" xml:base="/publications/2023-openslu-a-unified-modularized-and-extensible-toolkit-for-spoken-language-understanding/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Semantic-Guided Image Augmentation with Pre-trained Models</title>
-        <published>2023-01-01T00:00:00+00:00</published>
-        <updated>2023-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2023-semantic-guided-image-augmentation-with-pre-trained-models/"/>
-        <id>/publications/2023-semantic-guided-image-augmentation-with-pre-trained-models/</id>
-        
-        <content type="html" xml:base="/publications/2023-semantic-guided-image-augmentation-with-pre-trained-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Improving Pre-trained Language Models with Syntactic Dependency Prediction Task for Chinese Semantic Error Recognition</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/"/>
-        <id>/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/</id>
-        
-        <content type="html" xml:base="/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>InterHT Knowledge Graph Embeddings by Interaction between Head and Tail Entities</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-interht-knowledge-graph-embeddings-by-interaction-between-head-and-tail-entities/"/>
-        <id>/publications/2022-interht-knowledge-graph-embeddings-by-interaction-between-head-and-tail-entities/</id>
-        
-        <content type="html" xml:base="/publications/2022-interht-knowledge-graph-embeddings-by-interaction-between-head-and-tail-entities/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Learning-based Hybrid Local Search for the Hard-label Textual Attack</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/"/>
-        <id>/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/</id>
-        
-        <content type="html" xml:base="/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Overview of CTC 2021 Chinese Text Correction for Native Speakers</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-overview-of-ctc-2021-chinese-text-correction-for-native-speakers/"/>
-        <id>/publications/2022-overview-of-ctc-2021-chinese-text-correction-for-native-speakers/</id>
-        
-        <content type="html" xml:base="/publications/2022-overview-of-ctc-2021-chinese-text-correction-for-native-speakers/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>UniSAr A Unified Structure-Aware Autoregressive Language Model for Text-to-SQL</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/"/>
-        <id>/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/</id>
-        
-        <content type="html" xml:base="/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A survey on spoken language understanding Recent advances and new frontiers</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-a-survey-on-spoken-language-understanding-recent-advances-and-new-frontiers/"/>
-        <id>/publications/2021-a-survey-on-spoken-language-understanding-recent-advances-and-new-frontiers/</id>
-        
-        <content type="html" xml:base="/publications/2021-a-survey-on-spoken-language-understanding-recent-advances-and-new-frontiers/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Allocating large vocabulary capacity for cross-lingual language model pre-training</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-allocating-large-vocabulary-capacity-for-cross-lingual-language-model-pre-training/"/>
-        <id>/publications/2021-allocating-large-vocabulary-capacity-for-cross-lingual-language-model-pre-training/</id>
-        
-        <content type="html" xml:base="/publications/2021-allocating-large-vocabulary-capacity-for-cross-lingual-language-model-pre-training/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Bilingual Alignment Pre-Training for Zero-Shot Cross-Lingual Transfer</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-bilingual-alignment-pre-training-for-zero-shot-cross-lingual-transfer/"/>
-        <id>/publications/2021-bilingual-alignment-pre-training-for-zero-shot-cross-lingual-transfer/</id>
-        
-        <content type="html" xml:base="/publications/2021-bilingual-alignment-pre-training-for-zero-shot-cross-lingual-transfer/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Discovering Drug-Target Interaction Knowledge from Biomedical Literature</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"/>
-        <id>/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/</id>
-        
-        <content type="html" xml:base="/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Dont be Contradicted with Anything CI-ToD Towards Benchmarking Consistency for Task-oriented Dialogue System</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-dont-be-contradicted-with-anything-ci-tod-towards-benchmarking-consistency-for-task-oriented-dialogue-system/"/>
-        <id>/publications/2021-dont-be-contradicted-with-anything-ci-tod-towards-benchmarking-consistency-for-task-oriented-dialogue-system/</id>
-        
-        <content type="html" xml:base="/publications/2021-dont-be-contradicted-with-anything-ci-tod-towards-benchmarking-consistency-for-task-oriented-dialogue-system/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Durecdial 20 A bilingual parallel corpus for conversational recommendation</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/"/>
-        <id>/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/</id>
-        
-        <content type="html" xml:base="/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Nl-augmenter A framework for task-sensitive natural language augmentation</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-nl-augmenter-a-framework-for-task-sensitive-natural-language-augmentation/"/>
-        <id>/publications/2021-nl-augmenter-a-framework-for-task-sensitive-natural-language-augmentation/</id>
-        
-        <content type="html" xml:base="/publications/2021-nl-augmenter-a-framework-for-task-sensitive-natural-language-augmentation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Understanding attention in machine reading comprehension</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-understanding-attention-in-machine-reading-comprehension/"/>
-        <id>/publications/2021-understanding-attention-in-machine-reading-comprehension/</id>
-        
-        <content type="html" xml:base="/publications/2021-understanding-attention-in-machine-reading-comprehension/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A co-interactive transformer for joint slot filling and intent detection</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-a-co-interactive-transformer-for-joint-slot-filling-and-intent-detection/"/>
-        <id>/publications/2020-a-co-interactive-transformer-for-joint-slot-filling-and-intent-detection/</id>
-        
-        <content type="html" xml:base="/publications/2020-a-co-interactive-transformer-for-joint-slot-filling-and-intent-detection/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Discovering dialog structure graph for open-domain dialog generation</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/"/>
-        <id>/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/</id>
-        
-        <content type="html" xml:base="/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Fewjoint a few-shot learning benchmark for joint language understanding</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-fewjoint-a-few-shot-learning-benchmark-for-joint-language-understanding/"/>
-        <id>/publications/2020-fewjoint-a-few-shot-learning-benchmark-for-joint-language-understanding/</id>
-        
-        <content type="html" xml:base="/publications/2020-fewjoint-a-few-shot-learning-benchmark-for-joint-language-understanding/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Injecting word information with multi-level word adapter for chinese spoken language understanding</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-injecting-word-information-with-multi-level-word-adapter-for-chinese-spoken-language-understanding/"/>
-        <id>/publications/2020-injecting-word-information-with-multi-level-word-adapter-for-chinese-spoken-language-understanding/</id>
-        
-        <content type="html" xml:base="/publications/2020-injecting-word-information-with-multi-level-word-adapter-for-chinese-spoken-language-understanding/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Multi-domain spoken language understanding using domain-and task-aware parameterization</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-multi-domain-spoken-language-understanding-using-domain-and-task-aware-parameterization/"/>
-        <id>/publications/2020-multi-domain-spoken-language-understanding-using-domain-and-task-aware-parameterization/</id>
-        
-        <content type="html" xml:base="/publications/2020-multi-domain-spoken-language-understanding-using-domain-and-task-aware-parameterization/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A corpus-free state2seq user simulator for task-oriented dialogue</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-a-corpus-free-state2seq-user-simulator-for-task-oriented-dialogue/"/>
-        <id>/publications/2019-a-corpus-free-state2seq-user-simulator-for-task-oriented-dialogue/</id>
-        
-        <content type="html" xml:base="/publications/2019-a-corpus-free-state2seq-user-simulator-for-task-oriented-dialogue/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Contextual recurrent units for cloze-style reading comprehension</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-contextual-recurrent-units-for-cloze-style-reading-comprehension/"/>
-        <id>/publications/2019-contextual-recurrent-units-for-cloze-style-reading-comprehension/</id>
-        
-        <content type="html" xml:base="/publications/2019-contextual-recurrent-units-for-cloze-style-reading-comprehension/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Improving machine reading comprehension via adversarial training</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-improving-machine-reading-comprehension-via-adversarial-training/"/>
-        <id>/publications/2019-improving-machine-reading-comprehension-via-adversarial-training/</id>
-        
-        <content type="html" xml:base="/publications/2019-improving-machine-reading-comprehension-via-adversarial-training/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Learning semantic hierarchies A continuous vector space approach</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/"/>
-        <id>/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/</id>
-        
-        <content type="html" xml:base="/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Pre-training with whole word masking for chinese bert</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-pre-training-with-whole-word-masking-for-chinese-bert/"/>
-        <id>/publications/2019-pre-training-with-whole-word-masking-for-chinese-bert/</id>
-        
-        <content type="html" xml:base="/publications/2019-pre-training-with-whole-word-masking-for-chinese-bert/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>The first evaluation of Chinese human-computer dialogue technology</title>
-        <published>2017-01-01T00:00:00+00:00</published>
-        <updated>2017-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2017-the-first-evaluation-of-chinese-human-computer-dialogue-technology/"/>
-        <id>/publications/2017-the-first-evaluation-of-chinese-human-computer-dialogue-technology/</id>
-        
-        <content type="html" xml:base="/publications/2017-the-first-evaluation-of-chinese-human-computer-dialogue-technology/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Exploiting multi-typed treebanks for parsing with deep multi-task learning</title>
-        <published>2016-01-01T00:00:00+00:00</published>
-        <updated>2016-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/"/>
-        <id>/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/</id>
-        
-        <content type="html" xml:base="/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Appraisal expression recognition with syntactic path for sentence sentiment classification</title>
-        <published>2010-01-01T00:00:00+00:00</published>
-        <updated>2010-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2010-appraisal-expression-recognition-with-syntactic-path-for-sentence-sentiment-classification/"/>
-        <id>/publications/2010-appraisal-expression-recognition-with-syntactic-path-for-sentence-sentiment-classification/</id>
-        
-        <content type="html" xml:base="/publications/2010-appraisal-expression-recognition-with-syntactic-path-for-sentence-sentiment-classification/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Coherent Dialog Generation with Query Graph</title>
-        <published>2010-01-01T00:00:00+00:00</published>
-        <updated>2010-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2010-coherent-dialog-generation-with-query-graph/"/>
-        <id>/publications/2010-coherent-dialog-generation-with-query-graph/</id>
-        
-        <content type="html" xml:base="/publications/2010-coherent-dialog-generation-with-query-graph/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Combining Self-supervised Learning and Active Learning for Disfluency Detection</title>
-        <published>2010-01-01T00:00:00+00:00</published>
-        <updated>2010-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2010-combining-self-supervised-learning-and-active-learning-for-disfluency-detection/"/>
-        <id>/publications/2010-combining-self-supervised-learning-and-active-learning-for-disfluency-detection/</id>
-        
-        <content type="html" xml:base="/publications/2010-combining-self-supervised-learning-and-active-learning-for-disfluency-detection/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Interactive Gated Decoder for Machine Reading Comprehension</title>
-        <published>2010-01-01T00:00:00+00:00</published>
-        <updated>2010-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2010-interactive-gated-decoder-for-machine-reading-comprehension/"/>
-        <id>/publications/2010-interactive-gated-decoder-for-machine-reading-comprehension/</id>
-        
-        <content type="html" xml:base="/publications/2010-interactive-gated-decoder-for-machine-reading-comprehension/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Introduction to information retrieval</title>
-        <published>2010-01-01T00:00:00+00:00</published>
-        <updated>2010-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2010-introduction-to-information-retrieval/"/>
-        <id>/publications/2010-introduction-to-information-retrieval/</id>
-        
-        <content type="html" xml:base="/publications/2010-introduction-to-information-retrieval/"></content>
-        
-    </entry>
+	<title> - ArXiv</title>
+	<link href="/publisher/arxiv/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2024-01-01T00:00:00+00:00</updated>
+	<id>/publisher/arxiv/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Can Large Language Models Understand You Better An MBTI Personality Detection Dataset Aligned with Population Traits</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/" type="text/html"/>
+		<id>/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Multi-Hop Table Retrieval for Open-Domain Text-to-SQL</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-multi-hop-table-retrieval-for-open-domain-text-to-sql/" type="text/html"/>
+		<id>/publications/2024-multi-hop-table-retrieval-for-open-domain-text-to-sql/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>OneBit Towards Extremely Low-bit Large Language Models</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-onebit-towards-extremely-low-bit-large-language-models/" type="text/html"/>
+		<id>/publications/2024-onebit-towards-extremely-low-bit-large-language-models/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Unlocking the Capabilities of Thought A Reasoning Boundary Framework to Quantify and Optimize Chain-of-Thought</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/" type="text/html"/>
+		<id>/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Preliminary Evaluation of ChatGPT for Zero-shot Dialogue Understanding</title>
+		<published>2023-01-01T00:00:00+00:00</published>
+		<updated>2023-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2023-a-preliminary-evaluation-of-chatgpt-for-zero-shot-dialogue-understanding/" type="text/html"/>
+		<id>/publications/2023-a-preliminary-evaluation-of-chatgpt-for-zero-shot-dialogue-understanding/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Controllable Data Augmentation for Context-Dependent Text-to-SQL</title>
+		<published>2023-01-01T00:00:00+00:00</published>
+		<updated>2023-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2023-controllable-data-augmentation-for-context-dependent-text-to-sql/" type="text/html"/>
+		<id>/publications/2023-controllable-data-augmentation-for-context-dependent-text-to-sql/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>CSED A Chinese Semantic Error Diagnosis Corpus</title>
+		<published>2023-01-01T00:00:00+00:00</published>
+		<updated>2023-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/" type="text/html"/>
+		<id>/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>MixPro Simple yet Effective Data Augmentation for Prompt-based Learning</title>
+		<published>2023-01-01T00:00:00+00:00</published>
+		<updated>2023-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/" type="text/html"/>
+		<id>/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>OpenSLU A Unified Modularized and Extensible Toolkit for Spoken Language Understanding</title>
+		<published>2023-01-01T00:00:00+00:00</published>
+		<updated>2023-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2023-openslu-a-unified-modularized-and-extensible-toolkit-for-spoken-language-understanding/" type="text/html"/>
+		<id>/publications/2023-openslu-a-unified-modularized-and-extensible-toolkit-for-spoken-language-understanding/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Semantic-Guided Image Augmentation with Pre-trained Models</title>
+		<published>2023-01-01T00:00:00+00:00</published>
+		<updated>2023-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2023-semantic-guided-image-augmentation-with-pre-trained-models/" type="text/html"/>
+		<id>/publications/2023-semantic-guided-image-augmentation-with-pre-trained-models/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Improving Pre-trained Language Models with Syntactic Dependency Prediction Task for Chinese Semantic Error Recognition</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/" type="text/html"/>
+		<id>/publications/2022-improving-pre-trained-language-models-with-syntactic-dependency-prediction-task-for-chinese-semantic-error-recognition/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>InterHT Knowledge Graph Embeddings by Interaction between Head and Tail Entities</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2022-interht-knowledge-graph-embeddings-by-interaction-between-head-and-tail-entities/" type="text/html"/>
+		<id>/publications/2022-interht-knowledge-graph-embeddings-by-interaction-between-head-and-tail-entities/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Learning-based Hybrid Local Search for the Hard-label Textual Attack</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/" type="text/html"/>
+		<id>/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Overview of CTC 2021 Chinese Text Correction for Native Speakers</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2022-overview-of-ctc-2021-chinese-text-correction-for-native-speakers/" type="text/html"/>
+		<id>/publications/2022-overview-of-ctc-2021-chinese-text-correction-for-native-speakers/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>UniSAr A Unified Structure-Aware Autoregressive Language Model for Text-to-SQL</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/" type="text/html"/>
+		<id>/publications/2022-unisar-a-unified-structure-aware-autoregressive-language-model-for-text-to-sql/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A survey on spoken language understanding Recent advances and new frontiers</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-a-survey-on-spoken-language-understanding-recent-advances-and-new-frontiers/" type="text/html"/>
+		<id>/publications/2021-a-survey-on-spoken-language-understanding-recent-advances-and-new-frontiers/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Allocating large vocabulary capacity for cross-lingual language model pre-training</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-allocating-large-vocabulary-capacity-for-cross-lingual-language-model-pre-training/" type="text/html"/>
+		<id>/publications/2021-allocating-large-vocabulary-capacity-for-cross-lingual-language-model-pre-training/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Bilingual Alignment Pre-Training for Zero-Shot Cross-Lingual Transfer</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-bilingual-alignment-pre-training-for-zero-shot-cross-lingual-transfer/" type="text/html"/>
+		<id>/publications/2021-bilingual-alignment-pre-training-for-zero-shot-cross-lingual-transfer/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Discovering Drug-Target Interaction Knowledge from Biomedical Literature</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/" type="text/html"/>
+		<id>/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Dont be Contradicted with Anything CI-ToD Towards Benchmarking Consistency for Task-oriented Dialogue System</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-dont-be-contradicted-with-anything-ci-tod-towards-benchmarking-consistency-for-task-oriented-dialogue-system/" type="text/html"/>
+		<id>/publications/2021-dont-be-contradicted-with-anything-ci-tod-towards-benchmarking-consistency-for-task-oriented-dialogue-system/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Durecdial 20 A bilingual parallel corpus for conversational recommendation</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/" type="text/html"/>
+		<id>/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Nl-augmenter A framework for task-sensitive natural language augmentation</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-nl-augmenter-a-framework-for-task-sensitive-natural-language-augmentation/" type="text/html"/>
+		<id>/publications/2021-nl-augmenter-a-framework-for-task-sensitive-natural-language-augmentation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Understanding attention in machine reading comprehension</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-understanding-attention-in-machine-reading-comprehension/" type="text/html"/>
+		<id>/publications/2021-understanding-attention-in-machine-reading-comprehension/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A co-interactive transformer for joint slot filling and intent detection</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-a-co-interactive-transformer-for-joint-slot-filling-and-intent-detection/" type="text/html"/>
+		<id>/publications/2020-a-co-interactive-transformer-for-joint-slot-filling-and-intent-detection/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Discovering dialog structure graph for open-domain dialog generation</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/" type="text/html"/>
+		<id>/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Fewjoint a few-shot learning benchmark for joint language understanding</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-fewjoint-a-few-shot-learning-benchmark-for-joint-language-understanding/" type="text/html"/>
+		<id>/publications/2020-fewjoint-a-few-shot-learning-benchmark-for-joint-language-understanding/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Injecting word information with multi-level word adapter for chinese spoken language understanding</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-injecting-word-information-with-multi-level-word-adapter-for-chinese-spoken-language-understanding/" type="text/html"/>
+		<id>/publications/2020-injecting-word-information-with-multi-level-word-adapter-for-chinese-spoken-language-understanding/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Multi-domain spoken language understanding using domain-and task-aware parameterization</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-multi-domain-spoken-language-understanding-using-domain-and-task-aware-parameterization/" type="text/html"/>
+		<id>/publications/2020-multi-domain-spoken-language-understanding-using-domain-and-task-aware-parameterization/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A corpus-free state2seq user simulator for task-oriented dialogue</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-a-corpus-free-state2seq-user-simulator-for-task-oriented-dialogue/" type="text/html"/>
+		<id>/publications/2019-a-corpus-free-state2seq-user-simulator-for-task-oriented-dialogue/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Contextual recurrent units for cloze-style reading comprehension</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-contextual-recurrent-units-for-cloze-style-reading-comprehension/" type="text/html"/>
+		<id>/publications/2019-contextual-recurrent-units-for-cloze-style-reading-comprehension/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Improving machine reading comprehension via adversarial training</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-improving-machine-reading-comprehension-via-adversarial-training/" type="text/html"/>
+		<id>/publications/2019-improving-machine-reading-comprehension-via-adversarial-training/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Learning semantic hierarchies A continuous vector space approach</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/" type="text/html"/>
+		<id>/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Pre-training with whole word masking for chinese bert</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-pre-training-with-whole-word-masking-for-chinese-bert/" type="text/html"/>
+		<id>/publications/2019-pre-training-with-whole-word-masking-for-chinese-bert/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>The first evaluation of Chinese human-computer dialogue technology</title>
+		<published>2017-01-01T00:00:00+00:00</published>
+		<updated>2017-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2017-the-first-evaluation-of-chinese-human-computer-dialogue-technology/" type="text/html"/>
+		<id>/publications/2017-the-first-evaluation-of-chinese-human-computer-dialogue-technology/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Exploiting multi-typed treebanks for parsing with deep multi-task learning</title>
+		<published>2016-01-01T00:00:00+00:00</published>
+		<updated>2016-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/" type="text/html"/>
+		<id>/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Appraisal expression recognition with syntactic path for sentence sentiment classification</title>
+		<published>2010-01-01T00:00:00+00:00</published>
+		<updated>2010-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2010-appraisal-expression-recognition-with-syntactic-path-for-sentence-sentiment-classification/" type="text/html"/>
+		<id>/publications/2010-appraisal-expression-recognition-with-syntactic-path-for-sentence-sentiment-classification/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Coherent Dialog Generation with Query Graph</title>
+		<published>2010-01-01T00:00:00+00:00</published>
+		<updated>2010-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2010-coherent-dialog-generation-with-query-graph/" type="text/html"/>
+		<id>/publications/2010-coherent-dialog-generation-with-query-graph/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Combining Self-supervised Learning and Active Learning for Disfluency Detection</title>
+		<published>2010-01-01T00:00:00+00:00</published>
+		<updated>2010-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2010-combining-self-supervised-learning-and-active-learning-for-disfluency-detection/" type="text/html"/>
+		<id>/publications/2010-combining-self-supervised-learning-and-active-learning-for-disfluency-detection/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Interactive Gated Decoder for Machine Reading Comprehension</title>
+		<published>2010-01-01T00:00:00+00:00</published>
+		<updated>2010-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2010-interactive-gated-decoder-for-machine-reading-comprehension/" type="text/html"/>
+		<id>/publications/2010-interactive-gated-decoder-for-machine-reading-comprehension/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Introduction to information retrieval</title>
+		<published>2010-01-01T00:00:00+00:00</published>
+		<updated>2010-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2010-introduction-to-information-retrieval/" type="text/html"/>
+		<id>/publications/2010-introduction-to-information-retrieval/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

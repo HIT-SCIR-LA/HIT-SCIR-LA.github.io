@@ -1,123 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - 博士毕业</title>
-    <link rel="self" type="application/atom+xml" href="/news-type/bo-shi-bi-ye/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-05-29T00:00:00+00:00</updated>
-    <id>/news-type/bo-shi-bi-ye/atom.xml</id>
-    <entry xml:lang="en">
-        <title>哈工大SCIR三位博士生李家琦、袁建华、柳泽明顺利通过博士学位答辩</title>
-        <published>2023-05-29T00:00:00+00:00</published>
-        <updated>2023-05-29T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirsan-wei-bo-shi-sheng-li-jia-qi-yuan-jian-hua-liu-ze-ming-shun-li-tong-guo-bo-shi-xue-wei-da-bian/"/>
-        <id>/news/ha-gong-da-scirsan-wei-bo-shi-sheng-li-jia-qi-yuan-jian-hua-liu-ze-ming-shun-li-tong-guo-bo-shi-xue-wei-da-bian/</id>
-        
-        <content type="html" xml:base="/news/ha-gong-da-scirsan-wei-bo-shi-sheng-li-jia-qi-yuan-jian-hua-liu-ze-ming-shun-li-tong-guo-bo-shi-xue-wei-da-bian/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>哈工大SCIR两位博士生施晓明、侯宇泰顺利通过博士学位答辩</title>
-        <published>2022-09-08T00:00:00+00:00</published>
-        <updated>2022-09-08T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirliang-wei-bo-shi-sheng-shi-xiao-ming-hou-yu-tai-shun-li-tong-guo-bo-shi-xue-wei-da-bian/"/>
-        <id>/news/ha-gong-da-scirliang-wei-bo-shi-sheng-shi-xiao-ming-hou-yu-tai-shun-li-tong-guo-bo-shi-xue-wei-da-bian/</id>
-        
-        <content type="html" xml:base="/news/ha-gong-da-scirliang-wei-bo-shi-sheng-shi-xiao-ming-hou-yu-tai-shun-li-tong-guo-bo-shi-xue-wei-da-bian/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>哈工大SCIR两位博士生景东、王宇轩顺利通过博士学位答辩</title>
-        <published>2021-10-11T00:00:00+00:00</published>
-        <updated>2021-10-11T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirliang-wei-bo-shi-sheng-jing-dong-wang-yu-xuan-shun-li-tong-guo-bo-shi-xue-wei-da-bian/"/>
-        <id>/news/ha-gong-da-scirliang-wei-bo-shi-sheng-jing-dong-wang-yu-xuan-shun-li-tong-guo-bo-shi-xue-wei-da-bian/</id>
-        
-        <content type="html" xml:base="/news/ha-gong-da-scirliang-wei-bo-shi-sheng-jing-dong-wang-yu-xuan-shun-li-tong-guo-bo-shi-xue-wei-da-bian/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>哈工大SCIR博士生徐俊顺利通过博士学位答辩</title>
-        <published>2021-09-28T00:00:00+00:00</published>
-        <updated>2021-09-28T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirbo-shi-sheng-xu-jun-shun-li-tong-guo-bo-shi-xue-wei-da-bian/"/>
-        <id>/news/ha-gong-da-scirbo-shi-sheng-xu-jun-shun-li-tong-guo-bo-shi-xue-wei-da-bian/</id>
-        
-        <content type="html" xml:base="/news/ha-gong-da-scirbo-shi-sheng-xu-jun-shun-li-tong-guo-bo-shi-xue-wei-da-bian/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>哈工大SCIR博士生刘一佳、尹庆宇顺利通过博士学位答辩</title>
-        <published>2019-06-14T00:00:00+00:00</published>
-        <updated>2019-06-14T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirbo-shi-sheng-liu-yi-jia-yin-qing-yu-shun-li-tong-guo-bo-shi-xue-wei-da-bian/"/>
-        <id>/news/ha-gong-da-scirbo-shi-sheng-liu-yi-jia-yin-qing-yu-shun-li-tong-guo-bo-shi-xue-wei-da-bian/</id>
-        
-        <content type="html" xml:base="/news/ha-gong-da-scirbo-shi-sheng-liu-yi-jia-yin-qing-yu-shun-li-tong-guo-bo-shi-xue-wei-da-bian/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>我中心博士生郭江顺利通过博士答辩</title>
-        <published>2017-03-06T00:00:00+00:00</published>
-        <updated>2017-03-06T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/news/wo-zhong-xin-bo-shi-sheng-guo-jiang-shun-li-tong-guo-bo-shi-da-bian/"/>
-        <id>/news/wo-zhong-xin-bo-shi-sheng-guo-jiang-shun-li-tong-guo-bo-shi-da-bian/</id>
-        
-        <content type="html" xml:base="/news/wo-zhong-xin-bo-shi-sheng-guo-jiang-shun-li-tong-guo-bo-shi-da-bian/"></content>
-        
-    </entry>
+	<title> - 博士毕业</title>
+	<link href="/news-type/bo-shi-bi-ye/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-05-29T00:00:00+00:00</updated>
+	<id>/news-type/bo-shi-bi-ye/atom.xml</id>
+	<entry xml:lang="en">
+		<title>哈工大SCIR三位博士生李家琦、袁建华、柳泽明顺利通过博士学位答辩</title>
+		<published>2023-05-29T00:00:00+00:00</published>
+		<updated>2023-05-29T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/ha-gong-da-scirsan-wei-bo-shi-sheng-li-jia-qi-yuan-jian-hua-liu-ze-ming-shun-li-tong-guo-bo-shi-xue-wei-da-bian/" type="text/html"/>
+		<id>/news/ha-gong-da-scirsan-wei-bo-shi-sheng-li-jia-qi-yuan-jian-hua-liu-ze-ming-shun-li-tong-guo-bo-shi-xue-wei-da-bian/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>哈工大SCIR两位博士生施晓明、侯宇泰顺利通过博士学位答辩</title>
+		<published>2022-09-08T00:00:00+00:00</published>
+		<updated>2022-09-08T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/ha-gong-da-scirliang-wei-bo-shi-sheng-shi-xiao-ming-hou-yu-tai-shun-li-tong-guo-bo-shi-xue-wei-da-bian/" type="text/html"/>
+		<id>/news/ha-gong-da-scirliang-wei-bo-shi-sheng-shi-xiao-ming-hou-yu-tai-shun-li-tong-guo-bo-shi-xue-wei-da-bian/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>哈工大SCIR两位博士生景东、王宇轩顺利通过博士学位答辩</title>
+		<published>2021-10-11T00:00:00+00:00</published>
+		<updated>2021-10-11T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/ha-gong-da-scirliang-wei-bo-shi-sheng-jing-dong-wang-yu-xuan-shun-li-tong-guo-bo-shi-xue-wei-da-bian/" type="text/html"/>
+		<id>/news/ha-gong-da-scirliang-wei-bo-shi-sheng-jing-dong-wang-yu-xuan-shun-li-tong-guo-bo-shi-xue-wei-da-bian/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>哈工大SCIR博士生徐俊顺利通过博士学位答辩</title>
+		<published>2021-09-28T00:00:00+00:00</published>
+		<updated>2021-09-28T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/ha-gong-da-scirbo-shi-sheng-xu-jun-shun-li-tong-guo-bo-shi-xue-wei-da-bian/" type="text/html"/>
+		<id>/news/ha-gong-da-scirbo-shi-sheng-xu-jun-shun-li-tong-guo-bo-shi-xue-wei-da-bian/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>哈工大SCIR博士生刘一佳、尹庆宇顺利通过博士学位答辩</title>
+		<published>2019-06-14T00:00:00+00:00</published>
+		<updated>2019-06-14T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/ha-gong-da-scirbo-shi-sheng-liu-yi-jia-yin-qing-yu-shun-li-tong-guo-bo-shi-xue-wei-da-bian/" type="text/html"/>
+		<id>/news/ha-gong-da-scirbo-shi-sheng-liu-yi-jia-yin-qing-yu-shun-li-tong-guo-bo-shi-xue-wei-da-bian/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>我中心博士生郭江顺利通过博士答辩</title>
+		<published>2017-03-06T00:00:00+00:00</published>
+		<updated>2017-03-06T00:00:00+00:00</updated>
+		<link rel="alternate" href="/news/wo-zhong-xin-bo-shi-sheng-guo-jiang-shun-li-tong-guo-bo-shi-da-bian/" type="text/html"/>
+		<id>/news/wo-zhong-xin-bo-shi-sheng-guo-jiang-shun-li-tong-guo-bo-shi-da-bian/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

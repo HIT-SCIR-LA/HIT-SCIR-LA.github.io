@@ -184,7 +184,7 @@
 </li>
 </ul>
 <h2 id="kuai-su-shi-yong">快速使用</h2>
-<h3 id="python"><a href="/projects/yu-yan-ji-shu-ping-tai/python/interface/README.md">Python</a></h3>
+<h3 id="python"><a href="python/interface/README.md">Python</a></h3>
 <pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">pip</span><span> install</span><span style="color:#bf616a;"> -U</span><span> ltp ltp-core ltp-extension</span><span style="color:#bf616a;"> -i</span><span> https://pypi.org/simple </span><span style="color:#65737e;"># 安装 ltp
 </span></code></pre>
 <p><strong>注：</strong> 如果遇到任何错误，请尝试使用上述命令重新安装 ltp，如果依然报错，请在 Github issues 中反馈。</p>
@@ -211,8 +211,8 @@
 </span><span style="color:#65737e;"># 使用元组格式作为返回结果
 </span><span style="color:#96b5b4;">print</span><span>(cws, pos, ner)
 </span></code></pre>
-<p><strong><a href="/projects/yu-yan-ji-shu-ping-tai/python/interface/docs/quickstart.rst">详细说明</a></strong></p>
-<h3 id="rust"><a href="/projects/yu-yan-ji-shu-ping-tai/rust/ltp/README.md">Rust</a></h3>
+<p><strong><a href="python/interface/docs/quickstart.rst">详细说明</a></strong></p>
+<h3 id="rust"><a href="rust/ltp/README.md">Rust</a></h3>
 <pre data-lang="rust" style="background-color:#2b303b;color:#c0c5ce;" class="language-rust "><code class="language-rust" data-lang="rust"><span style="color:#b48ead;">use </span><span>std::fs::File;
 </span><span style="color:#b48ead;">use </span><span>itertools::multizip;
 </span><span style="color:#b48ead;">use </span><span>ltp::{CWSModel, POSModel, NERModel, ModelSerde, Format, Codec};
@@ -245,7 +245,7 @@
 <tr><td style="text-align: center"><a href="https://huggingface.co/LTP/tiny">Tiny</a></td><td style="text-align: center">96.8</td><td style="text-align: center">97.1</td><td style="text-align: center">91.6</td><td style="text-align: center">70.9</td><td style="text-align: center">83.8</td><td style="text-align: center">70.1</td><td style="text-align: center">53.22</td></tr>
 </tbody></table>
 <table><thead><tr><th style="text-align: center">感知机算法</th><th style="text-align: center">分词</th><th style="text-align: center">词性</th><th style="text-align: center">命名实体</th><th style="text-align: center">速度(句/s)</th><th style="text-align: center">备注</th></tr></thead><tbody>
-<tr><td style="text-align: center"><a href="https://huggingface.co/LTP/legacy">Legacy</a></td><td style="text-align: center">97.93</td><td style="text-align: center">98.41</td><td style="text-align: center">94.28</td><td style="text-align: center">21581.48</td><td style="text-align: center"><a href="/projects/yu-yan-ji-shu-ping-tai/rust/ltp/README.md">性能详情</a></td></tr>
+<tr><td style="text-align: center"><a href="https://huggingface.co/LTP/legacy">Legacy</a></td><td style="text-align: center">97.93</td><td style="text-align: center">98.41</td><td style="text-align: center">94.28</td><td style="text-align: center">21581.48</td><td style="text-align: center"><a href="rust/ltp/README.md">性能详情</a></td></tr>
 </tbody></table>
 <p><strong>注：感知机算法速度为开启16线程速度</strong></p>
 <h2 id="gou-jian-wheel-bao">构建 Wheel 包</h2>
@@ -254,8 +254,8 @@
 <h2 id="qi-ta-yu-yan-bang-ding">其他语言绑定</h2>
 <p><strong>感知机算法</strong></p>
 <ul>
-<li><a href="/projects/yu-yan-ji-shu-ping-tai/rust/ltp">Rust</a></li>
-<li><a href="/projects/yu-yan-ji-shu-ping-tai/rust/ltp-cffi">C/C++</a></li>
+<li><a href="rust/ltp">Rust</a></li>
+<li><a href="rust/ltp-cffi">C/C++</a></li>
 </ul>
 <p><strong>深度学习算法</strong></p>
 <ul>

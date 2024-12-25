@@ -1,351 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - Wang Haifeng</title>
-    <link rel="self" type="application/atom+xml" href="/authors/wang-haifeng/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2022-01-01T00:00:00+00:00</updated>
-    <id>/authors/wang-haifeng/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Graph-Grounded Goal Planning for Conversational Recommendation</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/"/>
-        <id>/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/</id>
-        
-        <content type="html" xml:base="/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Discovering Dialog Structure Graph for Coherent Dialog Generation</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/"/>
-        <id>/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/</id>
-        
-        <content type="html" xml:base="/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Durecdial 20 A bilingual parallel corpus for conversational recommendation</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/"/>
-        <id>/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/</id>
-        
-        <content type="html" xml:base="/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/"/>
-        <id>/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/</id>
-        
-        <content type="html" xml:base="/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Discovering dialog structure graph for open-domain dialog generation</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/"/>
-        <id>/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/</id>
-        
-        <content type="html" xml:base="/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Knowledge graph grounded goal planning for open-domain conversation generation</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-knowledge-graph-grounded-goal-planning-for-open-domain-conversation-generation/"/>
-        <id>/publications/2020-knowledge-graph-grounded-goal-planning-for-open-domain-conversation-generation/</id>
-        
-        <content type="html" xml:base="/publications/2020-knowledge-graph-grounded-goal-planning-for-open-domain-conversation-generation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Towards Conversational Recommendation over Multi-Type Dialogs</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/"/>
-        <id>/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/</id>
-        
-        <content type="html" xml:base="/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Key-Phrase Aware End2end Neural Response Generation Model</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-a-key-phrase-aware-end2end-neural-response-generation-model/"/>
-        <id>/publications/2019-a-key-phrase-aware-end2end-neural-response-generation-model/</id>
-        
-        <content type="html" xml:base="/publications/2019-a-key-phrase-aware-end2end-neural-response-generation-model/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Learning semantic hierarchies A continuous vector space approach</title>
-        <published>2019-01-01T00:00:00+00:00</published>
-        <updated>2019-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/"/>
-        <id>/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/</id>
-        
-        <content type="html" xml:base="/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A distributed representation-based framework for cross-lingual transfer parsing</title>
-        <published>2016-01-01T00:00:00+00:00</published>
-        <updated>2016-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/"/>
-        <id>/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Unified Architecture for Semantic Role Labeling and Relation Classification</title>
-        <published>2016-01-01T00:00:00+00:00</published>
-        <updated>2016-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/"/>
-        <id>/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/</id>
-        
-        <content type="html" xml:base="/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Universal Framework for Inductive Transfer Parsing across Multi-typed Treebanks</title>
-        <published>2016-01-01T00:00:00+00:00</published>
-        <updated>2016-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/"/>
-        <id>/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/</id>
-        
-        <content type="html" xml:base="/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Exploiting multi-typed treebanks for parsing with deep multi-task learning</title>
-        <published>2016-01-01T00:00:00+00:00</published>
-        <updated>2016-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/"/>
-        <id>/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/</id>
-        
-        <content type="html" xml:base="/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Cross-lingual Dependency Parsing Based on Distributed Representations</title>
-        <published>2015-01-01T00:00:00+00:00</published>
-        <updated>2015-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/"/>
-        <id>/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/</id>
-        
-        <content type="html" xml:base="/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Learning Semantic Hierarchies via Word Embeddings</title>
-        <published>2014-01-01T00:00:00+00:00</published>
-        <updated>2014-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2014-learning-semantic-hierarchies-via-word-embeddings/"/>
-        <id>/publications/2014-learning-semantic-hierarchies-via-word-embeddings/</id>
-        
-        <content type="html" xml:base="/publications/2014-learning-semantic-hierarchies-via-word-embeddings/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Learning Sense-specific Word Embeddings By Exploiting Bilingual Resources</title>
-        <published>2014-01-01T00:00:00+00:00</published>
-        <updated>2014-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2014-learning-sense-specific-word-embeddings-by-exploiting-bilingual-resources/"/>
-        <id>/publications/2014-learning-sense-specific-word-embeddings-by-exploiting-bilingual-resources/</id>
-        
-        <content type="html" xml:base="/publications/2014-learning-sense-specific-word-embeddings-by-exploiting-bilingual-resources/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Revisiting Embedding Features for Simple Semi-supervised Learning</title>
-        <published>2014-01-01T00:00:00+00:00</published>
-        <updated>2014-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2014-revisiting-embedding-features-for-simple-semi-supervised-learning/"/>
-        <id>/publications/2014-revisiting-embedding-features-for-simple-semi-supervised-learning/</id>
-        
-        <content type="html" xml:base="/publications/2014-revisiting-embedding-features-for-simple-semi-supervised-learning/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Coherent Dialog Generation with Query Graph</title>
-        <published>2010-01-01T00:00:00+00:00</published>
-        <updated>2010-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2010-coherent-dialog-generation-with-query-graph/"/>
-        <id>/publications/2010-coherent-dialog-generation-with-query-graph/</id>
-        
-        <content type="html" xml:base="/publications/2010-coherent-dialog-generation-with-query-graph/"></content>
-        
-    </entry>
+	<title> - Wang Haifeng</title>
+	<link href="/authors/wang-haifeng/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-01-01T00:00:00+00:00</updated>
+	<id>/authors/wang-haifeng/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Graph-Grounded Goal Planning for Conversational Recommendation</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/" type="text/html"/>
+		<id>/publications/2022-graph-grounded-goal-planning-for-conversational-recommendation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Discovering Dialog Structure Graph for Coherent Dialog Generation</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/" type="text/html"/>
+		<id>/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Durecdial 20 A bilingual parallel corpus for conversational recommendation</title>
+		<published>2021-01-01T00:00:00+00:00</published>
+		<updated>2021-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/" type="text/html"/>
+		<id>/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Conversational Graph Grounded Policy Learning for Open-Domain Conversation Generation</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/" type="text/html"/>
+		<id>/publications/2020-conversational-graph-grounded-policy-learning-for-open-domain-conversation-generation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Discovering dialog structure graph for open-domain dialog generation</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/" type="text/html"/>
+		<id>/publications/2020-discovering-dialog-structure-graph-for-open-domain-dialog-generation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Knowledge graph grounded goal planning for open-domain conversation generation</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-knowledge-graph-grounded-goal-planning-for-open-domain-conversation-generation/" type="text/html"/>
+		<id>/publications/2020-knowledge-graph-grounded-goal-planning-for-open-domain-conversation-generation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Towards Conversational Recommendation over Multi-Type Dialogs</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/" type="text/html"/>
+		<id>/publications/2020-towards-conversational-recommendation-over-multi-type-dialogs/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Key-Phrase Aware End2end Neural Response Generation Model</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-a-key-phrase-aware-end2end-neural-response-generation-model/" type="text/html"/>
+		<id>/publications/2019-a-key-phrase-aware-end2end-neural-response-generation-model/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Learning semantic hierarchies A continuous vector space approach</title>
+		<published>2019-01-01T00:00:00+00:00</published>
+		<updated>2019-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/" type="text/html"/>
+		<id>/publications/2019-learning-semantic-hierarchies-a-continuous-vector-space-approach/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A distributed representation-based framework for cross-lingual transfer parsing</title>
+		<published>2016-01-01T00:00:00+00:00</published>
+		<updated>2016-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/" type="text/html"/>
+		<id>/publications/2016-a-distributed-representation-based-framework-for-cross-lingual-transfer-parsing/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Unified Architecture for Semantic Role Labeling and Relation Classification</title>
+		<published>2016-01-01T00:00:00+00:00</published>
+		<updated>2016-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/" type="text/html"/>
+		<id>/publications/2016-a-unified-architecture-for-semantic-role-labeling-and-relation-classification/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Universal Framework for Inductive Transfer Parsing across Multi-typed Treebanks</title>
+		<published>2016-01-01T00:00:00+00:00</published>
+		<updated>2016-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/" type="text/html"/>
+		<id>/publications/2016-a-universal-framework-for-inductive-transfer-parsing-across-multi-typed-treebanks/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Exploiting multi-typed treebanks for parsing with deep multi-task learning</title>
+		<published>2016-01-01T00:00:00+00:00</published>
+		<updated>2016-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/" type="text/html"/>
+		<id>/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Cross-lingual Dependency Parsing Based on Distributed Representations</title>
+		<published>2015-01-01T00:00:00+00:00</published>
+		<updated>2015-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/" type="text/html"/>
+		<id>/publications/2015-cross-lingual-dependency-parsing-based-on-distributed-representations/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Learning Semantic Hierarchies via Word Embeddings</title>
+		<published>2014-01-01T00:00:00+00:00</published>
+		<updated>2014-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2014-learning-semantic-hierarchies-via-word-embeddings/" type="text/html"/>
+		<id>/publications/2014-learning-semantic-hierarchies-via-word-embeddings/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Learning Sense-specific Word Embeddings By Exploiting Bilingual Resources</title>
+		<published>2014-01-01T00:00:00+00:00</published>
+		<updated>2014-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2014-learning-sense-specific-word-embeddings-by-exploiting-bilingual-resources/" type="text/html"/>
+		<id>/publications/2014-learning-sense-specific-word-embeddings-by-exploiting-bilingual-resources/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Revisiting Embedding Features for Simple Semi-supervised Learning</title>
+		<published>2014-01-01T00:00:00+00:00</published>
+		<updated>2014-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2014-revisiting-embedding-features-for-simple-semi-supervised-learning/" type="text/html"/>
+		<id>/publications/2014-revisiting-embedding-features-for-simple-semi-supervised-learning/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Coherent Dialog Generation with Query Graph</title>
+		<published>2010-01-01T00:00:00+00:00</published>
+		<updated>2010-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2010-coherent-dialog-generation-with-query-graph/" type="text/html"/>
+		<id>/publications/2010-coherent-dialog-generation-with-query-graph/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

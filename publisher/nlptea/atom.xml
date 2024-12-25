@@ -1,47 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - NLPTEA</title>
-    <link rel="self" type="application/atom+xml" href="/publisher/nlptea/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2018-01-01T00:00:00+00:00</updated>
-    <id>/publisher/nlptea/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Chinese Grammatical Error Diagnosis using Statistical and Prior Knowledge driven Features with Probabilistic Ensemble Enhancement</title>
-        <published>2018-01-01T00:00:00+00:00</published>
-        <updated>2018-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/"/>
-        <id>/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/</id>
-        
-        <content type="html" xml:base="/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Chinese Grammatical Error Diagnosis with Long Short-Term Memory Networks</title>
-        <published>2016-01-01T00:00:00+00:00</published>
-        <updated>2016-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/"/>
-        <id>/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/</id>
-        
-        <content type="html" xml:base="/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/"></content>
-        
-    </entry>
+	<title> - NLPTEA</title>
+	<link href="/publisher/nlptea/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2018-01-01T00:00:00+00:00</updated>
+	<id>/publisher/nlptea/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Chinese Grammatical Error Diagnosis using Statistical and Prior Knowledge driven Features with Probabilistic Ensemble Enhancement</title>
+		<published>2018-01-01T00:00:00+00:00</published>
+		<updated>2018-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/" type="text/html"/>
+		<id>/publications/2018-chinese-grammatical-error-diagnosis-using-statistical-and-prior-knowledge-driven-features-with-probabilistic-ensemble-enhan/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Chinese Grammatical Error Diagnosis with Long Short-Term Memory Networks</title>
+		<published>2016-01-01T00:00:00+00:00</published>
+		<updated>2016-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/" type="text/html"/>
+		<id>/publications/2016-chinese-grammatical-error-diagnosis-with-long-short-term-memory-networks/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

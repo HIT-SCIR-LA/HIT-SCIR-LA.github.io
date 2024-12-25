@@ -1,351 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - 2024</title>
-    <link rel="self" type="application/atom+xml" href="/publish-year/2024/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-01-01T00:00:00+00:00</updated>
-    <id>/publish-year/2024/atom.xml</id>
-    <entry xml:lang="en">
-        <title>A Survey on Natural Language Processing for Programming</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-a-survey-on-natural-language-processing-for-programming/"/>
-        <id>/publications/2024-a-survey-on-natural-language-processing-for-programming/</id>
-        
-        <content type="html" xml:base="/publications/2024-a-survey-on-natural-language-processing-for-programming/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Two-Stage Framework with Self-Supervised Distillation For Cross-Domain Text Classification</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/"/>
-        <id>/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/</id>
-        
-        <content type="html" xml:base="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Beyond Static Evaluation A Dynamic Approach to Assessing AI Assistants API Invocation Capabilities</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/"/>
-        <id>/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/</id>
-        
-        <content type="html" xml:base="/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Can Large Language Models Understand You Better An MBTI Personality Detection Dataset Aligned with Population Traits</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"/>
-        <id>/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</id>
-        
-        <content type="html" xml:base="/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Concise and Precise Context Compression for Tool-Using Language Models</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/"/>
-        <id>/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/</id>
-        
-        <content type="html" xml:base="/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Enhancing Numerical Reasoning with the Guidance of Reliable Reasoning Processes</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-enhancing-numerical-reasoning-with-the-guidance-of-reliable-reasoning-processes/"/>
-        <id>/publications/2024-enhancing-numerical-reasoning-with-the-guidance-of-reliable-reasoning-processes/</id>
-        
-        <content type="html" xml:base="/publications/2024-enhancing-numerical-reasoning-with-the-guidance-of-reliable-reasoning-processes/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Exploring Equation as a Better Intermediate Meaning Representation for Numerical Reasoning of Large Language Models</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-exploring-equation-as-a-better-intermediate-meaning-representation-for-numerical-reasoning-of-large-language-models/"/>
-        <id>/publications/2024-exploring-equation-as-a-better-intermediate-meaning-representation-for-numerical-reasoning-of-large-language-models/</id>
-        
-        <content type="html" xml:base="/publications/2024-exploring-equation-as-a-better-intermediate-meaning-representation-for-numerical-reasoning-of-large-language-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Exploring Hybrid Question Answering via Program-based Prompting</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-exploring-hybrid-question-answering-via-program-based-prompting/"/>
-        <id>/publications/2024-exploring-hybrid-question-answering-via-program-based-prompting/</id>
-        
-        <content type="html" xml:base="/publications/2024-exploring-hybrid-question-answering-via-program-based-prompting/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Improving Demonstration Diversity by Human-Free Fusing for Text-to-SQL</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-improving-demonstration-diversity-by-human-free-fusing-for-text-to-sql/"/>
-        <id>/publications/2024-improving-demonstration-diversity-by-human-free-fusing-for-text-to-sql/</id>
-        
-        <content type="html" xml:base="/publications/2024-improving-demonstration-diversity-by-human-free-fusing-for-text-to-sql/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Improving Grammatical Error Correction via Contextual Data Augmentation</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/"/>
-        <id>/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/</id>
-        
-        <content type="html" xml:base="/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>LM-Combiner A Contextual Rewriting Model for Chinese Grammatical Error Correction</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-lm-combiner-a-contextual-rewriting-model-for-chinese-grammatical-error-correction/"/>
-        <id>/publications/2024-lm-combiner-a-contextual-rewriting-model-for-chinese-grammatical-error-correction/</id>
-        
-        <content type="html" xml:base="/publications/2024-lm-combiner-a-contextual-rewriting-model-for-chinese-grammatical-error-correction/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>M3CoT A Novel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/"/>
-        <id>/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/</id>
-        
-        <content type="html" xml:base="/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Make Some Noise Unlocking Language Model Parallel Inference Capability through Noisy Training</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/"/>
-        <id>/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/</id>
-        
-        <content type="html" xml:base="/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Multi-Hop Table Retrieval for Open-Domain Text-to-SQL</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-multi-hop-table-retrieval-for-open-domain-text-to-sql/"/>
-        <id>/publications/2024-multi-hop-table-retrieval-for-open-domain-text-to-sql/</id>
-        
-        <content type="html" xml:base="/publications/2024-multi-hop-table-retrieval-for-open-domain-text-to-sql/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>OneBit Towards Extremely Low-bit Large Language Models</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-onebit-towards-extremely-low-bit-large-language-models/"/>
-        <id>/publications/2024-onebit-towards-extremely-low-bit-large-language-models/</id>
-        
-        <content type="html" xml:base="/publications/2024-onebit-towards-extremely-low-bit-large-language-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/"/>
-        <id>/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/</id>
-        
-        <content type="html" xml:base="/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Semantic-Guided Generative Image Augmentation Method with Diffusion Models for Image Classification</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/"/>
-        <id>/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/</id>
-        
-        <content type="html" xml:base="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Unlocking the Capabilities of Thought A Reasoning Boundary Framework to Quantify and Optimize Chain-of-Thought</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/"/>
-        <id>/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/</id>
-        
-        <content type="html" xml:base="/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/"></content>
-        
-    </entry>
+	<title> - 2024</title>
+	<link href="/publish-year/2024/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2024-01-01T00:00:00+00:00</updated>
+	<id>/publish-year/2024/atom.xml</id>
+	<entry xml:lang="en">
+		<title>A Survey on Natural Language Processing for Programming</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-a-survey-on-natural-language-processing-for-programming/" type="text/html"/>
+		<id>/publications/2024-a-survey-on-natural-language-processing-for-programming/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Two-Stage Framework with Self-Supervised Distillation For Cross-Domain Text Classification</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/" type="text/html"/>
+		<id>/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Beyond Static Evaluation A Dynamic Approach to Assessing AI Assistants API Invocation Capabilities</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/" type="text/html"/>
+		<id>/publications/2024-beyond-static-evaluation-a-dynamic-approach-to-assessing-ai-assistants-api-invocation-capabilities/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Can Large Language Models Understand You Better An MBTI Personality Detection Dataset Aligned with Population Traits</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/" type="text/html"/>
+		<id>/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Concise and Precise Context Compression for Tool-Using Language Models</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/" type="text/html"/>
+		<id>/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Enhancing Numerical Reasoning with the Guidance of Reliable Reasoning Processes</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-enhancing-numerical-reasoning-with-the-guidance-of-reliable-reasoning-processes/" type="text/html"/>
+		<id>/publications/2024-enhancing-numerical-reasoning-with-the-guidance-of-reliable-reasoning-processes/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Exploring Equation as a Better Intermediate Meaning Representation for Numerical Reasoning of Large Language Models</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-exploring-equation-as-a-better-intermediate-meaning-representation-for-numerical-reasoning-of-large-language-models/" type="text/html"/>
+		<id>/publications/2024-exploring-equation-as-a-better-intermediate-meaning-representation-for-numerical-reasoning-of-large-language-models/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Exploring Hybrid Question Answering via Program-based Prompting</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-exploring-hybrid-question-answering-via-program-based-prompting/" type="text/html"/>
+		<id>/publications/2024-exploring-hybrid-question-answering-via-program-based-prompting/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Improving Demonstration Diversity by Human-Free Fusing for Text-to-SQL</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-improving-demonstration-diversity-by-human-free-fusing-for-text-to-sql/" type="text/html"/>
+		<id>/publications/2024-improving-demonstration-diversity-by-human-free-fusing-for-text-to-sql/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Improving Grammatical Error Correction via Contextual Data Augmentation</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/" type="text/html"/>
+		<id>/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>LM-Combiner A Contextual Rewriting Model for Chinese Grammatical Error Correction</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-lm-combiner-a-contextual-rewriting-model-for-chinese-grammatical-error-correction/" type="text/html"/>
+		<id>/publications/2024-lm-combiner-a-contextual-rewriting-model-for-chinese-grammatical-error-correction/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>M3CoT A Novel Benchmark for Multi-Domain Multi-step Multi-modal Chain-of-Thought</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/" type="text/html"/>
+		<id>/publications/2024-m3cot-a-novel-benchmark-for-multi-domain-multi-step-multi-modal-chain-of-thought/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Make Some Noise Unlocking Language Model Parallel Inference Capability through Noisy Training</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/" type="text/html"/>
+		<id>/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Multi-Hop Table Retrieval for Open-Domain Text-to-SQL</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-multi-hop-table-retrieval-for-open-domain-text-to-sql/" type="text/html"/>
+		<id>/publications/2024-multi-hop-table-retrieval-for-open-domain-text-to-sql/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>OneBit Towards Extremely Low-bit Large Language Models</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-onebit-towards-extremely-low-bit-large-language-models/" type="text/html"/>
+		<id>/publications/2024-onebit-towards-extremely-low-bit-large-language-models/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Self-Constructed Context Decompilation with Fined-grained Alignment Enhancement</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/" type="text/html"/>
+		<id>/publications/2024-self-constructed-context-decompilation-with-fined-grained-alignment-enhancement/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Semantic-Guided Generative Image Augmentation Method with Diffusion Models for Image Classification</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/" type="text/html"/>
+		<id>/publications/2024-semantic-guided-generative-image-augmentation-method-with-diffusion-models-for-image-classification/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Unlocking the Capabilities of Thought A Reasoning Boundary Framework to Quantify and Optimize Chain-of-Thought</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/" type="text/html"/>
+		<id>/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

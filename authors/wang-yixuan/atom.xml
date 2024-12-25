@@ -1,85 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - Wang Yixuan</title>
-    <link rel="self" type="application/atom+xml" href="/authors/wang-yixuan/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-01-01T00:00:00+00:00</updated>
-    <id>/authors/wang-yixuan/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Improving Grammatical Error Correction via Contextual Data Augmentation</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/"/>
-        <id>/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/</id>
-        
-        <content type="html" xml:base="/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>LM-Combiner A Contextual Rewriting Model for Chinese Grammatical Error Correction</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-lm-combiner-a-contextual-rewriting-model-for-chinese-grammatical-error-correction/"/>
-        <id>/publications/2024-lm-combiner-a-contextual-rewriting-model-for-chinese-grammatical-error-correction/</id>
-        
-        <content type="html" xml:base="/publications/2024-lm-combiner-a-contextual-rewriting-model-for-chinese-grammatical-error-correction/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Make Some Noise Unlocking Language Model Parallel Inference Capability through Noisy Training</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/"/>
-        <id>/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/</id>
-        
-        <content type="html" xml:base="/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Adaptive Unsupervised Self-training for Disfluency Detection</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/"/>
-        <id>/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/</id>
-        
-        <content type="html" xml:base="/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/"></content>
-        
-    </entry>
+	<title> - Wang Yixuan</title>
+	<link href="/authors/wang-yixuan/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2024-01-01T00:00:00+00:00</updated>
+	<id>/authors/wang-yixuan/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Improving Grammatical Error Correction via Contextual Data Augmentation</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/" type="text/html"/>
+		<id>/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>LM-Combiner A Contextual Rewriting Model for Chinese Grammatical Error Correction</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-lm-combiner-a-contextual-rewriting-model-for-chinese-grammatical-error-correction/" type="text/html"/>
+		<id>/publications/2024-lm-combiner-a-contextual-rewriting-model-for-chinese-grammatical-error-correction/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Make Some Noise Unlocking Language Model Parallel Inference Capability through Noisy Training</title>
+		<published>2024-01-01T00:00:00+00:00</published>
+		<updated>2024-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/" type="text/html"/>
+		<id>/publications/2024-make-some-noise-unlocking-language-model-parallel-inference-capability-through-noisy-training/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Adaptive Unsupervised Self-training for Disfluency Detection</title>
+		<published>2022-01-01T00:00:00+00:00</published>
+		<updated>2022-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/" type="text/html"/>
+		<id>/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/</id>
+		<content type="html"></content>
+	</entry>
 </feed>

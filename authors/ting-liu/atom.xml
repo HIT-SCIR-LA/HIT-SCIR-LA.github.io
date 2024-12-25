@@ -1,199 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title> - Ting Liu</title>
-    <link rel="self" type="application/atom+xml" href="/authors/ting-liu/atom.xml"/>
-    <link rel="alternate" type="text/html" href="/"/>
-    <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-01-01T00:00:00+00:00</updated>
-    <id>/authors/ting-liu/atom.xml</id>
-    <entry xml:lang="en">
-        <title>CSED A Chinese Semantic Error Diagnosis Corpus</title>
-        <published>2023-01-01T00:00:00+00:00</published>
-        <updated>2023-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/"/>
-        <id>/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/</id>
-        
-        <content type="html" xml:base="/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Discriminative Sentence Modeling for Story Ending Prediction</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-discriminative-sentence-modeling-for-story-ending-prediction/"/>
-        <id>/publications/2020-discriminative-sentence-modeling-for-story-ending-prediction/</id>
-        
-        <content type="html" xml:base="/publications/2020-discriminative-sentence-modeling-for-story-ending-prediction/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Keywords Generation Improves E-Commerce Session-based Recommendation</title>
-        <published>2020-01-01T00:00:00+00:00</published>
-        <updated>2020-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2020-keywords-generation-improves-e-commerce-session-based-recommendation/"/>
-        <id>/publications/2020-keywords-generation-improves-e-commerce-session-based-recommendation/</id>
-        
-        <content type="html" xml:base="/publications/2020-keywords-generation-improves-e-commerce-session-based-recommendation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Neural Transition-Based Approach for Semantic Dependency Graph Parsing</title>
-        <published>2018-01-01T00:00:00+00:00</published>
-        <updated>2018-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-a-neural-transition-based-approach-for-semantic-dependency-graph-parsing/"/>
-        <id>/publications/2018-a-neural-transition-based-approach-for-semantic-dependency-graph-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2018-a-neural-transition-based-approach-for-semantic-dependency-graph-parsing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Joint Extraction of Entities and Relations Based on a Novel GraphScheme</title>
-        <published>2018-01-01T00:00:00+00:00</published>
-        <updated>2018-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/"/>
-        <id>/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/</id>
-        
-        <content type="html" xml:base="/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A Representation Learning Framework for Multi-Source Transfer Parsing</title>
-        <published>2016-01-01T00:00:00+00:00</published>
-        <updated>2016-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2016-a-representation-learning-framework-for-multi-source-transfer-parsing/"/>
-        <id>/publications/2016-a-representation-learning-framework-for-multi-source-transfer-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2016-a-representation-learning-framework-for-multi-source-transfer-parsing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Exploring Segment Representations for Neural Segmentation Models</title>
-        <published>2016-01-01T00:00:00+00:00</published>
-        <updated>2016-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2016-exploring-segment-representations-for-neural-segmentation-models/"/>
-        <id>/publications/2016-exploring-segment-representations-for-neural-segmentation-models/</id>
-        
-        <content type="html" xml:base="/publications/2016-exploring-segment-representations-for-neural-segmentation-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>HC-Search for Incremental Parsing</title>
-        <published>2016-01-01T00:00:00+00:00</published>
-        <updated>2016-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2016-hc-search-for-incremental-parsing/"/>
-        <id>/publications/2016-hc-search-for-incremental-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2016-hc-search-for-incremental-parsing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Semantic role labeling with maximum entropy classifier</title>
-        <published>2007-01-01T00:00:00+00:00</published>
-        <updated>2007-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2007-semantic-role-labeling-with-maximum-entropy-classifier/"/>
-        <id>/publications/2007-semantic-role-labeling-with-maximum-entropy-classifier/</id>
-        
-        <content type="html" xml:base="/publications/2007-semantic-role-labeling-with-maximum-entropy-classifier/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Fast deletion algorithm for large scale duplicated web pages</title>
-        <published>2001-01-01T00:00:00+00:00</published>
-        <updated>2001-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2001-fast-deletion-algorithm-for-large-scale-duplicated-web-pages/"/>
-        <id>/publications/2001-fast-deletion-algorithm-for-large-scale-duplicated-web-pages/</id>
-        
-        <content type="html" xml:base="/publications/2001-fast-deletion-algorithm-for-large-scale-duplicated-web-pages/"></content>
-        
-    </entry>
+	<title> - Ting Liu</title>
+	<link href="/authors/ting-liu/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="/"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2023-01-01T00:00:00+00:00</updated>
+	<id>/authors/ting-liu/atom.xml</id>
+	<entry xml:lang="en">
+		<title>CSED A Chinese Semantic Error Diagnosis Corpus</title>
+		<published>2023-01-01T00:00:00+00:00</published>
+		<updated>2023-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/" type="text/html"/>
+		<id>/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Discriminative Sentence Modeling for Story Ending Prediction</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-discriminative-sentence-modeling-for-story-ending-prediction/" type="text/html"/>
+		<id>/publications/2020-discriminative-sentence-modeling-for-story-ending-prediction/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Keywords Generation Improves E-Commerce Session-based Recommendation</title>
+		<published>2020-01-01T00:00:00+00:00</published>
+		<updated>2020-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2020-keywords-generation-improves-e-commerce-session-based-recommendation/" type="text/html"/>
+		<id>/publications/2020-keywords-generation-improves-e-commerce-session-based-recommendation/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Neural Transition-Based Approach for Semantic Dependency Graph Parsing</title>
+		<published>2018-01-01T00:00:00+00:00</published>
+		<updated>2018-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-a-neural-transition-based-approach-for-semantic-dependency-graph-parsing/" type="text/html"/>
+		<id>/publications/2018-a-neural-transition-based-approach-for-semantic-dependency-graph-parsing/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Joint Extraction of Entities and Relations Based on a Novel GraphScheme</title>
+		<published>2018-01-01T00:00:00+00:00</published>
+		<updated>2018-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/" type="text/html"/>
+		<id>/publications/2018-joint-extraction-of-entities-and-relations-based-on-a-novel-graphscheme/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>A Representation Learning Framework for Multi-Source Transfer Parsing</title>
+		<published>2016-01-01T00:00:00+00:00</published>
+		<updated>2016-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2016-a-representation-learning-framework-for-multi-source-transfer-parsing/" type="text/html"/>
+		<id>/publications/2016-a-representation-learning-framework-for-multi-source-transfer-parsing/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Exploring Segment Representations for Neural Segmentation Models</title>
+		<published>2016-01-01T00:00:00+00:00</published>
+		<updated>2016-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2016-exploring-segment-representations-for-neural-segmentation-models/" type="text/html"/>
+		<id>/publications/2016-exploring-segment-representations-for-neural-segmentation-models/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>HC-Search for Incremental Parsing</title>
+		<published>2016-01-01T00:00:00+00:00</published>
+		<updated>2016-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2016-hc-search-for-incremental-parsing/" type="text/html"/>
+		<id>/publications/2016-hc-search-for-incremental-parsing/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Semantic role labeling with maximum entropy classifier</title>
+		<published>2007-01-01T00:00:00+00:00</published>
+		<updated>2007-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2007-semantic-role-labeling-with-maximum-entropy-classifier/" type="text/html"/>
+		<id>/publications/2007-semantic-role-labeling-with-maximum-entropy-classifier/</id>
+		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Fast deletion algorithm for large scale duplicated web pages</title>
+		<published>2001-01-01T00:00:00+00:00</published>
+		<updated>2001-01-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="/publications/2001-fast-deletion-algorithm-for-large-scale-duplicated-web-pages/" type="text/html"/>
+		<id>/publications/2001-fast-deletion-algorithm-for-large-scale-duplicated-web-pages/</id>
+		<content type="html"></content>
+	</entry>
 </feed>
