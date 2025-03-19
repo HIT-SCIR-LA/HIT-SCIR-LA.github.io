@@ -4,8 +4,27 @@
     <link rel="self" type="application/atom+xml" href="/news-type/xue-shu-jiao-liu/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-07-23T00:00:00+00:00</updated>
+    <updated>2025-03-05T00:00:00+00:00</updated>
     <id>/news-type/xue-shu-jiao-liu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>哈工大举办“DeepSeek技术前沿与应用”主题讲座</title>
+        <published>2025-03-05T00:00:00+00:00</published>
+        <updated>2025-03-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-ju-ban-deepseekji-shu-qian-yan-yu-ying-yong-zhu-ti-jiang-zuo/"/>
+        <id>/news/ha-gong-da-ju-ban-deepseekji-shu-qian-yan-yu-ying-yong-zhu-ti-jiang-zuo/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-ju-ban-deepseekji-shu-qian-yan-yu-ying-yong-zhu-ti-jiang-zuo/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>新闻 | 第三届HIT-SCIR&amp;THUNLP&amp;FudanNLP学术联谊会成功举办</title>
         <published>2024-07-23T00:00:00+00:00</published>

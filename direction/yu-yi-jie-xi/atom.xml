@@ -4,27 +4,8 @@
     <link rel="self" type="application/atom+xml" href="/direction/yu-yi-jie-xi/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2098-01-01T00:00:00+00:00</updated>
+    <updated>2021-01-01T00:00:00+00:00</updated>
     <id>/direction/yu-yi-jie-xi/atom.xml</id>
-    <entry xml:lang="en">
-        <title>Deep Learning in Lexical Analysis and Parsing</title>
-        <published>2098-01-01T00:00:00+00:00</published>
-        <updated>2098-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2018-deep-learning-in-lexical-analysis-and-parsing/"/>
-        <id>/publications/2018-deep-learning-in-lexical-analysis-and-parsing/</id>
-        
-        <content type="html" xml:base="/publications/2018-deep-learning-in-lexical-analysis-and-parsing/"></content>
-        
-    </entry>
     <entry xml:lang="en">
         <title>A Closer Look into the Robustness of Neural Dependency Parsers Using Better Adversarial Examples</title>
         <published>2021-01-01T00:00:00+00:00</published>
@@ -118,6 +99,25 @@
         <id>/publications/2019-hit-scir-at-mrp-2019-a-unified-pipeline-for-meaning-representation-parsing-via-efficient-training-and-effective-encoding/</id>
         
         <content type="html" xml:base="/publications/2019-hit-scir-at-mrp-2019-a-unified-pipeline-for-meaning-representation-parsing-via-efficient-training-and-effective-encoding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Deep Learning in Lexical Analysis and Parsing</title>
+        <published>2018-12-01T00:00:00+00:00</published>
+        <updated>2018-12-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2018-deep-learning-in-lexical-analysis-and-parsing/"/>
+        <id>/publications/2018-deep-learning-in-lexical-analysis-and-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2018-deep-learning-in-lexical-analysis-and-parsing/"></content>
         
     </entry>
     <entry xml:lang="en">

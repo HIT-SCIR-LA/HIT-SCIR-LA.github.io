@@ -4,8 +4,27 @@
     <link rel="self" type="application/atom+xml" href="/news-type/jiao-shi-biao-zhang/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-08-20T00:00:00+00:00</updated>
+    <updated>2025-02-28T00:00:00+00:00</updated>
     <id>/news-type/jiao-shi-biao-zhang/atom.xml</id>
+    <entry xml:lang="en">
+        <title>哈工大、讯飞荣获2024年度吴文俊人工智能科学技术奖 - 科技进步奖一等奖</title>
+        <published>2025-02-28T00:00:00+00:00</published>
+        <updated>2025-02-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-xun-fei-rong-huo-2024nian-du-wu-wen-jun-ren-gong-zhi-neng-ke-xue-ji-shu-jiang-ke-ji-jin-bu-jiang-yi-deng-jiang/"/>
+        <id>/news/ha-gong-da-xun-fei-rong-huo-2024nian-du-wu-wen-jun-ren-gong-zhi-neng-ke-xue-ji-shu-jiang-ke-ji-jin-bu-jiang-yi-deng-jiang/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-xun-fei-rong-huo-2024nian-du-wu-wen-jun-ren-gong-zhi-neng-ke-xue-ji-shu-jiang-ke-ji-jin-bu-jiang-yi-deng-jiang/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>哈工大SCIR车万翔教授当选ACL 2025程序委员会主席</title>
         <published>2024-08-20T00:00:00+00:00</published>

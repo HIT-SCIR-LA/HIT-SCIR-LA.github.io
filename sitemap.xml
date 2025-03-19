@@ -1007,6 +1007,9 @@
         <loc>/news-type/jiao-shi-biao-zhang/</loc>
     </url>
     <url>
+        <loc>/news-type/jie-ri-huo-dong/</loc>
+    </url>
+    <url>
         <loc>/news-type/lun-wen-fa-biao/</loc>
     </url>
     <url>
@@ -1059,6 +1062,10 @@
         <lastmod>2024-09-17</lastmod>
     </url>
     <url>
+        <loc>/news/ha-gong-da-ju-ban-deepseekji-shu-qian-yan-yu-ying-yong-zhu-ti-jiang-zuo/</loc>
+        <lastmod>2025-03-05</lastmod>
+    </url>
+    <url>
         <loc>/news/ha-gong-da-kai-yuan-huo-zi-3-5-dui-hua-da-mo-xing/</loc>
         <lastmod>2024-09-12</lastmod>
     </url>
@@ -1087,6 +1094,10 @@
         <lastmod>2023-05-31</lastmod>
     </url>
     <url>
+        <loc>/news/ha-gong-da-scir-2025yuan-dan-wan-hui-cheng-gong-ju-ban/</loc>
+        <lastmod>2025-01-10</lastmod>
+    </url>
+    <url>
         <loc>/news/ha-gong-da-scir-20pian-chang-wen-bei-acl-2024zhu-hui-findingslu-yong/</loc>
         <lastmod>2024-05-20</lastmod>
     </url>
@@ -1101,6 +1112,14 @@
     <url>
         <loc>/news/ha-gong-da-scir-9pian-lun-wen-bei-neurips-2024lu-yong/</loc>
         <lastmod>2024-09-29</lastmod>
+    </url>
+    <url>
+        <loc>/news/ha-gong-da-scir-fa-bu-zhu-suan-sql/</loc>
+        <lastmod>2025-01-22</lastmod>
+    </url>
+    <url>
+        <loc>/news/ha-gong-da-scir-zi-ran-yu-yan-chu-li-ji-yu-da-yu-yan-mo-xing-de-fang-fa-yi-shu-chu-ban/</loc>
+        <lastmod>2025-03-18</lastmod>
     </url>
     <url>
         <loc>/news/ha-gong-da-scir-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa-yi-shu-chu-ban/</loc>
@@ -1251,6 +1270,14 @@
         <lastmod>2017-01-10</lastmod>
     </url>
     <url>
+        <loc>/news/ha-gong-da-xun-fei-rong-huo-2024nian-du-wu-wen-jun-ren-gong-zhi-neng-ke-xue-ji-shu-jiang-ke-ji-jin-bu-jiang-yi-deng-jiang/</loc>
+        <lastmod>2025-02-28</lastmod>
+    </url>
+    <url>
+        <loc>/news/ha-gong-da-zhu-suan-da-mo-xing-tui-chu-vscodecha-jian/</loc>
+        <lastmod>2025-01-24</lastmod>
+    </url>
+    <url>
         <loc>/news/ha-gong-da-zi-ran-yu-yan-chu-li-yan-jiu-suo-gong-kai-chatgptdiao-yan-bao-gao-nei-ce-ha-gong-da-huo-zi-dui-hua-da-mo-xing/</loc>
         <lastmod>2023-05-04</lastmod>
     </url>
@@ -1281,6 +1308,9 @@
     </url>
     <url>
         <loc>/news/page/12/</loc>
+    </url>
+    <url>
+        <loc>/news/page/13/</loc>
     </url>
     <url>
         <loc>/news/page/2/</loc>
@@ -1537,6 +1567,10 @@
         <loc>/people/在读博士生/</loc>
     </url>
     <url>
+        <loc>/people/在读博士生/chen-qi-guang/</loc>
+        <lastmod>2025-02-10</lastmod>
+    </url>
+    <url>
         <loc>/people/在读博士生/chen-san-yuan/</loc>
         <lastmod>2019-02-10</lastmod>
     </url>
@@ -1557,6 +1591,10 @@
         <lastmod>2021-02-10</lastmod>
     </url>
     <url>
+        <loc>/people/在读博士生/li-shang-zhan/</loc>
+        <lastmod>2025-02-10</lastmod>
+    </url>
+    <url>
         <loc>/people/在读博士生/liu-yi-jun/</loc>
         <lastmod>2023-10-10</lastmod>
     </url>
@@ -1573,12 +1611,12 @@
         <lastmod>2017-02-10</lastmod>
     </url>
     <url>
-        <loc>/people/在读博士生/wang-bao-xin/</loc>
-        <lastmod>2019-02-10</lastmod>
-    </url>
-    <url>
         <loc>/people/在读博士生/wang-ding-zi-rui/</loc>
         <lastmod>2022-02-10</lastmod>
+    </url>
+    <url>
+        <loc>/people/在读博士生/wang-yi-xuan/</loc>
+        <lastmod>2025-02-10</lastmod>
     </url>
     <url>
         <loc>/people/在读博士生/xu-xiao/</loc>
@@ -1623,10 +1661,6 @@
         <loc>/people/在读硕士生/</loc>
     </url>
     <url>
-        <loc>/people/在读硕士生/chen-qi-guang/</loc>
-        <lastmod>2023-02-10</lastmod>
-    </url>
-    <url>
         <loc>/people/在读硕士生/guo-chuan-zhe/</loc>
         <lastmod>2023-10-10</lastmod>
     </url>
@@ -1637,14 +1671,6 @@
     <url>
         <loc>/people/在读硕士生/niu-tian-hao/</loc>
         <lastmod>2023-02-10</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读硕士生/wang-yi-xuan/</loc>
-        <lastmod>2022-02-10</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读硕士生/wei-fu-xuan/</loc>
-        <lastmod>2022-02-10</lastmod>
     </url>
     <url>
         <loc>/people/在读硕士生/zhang-xuan-jing/</loc>
@@ -1703,6 +1729,10 @@
     <url>
         <loc>/people/毕业博士/tan-li-bo/</loc>
         <lastmod>2022-02-10</lastmod>
+    </url>
+    <url>
+        <loc>/people/毕业博士/wang-bao-xin/</loc>
+        <lastmod>2025-03-04</lastmod>
     </url>
     <url>
         <loc>/people/毕业博士/wang-shao-lei/</loc>
@@ -1845,6 +1875,10 @@
     <url>
         <loc>/people/毕业硕士/wang-zhong-yuan/</loc>
         <lastmod>2022-02-10</lastmod>
+    </url>
+    <url>
+        <loc>/people/毕业硕士/wei-fu-xuan/</loc>
+        <lastmod>2024-12-10</lastmod>
     </url>
     <url>
         <loc>/people/毕业硕士/xia-wen-tian/</loc>
@@ -2294,7 +2328,7 @@
     </url>
     <url>
         <loc>/publications/2018-deep-learning-in-lexical-analysis-and-parsing/</loc>
-        <lastmod>2098-01-01</lastmod>
+        <lastmod>2018-12-01</lastmod>
     </url>
     <url>
         <loc>/publications/2018-distilling-knowledge-for-search-based-structured-prediction/</loc>
@@ -2586,7 +2620,7 @@
     </url>
     <url>
         <loc>/publications/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/</loc>
-        <lastmod>2099-12-31</lastmod>
+        <lastmod>2021-12-31</lastmod>
     </url>
     <url>
         <loc>/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/</loc>
@@ -2797,6 +2831,10 @@
         <lastmod>2024-01-01</lastmod>
     </url>
     <url>
+        <loc>/publications/2025-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa-copy/</loc>
+        <lastmod>2025-12-31</lastmod>
+    </url>
+    <url>
         <loc>/publish-year/</loc>
     </url>
     <url>
@@ -2864,6 +2902,9 @@
     </url>
     <url>
         <loc>/publish-year/2024/</loc>
+    </url>
+    <url>
+        <loc>/publish-year/2025/</loc>
     </url>
     <url>
         <loc>/publisher/</loc>
