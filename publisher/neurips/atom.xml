@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - NeurIPS</title>
+    <link rel="self" type="application/atom+xml" href="/publisher/neurips/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-01T00:00:00+00:00</updated>
+    <id>/publisher/neurips/atom.xml</id>
+    <entry xml:lang="en">
+        <title>OneBit Towards Extremely Low-bit Large Language Models</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-onebit-towards-extremely-low-bit-large-language-models/"/>
+        <id>/publications/2024-onebit-towards-extremely-low-bit-large-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2024-onebit-towards-extremely-low-bit-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Unlocking the Capabilities of Thought A Reasoning Boundary Framework to Quantify and Optimize Chain-of-Thought</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/"/>
+        <id>/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/</id>
+        
+        <content type="html" xml:base="/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What Factors Affect Multi-Modal In-Context Learning An In-Depth Exploration</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-what-factors-affect-multi-modal-in-context-learning-an-in-depth-exploration/"/>
+        <id>/publications/2024-what-factors-affect-multi-modal-in-context-learning-an-in-depth-exploration/</id>
+        
+        <content type="html" xml:base="/publications/2024-what-factors-affect-multi-modal-in-context-learning-an-in-depth-exploration/"></content>
+        
+    </entry>
+</feed>

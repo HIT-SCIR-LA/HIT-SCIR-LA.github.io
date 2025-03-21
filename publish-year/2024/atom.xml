@@ -64,25 +64,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Can Large Language Models Understand You Better An MBTI Personality Detection Dataset Aligned with Population Traits</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"/>
-        <id>/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</id>
-        
-        <content type="html" xml:base="/publications/2024-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Concise and Precise Context Compression for Tool-Using Language Models</title>
         <published>2024-01-01T00:00:00+00:00</published>
         <updated>2024-01-01T00:00:00+00:00</updated>
@@ -99,6 +80,25 @@
         <id>/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/</id>
         
         <content type="html" xml:base="/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Decoupling breaks data barriers a decoupled pre-training framework for multi-intent spoken language understanding</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-decoupling-breaks-data-barriers-a-decoupled-pre-training-framework-for-multi-intent-spoken-language-understanding/"/>
+        <id>/publications/2024-decoupling-breaks-data-barriers-a-decoupled-pre-training-framework-for-multi-intent-spoken-language-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2024-decoupling-breaks-data-barriers-a-decoupled-pre-training-framework-for-multi-intent-spoken-language-understanding/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -254,25 +254,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Multi-Hop Table Retrieval for Open-Domain Text-to-SQL</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-multi-hop-table-retrieval-for-open-domain-text-to-sql/"/>
-        <id>/publications/2024-multi-hop-table-retrieval-for-open-domain-text-to-sql/</id>
-        
-        <content type="html" xml:base="/publications/2024-multi-hop-table-retrieval-for-open-domain-text-to-sql/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>OneBit Towards Extremely Low-bit Large Language Models</title>
         <published>2024-01-01T00:00:00+00:00</published>
         <updated>2024-01-01T00:00:00+00:00</updated>
@@ -346,6 +327,25 @@
         <id>/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/</id>
         
         <content type="html" xml:base="/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What Factors Affect Multi-Modal In-Context Learning An In-Depth Exploration</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-what-factors-affect-multi-modal-in-context-learning-an-in-depth-exploration/"/>
+        <id>/publications/2024-what-factors-affect-multi-modal-in-context-learning-an-in-depth-exploration/</id>
+        
+        <content type="html" xml:base="/publications/2024-what-factors-affect-multi-modal-in-context-learning-an-in-depth-exploration/"></content>
         
     </entry>
 </feed>

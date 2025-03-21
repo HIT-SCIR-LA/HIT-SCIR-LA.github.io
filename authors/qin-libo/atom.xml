@@ -4,8 +4,65 @@
     <link rel="self" type="application/atom+xml" href="/authors/qin-libo/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-01-01T00:00:00+00:00</updated>
+    <updated>2025-01-01T00:00:00+00:00</updated>
     <id>/authors/qin-libo/atom.xml</id>
+    <entry xml:lang="en">
+        <title>A survey of multilingual large language models</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-a-survey-of-multilingual-large-language-models/"/>
+        <id>/publications/2025-a-survey-of-multilingual-large-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2025-a-survey-of-multilingual-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Can Large Language Models Understand You Better An MBTI Personality Detection Dataset Aligned with Population Traits</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"/>
+        <id>/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</id>
+        
+        <content type="html" xml:base="/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Towards reasoning era A survey of long chain-of-thought for reasoning large language models</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-towards-reasoning-era-a-survey-of-long-chain-of-thought-for-reasoning-large-language-models/"/>
+        <id>/publications/2025-towards-reasoning-era-a-survey-of-long-chain-of-thought-for-reasoning-large-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2025-towards-reasoning-era-a-survey-of-long-chain-of-thought-for-reasoning-large-language-models/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>A Two-Stage Framework with Self-Supervised Distillation For Cross-Domain Text Classification</title>
         <published>2024-01-01T00:00:00+00:00</published>
@@ -23,6 +80,25 @@
         <id>/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/</id>
         
         <content type="html" xml:base="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Decoupling breaks data barriers a decoupled pre-training framework for multi-intent spoken language understanding</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-decoupling-breaks-data-barriers-a-decoupled-pre-training-framework-for-multi-intent-spoken-language-understanding/"/>
+        <id>/publications/2024-decoupling-breaks-data-barriers-a-decoupled-pre-training-framework-for-multi-intent-spoken-language-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2024-decoupling-breaks-data-barriers-a-decoupled-pre-training-framework-for-multi-intent-spoken-language-understanding/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -80,6 +156,25 @@
         <id>/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/</id>
         
         <content type="html" xml:base="/publications/2024-unlocking-the-capabilities-of-thought-a-reasoning-boundary-framework-to-quantify-and-optimize-chain-of-thought/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What Factors Affect Multi-Modal In-Context Learning An In-Depth Exploration</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-what-factors-affect-multi-modal-in-context-learning-an-in-depth-exploration/"/>
+        <id>/publications/2024-what-factors-affect-multi-modal-in-context-learning-an-in-depth-exploration/</id>
+        
+        <content type="html" xml:base="/publications/2024-what-factors-affect-multi-modal-in-context-learning-an-in-depth-exploration/"></content>
         
     </entry>
     <entry xml:lang="en">

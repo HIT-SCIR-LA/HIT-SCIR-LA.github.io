@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Fei Hao</title>
+    <link rel="self" type="application/atom+xml" href="/authors/fei-hao/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-01T00:00:00+00:00</updated>
+    <id>/authors/fei-hao/atom.xml</id>
+    <entry xml:lang="en">
+        <title>What Factors Affect Multi-Modal In-Context Learning An In-Depth Exploration</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-what-factors-affect-multi-modal-in-context-learning-an-in-depth-exploration/"/>
+        <id>/publications/2024-what-factors-affect-multi-modal-in-context-learning-an-in-depth-exploration/</id>
+        
+        <content type="html" xml:base="/publications/2024-what-factors-affect-multi-modal-in-context-learning-an-in-depth-exploration/"></content>
+        
+    </entry>
+</feed>

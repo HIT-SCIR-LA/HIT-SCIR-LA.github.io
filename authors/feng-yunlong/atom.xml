@@ -4,8 +4,27 @@
     <link rel="self" type="application/atom+xml" href="/authors/feng-yunlong/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-01-01T00:00:00+00:00</updated>
+    <updated>2025-01-01T00:00:00+00:00</updated>
     <id>/authors/feng-yunlong/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Can Large Language Models Understand You Better An MBTI Personality Detection Dataset Aligned with Population Traits</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"/>
+        <id>/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</id>
+        
+        <content type="html" xml:base="/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>A Two-Stage Framework with Self-Supervised Distillation For Cross-Domain Text Classification</title>
         <published>2024-01-01T00:00:00+00:00</published>
