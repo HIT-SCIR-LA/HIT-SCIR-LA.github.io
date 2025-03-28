@@ -1013,12 +1013,12 @@
         <lastmod>2023-08-02</lastmod>
     </url>
     <url>
-        <loc>/demo/演示系统/zhu-suan-sql-copy/</loc>
-        <lastmod>2023-07-31</lastmod>
-    </url>
-    <url>
         <loc>/demo/演示系统/zhu-suan-sql/</loc>
         <lastmod>2023-07-30</lastmod>
+    </url>
+    <url>
+        <loc>/demo/演示系统/zhu-suan-vscodecha-jian/</loc>
+        <lastmod>2023-07-31</lastmod>
     </url>
     <url>
         <loc>/direction/</loc>
@@ -1735,6 +1735,10 @@
         <lastmod>2019-02-10</lastmod>
     </url>
     <url>
+        <loc>/people/教师/shi-qi/</loc>
+        <lastmod>2020-02-10</lastmod>
+    </url>
+    <url>
         <loc>/people/教师/zhu-qing-fu/</loc>
         <lastmod>2020-02-10</lastmod>
     </url>
@@ -1960,11 +1964,11 @@
     </url>
     <url>
         <loc>/projects/da-mo-xing-zeng-liang-xue-xi-ji-shu-yan-jiu/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2028-01-01</lastmod>
     </url>
     <url>
         <loc>/projects/jian-suo-zeng-qiang-kai-fang-yu-dui-hua-sheng-cheng/</loc>
-        <lastmod>2023-01-01</lastmod>
+        <lastmod>2025-01-01</lastmod>
     </url>
     <url>
         <loc>/projects/kai-fang-yu-duo-yuan-zhi-shi-huo-qu-yu-shen-ceng-jie-gou-hua-yu-yi-fen-xi/</loc>
@@ -1980,7 +1984,11 @@
     </url>
     <url>
         <loc>/projects/shao-biao-zhu-zi-ran-yu-yan-chu-li-li-lun-yu-fang-fa/</loc>
-        <lastmod>2023-01-01</lastmod>
+        <lastmod>2027-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/projects/sheng-cheng-shi-da-mo-xing-zhong-de-si-wei-lian-ji-shu-ji-li-ji-ying-yong-yan-jiu/</loc>
+        <lastmod>2025-01-01</lastmod>
     </url>
     <url>
         <loc>/projects/yi-cun-ju-fa-fen-xi-zi-jie-gou-ke-xin-du-ji-suan-yan-jiu/</loc>
@@ -3204,10 +3212,6 @@
     <url>
         <loc>/resources/开源项目/ltp/</loc>
         <lastmod>2022-02-09</lastmod>
-    </url>
-    <url>
-        <loc>/resources/开源项目/mdp/</loc>
-        <lastmod>2022-03-10</lastmod>
     </url>
     <url>
         <loc>/resources/开源项目/pyltp/</loc>
