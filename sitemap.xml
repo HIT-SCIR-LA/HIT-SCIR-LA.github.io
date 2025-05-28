@@ -1078,6 +1078,9 @@
         <loc>/news-type/xue-shu-jiao-liu/</loc>
     </url>
     <url>
+        <loc>/news-type/zhu-ti-jiang-zuo/</loc>
+    </url>
+    <url>
         <loc>/news/</loc>
     </url>
     <url>
@@ -1109,6 +1112,10 @@
         <lastmod>2024-09-17</lastmod>
     </url>
     <url>
+        <loc>/news/ha-gong-da-jiu-da-aimo-xing-deng-chang-jie-suo-qian-xing-bai-ye-zhi-neng-xin-fan-shi/</loc>
+        <lastmod>2025-05-11</lastmod>
+    </url>
+    <url>
         <loc>/news/ha-gong-da-ju-ban-deepseekji-shu-qian-yan-yu-ying-yong-zhu-ti-jiang-zuo/</loc>
         <lastmod>2025-03-05</lastmod>
     </url>
@@ -1123,6 +1130,10 @@
     <url>
         <loc>/news/ha-gong-da-kai-yuan-huo-zi-dui-hua-da-mo-xing/</loc>
         <lastmod>2023-08-06</lastmod>
+    </url>
+    <url>
+        <loc>/news/ha-gong-da-pptgong-kai-deepseekji-shu-qian-yan-yu-ying-yong-zhuan-ti-jiang-zuo-1xiao-shi-kuai-su-zhang-wo-deepseekji-ben-yuan-li/</loc>
+        <lastmod>2025-04-02</lastmod>
     </url>
     <url>
         <loc>/news/ha-gong-da-scir-13pian-chang-wen-bei-acl-2023zhu-hui-findingslu-yong/</loc>
@@ -1149,6 +1160,10 @@
         <lastmod>2024-05-20</lastmod>
     </url>
     <url>
+        <loc>/news/ha-gong-da-scir-29pian-chang-wen-bei-acl-2025zhu-hui-findingslu-yong/</loc>
+        <lastmod>2025-05-19</lastmod>
+    </url>
+    <url>
         <loc>/news/ha-gong-da-scir-6pian-zhu-hui-2pian-findings-1pian-demo-gong-9pian-chang-wen-bei-emnlp-2021lu-yong/</loc>
         <lastmod>2021-09-15</lastmod>
     </url>
@@ -1165,12 +1180,20 @@
         <lastmod>2025-01-22</lastmod>
     </url>
     <url>
+        <loc>/news/ha-gong-da-scir-zhu-suan-sql-bei-acl-2025-demolu-yong/</loc>
+        <lastmod>2025-05-28</lastmod>
+    </url>
+    <url>
         <loc>/news/ha-gong-da-scir-zi-ran-yu-yan-chu-li-ji-yu-da-yu-yan-mo-xing-de-fang-fa-yi-shu-chu-ban/</loc>
         <lastmod>2025-03-18</lastmod>
     </url>
     <url>
         <loc>/news/ha-gong-da-scir-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa-yi-shu-chu-ban/</loc>
         <lastmod>2021-07-19</lastmod>
+    </url>
+    <url>
+        <loc>/news/ha-gong-da-scir-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa-yi-shu-ru-xuan-zhong-guo-zhi-wang-gao-bei-yin-tu-shu-top-1-2019-2023/</loc>
+        <lastmod>2025-05-07</lastmod>
     </url>
     <url>
         <loc>/news/ha-gong-da-scirba-pian-chang-wen-bei-acl-2020lu-yong/</loc>
@@ -1345,6 +1368,10 @@
         <lastmod>2020-06-15</lastmod>
     </url>
     <url>
+        <loc>/news/mai-xiang-tui-li-shi-dai-900-pian-can-kao-wen-xian-jie-shi-chang-lian-si-wei-de-qian-shi-jin-sheng-ha-gong-da-scir-tui-chu-quan-mian-zong-shu/</loc>
+        <lastmod>2025-04-18</lastmod>
+    </url>
+    <url>
         <loc>/news/page/1/</loc>
     </url>
     <url>
@@ -1394,6 +1421,10 @@
     <url>
         <loc>/news/sai-er-bi-ji-mian-xiang-biao-ge-shu-ju-de-da-mo-xing-tui-li-zong-shu/</loc>
         <lastmod>2023-12-26</lastmod>
+    </url>
+    <url>
+        <loc>/news/sai-er-bi-ji-tou-ji-jie-ma-jie-suo-zi-hui-gui-tui-li-su-du-shang-xian/</loc>
+        <lastmod>2025-04-15</lastmod>
     </url>
     <url>
         <loc>/news/sai-er-bi-ji-xin-fen-lei-quan-zong-jie-zui-xin-awesome-slu-surveyzi-yuan-ku-kai-yuan/</loc>

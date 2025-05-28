@@ -4,8 +4,46 @@
     <link rel="self" type="application/atom+xml" href="/news-type/lun-wen-fa-biao/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-12-09T00:00:00+00:00</updated>
+    <updated>2025-05-28T00:00:00+00:00</updated>
     <id>/news-type/lun-wen-fa-biao/atom.xml</id>
+    <entry xml:lang="en">
+        <title>哈工大SCIR 珠算-SQL 被ACL 2025 Demo录用</title>
+        <published>2025-05-28T00:00:00+00:00</published>
+        <updated>2025-05-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scir-zhu-suan-sql-bei-acl-2025-demolu-yong/"/>
+        <id>/news/ha-gong-da-scir-zhu-suan-sql-bei-acl-2025-demolu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scir-zhu-suan-sql-bei-acl-2025-demolu-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大SCIR 29篇长文被ACL 2025主会&#x2F;Findings录用</title>
+        <published>2025-05-19T00:00:00+00:00</published>
+        <updated>2025-05-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scir-29pian-chang-wen-bei-acl-2025zhu-hui-findingslu-yong/"/>
+        <id>/news/ha-gong-da-scir-29pian-chang-wen-bei-acl-2025zhu-hui-findingslu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scir-29pian-chang-wen-bei-acl-2025zhu-hui-findingslu-yong/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>哈工大SCIR 8篇长文被 COLING 2025录用</title>
         <published>2024-12-09T00:00:00+00:00</published>
