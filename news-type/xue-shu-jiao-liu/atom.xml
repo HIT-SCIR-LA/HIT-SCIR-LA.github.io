@@ -4,8 +4,27 @@
     <link rel="self" type="application/atom+xml" href="/news-type/xue-shu-jiao-liu/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-03-05T00:00:00+00:00</updated>
+    <updated>2025-08-01T00:00:00+00:00</updated>
     <id>/news-type/xue-shu-jiao-liu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>哈工大SCIR实验室师生参加 ACL 2025 学术会议</title>
+        <published>2025-08-01T00:00:00+00:00</published>
+        <updated>2025-08-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scirshi-yan-shi-shi-sheng-can-jia-acl-2025-xue-shu-hui-yi/"/>
+        <id>/news/ha-gong-da-scirshi-yan-shi-shi-sheng-can-jia-acl-2025-xue-shu-hui-yi/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scirshi-yan-shi-shi-sheng-can-jia-acl-2025-xue-shu-hui-yi/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>哈工大举办“DeepSeek技术前沿与应用”主题讲座</title>
         <published>2025-03-05T00:00:00+00:00</published>
