@@ -1708,10 +1708,6 @@
         <lastmod>2025-02-10</lastmod>
     </url>
     <url>
-        <loc>/people/在读博士生/xu-xiao/</loc>
-        <lastmod>2020-02-10</lastmod>
-    </url>
-    <url>
         <loc>/people/在读博士生/xu-yang/</loc>
         <lastmod>2019-02-10</lastmod>
     </url>
@@ -1727,31 +1723,15 @@
         <loc>/people/在读本科生/</loc>
     </url>
     <url>
-        <loc>/people/在读本科生/cai-yuan-yong-qing/</loc>
-        <lastmod>2024-09-25</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读本科生/han-zi-yu/</loc>
-        <lastmod>2024-09-25</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读本科生/peng-deng-yun/</loc>
-        <lastmod>2024-09-25</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读本科生/xu-ke-yan/</loc>
-        <lastmod>2024-09-25</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读本科生/yan-zheng/</loc>
-        <lastmod>2024-09-25</lastmod>
-    </url>
-    <url>
         <loc>/people/在读硕士生/</loc>
     </url>
     <url>
         <loc>/people/在读硕士生/guo-chuan-zhe/</loc>
         <lastmod>2023-10-10</lastmod>
+    </url>
+    <url>
+        <loc>/people/在读硕士生/han-zi-yu/</loc>
+        <lastmod>2024-09-25</lastmod>
     </url>
     <url>
         <loc>/people/在读硕士生/ji-shi-yu/</loc>
@@ -1760,6 +1740,18 @@
     <url>
         <loc>/people/在读硕士生/niu-tian-hao/</loc>
         <lastmod>2023-02-10</lastmod>
+    </url>
+    <url>
+        <loc>/people/在读硕士生/peng-deng-yun/</loc>
+        <lastmod>2024-09-25</lastmod>
+    </url>
+    <url>
+        <loc>/people/在读硕士生/xu-ke-yan/</loc>
+        <lastmod>2024-09-25</lastmod>
+    </url>
+    <url>
+        <loc>/people/在读硕士生/yan-zheng/</loc>
+        <lastmod>2024-09-25</lastmod>
     </url>
     <url>
         <loc>/people/在读硕士生/zhang-xuan-jing/</loc>
@@ -1842,6 +1834,10 @@
     <url>
         <loc>/people/毕业博士/xu-jun/</loc>
         <lastmod>2021-02-10</lastmod>
+    </url>
+    <url>
+        <loc>/people/毕业博士/xu-xiao/</loc>
+        <lastmod>2025-09-04</lastmod>
     </url>
     <url>
         <loc>/people/毕业博士/zhang-mei-shan/</loc>
