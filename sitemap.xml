@@ -49,6 +49,9 @@
         <loc>/authors/chen-cheng/</loc>
     </url>
     <url>
+        <loc>/authors/chen-jingjing/</loc>
+    </url>
+    <url>
         <loc>/authors/chen-kaiji/</loc>
     </url>
     <url>
@@ -80,6 +83,9 @@
     </url>
     <url>
         <loc>/authors/chenfei-wu/</loc>
+    </url>
+    <url>
+        <loc>/authors/cheng-zihui/</loc>
     </url>
     <url>
         <loc>/authors/chi-zewen/</loc>
@@ -163,6 +169,9 @@
         <loc>/authors/feng-wang/</loc>
     </url>
     <url>
+        <loc>/authors/feng-xiaocheng/</loc>
+    </url>
+    <url>
         <loc>/authors/feng-yunlong/</loc>
     </url>
     <url>
@@ -194,6 +203,9 @@
     </url>
     <url>
         <loc>/authors/guan-jiannan/</loc>
+    </url>
+    <url>
+        <loc>/authors/guo-chuanzhe/</loc>
     </url>
     <url>
         <loc>/authors/guo-honglei/</loc>
@@ -269,6 +281,9 @@
     </url>
     <url>
         <loc>/authors/ji-heng/</loc>
+    </url>
+    <url>
+        <loc>/authors/ji-shiyu/</loc>
     </url>
     <url>
         <loc>/authors/ji-yuqiu/</loc>
@@ -428,6 +443,9 @@
     </url>
     <url>
         <loc>/authors/lu-chunlin/</loc>
+    </url>
+    <url>
+        <loc>/authors/lu-xinyuan/</loc>
     </url>
     <url>
         <loc>/authors/lu-yijuan/</loc>
@@ -602,6 +620,9 @@
     </url>
     <url>
         <loc>/authors/sun-bo/</loc>
+    </url>
+    <url>
+        <loc>/authors/sun-qinghua/</loc>
     </url>
     <url>
         <loc>/authors/sun-wenbo/</loc>
@@ -784,6 +805,9 @@
         <loc>/authors/xu-jun/</loc>
     </url>
     <url>
+        <loc>/authors/xu-keyan/</loc>
+    </url>
+    <url>
         <loc>/authors/xu-xiao/</loc>
     </url>
     <url>
@@ -925,6 +949,9 @@
         <loc>/authors/zhang-yue/</loc>
     </url>
     <url>
+        <loc>/authors/zhang-zhiming/</loc>
+    </url>
+    <url>
         <loc>/authors/zhang-ziheng/</loc>
     </url>
     <url>
@@ -974,6 +1001,9 @@
     </url>
     <url>
         <loc>/authors/zhou-ming/</loc>
+    </url>
+    <url>
+        <loc>/authors/zhou-shiqi/</loc>
     </url>
     <url>
         <loc>/authors/zhou-yuhang/</loc>
@@ -2916,7 +2946,19 @@
         <lastmod>2024-01-01</lastmod>
     </url>
     <url>
+        <loc>/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/</loc>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+    <url>
         <loc>/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/</loc>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/</loc>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2024-dac-decomposed-automation-correction-for-text-to-sql/</loc>
         <lastmod>2024-01-01</lastmod>
     </url>
     <url>
@@ -2980,7 +3022,31 @@
         <lastmod>2025-01-01</lastmod>
     </url>
     <url>
+        <loc>/publications/2025-a-survey-of-table-reasoning-with-large-language-models/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2025-abacus-sql-a-text-to-sql-system-empowering-cross-domain-and-open-domain-database-retrieval/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
         <loc>/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2025-manager-aggregating-insights-from-unimodal-experts-in-two-tower-vlms-and-mllms/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2025-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2025-multitat-benchmarking-multilingual-table-and-text-question-answering/</loc>
         <lastmod>2025-01-01</lastmod>
     </url>
     <url>
@@ -2988,7 +3054,23 @@
         <lastmod>2025-01-01</lastmod>
     </url>
     <url>
+        <loc>/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2025-scitat-a-question-answering-benchmark-for-scientific-tables-and-text-covering-diverse-reasoning-types/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2025-tag-evol-achieving-efficient-instruction-evolving-via-tag-injection/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
         <loc>/publications/2025-towards-reasoning-era-a-survey-of-long-chain-of-thought-for-reasoning-large-language-models/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2025-turning-trash-into-treasure-accelerating-inference-of-large-language-models-with-token-recycling/</loc>
         <lastmod>2025-01-01</lastmod>
     </url>
     <url>
@@ -3237,6 +3319,9 @@
     </url>
     <url>
         <loc>/publisher/taslp/</loc>
+    </url>
+    <url>
+        <loc>/publisher/tcsvt/</loc>
     </url>
     <url>
         <loc>/publisher/www/</loc>

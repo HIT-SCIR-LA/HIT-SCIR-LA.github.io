@@ -7,6 +7,25 @@
     <updated>2024-01-01T00:00:00+00:00</updated>
     <id>/authors/xu-yuzhuang/atom.xml</id>
     <entry xml:lang="en">
+        <title>CRVQ Channel-Relaxed Vector Quantization for Extreme Compression of LLMs</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"/>
+        <id>/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/</id>
+        
+        <content type="html" xml:base="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>OneBit Towards Extremely Low-bit Large Language Models</title>
         <published>2024-01-01T00:00:00+00:00</published>
         <updated>2024-01-01T00:00:00+00:00</updated>

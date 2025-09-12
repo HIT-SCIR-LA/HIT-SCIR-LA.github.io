@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Zhang Zhiming</title>
+    <link rel="self" type="application/atom+xml" href="/authors/zhang-zhiming/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-01-01T00:00:00+00:00</updated>
+    <id>/authors/zhang-zhiming/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Turning Trash into Treasure Accelerating Inference of Large Language Models with Token Recycling</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-turning-trash-into-treasure-accelerating-inference-of-large-language-models-with-token-recycling/"/>
+        <id>/publications/2025-turning-trash-into-treasure-accelerating-inference-of-large-language-models-with-token-recycling/</id>
+        
+        <content type="html" xml:base="/publications/2025-turning-trash-into-treasure-accelerating-inference-of-large-language-models-with-token-recycling/"></content>
+        
+    </entry>
+</feed>

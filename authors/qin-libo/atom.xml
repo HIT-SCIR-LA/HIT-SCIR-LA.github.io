@@ -45,6 +45,44 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Dlpo Towards a robust efficient and generalizable prompt optimization framework from a deep-learning perspective</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/"/>
+        <id>/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/</id>
+        
+        <content type="html" xml:base="/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Manager Aggregating Insights from Unimodal Experts in Two-Tower VLMs and MLLMs</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-manager-aggregating-insights-from-unimodal-experts-in-two-tower-vlms-and-mllms/"/>
+        <id>/publications/2025-manager-aggregating-insights-from-unimodal-experts-in-two-tower-vlms-and-mllms/</id>
+        
+        <content type="html" xml:base="/publications/2025-manager-aggregating-insights-from-unimodal-experts-in-two-tower-vlms-and-mllms/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Towards reasoning era A survey of long chain-of-thought for reasoning large language models</title>
         <published>2025-01-01T00:00:00+00:00</published>
         <updated>2025-01-01T00:00:00+00:00</updated>
@@ -80,6 +118,25 @@
         <id>/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/</id>
         
         <content type="html" xml:base="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CoMT A Novel Benchmark for Chain of Multi-modal Thought on Large Vision-Language Models</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"/>
+        <id>/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"></content>
         
     </entry>
     <entry xml:lang="en">

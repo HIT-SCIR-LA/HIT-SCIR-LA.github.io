@@ -45,6 +45,44 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>A survey of table reasoning with large language models</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-a-survey-of-table-reasoning-with-large-language-models/"/>
+        <id>/publications/2025-a-survey-of-table-reasoning-with-large-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2025-a-survey-of-table-reasoning-with-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Abacus-SQL A Text-to-SQL System Empowering Cross-Domain and Open-Domain Database Retrieval</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-abacus-sql-a-text-to-sql-system-empowering-cross-domain-and-open-domain-database-retrieval/"/>
+        <id>/publications/2025-abacus-sql-a-text-to-sql-system-empowering-cross-domain-and-open-domain-database-retrieval/</id>
+        
+        <content type="html" xml:base="/publications/2025-abacus-sql-a-text-to-sql-system-empowering-cross-domain-and-open-domain-database-retrieval/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Can Large Language Models Understand You Better An MBTI Personality Detection Dataset Aligned with Population Traits</title>
         <published>2025-01-01T00:00:00+00:00</published>
         <updated>2025-01-01T00:00:00+00:00</updated>
@@ -61,6 +99,82 @@
         <id>/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</id>
         
         <content type="html" xml:base="/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Dlpo Towards a robust efficient and generalizable prompt optimization framework from a deep-learning perspective</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/"/>
+        <id>/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/</id>
+        
+        <content type="html" xml:base="/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Manager Aggregating Insights from Unimodal Experts in Two-Tower VLMs and MLLMs</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-manager-aggregating-insights-from-unimodal-experts-in-two-tower-vlms-and-mllms/"/>
+        <id>/publications/2025-manager-aggregating-insights-from-unimodal-experts-in-two-tower-vlms-and-mllms/</id>
+        
+        <content type="html" xml:base="/publications/2025-manager-aggregating-insights-from-unimodal-experts-in-two-tower-vlms-and-mllms/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Mixpro Simple yet effective data augmentation for prompt-based learning</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"/>
+        <id>/publications/2025-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/</id>
+        
+        <content type="html" xml:base="/publications/2025-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>MULTITAT Benchmarking Multilingual Table-and-Text Question Answering</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-multitat-benchmarking-multilingual-table-and-text-question-answering/"/>
+        <id>/publications/2025-multitat-benchmarking-multilingual-table-and-text-question-answering/</id>
+        
+        <content type="html" xml:base="/publications/2025-multitat-benchmarking-multilingual-table-and-text-question-answering/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -83,6 +197,63 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>RoT Enhancing Table Reasoning with Iterative Row-Wise Traversals</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/"/>
+        <id>/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/</id>
+        
+        <content type="html" xml:base="/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SCITAT A Question Answering Benchmark for Scientific Tables and Text Covering Diverse Reasoning Types</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-scitat-a-question-answering-benchmark-for-scientific-tables-and-text-covering-diverse-reasoning-types/"/>
+        <id>/publications/2025-scitat-a-question-answering-benchmark-for-scientific-tables-and-text-covering-diverse-reasoning-types/</id>
+        
+        <content type="html" xml:base="/publications/2025-scitat-a-question-answering-benchmark-for-scientific-tables-and-text-covering-diverse-reasoning-types/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Tag-Evol Achieving Efficient Instruction Evolving via Tag Injection</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-tag-evol-achieving-efficient-instruction-evolving-via-tag-injection/"/>
+        <id>/publications/2025-tag-evol-achieving-efficient-instruction-evolving-via-tag-injection/</id>
+        
+        <content type="html" xml:base="/publications/2025-tag-evol-achieving-efficient-instruction-evolving-via-tag-injection/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Towards reasoning era A survey of long chain-of-thought for reasoning large language models</title>
         <published>2025-01-01T00:00:00+00:00</published>
         <updated>2025-01-01T00:00:00+00:00</updated>
@@ -99,6 +270,25 @@
         <id>/publications/2025-towards-reasoning-era-a-survey-of-long-chain-of-thought-for-reasoning-large-language-models/</id>
         
         <content type="html" xml:base="/publications/2025-towards-reasoning-era-a-survey-of-long-chain-of-thought-for-reasoning-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Turning Trash into Treasure Accelerating Inference of Large Language Models with Token Recycling</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-turning-trash-into-treasure-accelerating-inference-of-large-language-models-with-token-recycling/"/>
+        <id>/publications/2025-turning-trash-into-treasure-accelerating-inference-of-large-language-models-with-token-recycling/</id>
+        
+        <content type="html" xml:base="/publications/2025-turning-trash-into-treasure-accelerating-inference-of-large-language-models-with-token-recycling/"></content>
         
     </entry>
 </feed>

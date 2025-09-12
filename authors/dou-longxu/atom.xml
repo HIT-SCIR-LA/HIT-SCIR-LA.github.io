@@ -7,6 +7,25 @@
     <updated>2025-01-01T00:00:00+00:00</updated>
     <id>/authors/dou-longxu/atom.xml</id>
     <entry xml:lang="en">
+        <title>A survey of table reasoning with large language models</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-a-survey-of-table-reasoning-with-large-language-models/"/>
+        <id>/publications/2025-a-survey-of-table-reasoning-with-large-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2025-a-survey-of-table-reasoning-with-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Can Large Language Models Understand You Better An MBTI Personality Detection Dataset Aligned with Population Traits</title>
         <published>2025-01-01T00:00:00+00:00</published>
         <updated>2025-01-01T00:00:00+00:00</updated>
@@ -26,6 +45,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Mixpro Simple yet effective data augmentation for prompt-based learning</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"/>
+        <id>/publications/2025-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/</id>
+        
+        <content type="html" xml:base="/publications/2025-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>MURRE Multi-Hop Table Retrieval with Removal for Open-Domain Text-to-SQL</title>
         <published>2025-01-01T00:00:00+00:00</published>
         <updated>2025-01-01T00:00:00+00:00</updated>
@@ -42,6 +80,44 @@
         <id>/publications/2025-murre-multi-hop-table-retrieval-with-removal-for-open-domain-text-to-sql/</id>
         
         <content type="html" xml:base="/publications/2025-murre-multi-hop-table-retrieval-with-removal-for-open-domain-text-to-sql/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SCITAT A Question Answering Benchmark for Scientific Tables and Text Covering Diverse Reasoning Types</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-scitat-a-question-answering-benchmark-for-scientific-tables-and-text-covering-diverse-reasoning-types/"/>
+        <id>/publications/2025-scitat-a-question-answering-benchmark-for-scientific-tables-and-text-covering-diverse-reasoning-types/</id>
+        
+        <content type="html" xml:base="/publications/2025-scitat-a-question-answering-benchmark-for-scientific-tables-and-text-covering-diverse-reasoning-types/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DAC decomposed automation correction for text-to-SQL</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-dac-decomposed-automation-correction-for-text-to-sql/"/>
+        <id>/publications/2024-dac-decomposed-automation-correction-for-text-to-sql/</id>
+        
+        <content type="html" xml:base="/publications/2024-dac-decomposed-automation-correction-for-text-to-sql/"></content>
         
     </entry>
     <entry xml:lang="en">

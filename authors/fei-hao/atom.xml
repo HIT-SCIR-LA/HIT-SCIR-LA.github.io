@@ -7,6 +7,25 @@
     <updated>2024-01-01T00:00:00+00:00</updated>
     <id>/authors/fei-hao/atom.xml</id>
     <entry xml:lang="en">
+        <title>CoMT A Novel Benchmark for Chain of Multi-modal Thought on Large Vision-Language Models</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"/>
+        <id>/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>What Factors Affect Multi-Modal In-Context Learning An In-Depth Exploration</title>
         <published>2024-01-01T00:00:00+00:00</published>
         <updated>2024-01-01T00:00:00+00:00</updated>

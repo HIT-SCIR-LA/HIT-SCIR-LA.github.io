@@ -7,6 +7,44 @@
     <updated>2025-01-01T00:00:00+00:00</updated>
     <id>/authors/wang-dingzirui/atom.xml</id>
     <entry xml:lang="en">
+        <title>A survey of table reasoning with large language models</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-a-survey-of-table-reasoning-with-large-language-models/"/>
+        <id>/publications/2025-a-survey-of-table-reasoning-with-large-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2025-a-survey-of-table-reasoning-with-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Abacus-SQL A Text-to-SQL System Empowering Cross-Domain and Open-Domain Database Retrieval</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-abacus-sql-a-text-to-sql-system-empowering-cross-domain-and-open-domain-database-retrieval/"/>
+        <id>/publications/2025-abacus-sql-a-text-to-sql-system-empowering-cross-domain-and-open-domain-database-retrieval/</id>
+        
+        <content type="html" xml:base="/publications/2025-abacus-sql-a-text-to-sql-system-empowering-cross-domain-and-open-domain-database-retrieval/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Can Large Language Models Understand You Better An MBTI Personality Detection Dataset Aligned with Population Traits</title>
         <published>2025-01-01T00:00:00+00:00</published>
         <updated>2025-01-01T00:00:00+00:00</updated>
@@ -26,6 +64,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>MULTITAT Benchmarking Multilingual Table-and-Text Question Answering</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-multitat-benchmarking-multilingual-table-and-text-question-answering/"/>
+        <id>/publications/2025-multitat-benchmarking-multilingual-table-and-text-question-answering/</id>
+        
+        <content type="html" xml:base="/publications/2025-multitat-benchmarking-multilingual-table-and-text-question-answering/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>MURRE Multi-Hop Table Retrieval with Removal for Open-Domain Text-to-SQL</title>
         <published>2025-01-01T00:00:00+00:00</published>
         <updated>2025-01-01T00:00:00+00:00</updated>
@@ -42,6 +99,63 @@
         <id>/publications/2025-murre-multi-hop-table-retrieval-with-removal-for-open-domain-text-to-sql/</id>
         
         <content type="html" xml:base="/publications/2025-murre-multi-hop-table-retrieval-with-removal-for-open-domain-text-to-sql/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>RoT Enhancing Table Reasoning with Iterative Row-Wise Traversals</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/"/>
+        <id>/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/</id>
+        
+        <content type="html" xml:base="/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SCITAT A Question Answering Benchmark for Scientific Tables and Text Covering Diverse Reasoning Types</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-scitat-a-question-answering-benchmark-for-scientific-tables-and-text-covering-diverse-reasoning-types/"/>
+        <id>/publications/2025-scitat-a-question-answering-benchmark-for-scientific-tables-and-text-covering-diverse-reasoning-types/</id>
+        
+        <content type="html" xml:base="/publications/2025-scitat-a-question-answering-benchmark-for-scientific-tables-and-text-covering-diverse-reasoning-types/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DAC decomposed automation correction for text-to-SQL</title>
+        <published>2024-01-01T00:00:00+00:00</published>
+        <updated>2024-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-dac-decomposed-automation-correction-for-text-to-sql/"/>
+        <id>/publications/2024-dac-decomposed-automation-correction-for-text-to-sql/</id>
+        
+        <content type="html" xml:base="/publications/2024-dac-decomposed-automation-correction-for-text-to-sql/"></content>
         
     </entry>
     <entry xml:lang="en">
