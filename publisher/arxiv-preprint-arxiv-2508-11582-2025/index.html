@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    #icon {
+      width: 70px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    #icon img {
+      width: 65px;
+      height: 50px;
+      max-width: max-content;
+      max-height: max-content;
+    }
+
+    #menu {
+      background-color: rgb(248, 248, 248);
+      position: fixed;
+      width: 100%; 
+      height: 60px;
+      top: 0;
+    }
+    #content {
+      margin-top: 60px;
+    }
+    a.a1{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+    }
+
+    /* 轮播外框 */
+    .slider {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    /* 所有 slides 排成一行 */
+    .slides {
+      display: flex;
+      transition: transform 1.2s ease;
+    }
+
+    /* 单张 slide */
+    .slide {
+      min-width: 100%;
+      box-sizing: border-box;
+    }
+
+    .slide img {
+      width: 100%;
+      object-fit: cover;
+      object-position: top;  /* ⭐ 从顶部裁剪 */
+      display: block;
+    }
+
+    /* 左右按钮 */
+    .slider-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.4);
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-size: 24px;
+      border-radius: 50%;
+      z-index: 10;
+    }
+
+    .slider-btn:hover {
+      background: rgba(0,0,0,0.6);
+    }
+
+    .prev { left: 15px; }
+    .next { right: 15px; }
+
+    /* 圆点指示器 */
+    .dots {
+      position: absolute;
+      bottom: 15px;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+
+    .dot {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      margin: 0 5px;
+      background: rgba(255,255,255,0.6);
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background: white;
+    }
+
+  </style>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
+  <title></title>
+  
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="/main.css">
+
+  
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+
+<script src="/elasticlunr.min.js" defer></script>
+
+<script src="/search_index.en.js" defer></script>
+
+
+
+
+  
+</head>
+
+<body>
+  
+<div class="modal" id="copyTarget">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <section class="modal-card-body">
+      <div class="callout" data-closable>
+
+      </div>
+      <textarea class="textarea" id="bibtex-content" placeholder="e.g. Hello world" readonly>
+      </textarea>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="card-footer-item button" id="copyButton">Copy to clipboard</button>
+      <button class="card-footer-item button" id="closeButton">Close</button>
+    </footer>
+  </div>
+</div>
+
+
+  
+  <nav class="navbar" id="menu" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-centered" id="icon" href=&#x2F;>
+          <img src="/images/logo-crop.png">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu level">
+        <a class="navbar-item level-item has-text-centered a1" href="&#x2F;">首页</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/news">新闻</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/people">成员介绍</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/research">研究方向</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/projects">科研项目</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div id="content" class="is-align-self-center">
+    
+<div class="container">
+  <section class="hero">
+    <div class="hero-body">
+      
+      <p class="title">
+        
+        arXiv preprint arXiv:2508.11582, 2025.
+        
+      </p>
+      
+
+      
+      
+      
+
+      
+
+
+<div class="box card">
+  <header class="is-hidden-tablet">
+    <h3 class="title is-4">
+      
+      Aware First, Think Less: Dynamic Boundary Self-Awareness Drives Extreme Reasoning Efficiency in Large Language Models
+      
+    </h3>
+  </header>
+
+  
+
+  <div class="card-content is-hidden-tablet">
+    <p>arXiv preprint arXiv:2508.11582, 2025. </p>
+    <p>Chen, Qiguang and Peng, Dengyun and Liu, Jinhao and Su, HuiKang and Guan, Jiannan and Qin, Libo and Che, Wanxiang</p>
+  </div>
+
+  <article class="media">
+    
+    <div class="media-content">
+      <div class="content is-hidden-mobile">
+        <h3 class="title is-4">
+          
+          Aware First, Think Less: Dynamic Boundary Self-Awareness Drives Extreme Reasoning Efficiency in Large Language Models
+          
+        </h3>
+        <p>arXiv preprint arXiv:2508.11582, 2025. </p>
+        <p>Chen, Qiguang and Peng, Dengyun and Liu, Jinhao and Su, HuiKang and Guan, Jiannan and Qin, Libo and Che, Wanxiang</p>
+      </div>
+    </div>
+  </article>
+  <nav class="level">
+    <!-- Left side -->
+    <div class="level-left">
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publisher&#x2F;arxiv-preprint-arxiv-2508-11582-2025&#x2F;">
+          <span class="tag is-success">
+            arXiv preprint arXiv:2508.11582, 2025.
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;publish-year&#x2F;2025&#x2F;">
+          <span class="tag is-warning">
+            2025
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;chen-qiguang&#x2F;">
+          <span class="tag is-danger">
+            Chen Qiguang
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;peng-dengyun&#x2F;">
+          <span class="tag is-danger">
+            Peng Dengyun
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+
+      
+      <div class="level-item">
+        <a href="&#x2F;authors&#x2F;liu-jinhao&#x2F;">
+          <span class="tag is-danger">
+            Liu Jinhao
+          </span>
+        </a>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+
+    <!-- Right side -->
+    <div class="level-right">
+      
+      <div class="level-item">
+        <a class="button" role="button" data-target="copyTarget" aria-haspopup="true"
+          onclick="show_bib('/bibtex/chen2025aware.bib')">
+          Bibtex
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+
+
+
+      
+    </div>
+  </section>
+</div>
+
+
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>©2022 SCIR-LA in HIT 阿龙开发</p>
+    </div>
+  </footer>
+
+  
+<script>
+  function show_bib(bib_path) {
+    $.ajax({
+      url: bib_path,
+      success: function (data) {
+        $("#bibtex-content").text(data);
+        $("#copyTarget").addClass("is-active");
+      },
+    });
+  }
+  document
+    .getElementById("copyButton")
+    .addEventListener("click", function () {
+      var copyText = document.getElementById("bibtex-content");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      $("#copyTarget").removeClass("is-active");
+    });
+  document
+    .getElementById("closeButton")
+    .addEventListener("click", function () {
+      $("#copyTarget").removeClass("is-active");
+    });
+  document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+      $("#copyTarget").removeClass("is-active");
+    }
+  })
+</script>
+
+  
+
+
+
+  <!-- 导航栏 -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const $navbarBurgers = Array.from(document.querySelectorAll('.navbar-burger'));
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+        });
+      });
+    });
+  </script>
+
+  <!-- 轮播逻辑 -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const slides = document.querySelector(".slides");
+      if (!slides) return;
+
+      const slideCount = slides.children.length;
+      let current = 0;
+
+      const dots = document.querySelectorAll(".dot");
+      const prevBtn = document.querySelector(".prev");
+      const nextBtn = document.querySelector(".next");
+
+      function goToSlide(i) {
+        current = (i + slideCount) % slideCount;
+        slides.style.transform = `translateX(-${current * 100}%)`;
+
+        dots.forEach(dot => dot.classList.remove("active"));
+        dots[current].classList.add("active");
+      }
+
+      nextBtn.addEventListener("click", () => goToSlide(current + 1));
+      prevBtn.addEventListener("click", () => goToSlide(current - 1));
+
+      dots.forEach(dot => {
+        dot.addEventListener("click", () => {
+          goToSlide(parseInt(dot.dataset.index));
+        });
+      });
+
+      goToSlide(0);
+      setInterval(() => goToSlide(current + 1), 5000);
+    });
+  </script>
+
+  <!-- ⭐ 自动匹配最小高度 & 从上裁剪 -->
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const slidesContainer = document.querySelector(".slider");
+    const images = document.querySelectorAll(".slide img");
+
+    if (images.length === 0) return;
+
+    function updateHeight() {
+      const containerWidth = slidesContainer.clientWidth;
+      let heights = [];
+
+      images.forEach(img => {
+        // 按比例计算显示高度（自适应窗口宽度）
+        const ratio = img.naturalHeight / img.naturalWidth;
+        const displayHeight = containerWidth * ratio;
+        heights.push(displayHeight);
+      });
+
+      // 找到最小显示高度
+      const minHeight = Math.min(...heights);
+
+      // 应用统一高度（响应式）
+      slidesContainer.style.height = minHeight + "px";
+
+      images.forEach(img => {
+        img.style.height = minHeight + "px";
+        img.style.width = "100%";
+        img.style.objectFit = "cover";
+        img.style.objectPosition = "top"; // 保留上部分
+      });
+    }
+
+    // 确保图片加载完后执行
+    window.addEventListener("load", updateHeight);
+
+    // 窗口尺寸变化时动态更新（响应式）
+    window.addEventListener("resize", updateHeight);
+  });
+  </script>
+
+</body>
+</html>

@@ -83,6 +83,44 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Aware First Think Less Dynamic Boundary Self-Awareness Drives Extreme Reasoning Efficiency in Large Language Models</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/"/>
+        <id>/publications/2025-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2025-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CAMERA Multi-Matrix Joint Compression for MoE Models via Micro-Expert Redundancy Analysis</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/"/>
+        <id>/publications/2025-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/</id>
+        
+        <content type="html" xml:base="/publications/2025-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Can Large Language Models Understand You Better An MBTI Personality Detection Dataset Aligned with Population Traits</title>
         <published>2025-01-01T00:00:00+00:00</published>
         <updated>2025-01-01T00:00:00+00:00</updated>
@@ -99,6 +137,101 @@
         <id>/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</id>
         
         <content type="html" xml:base="/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chart2Code53 A Large-Scale Diverse and Complex Dataset for Enhancing Chart-to-Code Generation</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/"/>
+        <id>/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/</id>
+        
+        <content type="html" xml:base="/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DAC Decomposed Automation Correction for Text-to-SQL</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-dac-decomposed-automation-correction-for-text-to-sql/"/>
+        <id>/publications/2025-dac-decomposed-automation-correction-for-text-to-sql/</id>
+        
+        <content type="html" xml:base="/publications/2025-dac-decomposed-automation-correction-for-text-to-sql/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DLPO Towards a Robust Efficient and Generalizable Prompt Optimization Framework from a Deep-Learning Perspective</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/"/>
+        <id>/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/</id>
+        
+        <content type="html" xml:base="/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Judge Q Trainable Queries for Optimized Information Retention in KV Cache Eviction</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/"/>
+        <id>/publications/2025-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/</id>
+        
+        <content type="html" xml:base="/publications/2025-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Lookahead Q-Cache Achieving More Consistent KV Cache Eviction via Pseudo Query</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-lookahead-q-cache-achieving-more-consistent-kv-cache-eviction-via-pseudo-query/"/>
+        <id>/publications/2025-lookahead-q-cache-achieving-more-consistent-kv-cache-eviction-via-pseudo-query/</id>
+        
+        <content type="html" xml:base="/publications/2025-lookahead-q-cache-achieving-more-consistent-kv-cache-eviction-via-pseudo-query/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -194,6 +327,25 @@
         <id>/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/</id>
         
         <content type="html" xml:base="/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Visual thoughts A unified perspective of understanding multimodal chain-of-thought</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-visual-thoughts-a-unified-perspective-of-understanding-multimodal-chain-of-thought/"/>
+        <id>/publications/2025-visual-thoughts-a-unified-perspective-of-understanding-multimodal-chain-of-thought/</id>
+        
+        <content type="html" xml:base="/publications/2025-visual-thoughts-a-unified-perspective-of-understanding-multimodal-chain-of-thought/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -308,25 +460,6 @@
         <id>/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/</id>
         
         <content type="html" xml:base="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>DAC decomposed automation correction for text-to-SQL</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-dac-decomposed-automation-correction-for-text-to-sql/"/>
-        <id>/publications/2024-dac-decomposed-automation-correction-for-text-to-sql/</id>
-        
-        <content type="html" xml:base="/publications/2024-dac-decomposed-automation-correction-for-text-to-sql/"></content>
         
     </entry>
     <entry xml:lang="en">

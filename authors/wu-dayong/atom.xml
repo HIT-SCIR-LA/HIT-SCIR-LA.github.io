@@ -7,6 +7,25 @@
     <updated>2025-01-01T00:00:00+00:00</updated>
     <id>/authors/wu-dayong/atom.xml</id>
     <entry xml:lang="en">
+        <title>Chart2Code53 A Large-Scale Diverse and Complex Dataset for Enhancing Chart-to-Code Generation</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/"/>
+        <id>/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/</id>
+        
+        <content type="html" xml:base="/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>SCITAT A Question Answering Benchmark for Scientific Tables and Text Covering Diverse Reasoning Types</title>
         <published>2025-01-01T00:00:00+00:00</published>
         <updated>2025-01-01T00:00:00+00:00</updated>

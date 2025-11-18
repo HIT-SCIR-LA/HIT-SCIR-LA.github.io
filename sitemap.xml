@@ -511,6 +511,9 @@
         <loc>/authors/ni-minheng/</loc>
     </url>
     <url>
+        <loc>/authors/niu-tianhao/</loc>
+    </url>
+    <url>
         <loc>/authors/niu-zheng-yu/</loc>
     </url>
     <url>
@@ -616,6 +619,9 @@
         <loc>/authors/srivastava-ashish/</loc>
     </url>
     <url>
+        <loc>/authors/su-huikang/</loc>
+    </url>
+    <url>
         <loc>/authors/su-zhong/</loc>
     </url>
     <url>
@@ -667,6 +673,9 @@
         <loc>/authors/wan-xiang-che/</loc>
     </url>
     <url>
+        <loc>/authors/wang-alex-jinpeng/</loc>
+    </url>
+    <url>
         <loc>/authors/wang-baoxin/</loc>
     </url>
     <url>
@@ -712,6 +721,9 @@
         <loc>/authors/wang-shuo/</loc>
     </url>
     <url>
+        <loc>/authors/wang-weiyun/</loc>
+    </url>
+    <url>
         <loc>/authors/wang-wenhui/</loc>
     </url>
     <url>
@@ -722,6 +734,9 @@
     </url>
     <url>
         <loc>/authors/wang-xinghao/</loc>
+    </url>
+    <url>
+        <loc>/authors/wang-yidong/</loc>
     </url>
     <url>
         <loc>/authors/wang-yixuan/</loc>
@@ -841,6 +856,9 @@
         <loc>/authors/yao-kaisheng/</loc>
     </url>
     <url>
+        <loc>/authors/yao-xin/</loc>
+    </url>
+    <url>
         <loc>/authors/yarowsky-david/</loc>
     </url>
     <url>
@@ -944,6 +962,9 @@
     </url>
     <url>
         <loc>/authors/zhang-yu/</loc>
+    </url>
+    <url>
+        <loc>/authors/zhang-yuanchi/</loc>
     </url>
     <url>
         <loc>/authors/zhang-yue/</loc>
@@ -2942,10 +2963,6 @@
         <lastmod>2024-01-01</lastmod>
     </url>
     <url>
-        <loc>/publications/2024-dac-decomposed-automation-correction-for-text-to-sql/</loc>
-        <lastmod>2024-01-01</lastmod>
-    </url>
-    <url>
         <loc>/publications/2024-decoupling-breaks-data-barriers-a-decoupled-pre-training-framework-for-multi-intent-spoken-language-understanding/</loc>
         <lastmod>2024-01-01</lastmod>
     </url>
@@ -3014,11 +3031,35 @@
         <lastmod>2025-01-01</lastmod>
     </url>
     <url>
+        <loc>/publications/2025-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2025-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
         <loc>/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</loc>
         <lastmod>2025-01-01</lastmod>
     </url>
     <url>
+        <loc>/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2025-dac-decomposed-automation-correction-for-text-to-sql/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
         <loc>/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2025-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2025-lookahead-q-cache-achieving-more-consistent-kv-cache-eviction-via-pseudo-query/</loc>
         <lastmod>2025-01-01</lastmod>
     </url>
     <url>
@@ -3055,6 +3096,10 @@
     </url>
     <url>
         <loc>/publications/2025-turning-trash-into-treasure-accelerating-inference-of-large-language-models-with-token-recycling/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2025-visual-thoughts-a-unified-perspective-of-understanding-multimodal-chain-of-thought/</loc>
         <lastmod>2025-01-01</lastmod>
     </url>
     <url>
@@ -3159,6 +3204,15 @@
     </url>
     <url>
         <loc>/publisher/ai-research/</loc>
+    </url>
+    <url>
+        <loc>/publisher/arxiv-preprint-arxiv-2508-02322-2025/</loc>
+    </url>
+    <url>
+        <loc>/publisher/arxiv-preprint-arxiv-2508-11582-2025/</loc>
+    </url>
+    <url>
+        <loc>/publisher/arxiv-preprint-arxiv-2509-10798-2025/</loc>
     </url>
     <url>
         <loc>/publisher/arxiv/</loc>
@@ -3267,6 +3321,9 @@
     </url>
     <url>
         <loc>/publisher/mrp/</loc>
+    </url>
+    <url>
+        <loc>/publisher/na/</loc>
     </url>
     <url>
         <loc>/publisher/naacl/</loc>
