@@ -32,12 +32,80 @@
       font-size: larger;
       font-weight: bold;
     }
-    a.a2{
-      height: 70px;
-      font-size: 20px;
-      color:rgb(128, 127, 127);
+
+    /* 轮播外框 */
+    .slider {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
     }
+
+    /* 所有 slides 排成一行 */
+    .slides {
+      display: flex;
+      transition: transform 1.2s ease;
+    }
+
+    /* 单张 slide */
+    .slide {
+      min-width: 100%;
+      box-sizing: border-box;
+    }
+
+    .slide img {
+      width: 100%;
+      object-fit: cover;
+      object-position: top;  /* ⭐ 从顶部裁剪 */
+      display: block;
+    }
+
+    /* 左右按钮 */
+    .slider-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.4);
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-size: 24px;
+      border-radius: 50%;
+      z-index: 10;
+    }
+
+    .slider-btn:hover {
+      background: rgba(0,0,0,0.6);
+    }
+
+    .prev { left: 15px; }
+    .next { right: 15px; }
+
+    /* 圆点指示器 */
+    .dots {
+      position: absolute;
+      bottom: 15px;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+
+    .dot {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      margin: 0 5px;
+      background: rgba(255,255,255,0.6);
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background: white;
+    }
+
   </style>
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
@@ -64,7 +132,6 @@
 
 
 
-  
   
 </head>
 
@@ -111,14 +178,13 @@
         <a class="navbar-item level-item has-text-centered a1" href="/publications">发表论文</a>
         <a class="navbar-item level-item has-text-centered a1" href="/resources">技术资源</a>
         <a class="navbar-item level-item has-text-centered a1" href="/demo">演示系统</a>
-	    <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
+        <a class="navbar-item level-item has-text-centered a1" href="/joinus">加入我们</a>
       </div>
     </div>
   </nav>
   
 
   <div id="content" class="is-align-self-center">
-    <!-- Content -->
     
 <div class="container">
   <section class="hero">
@@ -942,14 +1008,11 @@
 </div>
 
 
-    <!-- Content -->
   </div>
 
   <footer class="footer">
     <div class="content has-text-centered">
-      <p>
-        ©2022 SCIR-LA in HIT 阿龙开发
-      </p>
+      <p>©2022 SCIR-LA in HIT 阿龙开发</p>
     </div>
   </footer>
 
@@ -988,24 +1051,97 @@
   
 
 
+
+  <!-- 导航栏 -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      // Get all "navbar-burger" elements
-      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-      // Add a click event on each of them
+      const $navbarBurgers = Array.from(document.querySelectorAll('.navbar-burger'));
       $navbarBurgers.forEach(el => {
         el.addEventListener('click', () => {
-          // Get the target from the "data-target" attribute
           const target = el.dataset.target;
           const $target = document.getElementById(target);
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
           el.classList.toggle('is-active');
           $target.classList.toggle('is-active');
         });
       });
-
     });
   </script>
-</body>
 
+  <!-- 轮播逻辑 -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const slides = document.querySelector(".slides");
+      if (!slides) return;
+
+      const slideCount = slides.children.length;
+      let current = 0;
+
+      const dots = document.querySelectorAll(".dot");
+      const prevBtn = document.querySelector(".prev");
+      const nextBtn = document.querySelector(".next");
+
+      function goToSlide(i) {
+        current = (i + slideCount) % slideCount;
+        slides.style.transform = `translateX(-${current * 100}%)`;
+
+        dots.forEach(dot => dot.classList.remove("active"));
+        dots[current].classList.add("active");
+      }
+
+      nextBtn.addEventListener("click", () => goToSlide(current + 1));
+      prevBtn.addEventListener("click", () => goToSlide(current - 1));
+
+      dots.forEach(dot => {
+        dot.addEventListener("click", () => {
+          goToSlide(parseInt(dot.dataset.index));
+        });
+      });
+
+      goToSlide(0);
+      setInterval(() => goToSlide(current + 1), 5000);
+    });
+  </script>
+
+  <!-- ⭐ 自动匹配最小高度 & 从上裁剪 -->
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const slidesContainer = document.querySelector(".slider");
+    const images = document.querySelectorAll(".slide img");
+
+    if (images.length === 0) return;
+
+    function updateHeight() {
+      const containerWidth = slidesContainer.clientWidth;
+      let heights = [];
+
+      images.forEach(img => {
+        // 按比例计算显示高度（自适应窗口宽度）
+        const ratio = img.naturalHeight / img.naturalWidth;
+        const displayHeight = containerWidth * ratio;
+        heights.push(displayHeight);
+      });
+
+      // 找到最小显示高度
+      const minHeight = Math.min(...heights);
+
+      // 应用统一高度（响应式）
+      slidesContainer.style.height = minHeight + "px";
+
+      images.forEach(img => {
+        img.style.height = minHeight + "px";
+        img.style.width = "100%";
+        img.style.objectFit = "cover";
+        img.style.objectPosition = "top"; // 保留上部分
+      });
+    }
+
+    // 确保图片加载完后执行
+    window.addEventListener("load", updateHeight);
+
+    // 窗口尺寸变化时动态更新（响应式）
+    window.addEventListener("resize", updateHeight);
+  });
+  </script>
+
+</body>
 </html>
