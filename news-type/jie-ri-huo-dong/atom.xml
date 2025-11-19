@@ -4,8 +4,28 @@
     <link rel="self" type="application/atom+xml" href="/news-type/jie-ri-huo-dong/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-01-10T00:00:00+00:00</updated>
+    <updated>2025-09-19T00:00:00+00:00</updated>
     <id>/news-type/jie-ri-huo-dong/atom.xml</id>
+    <entry xml:lang="en">
+        <title>SCIR 25周年｜共赴一场跨越时光的“回家”之约
+</title>
+        <published>2025-09-19T00:00:00+00:00</published>
+        <updated>2025-09-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/scir-25zhou-nian-gong-fu-yi-chang-kua-yue-shi-guang-de-hui-jia-zhi-yue/"/>
+        <id>/news/scir-25zhou-nian-gong-fu-yi-chang-kua-yue-shi-guang-de-hui-jia-zhi-yue/</id>
+        
+        <content type="html" xml:base="/news/scir-25zhou-nian-gong-fu-yi-chang-kua-yue-shi-guang-de-hui-jia-zhi-yue/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>哈工大SCIR 2025元旦晚会成功举办</title>
         <published>2025-01-10T00:00:00+00:00</published>
