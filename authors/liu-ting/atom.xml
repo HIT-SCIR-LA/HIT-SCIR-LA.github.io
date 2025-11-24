@@ -368,6 +368,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>自然语言处理</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-zi-ran-yu-yan-chu-li/"/>
+        <id>/publications/2021-zi-ran-yu-yan-chu-li/</id>
+        
+        <content type="html" xml:base="/publications/2021-zi-ran-yu-yan-chu-li/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>A co-interactive transformer for joint slot filling and intent detection</title>
         <published>2020-01-01T00:00:00+00:00</published>
         <updated>2020-01-01T00:00:00+00:00</updated>

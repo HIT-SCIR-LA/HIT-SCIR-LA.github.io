@@ -424,4 +424,23 @@
         <content type="html" xml:base="/publications/2025-visual-thoughts-a-unified-perspective-of-understanding-multimodal-chain-of-thought/"></content>
         
     </entry>
+    <entry xml:lang="en">
+        <title>大模型原理与应用</title>
+        <published>2021-10-20T00:00:00+00:00</published>
+        <updated>2021-10-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-da-mo-xing-yuan-li-yu-ying-yong/"/>
+        <id>/publications/2025-da-mo-xing-yuan-li-yu-ying-yong/</id>
+        
+        <content type="html" xml:base="/publications/2025-da-mo-xing-yuan-li-yu-ying-yong/"></content>
+        
+    </entry>
 </feed>

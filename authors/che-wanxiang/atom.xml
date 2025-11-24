@@ -1147,6 +1147,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>大模型原理与应用</title>
+        <published>2021-10-20T00:00:00+00:00</published>
+        <updated>2021-10-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-da-mo-xing-yuan-li-yu-ying-yong/"/>
+        <id>/publications/2025-da-mo-xing-yuan-li-yu-ying-yong/</id>
+        
+        <content type="html" xml:base="/publications/2025-da-mo-xing-yuan-li-yu-ying-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>A Closer Look into the Robustness of Neural Dependency Parsers Using Better Adversarial Examples</title>
         <published>2021-01-01T00:00:00+00:00</published>
         <updated>2021-01-01T00:00:00+00:00</updated>
@@ -1543,6 +1562,25 @@
         <id>/publications/2021-understanding-patient-query-with-weak-supervision-from-doctor-response/</id>
         
         <content type="html" xml:base="/publications/2021-understanding-patient-query-with-weak-supervision-from-doctor-response/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>自然语言处理</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2021-zi-ran-yu-yan-chu-li/"/>
+        <id>/publications/2021-zi-ran-yu-yan-chu-li/</id>
+        
+        <content type="html" xml:base="/publications/2021-zi-ran-yu-yan-chu-li/"></content>
         
     </entry>
     <entry xml:lang="en">

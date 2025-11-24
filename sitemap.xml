@@ -130,6 +130,9 @@
         <loc>/authors/dhole-kaustubh-d/</loc>
     </url>
     <url>
+        <loc>/authors/ding-ning/</loc>
+    </url>
+    <url>
         <loc>/authors/ding-xiao/</loc>
     </url>
     <url>
@@ -272,6 +275,9 @@
     </url>
     <url>
         <loc>/authors/huang-shijue/</loc>
+    </url>
+    <url>
+        <loc>/authors/huang-xuanjing/</loc>
     </url>
     <url>
         <loc>/authors/huang-yongguang/</loc>
@@ -649,6 +655,9 @@
         <loc>/authors/tang-guohua/</loc>
     </url>
     <url>
+        <loc>/authors/tao-jianhua/</loc>
+    </url>
+    <url>
         <loc>/authors/teng-dechuan/</loc>
     </url>
     <url>
@@ -955,6 +964,9 @@
         <loc>/authors/zhang-xuanyu/</loc>
     </url>
     <url>
+        <loc>/authors/zhang-yanyong/</loc>
+    </url>
+    <url>
         <loc>/authors/zhang-yibo/</loc>
     </url>
     <url>
@@ -980,6 +992,9 @@
     </url>
     <url>
         <loc>/authors/zhao-huaipeng/</loc>
+    </url>
+    <url>
+        <loc>/authors/zhao-jun/</loc>
     </url>
     <url>
         <loc>/authors/zhao-sendong/</loc>
@@ -2815,6 +2830,10 @@
         <lastmod>2021-12-31</lastmod>
     </url>
     <url>
+        <loc>/publications/2021-zi-ran-yu-yan-chu-li/</loc>
+        <lastmod>2021-01-01</lastmod>
+    </url>
+    <url>
         <loc>/publications/2022-adaptive-unsupervised-self-training-for-disfluency-detection/</loc>
         <lastmod>2022-01-01</lastmod>
     </url>
@@ -3059,6 +3078,10 @@
         <lastmod>2025-01-01</lastmod>
     </url>
     <url>
+        <loc>/publications/2025-da-mo-xing-yuan-li-yu-ying-yong/</loc>
+        <lastmod>2021-10-20</lastmod>
+    </url>
+    <url>
         <loc>/publications/2025-dac-decomposed-automation-correction-for-text-to-sql/</loc>
         <lastmod>2025-01-01</lastmod>
     </url>
@@ -3279,6 +3302,9 @@
     </url>
     <url>
         <loc>/publisher/fcs/</loc>
+    </url>
+    <url>
+        <loc>/publisher/gao-deng-jiao-yu-chu-ban-she/</loc>
     </url>
     <url>
         <loc>/publisher/heliyon/</loc>
