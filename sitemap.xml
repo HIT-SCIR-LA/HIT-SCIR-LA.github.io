@@ -19,6 +19,9 @@
         <loc>/authors/aw-aiti/</loc>
     </url>
     <url>
+        <loc>/authors/bao-siqi/</loc>
+    </url>
+    <url>
         <loc>/authors/baoxin-wang/</loc>
     </url>
     <url>
@@ -121,6 +124,9 @@
         <loc>/authors/dechen-zhan/</loc>
     </url>
     <url>
+        <loc>/authors/deng-yang/</loc>
+    </url>
+    <url>
         <loc>/authors/deng-yihe/</loc>
     </url>
     <url>
@@ -161,6 +167,9 @@
     </url>
     <url>
         <loc>/authors/fan-yang/</loc>
+    </url>
+    <url>
+        <loc>/authors/fan-yuantao/</loc>
     </url>
     <url>
         <loc>/authors/fang-meng/</loc>
@@ -235,6 +244,9 @@
         <loc>/authors/han-xu/</loc>
     </url>
     <url>
+        <loc>/authors/he-huang/</loc>
+    </url>
+    <url>
         <loc>/authors/he-kun/</loc>
     </url>
     <url>
@@ -263,6 +275,9 @@
     </url>
     <url>
         <loc>/authors/hua-wu/</loc>
+    </url>
+    <url>
+        <loc>/authors/huang-jinyang/</loc>
     </url>
     <url>
         <loc>/authors/huang-jizhou/</loc>
@@ -832,6 +847,9 @@
         <loc>/authors/xu-keyan/</loc>
     </url>
     <url>
+        <loc>/authors/xu-mingzheng/</loc>
+    </url>
+    <url>
         <loc>/authors/xu-xiao/</loc>
     </url>
     <url>
@@ -1010,6 +1028,9 @@
     </url>
     <url>
         <loc>/authors/zheng-bo/</loc>
+    </url>
+    <url>
+        <loc>/authors/zheng-wenzhen/</loc>
     </url>
     <url>
         <loc>/authors/zheng-yefeng/</loc>
@@ -1766,6 +1787,10 @@
         <lastmod>2021-02-10</lastmod>
     </url>
     <url>
+        <loc>/people/在读博士生/niu-tian-hao/</loc>
+        <lastmod>2026-02-10</lastmod>
+    </url>
+    <url>
         <loc>/people/在读博士生/teng-de-chuan/</loc>
         <lastmod>2017-02-10</lastmod>
     </url>
@@ -1788,6 +1813,10 @@
     <url>
         <loc>/people/在读博士生/zhang-wen-bin/</loc>
         <lastmod>2024-09-25</lastmod>
+    </url>
+    <url>
+        <loc>/people/在读博士生/zhang-xuan-jing/</loc>
+        <lastmod>2026-10-10</lastmod>
     </url>
     <url>
         <loc>/people/在读本科生/</loc>
@@ -1840,10 +1869,6 @@
         <lastmod>2023-10-10</lastmod>
     </url>
     <url>
-        <loc>/people/在读硕士生/niu-tian-hao/</loc>
-        <lastmod>2023-02-10</lastmod>
-    </url>
-    <url>
         <loc>/people/在读硕士生/peng-deng-yun/</loc>
         <lastmod>2024-09-25</lastmod>
     </url>
@@ -1854,10 +1879,6 @@
     <url>
         <loc>/people/在读硕士生/yan-zheng/</loc>
         <lastmod>2024-09-25</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读硕士生/zhang-xuan-jing/</loc>
-        <lastmod>2023-10-10</lastmod>
     </url>
     <url>
         <loc>/people/在读硕士生/zhang-zhi-ming/</loc>
@@ -3139,7 +3160,19 @@
     </url>
     <url>
         <loc>/publications/2025-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa-copy/</loc>
-        <lastmod>2025-12-31</lastmod>
+        <lastmod>2026-12-31</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2026-bounds-of-chain-of-thought-robustness-reasoning-steps-embed-norms-and-beyond/</loc>
+        <lastmod>2026-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2026-how-many-code-and-test-cases-are-enough-evaluating-test-cases-generation-from-a-binary-matrix-perspective/</loc>
+        <lastmod>2026-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2026-proxyattn-guided-sparse-attention-via-representative-heads/</loc>
+        <lastmod>2026-01-01</lastmod>
     </url>
     <url>
         <loc>/publish-year/</loc>
@@ -3212,6 +3245,9 @@
     </url>
     <url>
         <loc>/publish-year/2025/</loc>
+    </url>
+    <url>
+        <loc>/publish-year/2026/</loc>
     </url>
     <url>
         <loc>/publisher/</loc>
@@ -3320,6 +3356,9 @@
     </url>
     <url>
         <loc>/publisher/icci/</loc>
+    </url>
+    <url>
+        <loc>/publisher/iclr/</loc>
     </url>
     <url>
         <loc>/publisher/icmcce/</loc>

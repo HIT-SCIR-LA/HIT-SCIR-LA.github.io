@@ -4,8 +4,27 @@
     <link rel="self" type="application/atom+xml" href="/authors/wu-hua/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2022-01-01T00:00:00+00:00</updated>
+    <updated>2026-01-01T00:00:00+00:00</updated>
     <id>/authors/wu-hua/atom.xml</id>
+    <entry xml:lang="en">
+        <title>ProxyAttn Guided Sparse Attention via Representative Heads</title>
+        <published>2026-01-01T00:00:00+00:00</published>
+        <updated>2026-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-proxyattn-guided-sparse-attention-via-representative-heads/"/>
+        <id>/publications/2026-proxyattn-guided-sparse-attention-via-representative-heads/</id>
+        
+        <content type="html" xml:base="/publications/2026-proxyattn-guided-sparse-attention-via-representative-heads/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Graph-Grounded Goal Planning for Conversational Recommendation</title>
         <published>2022-01-01T00:00:00+00:00</published>
