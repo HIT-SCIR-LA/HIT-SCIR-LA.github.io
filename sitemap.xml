@@ -3084,11 +3084,7 @@
     </url>
     <url>
         <loc>/publications/2025-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/</loc>
-        <lastmod>2025-01-01</lastmod>
-    </url>
-    <url>
-        <loc>/publications/2025-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2026-01-01</lastmod>
     </url>
     <url>
         <loc>/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</loc>
@@ -3108,10 +3104,6 @@
     </url>
     <url>
         <loc>/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/</loc>
-        <lastmod>2025-01-01</lastmod>
-    </url>
-    <url>
-        <loc>/publications/2025-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/</loc>
         <lastmod>2025-01-01</lastmod>
     </url>
     <url>
@@ -3167,7 +3159,15 @@
         <lastmod>2026-01-01</lastmod>
     </url>
     <url>
+        <loc>/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/</loc>
+        <lastmod>2026-01-01</lastmod>
+    </url>
+    <url>
         <loc>/publications/2026-how-many-code-and-test-cases-are-enough-evaluating-test-cases-generation-from-a-binary-matrix-perspective/</loc>
+        <lastmod>2026-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/</loc>
         <lastmod>2026-01-01</lastmod>
     </url>
     <url>
@@ -3275,15 +3275,6 @@
     </url>
     <url>
         <loc>/publisher/ai-research/</loc>
-    </url>
-    <url>
-        <loc>/publisher/arxiv-preprint-arxiv-2508-02322-2025/</loc>
-    </url>
-    <url>
-        <loc>/publisher/arxiv-preprint-arxiv-2508-11582-2025/</loc>
-    </url>
-    <url>
-        <loc>/publisher/arxiv-preprint-arxiv-2509-10798-2025/</loc>
     </url>
     <url>
         <loc>/publisher/arxiv/</loc>

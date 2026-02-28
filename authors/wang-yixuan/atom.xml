@@ -7,6 +7,44 @@
     <updated>2026-01-01T00:00:00+00:00</updated>
     <id>/authors/wang-yixuan/atom.xml</id>
     <entry xml:lang="en">
+        <title>CAMERA Multi-Matrix Joint Compression for MoE Models via Micro-Expert Redundancy Analysis</title>
+        <published>2026-01-01T00:00:00+00:00</published>
+        <updated>2026-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/"/>
+        <id>/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/</id>
+        
+        <content type="html" xml:base="/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Judge Q Trainable Queries for Optimized Information Retention in KV Cache Eviction</title>
+        <published>2026-01-01T00:00:00+00:00</published>
+        <updated>2026-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/"/>
+        <id>/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/</id>
+        
+        <content type="html" xml:base="/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>ProxyAttn Guided Sparse Attention via Representative Heads</title>
         <published>2026-01-01T00:00:00+00:00</published>
         <updated>2026-01-01T00:00:00+00:00</updated>
@@ -23,44 +61,6 @@
         <id>/publications/2026-proxyattn-guided-sparse-attention-via-representative-heads/</id>
         
         <content type="html" xml:base="/publications/2026-proxyattn-guided-sparse-attention-via-representative-heads/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>CAMERA Multi-Matrix Joint Compression for MoE Models via Micro-Expert Redundancy Analysis</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/"/>
-        <id>/publications/2025-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/</id>
-        
-        <content type="html" xml:base="/publications/2025-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Judge Q Trainable Queries for Optimized Information Retention in KV Cache Eviction</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/"/>
-        <id>/publications/2025-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/</id>
-        
-        <content type="html" xml:base="/publications/2025-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/"></content>
         
     </entry>
     <entry xml:lang="en">
