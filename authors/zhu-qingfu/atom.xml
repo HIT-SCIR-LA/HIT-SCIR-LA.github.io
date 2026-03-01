@@ -102,6 +102,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>CRVQ Channel-Relaxed Vector Quantization for Extreme Compression of LLMs</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"/>
+        <id>/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/</id>
+        
+        <content type="html" xml:base="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>A survey of table reasoning with large language models</title>
         <published>2025-01-01T00:00:00+00:00</published>
         <updated>2025-01-01T00:00:00+00:00</updated>
@@ -384,25 +403,6 @@
         <id>/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/</id>
         
         <content type="html" xml:base="/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>CRVQ Channel-Relaxed Vector Quantization for Extreme Compression of LLMs</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"/>
-        <id>/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/</id>
-        
-        <content type="html" xml:base="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"></content>
         
     </entry>
     <entry xml:lang="en">

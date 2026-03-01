@@ -140,6 +140,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>CRVQ Channel-Relaxed Vector Quantization for Extreme Compression of LLMs</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"/>
+        <id>/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/</id>
+        
+        <content type="html" xml:base="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>A survey of multilingual large language models</title>
         <published>2025-01-01T00:00:00+00:00</published>
         <updated>2025-01-01T00:00:00+00:00</updated>
@@ -232,6 +251,25 @@
         <id>/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/</id>
         
         <content type="html" xml:base="/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CoMT A Novel Benchmark for Chain of Multi-modal Thought on Large Vision-Language Models</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"/>
+        <id>/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -463,25 +501,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>CoMT A Novel Benchmark for Chain of Multi-modal Thought on Large Vision-Language Models</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"/>
-        <id>/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/</id>
-        
-        <content type="html" xml:base="/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Concise and Precise Context Compression for Tool-Using Language Models</title>
         <published>2024-01-01T00:00:00+00:00</published>
         <updated>2024-01-01T00:00:00+00:00</updated>
@@ -498,25 +517,6 @@
         <id>/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/</id>
         
         <content type="html" xml:base="/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>CRVQ Channel-Relaxed Vector Quantization for Extreme Compression of LLMs</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"/>
-        <id>/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/</id>
-        
-        <content type="html" xml:base="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -897,6 +897,25 @@
         <id>/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/</id>
         
         <content type="html" xml:base="/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Discovering Drug-Target Interaction Knowledge from Biomedical Literature</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"/>
+        <id>/publications/2022-discovering-drug-target-interaction-knowledge-from-biomedical-literature/</id>
+        
+        <content type="html" xml:base="/publications/2022-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -1391,25 +1410,6 @@
         <id>/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/</id>
         
         <content type="html" xml:base="/publications/2021-discovering-dialog-structure-graph-for-coherent-dialog-generation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Discovering Drug-Target Interaction Knowledge from Biomedical Literature</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"/>
-        <id>/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/</id>
-        
-        <content type="html" xml:base="/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"></content>
         
     </entry>
     <entry xml:lang="en">

@@ -26,6 +26,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>OpenSLU A Unified Modularized and Extensible Toolkit for Spoken Language Understanding</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-openslu-a-unified-modularized-and-extensible-toolkit-for-spoken-language-understanding/"/>
+        <id>/publications/2023-openslu-a-unified-modularized-and-extensible-toolkit-for-spoken-language-understanding/</id>
+        
+        <content type="html" xml:base="/publications/2023-openslu-a-unified-modularized-and-extensible-toolkit-for-spoken-language-understanding/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>TextBrewer An Open-Source Knowledge Distillation Toolkit for Natural Language Processing</title>
         <published>2020-01-01T00:00:00+00:00</published>
         <updated>2020-01-01T00:00:00+00:00</updated>

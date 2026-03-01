@@ -102,6 +102,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Discovering Drug-Target Interaction Knowledge from Biomedical Literature</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"/>
+        <id>/publications/2022-discovering-drug-target-interaction-knowledge-from-biomedical-literature/</id>
+        
+        <content type="html" xml:base="/publications/2022-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>FewJoint few-shot learning for joint dialogue understanding</title>
         <published>2022-01-01T00:00:00+00:00</published>
         <updated>2022-01-01T00:00:00+00:00</updated>
@@ -175,25 +194,6 @@
         <id>/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/</id>
         
         <content type="html" xml:base="/publications/2021-c2c-genda-cluster-to-cluster-generation-for-data-augmentation-of-slot-filling/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Discovering Drug-Target Interaction Knowledge from Biomedical Literature</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"/>
-        <id>/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/</id>
-        
-        <content type="html" xml:base="/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"></content>
         
     </entry>
     <entry xml:lang="en">

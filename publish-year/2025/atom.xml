@@ -26,6 +26,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>CRVQ Channel-Relaxed Vector Quantization for Extreme Compression of LLMs</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"/>
+        <id>/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/</id>
+        
+        <content type="html" xml:base="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>A survey of multilingual large language models</title>
         <published>2025-01-01T00:00:00+00:00</published>
         <updated>2025-01-01T00:00:00+00:00</updated>
@@ -118,6 +137,25 @@
         <id>/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/</id>
         
         <content type="html" xml:base="/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CoMT A Novel Benchmark for Chain of Multi-modal Thought on Large Vision-Language Models</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"/>
+        <id>/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"></content>
         
     </entry>
     <entry xml:lang="en">

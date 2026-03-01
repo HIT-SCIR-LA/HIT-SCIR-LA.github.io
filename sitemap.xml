@@ -253,9 +253,6 @@
         <loc>/authors/he-wei/</loc>
     </url>
     <url>
-        <loc>/authors/honglin-mu/</loc>
-    </url>
-    <url>
         <loc>/authors/hongyuan-dong/</loc>
     </url>
     <url>
@@ -2795,10 +2792,6 @@
         <lastmod>2021-01-01</lastmod>
     </url>
     <url>
-        <loc>/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/</loc>
-        <lastmod>2021-01-01</lastmod>
-    </url>
-    <url>
         <loc>/publications/2021-dont-be-contradicted-with-anything-ci-tod-towards-benchmarking-consistency-for-task-oriented-dialogue-system/</loc>
         <lastmod>2021-01-01</lastmod>
     </url>
@@ -2868,6 +2861,10 @@
     </url>
     <url>
         <loc>/publications/2022-data-augmentation-approaches-in-natural-language-processing-a-survey/</loc>
+        <lastmod>2022-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2022-discovering-drug-target-interaction-knowledge-from-biomedical-literature/</loc>
         <lastmod>2022-01-01</lastmod>
     </url>
     <url>
@@ -2975,10 +2972,6 @@
         <lastmod>2023-01-01</lastmod>
     </url>
     <url>
-        <loc>/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/</loc>
-        <lastmod>2023-01-01</lastmod>
-    </url>
-    <url>
         <loc>/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/</loc>
         <lastmod>2023-01-01</lastmod>
     </url>
@@ -3003,16 +2996,12 @@
         <lastmod>2024-01-01</lastmod>
     </url>
     <url>
-        <loc>/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/</loc>
-        <lastmod>2024-01-01</lastmod>
-    </url>
-    <url>
         <loc>/publications/2024-concise-and-precise-context-compression-for-tool-using-language-models/</loc>
         <lastmod>2024-01-01</lastmod>
     </url>
     <url>
         <loc>/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/</loc>
-        <lastmod>2024-01-01</lastmod>
+        <lastmod>2025-01-01</lastmod>
     </url>
     <url>
         <loc>/publications/2024-decoupling-breaks-data-barriers-a-decoupled-pre-training-framework-for-multi-intent-spoken-language-understanding/</loc>
@@ -3088,6 +3077,10 @@
     </url>
     <url>
         <loc>/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/</loc>
+        <lastmod>2025-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/</loc>
         <lastmod>2025-01-01</lastmod>
     </url>
     <url>
@@ -3280,6 +3273,9 @@
         <loc>/publisher/arxiv/</loc>
     </url>
     <url>
+        <loc>/publisher/bioinformatics/</loc>
+    </url>
+    <url>
         <loc>/publisher/bmc-bio/</loc>
     </url>
     <url>
@@ -3391,10 +3387,13 @@
         <loc>/publisher/mrp/</loc>
     </url>
     <url>
-        <loc>/publisher/na/</loc>
+        <loc>/publisher/mrqa/</loc>
     </url>
     <url>
         <loc>/publisher/naacl/</loc>
+    </url>
+    <url>
+        <loc>/publisher/nejlt/</loc>
     </url>
     <url>
         <loc>/publisher/neurips/</loc>
@@ -3425,6 +3424,9 @@
     </url>
     <url>
         <loc>/publisher/tac/</loc>
+    </url>
+    <url>
+        <loc>/publisher/tacl/</loc>
     </url>
     <url>
         <loc>/publisher/taslp/</loc>

@@ -26,44 +26,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>CoMT A Novel Benchmark for Chain of Multi-modal Thought on Large Vision-Language Models</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"/>
-        <id>/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/</id>
-        
-        <content type="html" xml:base="/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>CRVQ Channel-Relaxed Vector Quantization for Extreme Compression of LLMs</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"/>
-        <id>/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/</id>
-        
-        <content type="html" xml:base="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>A Preliminary Evaluation of ChatGPT for Zero-shot Dialogue Understanding</title>
         <published>2023-01-01T00:00:00+00:00</published>
         <updated>2023-01-01T00:00:00+00:00</updated>
@@ -118,44 +80,6 @@
         <id>/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/</id>
         
         <content type="html" xml:base="/publications/2023-csed-a-chinese-semantic-error-diagnosis-corpus/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>MixPro Simple yet Effective Data Augmentation for Prompt-based Learning</title>
-        <published>2023-01-01T00:00:00+00:00</published>
-        <updated>2023-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"/>
-        <id>/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/</id>
-        
-        <content type="html" xml:base="/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>OpenSLU A Unified Modularized and Extensible Toolkit for Spoken Language Understanding</title>
-        <published>2023-01-01T00:00:00+00:00</published>
-        <updated>2023-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2023-openslu-a-unified-modularized-and-extensible-toolkit-for-spoken-language-understanding/"/>
-        <id>/publications/2023-openslu-a-unified-modularized-and-extensible-toolkit-for-spoken-language-understanding/</id>
-        
-        <content type="html" xml:base="/publications/2023-openslu-a-unified-modularized-and-extensible-toolkit-for-spoken-language-understanding/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -216,25 +140,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Learning-based Hybrid Local Search for the Hard-label Textual Attack</title>
-        <published>2022-01-01T00:00:00+00:00</published>
-        <updated>2022-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/"/>
-        <id>/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/</id>
-        
-        <content type="html" xml:base="/publications/2022-learning-based-hybrid-local-search-for-the-hard-label-textual-attack/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Overview of CTC 2021 Chinese Text Correction for Native Speakers</title>
         <published>2022-01-01T00:00:00+00:00</published>
         <updated>2022-01-01T00:00:00+00:00</updated>
@@ -289,120 +194,6 @@
         <id>/publications/2021-a-survey-on-spoken-language-understanding-recent-advances-and-new-frontiers/</id>
         
         <content type="html" xml:base="/publications/2021-a-survey-on-spoken-language-understanding-recent-advances-and-new-frontiers/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Allocating large vocabulary capacity for cross-lingual language model pre-training</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-allocating-large-vocabulary-capacity-for-cross-lingual-language-model-pre-training/"/>
-        <id>/publications/2021-allocating-large-vocabulary-capacity-for-cross-lingual-language-model-pre-training/</id>
-        
-        <content type="html" xml:base="/publications/2021-allocating-large-vocabulary-capacity-for-cross-lingual-language-model-pre-training/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Bilingual Alignment Pre-Training for Zero-Shot Cross-Lingual Transfer</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-bilingual-alignment-pre-training-for-zero-shot-cross-lingual-transfer/"/>
-        <id>/publications/2021-bilingual-alignment-pre-training-for-zero-shot-cross-lingual-transfer/</id>
-        
-        <content type="html" xml:base="/publications/2021-bilingual-alignment-pre-training-for-zero-shot-cross-lingual-transfer/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Discovering Drug-Target Interaction Knowledge from Biomedical Literature</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"/>
-        <id>/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/</id>
-        
-        <content type="html" xml:base="/publications/2021-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Dont be Contradicted with Anything CI-ToD Towards Benchmarking Consistency for Task-oriented Dialogue System</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-dont-be-contradicted-with-anything-ci-tod-towards-benchmarking-consistency-for-task-oriented-dialogue-system/"/>
-        <id>/publications/2021-dont-be-contradicted-with-anything-ci-tod-towards-benchmarking-consistency-for-task-oriented-dialogue-system/</id>
-        
-        <content type="html" xml:base="/publications/2021-dont-be-contradicted-with-anything-ci-tod-towards-benchmarking-consistency-for-task-oriented-dialogue-system/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Durecdial 20 A bilingual parallel corpus for conversational recommendation</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/"/>
-        <id>/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/</id>
-        
-        <content type="html" xml:base="/publications/2021-durecdial-20-a-bilingual-parallel-corpus-for-conversational-recommendation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Nl-augmenter A framework for task-sensitive natural language augmentation</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-nl-augmenter-a-framework-for-task-sensitive-natural-language-augmentation/"/>
-        <id>/publications/2021-nl-augmenter-a-framework-for-task-sensitive-natural-language-augmentation/</id>
-        
-        <content type="html" xml:base="/publications/2021-nl-augmenter-a-framework-for-task-sensitive-natural-language-augmentation/"></content>
         
     </entry>
     <entry xml:lang="en">

@@ -83,6 +83,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>CoMT A Novel Benchmark for Chain of Multi-modal Thought on Large Vision-Language Models</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"/>
+        <id>/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>DLPO Towards a Robust Efficient and Generalizable Prompt Optimization Framework from a Deep-Learning Perspective</title>
         <published>2025-01-01T00:00:00+00:00</published>
         <updated>2025-01-01T00:00:00+00:00</updated>
@@ -156,25 +175,6 @@
         <id>/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/</id>
         
         <content type="html" xml:base="/publications/2024-a-two-stage-framework-with-self-supervised-distillation-for-cross-domain-text-classification/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>CoMT A Novel Benchmark for Chain of Multi-modal Thought on Large Vision-Language Models</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"/>
-        <id>/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/</id>
-        
-        <content type="html" xml:base="/publications/2024-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"></content>
         
     </entry>
     <entry xml:lang="en">

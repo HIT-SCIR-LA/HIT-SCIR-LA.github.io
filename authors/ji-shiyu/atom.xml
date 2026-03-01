@@ -45,6 +45,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>CRVQ Channel-Relaxed Vector Quantization for Extreme Compression of LLMs</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"/>
+        <id>/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/</id>
+        
+        <content type="html" xml:base="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Lookahead Q-Cache Achieving More Consistent KV Cache Eviction via Pseudo Query</title>
         <published>2025-01-01T00:00:00+00:00</published>
         <updated>2025-01-01T00:00:00+00:00</updated>
@@ -61,25 +80,6 @@
         <id>/publications/2025-lookahead-q-cache-achieving-more-consistent-kv-cache-eviction-via-pseudo-query/</id>
         
         <content type="html" xml:base="/publications/2025-lookahead-q-cache-achieving-more-consistent-kv-cache-eviction-via-pseudo-query/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>CRVQ Channel-Relaxed Vector Quantization for Extreme Compression of LLMs</title>
-        <published>2024-01-01T00:00:00+00:00</published>
-        <updated>2024-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"/>
-        <id>/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/</id>
-        
-        <content type="html" xml:base="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"></content>
         
     </entry>
 </feed>

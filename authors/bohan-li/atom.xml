@@ -7,25 +7,6 @@
     <updated>2023-01-01T00:00:00+00:00</updated>
     <id>/authors/bohan-li/atom.xml</id>
     <entry xml:lang="en">
-        <title>MixPro Simple yet Effective Data Augmentation for Prompt-based Learning</title>
-        <published>2023-01-01T00:00:00+00:00</published>
-        <updated>2023-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"/>
-        <id>/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/</id>
-        
-        <content type="html" xml:base="/publications/2023-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Semantic-Guided Image Augmentation with Pre-trained Models</title>
         <published>2023-01-01T00:00:00+00:00</published>
         <updated>2023-01-01T00:00:00+00:00</updated>

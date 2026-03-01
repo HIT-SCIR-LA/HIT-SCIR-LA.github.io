@@ -102,6 +102,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Discovering Drug-Target Interaction Knowledge from Biomedical Literature</title>
+        <published>2022-01-01T00:00:00+00:00</published>
+        <updated>2022-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2022-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"/>
+        <id>/publications/2022-discovering-drug-target-interaction-knowledge-from-biomedical-literature/</id>
+        
+        <content type="html" xml:base="/publications/2022-discovering-drug-target-interaction-knowledge-from-biomedical-literature/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>ExpMRC explainability evaluation for machine reading comprehension</title>
         <published>2022-01-01T00:00:00+00:00</published>
         <updated>2022-01-01T00:00:00+00:00</updated>
