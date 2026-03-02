@@ -25,4 +25,23 @@
         <content type="html" xml:base="/publications/2025-visual-thoughts-a-unified-perspective-of-understanding-multimodal-chain-of-thought/"></content>
         
     </entry>
+    <entry xml:lang="en">
+        <title>Cliptext A new paradigm for zero-shot text classification</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-cliptext-a-new-paradigm-for-zero-shot-text-classification/"/>
+        <id>/publications/2023-cliptext-a-new-paradigm-for-zero-shot-text-classification/</id>
+        
+        <content type="html" xml:base="/publications/2023-cliptext-a-new-paradigm-for-zero-shot-text-classification/"></content>
+        
+    </entry>
 </feed>

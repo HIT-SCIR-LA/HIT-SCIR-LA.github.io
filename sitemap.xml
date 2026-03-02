@@ -757,6 +757,9 @@
         <loc>/authors/wang-xinghao/</loc>
     </url>
     <url>
+        <loc>/authors/wang-yasheng/</loc>
+    </url>
+    <url>
         <loc>/authors/wang-yidong/</loc>
     </url>
     <url>
@@ -2940,6 +2943,10 @@
         <lastmod>2023-01-01</lastmod>
     </url>
     <url>
+        <loc>/publications/2023-cliptext-a-new-paradigm-for-zero-shot-text-classification/</loc>
+        <lastmod>2023-01-01</lastmod>
+    </url>
+    <url>
         <loc>/publications/2023-combating-with-extremely-noisy-samples-in-weakly-supervised-slot-filling-for-automatic-diagnosis/</loc>
         <lastmod>2023-01-01</lastmod>
     </url>
@@ -2973,6 +2980,10 @@
     </url>
     <url>
         <loc>/publications/2023-modularized-pre-training-for-end-to-end-task-oriented-dialogue/</loc>
+        <lastmod>2023-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2023-multispider-towards-benchmarking-multilingual-text-to-sql-semantic-parsing/</loc>
         <lastmod>2023-01-01</lastmod>
     </url>
     <url>
@@ -3025,6 +3036,10 @@
     </url>
     <url>
         <loc>/publications/2024-improving-grammatical-error-correction-via-contextual-data-augmentation/</loc>
+        <lastmod>2024-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2024-improving-language-model-reasoning-with-self-motivated-learning/</loc>
         <lastmod>2024-01-01</lastmod>
     </url>
     <url>

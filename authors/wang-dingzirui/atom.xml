@@ -235,6 +235,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>MultiSpider towards benchmarking multilingual text-to-SQL semantic parsing</title>
+        <published>2023-01-01T00:00:00+00:00</published>
+        <updated>2023-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2023-multispider-towards-benchmarking-multilingual-text-to-sql-semantic-parsing/"/>
+        <id>/publications/2023-multispider-towards-benchmarking-multilingual-text-to-sql-semantic-parsing/</id>
+        
+        <content type="html" xml:base="/publications/2023-multispider-towards-benchmarking-multilingual-text-to-sql-semantic-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>UniSAr A Unified Structure-Aware Autoregressive Language Model for Text-to-SQL</title>
         <published>2022-01-01T00:00:00+00:00</published>
         <updated>2022-01-01T00:00:00+00:00</updated>
