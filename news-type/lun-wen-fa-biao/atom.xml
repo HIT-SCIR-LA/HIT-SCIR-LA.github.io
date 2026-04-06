@@ -4,11 +4,86 @@
     <link rel="self" type="application/atom+xml" href="/news-type/lun-wen-fa-biao/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-11-14T00:00:00+00:00</updated>
+    <updated>2026-03-17T00:00:00+00:00</updated>
     <id>/news-type/lun-wen-fa-biao/atom.xml</id>
     <entry xml:lang="en">
-        <title>哈工大 SCIR 17 篇论文被 AAAI 2026 录用
-</title>
+        <title>ICLR 2026 | 2% is enough：用最少的代码，做最精准的测试样例评估</title>
+        <published>2026-03-17T00:00:00+00:00</published>
+        <updated>2026-03-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/iclr-2026-2-is-enough-yong-zui-shao-de-dai-ma-zuo-zui-jing-zhun-de-ce-shi-yang-li-ping-gu/"/>
+        <id>/news/iclr-2026-2-is-enough-yong-zui-shao-de-dai-ma-zuo-zui-jing-zhun-de-ce-shi-yang-li-ping-gu/</id>
+        
+        <content type="html" xml:base="/news/iclr-2026-2-is-enough-yong-zui-shao-de-dai-ma-zuo-zui-jing-zhun-de-ce-shi-yang-li-ping-gu/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ICLR 2026 | ProxyAttn让代理注意力头“划重点”，免训练实现无损稀疏</title>
+        <published>2026-03-16T00:00:00+00:00</published>
+        <updated>2026-03-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/iclr-2026-proxyattnrang-dai-li-zhu-yi-li-tou-hua-zhong-dian-mian-xun-lian-shi-xian-wu-sun-xi-shu/"/>
+        <id>/news/iclr-2026-proxyattnrang-dai-li-zhu-yi-li-tou-hua-zhong-dian-mian-xun-lian-shi-xian-wu-sun-xi-shu/</id>
+        
+        <content type="html" xml:base="/news/iclr-2026-proxyattnrang-dai-li-zhu-yi-li-tou-hua-zhong-dian-mian-xun-lian-shi-xian-wu-sun-xi-shu/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>思维链的“脆性”真相：哈工大赛尔ICLR 2026论文揭示输入扰动对推理的影响</title>
+        <published>2026-03-02T00:00:00+00:00</published>
+        <updated>2026-03-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/si-wei-lian-de-cui-xing-zhen-xiang-ha-gong-da-sai-er-iclr-2026lun-wen-jie-shi-shu-ru-rao-dong-dui-tui-li-de-ying-xiang/"/>
+        <id>/news/si-wei-lian-de-cui-xing-zhen-xiang-ha-gong-da-sai-er-iclr-2026lun-wen-jie-shi-shu-ru-rao-dong-dui-tui-li-de-ying-xiang/</id>
+        
+        <content type="html" xml:base="/news/si-wei-lian-de-cui-xing-zhen-xiang-ha-gong-da-sai-er-iclr-2026lun-wen-jie-shi-shu-ru-rao-dong-dui-tui-li-de-ying-xiang/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>喜讯 | HFL荣获2025年度IEEE信号处理学会最佳论文奖</title>
+        <published>2026-01-06T00:00:00+00:00</published>
+        <updated>2026-01-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/xi-xun-hflrong-huo-2025nian-du-ieeexin-hao-chu-li-xue-hui-zui-jia-lun-wen-jiang/"/>
+        <id>/news/xi-xun-hflrong-huo-2025nian-du-ieeexin-hao-chu-li-xue-hui-zui-jia-lun-wen-jiang/</id>
+        
+        <content type="html" xml:base="/news/xi-xun-hflrong-huo-2025nian-du-ieeexin-hao-chu-li-xue-hui-zui-jia-lun-wen-jiang/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>哈工大 SCIR 17 篇论文被 AAAI 2026 录用</title>
         <published>2025-11-14T00:00:00+00:00</published>
         <updated>2025-11-14T00:00:00+00:00</updated>
         

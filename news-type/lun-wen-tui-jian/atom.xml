@@ -4,8 +4,27 @@
     <link rel="self" type="application/atom+xml" href="/news-type/lun-wen-tui-jian/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-04-18T00:00:00+00:00</updated>
+    <updated>2025-11-20T00:00:00+00:00</updated>
     <id>/news-type/lun-wen-tui-jian/atom.xml</id>
+    <entry xml:lang="en">
+        <title>赛尔笔记｜架起感知到行动的桥梁 - 具身智能中的CoT技术概述</title>
+        <published>2025-11-20T00:00:00+00:00</published>
+        <updated>2025-11-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/sai-er-bi-ji-jia-qi-gan-zhi-dao-xing-dong-de-qiao-liang-ju-shen-zhi-neng-zhong-de-cotji-shu-gai-shu/"/>
+        <id>/news/sai-er-bi-ji-jia-qi-gan-zhi-dao-xing-dong-de-qiao-liang-ju-shen-zhi-neng-zhong-de-cotji-shu-gai-shu/</id>
+        
+        <content type="html" xml:base="/news/sai-er-bi-ji-jia-qi-gan-zhi-dao-xing-dong-de-qiao-liang-ju-shen-zhi-neng-zhong-de-cotji-shu-gai-shu/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>迈向推理时代：900+篇参考文献揭示长链思维的前世今生，哈工大 SCIR 推出全面综述</title>
         <published>2025-04-18T00:00:00+00:00</published>

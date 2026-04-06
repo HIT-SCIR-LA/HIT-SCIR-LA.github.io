@@ -1235,6 +1235,10 @@
         <lastmod>2023-05-31</lastmod>
     </url>
     <url>
+        <loc>/news/ha-gong-da-scir-2025-nian-zhong-zong-jie-hui-cheng-gong-ju-ban/</loc>
+        <lastmod>2026-01-04</lastmod>
+    </url>
+    <url>
         <loc>/news/ha-gong-da-scir-2025yuan-dan-wan-hui-cheng-gong-ju-ban/</loc>
         <lastmod>2025-01-10</lastmod>
     </url>
@@ -1447,8 +1451,20 @@
         <lastmod>2023-05-04</lastmod>
     </url>
     <url>
+        <loc>/news/ha-gong-da-zi-ran-yu-yan-chu-li-yan-jiu-suo-guan-fang-wang-zhan-zheng-shi-shang-xian/</loc>
+        <lastmod>2025-12-23</lastmod>
+    </url>
+    <url>
         <loc>/news/hit-scirfa-bu-shou-ge-zhong-wen-kuo-ci-biao-zeng-liang-yu-xun-lian-hun-he-zhuan-jia-mo-xing-chinese-mixtral-8x7b/</loc>
         <lastmod>2024-01-18</lastmod>
+    </url>
+    <url>
+        <loc>/news/iclr-2026-2-is-enough-yong-zui-shao-de-dai-ma-zuo-zui-jing-zhun-de-ce-shi-yang-li-ping-gu/</loc>
+        <lastmod>2026-03-17</lastmod>
+    </url>
+    <url>
+        <loc>/news/iclr-2026-proxyattnrang-dai-li-zhu-yi-li-tou-hua-zhong-dian-mian-xun-lian-shi-xian-wu-sun-xi-shu/</loc>
+        <lastmod>2026-03-16</lastmod>
     </url>
     <url>
         <loc>/news/jin-ri-arxivzui-re-nlpda-mo-xing-lun-wen-zuo-dao-tou-liao-qing-hua-he-ha-gong-da-ba-da-mo-xing-liang-hua-zuo-dao-liao-1bi-te/</loc>
@@ -1485,6 +1501,9 @@
         <loc>/news/page/14/</loc>
     </url>
     <url>
+        <loc>/news/page/15/</loc>
+    </url>
+    <url>
         <loc>/news/page/2/</loc>
     </url>
     <url>
@@ -1515,6 +1534,10 @@
     <url>
         <loc>/news/sai-er-bi-ji-da-mo-xing-shang-xia-wen-chang-du-kuo-zhan-zhong-de-jian-suo-zeng-qiang-ji-shu-jian-shu/</loc>
         <lastmod>2024-06-29</lastmod>
+    </url>
+    <url>
+        <loc>/news/sai-er-bi-ji-jia-qi-gan-zhi-dao-xing-dong-de-qiao-liang-ju-shen-zhi-neng-zhong-de-cotji-shu-gai-shu/</loc>
+        <lastmod>2025-11-20</lastmod>
     </url>
     <url>
         <loc>/news/sai-er-bi-ji-mian-xiang-biao-ge-shu-ju-de-da-mo-xing-tui-li-zong-shu/</loc>
@@ -1677,6 +1700,10 @@
         <lastmod>2018-04-10</lastmod>
     </url>
     <url>
+        <loc>/news/si-wei-lian-de-cui-xing-zhen-xiang-ha-gong-da-sai-er-iclr-2026lun-wen-jie-shi-shu-ru-rao-dong-dui-tui-li-de-ying-xiang/</loc>
+        <lastmod>2026-03-02</lastmod>
+    </url>
+    <url>
         <loc>/news/wo-zhong-xin-3pian-chang-wen-bei-aaai-2018lu-yong/</loc>
         <lastmod>2017-11-22</lastmod>
     </url>
@@ -1715,6 +1742,10 @@
     <url>
         <loc>/news/wo-zhong-xin-shi-sheng-can-jia-emnlp-2017/</loc>
         <lastmod>2017-09-19</lastmod>
+    </url>
+    <url>
+        <loc>/news/xi-xun-hflrong-huo-2025nian-du-ieeexin-hao-chu-li-xue-hui-zui-jia-lun-wen-jiang/</loc>
+        <lastmod>2026-01-06</lastmod>
     </url>
     <url>
         <loc>/news/xin-wen-di-san-jie-hit-scir-thunlp-fudannlpxue-shu-lian-yi-hui-cheng-gong-ju-ban/</loc>
@@ -1788,7 +1819,7 @@
     </url>
     <url>
         <loc>/people/在读博士生/niu-tian-hao/</loc>
-        <lastmod>2026-02-10</lastmod>
+        <lastmod>2026-03-10</lastmod>
     </url>
     <url>
         <loc>/people/在读博士生/teng-de-chuan/</loc>
@@ -1816,7 +1847,7 @@
     </url>
     <url>
         <loc>/people/在读博士生/zhang-xuan-jing/</loc>
-        <lastmod>2026-10-10</lastmod>
+        <lastmod>2026-03-11</lastmod>
     </url>
     <url>
         <loc>/people/在读本科生/</loc>
@@ -1879,10 +1910,6 @@
     <url>
         <loc>/people/在读硕士生/yan-zheng/</loc>
         <lastmod>2024-09-25</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读硕士生/zhang-zhi-ming/</loc>
-        <lastmod>2023-02-10</lastmod>
     </url>
     <url>
         <loc>/people/在读硕士生/zhou-shi-qi/</loc>
@@ -2111,6 +2138,10 @@
     <url>
         <loc>/people/毕业硕士/zhang-yi/</loc>
         <lastmod>2016-02-10</lastmod>
+    </url>
+    <url>
+        <loc>/people/毕业硕士/zhang-zhi-ming/</loc>
+        <lastmod>2026-03-10</lastmod>
     </url>
     <url>
         <loc>/people/毕业硕士/zhao-huai-peng/</loc>
