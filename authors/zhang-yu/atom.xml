@@ -38,10 +38,29 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"/>
-        <id>/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/</id>
+        <link rel="alternate" type="text/html" href="/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"/>
+        <id>/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/</id>
         
-        <content type="html" xml:base="/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"></content>
+        <content type="html" xml:base="/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>信息检索系统导论</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/"/>
+        <id>/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/</id>
+        
+        <content type="html" xml:base="/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -61,25 +80,6 @@
         <id>/publications/2008-introduction-to-information-retrieval-system/</id>
         
         <content type="html" xml:base="/publications/2008-introduction-to-information-retrieval-system/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>信息检索系统导论</title>
-        <published>2008-01-01T00:00:00+00:00</published>
-        <updated>2008-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/"/>
-        <id>/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/</id>
-        
-        <content type="html" xml:base="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/"></content>
         
     </entry>
 </feed>

@@ -7,6 +7,25 @@
     <updated>2016-01-01T00:00:00+00:00</updated>
     <id>/publish-year/2016/atom.xml</id>
     <entry xml:lang="en">
+        <title>Python 程序设计</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/books/2016-python-cheng-xu-she-ji/"/>
+        <id>/books/2016-python-cheng-xu-she-ji/</id>
+        
+        <content type="html" xml:base="/books/2016-python-cheng-xu-she-ji/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>A distributed representation-based framework for cross-lingual transfer parsing</title>
         <published>2016-01-01T00:00:00+00:00</published>
         <updated>2016-01-01T00:00:00+00:00</updated>
@@ -194,25 +213,6 @@
         <id>/publications/2016-hc-search-for-incremental-parsing/</id>
         
         <content type="html" xml:base="/publications/2016-hc-search-for-incremental-parsing/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Python 程序设计</title>
-        <published>2016-01-01T00:00:00+00:00</published>
-        <updated>2016-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2016-python-cheng-xu-she-ji/"/>
-        <id>/publications/2016-python-cheng-xu-she-ji/</id>
-        
-        <content type="html" xml:base="/publications/2016-python-cheng-xu-she-ji/"></content>
         
     </entry>
     <entry xml:lang="en">

@@ -4,8 +4,27 @@
     <link rel="self" type="application/atom+xml" href="/authors/liu-ting/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2024-01-01T00:00:00+00:00</updated>
+    <updated>2026-04-01T00:00:00+00:00</updated>
     <id>/authors/liu-ting/atom.xml</id>
+    <entry xml:lang="en">
+        <title>AutoVecCoder Teaching LLMs to Generate Explicitly Vectorized Code</title>
+        <published>2026-04-01T00:00:00+00:00</published>
+        <updated>2026-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/"/>
+        <id>/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/</id>
+        
+        <content type="html" xml:base="/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Exploring Hybrid Question Answering via Program-based Prompting</title>
         <published>2024-01-01T00:00:00+00:00</published>
@@ -118,6 +137,25 @@
         <id>/publications/2022-teaching-machines-to-read-answer-and-explain/</id>
         
         <content type="html" xml:base="/publications/2022-teaching-machines-to-read-answer-and-explain/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>自然语言处理</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/books/2021-zi-ran-yu-yan-chu-li/"/>
+        <id>/books/2021-zi-ran-yu-yan-chu-li/</id>
+        
+        <content type="html" xml:base="/books/2021-zi-ran-yu-yan-chu-li/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -365,25 +403,6 @@
         <id>/publications/2021-understanding-attention-in-machine-reading-comprehension/</id>
         
         <content type="html" xml:base="/publications/2021-understanding-attention-in-machine-reading-comprehension/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>自然语言处理</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-zi-ran-yu-yan-chu-li/"/>
-        <id>/publications/2021-zi-ran-yu-yan-chu-li/</id>
-        
-        <content type="html" xml:base="/publications/2021-zi-ran-yu-yan-chu-li/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -2059,6 +2078,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>搜索引擎：信息检索实践</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"/>
+        <id>/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/</id>
+        
+        <content type="html" xml:base="/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Appraisal expression recognition with syntactic path for sentence sentiment classification</title>
         <published>2010-01-01T00:00:00+00:00</published>
         <updated>2010-01-01T00:00:00+00:00</updated>
@@ -2268,25 +2306,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>搜索引擎：信息检索实践</title>
-        <published>2010-01-01T00:00:00+00:00</published>
-        <updated>2010-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"/>
-        <id>/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/</id>
-        
-        <content type="html" xml:base="/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Using word sense disambiguation for semantic role labeling</title>
         <published>2010-01-01T00:00:00+00:00</published>
         <updated>2010-01-01T00:00:00+00:00</updated>
@@ -2322,6 +2341,25 @@
         <id>/publications/2009-multilingual-dependency-based-syntactic-and-semantic-parsing/</id>
         
         <content type="html" xml:base="/publications/2009-multilingual-dependency-based-syntactic-and-semantic-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>信息检索系统导论</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/"/>
+        <id>/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/</id>
+        
+        <content type="html" xml:base="/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -2436,25 +2474,6 @@
         <id>/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/</id>
         
         <content type="html" xml:base="/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>信息检索系统导论</title>
-        <published>2008-01-01T00:00:00+00:00</published>
-        <updated>2008-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/"/>
-        <id>/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/</id>
-        
-        <content type="html" xml:base="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/"></content>
         
     </entry>
     <entry xml:lang="en">

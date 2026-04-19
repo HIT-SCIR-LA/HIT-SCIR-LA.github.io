@@ -19,10 +19,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="/publications/2025-da-mo-xing-yuan-li-yu-ying-yong/"/>
-        <id>/publications/2025-da-mo-xing-yuan-li-yu-ying-yong/</id>
+        <link rel="alternate" type="text/html" href="/books/2025-da-mo-xing-yuan-li-yu-ying-yong/"/>
+        <id>/books/2025-da-mo-xing-yuan-li-yu-ying-yong/</id>
         
-        <content type="html" xml:base="/publications/2025-da-mo-xing-yuan-li-yu-ying-yong/"></content>
+        <content type="html" xml:base="/books/2025-da-mo-xing-yuan-li-yu-ying-yong/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -38,10 +38,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="/publications/2021-zi-ran-yu-yan-chu-li/"/>
-        <id>/publications/2021-zi-ran-yu-yan-chu-li/</id>
+        <link rel="alternate" type="text/html" href="/books/2021-zi-ran-yu-yan-chu-li/"/>
+        <id>/books/2021-zi-ran-yu-yan-chu-li/</id>
         
-        <content type="html" xml:base="/publications/2021-zi-ran-yu-yan-chu-li/"></content>
+        <content type="html" xml:base="/books/2021-zi-ran-yu-yan-chu-li/"></content>
         
     </entry>
 </feed>

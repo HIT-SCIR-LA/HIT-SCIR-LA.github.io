@@ -7,6 +7,25 @@
     <updated>2008-01-01T00:00:00+00:00</updated>
     <id>/publish-year/2008/atom.xml</id>
     <entry xml:lang="en">
+        <title>信息检索系统导论</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/"/>
+        <id>/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/</id>
+        
+        <content type="html" xml:base="/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>A Cascaded Syntactic and Semantic Dependency Parsing System</title>
         <published>2008-01-01T00:00:00+00:00</published>
         <updated>2008-01-01T00:00:00+00:00</updated>
@@ -118,25 +137,6 @@
         <id>/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/</id>
         
         <content type="html" xml:base="/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>信息检索系统导论</title>
-        <published>2008-01-01T00:00:00+00:00</published>
-        <updated>2008-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/"/>
-        <id>/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/</id>
-        
-        <content type="html" xml:base="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/"></content>
         
     </entry>
 </feed>

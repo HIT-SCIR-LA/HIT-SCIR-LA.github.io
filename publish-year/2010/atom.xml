@@ -7,6 +7,25 @@
     <updated>2010-01-01T00:00:00+00:00</updated>
     <id>/publish-year/2010/atom.xml</id>
     <entry xml:lang="en">
+        <title>搜索引擎：信息检索实践</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"/>
+        <id>/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/</id>
+        
+        <content type="html" xml:base="/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Appraisal expression recognition with syntactic path for sentence sentiment classification</title>
         <published>2010-01-01T00:00:00+00:00</published>
         <updated>2010-01-01T00:00:00+00:00</updated>
@@ -232,25 +251,6 @@
         <id>/publications/2010-semi-supervised-domain-adaptation-for-wsd-using-a-word-by-word-model-selection-approach/</id>
         
         <content type="html" xml:base="/publications/2010-semi-supervised-domain-adaptation-for-wsd-using-a-word-by-word-model-selection-approach/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>搜索引擎：信息检索实践</title>
-        <published>2010-01-01T00:00:00+00:00</published>
-        <updated>2010-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"/>
-        <id>/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/</id>
-        
-        <content type="html" xml:base="/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"></content>
         
     </entry>
     <entry xml:lang="en">

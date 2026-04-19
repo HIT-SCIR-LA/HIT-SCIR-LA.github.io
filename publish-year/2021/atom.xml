@@ -19,10 +19,29 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="/publications/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/"/>
-        <id>/publications/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/</id>
+        <link rel="alternate" type="text/html" href="/books/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/"/>
+        <id>/books/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/</id>
         
-        <content type="html" xml:base="/publications/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/"></content>
+        <content type="html" xml:base="/books/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>自然语言处理</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/books/2021-zi-ran-yu-yan-chu-li/"/>
+        <id>/books/2021-zi-ran-yu-yan-chu-li/</id>
+        
+        <content type="html" xml:base="/books/2021-zi-ran-yu-yan-chu-li/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -422,25 +441,6 @@
         <id>/publications/2021-understanding-patient-query-with-weak-supervision-from-doctor-response/</id>
         
         <content type="html" xml:base="/publications/2021-understanding-patient-query-with-weak-supervision-from-doctor-response/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>自然语言处理</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-zi-ran-yu-yan-chu-li/"/>
-        <id>/publications/2021-zi-ran-yu-yan-chu-li/</id>
-        
-        <content type="html" xml:base="/publications/2021-zi-ran-yu-yan-chu-li/"></content>
         
     </entry>
 </feed>

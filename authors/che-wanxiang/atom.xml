@@ -19,10 +19,143 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="/publications/2025-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa-copy/"/>
-        <id>/publications/2025-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa-copy/</id>
+        <link rel="alternate" type="text/html" href="/books/2025-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa-copy/"/>
+        <id>/books/2025-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa-copy/</id>
         
-        <content type="html" xml:base="/publications/2025-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa-copy/"></content>
+        <content type="html" xml:base="/books/2025-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa-copy/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>AutoVecCoder Teaching LLMs to Generate Explicitly Vectorized Code</title>
+        <published>2026-04-01T00:00:00+00:00</published>
+        <updated>2026-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/"/>
+        <id>/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/</id>
+        
+        <content type="html" xml:base="/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Dashboard2Code Evaluating Multimodal Models on Reconstructing Interactive Dashboards</title>
+        <published>2026-04-01T00:00:00+00:00</published>
+        <updated>2026-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-dashboard2code-evaluating-multimodal-models-on-reconstructing-interactive-dashboards/"/>
+        <id>/publications/2026-dashboard2code-evaluating-multimodal-models-on-reconstructing-interactive-dashboards/</id>
+        
+        <content type="html" xml:base="/publications/2026-dashboard2code-evaluating-multimodal-models-on-reconstructing-interactive-dashboards/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Format-Adapter Improving Reasoning Capability of LLMs by Adapting Suitable Format</title>
+        <published>2026-04-01T00:00:00+00:00</published>
+        <updated>2026-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-format-adapter-improving-reasoning-capability-of-llms-by-adapting-suitable-format/"/>
+        <id>/publications/2026-format-adapter-improving-reasoning-capability-of-llms-by-adapting-suitable-format/</id>
+        
+        <content type="html" xml:base="/publications/2026-format-adapter-improving-reasoning-capability-of-llms-by-adapting-suitable-format/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>OMIBench Benchmarking Olympiad-Level Multi-Image Reasoning in Large Vision-Language Models</title>
+        <published>2026-04-01T00:00:00+00:00</published>
+        <updated>2026-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-omibench-benchmarking-olympiad-level-multi-image-reasoning-in-large-vision-language-models/"/>
+        <id>/publications/2026-omibench-benchmarking-olympiad-level-multi-image-reasoning-in-large-vision-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2026-omibench-benchmarking-olympiad-level-multi-image-reasoning-in-large-vision-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Scaling laws for code A more data-hungry regime</title>
+        <published>2026-04-01T00:00:00+00:00</published>
+        <updated>2026-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-scaling-laws-for-code-a-more-data-hungry-regime/"/>
+        <id>/publications/2026-scaling-laws-for-code-a-more-data-hungry-regime/</id>
+        
+        <content type="html" xml:base="/publications/2026-scaling-laws-for-code-a-more-data-hungry-regime/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Seer Self-Consistency Advance Budget Estimation for Adaptive Test-Time Scaling</title>
+        <published>2026-04-01T00:00:00+00:00</published>
+        <updated>2026-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-seer-self-consistency-advance-budget-estimation-for-adaptive-test-time-scaling/"/>
+        <id>/publications/2026-seer-self-consistency-advance-budget-estimation-for-adaptive-test-time-scaling/</id>
+        
+        <content type="html" xml:base="/publications/2026-seer-self-consistency-advance-budget-estimation-for-adaptive-test-time-scaling/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>When Does Language Matter Multilingual Instructions Reveal Step-wise Language Sensitivity in Vision-Language-Action Models</title>
+        <published>2026-04-01T00:00:00+00:00</published>
+        <updated>2026-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-when-does-language-matter-multilingual-instructions-reveal-step-wise-language-sensitivity-in-vision-language-action-models/"/>
+        <id>/publications/2026-when-does-language-matter-multilingual-instructions-reveal-step-wise-language-sensitivity-in-vision-language-action-models/</id>
+        
+        <content type="html" xml:base="/publications/2026-when-does-language-matter-multilingual-instructions-reveal-step-wise-language-sensitivity-in-vision-language-action-models/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -1273,10 +1406,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="/publications/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/"/>
-        <id>/publications/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/</id>
+        <link rel="alternate" type="text/html" href="/books/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/"/>
+        <id>/books/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/</id>
         
-        <content type="html" xml:base="/publications/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/"></content>
+        <content type="html" xml:base="/books/2021-zi-ran-yu-yan-chu-li-ji-yu-yu-xun-lian-mo-xing-de-fang-fa/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -1292,10 +1425,29 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="/publications/2025-da-mo-xing-yuan-li-yu-ying-yong/"/>
-        <id>/publications/2025-da-mo-xing-yuan-li-yu-ying-yong/</id>
+        <link rel="alternate" type="text/html" href="/books/2025-da-mo-xing-yuan-li-yu-ying-yong/"/>
+        <id>/books/2025-da-mo-xing-yuan-li-yu-ying-yong/</id>
         
-        <content type="html" xml:base="/publications/2025-da-mo-xing-yuan-li-yu-ying-yong/"></content>
+        <content type="html" xml:base="/books/2025-da-mo-xing-yuan-li-yu-ying-yong/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>自然语言处理</title>
+        <published>2021-01-01T00:00:00+00:00</published>
+        <updated>2021-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/books/2021-zi-ran-yu-yan-chu-li/"/>
+        <id>/books/2021-zi-ran-yu-yan-chu-li/</id>
+        
+        <content type="html" xml:base="/books/2021-zi-ran-yu-yan-chu-li/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -1676,25 +1828,6 @@
         <id>/publications/2021-understanding-patient-query-with-weak-supervision-from-doctor-response/</id>
         
         <content type="html" xml:base="/publications/2021-understanding-patient-query-with-weak-supervision-from-doctor-response/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>自然语言处理</title>
-        <published>2021-01-01T00:00:00+00:00</published>
-        <updated>2021-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2021-zi-ran-yu-yan-chu-li/"/>
-        <id>/publications/2021-zi-ran-yu-yan-chu-li/</id>
-        
-        <content type="html" xml:base="/publications/2021-zi-ran-yu-yan-chu-li/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -2470,10 +2603,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="/publications/2018-ji-yu-shen-du-xue-xi-de-zi-ran-yu-yan-chu-li/"/>
-        <id>/publications/2018-ji-yu-shen-du-xue-xi-de-zi-ran-yu-yan-chu-li/</id>
+        <link rel="alternate" type="text/html" href="/books/2018-ji-yu-shen-du-xue-xi-de-zi-ran-yu-yan-chu-li/"/>
+        <id>/books/2018-ji-yu-shen-du-xue-xi-de-zi-ran-yu-yan-chu-li/</id>
         
-        <content type="html" xml:base="/publications/2018-ji-yu-shen-du-xue-xi-de-zi-ran-yu-yan-chu-li/"></content>
+        <content type="html" xml:base="/books/2018-ji-yu-shen-du-xue-xi-de-zi-ran-yu-yan-chu-li/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -2724,6 +2857,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Python 程序设计</title>
+        <published>2016-01-01T00:00:00+00:00</published>
+        <updated>2016-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/books/2016-python-cheng-xu-she-ji/"/>
+        <id>/books/2016-python-cheng-xu-she-ji/</id>
+        
+        <content type="html" xml:base="/books/2016-python-cheng-xu-she-ji/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>A distributed representation-based framework for cross-lingual transfer parsing</title>
         <published>2016-01-01T00:00:00+00:00</published>
         <updated>2016-01-01T00:00:00+00:00</updated>
@@ -2854,25 +3006,6 @@
         <id>/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/</id>
         
         <content type="html" xml:base="/publications/2016-exploiting-multi-typed-treebanks-for-parsing-with-deep-multi-task-learning/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Python 程序设计</title>
-        <published>2016-01-01T00:00:00+00:00</published>
-        <updated>2016-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2016-python-cheng-xu-she-ji/"/>
-        <id>/publications/2016-python-cheng-xu-she-ji/</id>
-        
-        <content type="html" xml:base="/publications/2016-python-cheng-xu-she-ji/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -3617,6 +3750,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>搜索引擎：信息检索实践</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"/>
+        <id>/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/</id>
+        
+        <content type="html" xml:base="/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Appraisal expression recognition with syntactic path for sentence sentiment classification</title>
         <published>2010-01-01T00:00:00+00:00</published>
         <updated>2010-01-01T00:00:00+00:00</updated>
@@ -3826,25 +3978,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>搜索引擎：信息检索实践</title>
-        <published>2010-01-01T00:00:00+00:00</published>
-        <updated>2010-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"/>
-        <id>/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/</id>
-        
-        <content type="html" xml:base="/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Using word sense disambiguation for semantic role labeling</title>
         <published>2010-01-01T00:00:00+00:00</published>
         <updated>2010-01-01T00:00:00+00:00</updated>
@@ -3880,6 +4013,25 @@
         <id>/publications/2009-multilingual-dependency-based-syntactic-and-semantic-parsing/</id>
         
         <content type="html" xml:base="/publications/2009-multilingual-dependency-based-syntactic-and-semantic-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>信息检索系统导论</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/"/>
+        <id>/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/</id>
+        
+        <content type="html" xml:base="/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -3994,25 +4146,6 @@
         <id>/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/</id>
         
         <content type="html" xml:base="/publications/2008-using-a-hybrid-convolution-tree-kernel-for-semantic-role-labeling/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>信息检索系统导论</title>
-        <published>2008-01-01T00:00:00+00:00</published>
-        <updated>2008-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/"/>
-        <id>/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/</id>
-        
-        <content type="html" xml:base="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/"></content>
         
     </entry>
     <entry xml:lang="en">

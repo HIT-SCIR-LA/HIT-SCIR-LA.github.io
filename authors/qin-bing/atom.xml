@@ -19,10 +19,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="/publications/2021-zi-ran-yu-yan-chu-li/"/>
-        <id>/publications/2021-zi-ran-yu-yan-chu-li/</id>
+        <link rel="alternate" type="text/html" href="/books/2021-zi-ran-yu-yan-chu-li/"/>
+        <id>/books/2021-zi-ran-yu-yan-chu-li/</id>
         
-        <content type="html" xml:base="/publications/2021-zi-ran-yu-yan-chu-li/"></content>
+        <content type="html" xml:base="/books/2021-zi-ran-yu-yan-chu-li/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -273,6 +273,25 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>搜索引擎：信息检索实践</title>
+        <published>2010-01-01T00:00:00+00:00</published>
+        <updated>2010-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"/>
+        <id>/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/</id>
+        
+        <content type="html" xml:base="/books/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Appraisal expression recognition with syntactic path for sentence sentiment classification</title>
         <published>2010-01-01T00:00:00+00:00</published>
         <updated>2010-01-01T00:00:00+00:00</updated>
@@ -311,25 +330,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>搜索引擎：信息检索实践</title>
-        <published>2010-01-01T00:00:00+00:00</published>
-        <updated>2010-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"/>
-        <id>/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/</id>
-        
-        <content type="html" xml:base="/publications/2010-sou-suo-yin-qing-xin-xi-jian-suo-shi-jian/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Multilingual Dependency-based Syntactic and Semantic Parsing</title>
         <published>2009-01-01T00:00:00+00:00</published>
         <updated>2009-01-01T00:00:00+00:00</updated>
@@ -346,6 +346,25 @@
         <id>/publications/2009-multilingual-dependency-based-syntactic-and-semantic-parsing/</id>
         
         <content type="html" xml:base="/publications/2009-multilingual-dependency-based-syntactic-and-semantic-parsing/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>信息检索系统导论</title>
+        <published>2008-01-01T00:00:00+00:00</published>
+        <updated>2008-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/"/>
+        <id>/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/</id>
+        
+        <content type="html" xml:base="/books/2008-xin-xi-jian-suo-xi-tong-dao-lun/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -384,25 +403,6 @@
         <id>/publications/2008-introduction-to-information-retrieval-system/</id>
         
         <content type="html" xml:base="/publications/2008-introduction-to-information-retrieval-system/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>信息检索系统导论</title>
-        <published>2008-01-01T00:00:00+00:00</published>
-        <updated>2008-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/"/>
-        <id>/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/</id>
-        
-        <content type="html" xml:base="/publications/2008-xin-xi-jian-suo-xi-tong-dao-lun/"></content>
         
     </entry>
     <entry xml:lang="en">
