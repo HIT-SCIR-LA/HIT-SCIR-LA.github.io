@@ -4,8 +4,27 @@
     <link rel="self" type="application/atom+xml" href="/news-type/xue-shu-jiao-liu/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-12-23T00:00:00+00:00</updated>
+    <updated>2026-04-21T00:00:00+00:00</updated>
     <id>/news-type/xue-shu-jiao-liu/atom.xml</id>
+    <entry xml:lang="en">
+        <title>哈工大自然语言处理研究所成功举办2026年ACL预讲会</title>
+        <published>2026-04-21T00:00:00+00:00</published>
+        <updated>2026-04-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-zi-ran-yu-yan-chu-li-yan-jiu-suo-cheng-gong-ju-ban-2026nian-aclyu-jiang-hui/"/>
+        <id>/news/ha-gong-da-zi-ran-yu-yan-chu-li-yan-jiu-suo-cheng-gong-ju-ban-2026nian-aclyu-jiang-hui/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-zi-ran-yu-yan-chu-li-yan-jiu-suo-cheng-gong-ju-ban-2026nian-aclyu-jiang-hui/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>哈工大自然语言处理研究所官方网站正式上线</title>
         <published>2025-12-23T00:00:00+00:00</published>

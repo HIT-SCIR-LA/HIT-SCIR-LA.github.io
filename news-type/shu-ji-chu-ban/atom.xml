@@ -4,8 +4,27 @@
     <link rel="self" type="application/atom+xml" href="/news-type/shu-ji-chu-ban/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-05-07T00:00:00+00:00</updated>
+    <updated>2026-04-19T00:00:00+00:00</updated>
     <id>/news-type/shu-ji-chu-ban/atom.xml</id>
+    <entry xml:lang="en">
+        <title>哈工大自然语言处理研究所发布《2025年大语言模型进展报告》</title>
+        <published>2026-04-19T00:00:00+00:00</published>
+        <updated>2026-04-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-zi-ran-yu-yan-chu-li-yan-jiu-suo-fa-bu-2025nian-da-yu-yan-mo-xing-jin-zhan-bao-gao/"/>
+        <id>/news/ha-gong-da-zi-ran-yu-yan-chu-li-yan-jiu-suo-fa-bu-2025nian-da-yu-yan-mo-xing-jin-zhan-bao-gao/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-zi-ran-yu-yan-chu-li-yan-jiu-suo-fa-bu-2025nian-da-yu-yan-mo-xing-jin-zhan-bao-gao/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>哈工大SCIR《自然语言处理：基于预训练模型的方法》一书入选中国知网“高被引图书TOP 1%（2019-2023）”</title>
         <published>2025-05-07T00:00:00+00:00</published>

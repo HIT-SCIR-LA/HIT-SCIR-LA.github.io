@@ -4,8 +4,27 @@
     <link rel="self" type="application/atom+xml" href="/news-type/lun-wen-fa-biao/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-03-17T00:00:00+00:00</updated>
+    <updated>2026-04-13T00:00:00+00:00</updated>
     <id>/news-type/lun-wen-fa-biao/atom.xml</id>
+    <entry xml:lang="en">
+        <title>哈工大 SCIR 多篇长文被 ACL 2026 主会&#x2F;Findings 录用</title>
+        <published>2026-04-13T00:00:00+00:00</published>
+        <updated>2026-04-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/news/ha-gong-da-scir-duo-pian-chang-wen-bei-acl-2026-zhu-hui-findings-lu-yong/"/>
+        <id>/news/ha-gong-da-scir-duo-pian-chang-wen-bei-acl-2026-zhu-hui-findings-lu-yong/</id>
+        
+        <content type="html" xml:base="/news/ha-gong-da-scir-duo-pian-chang-wen-bei-acl-2026-zhu-hui-findings-lu-yong/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>ICLR 2026 | 2% is enough：用最少的代码，做最精准的测试样例评估</title>
         <published>2026-03-17T00:00:00+00:00</published>
