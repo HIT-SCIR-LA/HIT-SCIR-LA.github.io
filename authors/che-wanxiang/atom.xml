@@ -26,44 +26,6 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>AutoVecCoder Teaching LLMs to Generate Explicitly Vectorized Code</title>
-        <published>2026-04-01T00:00:00+00:00</published>
-        <updated>2026-04-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/"/>
-        <id>/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/</id>
-        
-        <content type="html" xml:base="/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Dashboard2Code Evaluating Multimodal Models on Reconstructing Interactive Dashboards</title>
-        <published>2026-04-01T00:00:00+00:00</published>
-        <updated>2026-04-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2026-dashboard2code-evaluating-multimodal-models-on-reconstructing-interactive-dashboards/"/>
-        <id>/publications/2026-dashboard2code-evaluating-multimodal-models-on-reconstructing-interactive-dashboards/</id>
-        
-        <content type="html" xml:base="/publications/2026-dashboard2code-evaluating-multimodal-models-on-reconstructing-interactive-dashboards/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Format-Adapter Improving Reasoning Capability of LLMs by Adapting Suitable Format</title>
         <published>2026-04-01T00:00:00+00:00</published>
         <updated>2026-04-01T00:00:00+00:00</updated>
@@ -80,25 +42,6 @@
         <id>/publications/2026-format-adapter-improving-reasoning-capability-of-llms-by-adapting-suitable-format/</id>
         
         <content type="html" xml:base="/publications/2026-format-adapter-improving-reasoning-capability-of-llms-by-adapting-suitable-format/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>OMIBench Benchmarking Olympiad-Level Multi-Image Reasoning in Large Vision-Language Models</title>
-        <published>2026-04-01T00:00:00+00:00</published>
-        <updated>2026-04-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2026-omibench-benchmarking-olympiad-level-multi-image-reasoning-in-large-vision-language-models/"/>
-        <id>/publications/2026-omibench-benchmarking-olympiad-level-multi-image-reasoning-in-large-vision-language-models/</id>
-        
-        <content type="html" xml:base="/publications/2026-omibench-benchmarking-olympiad-level-multi-image-reasoning-in-large-vision-language-models/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -137,25 +80,6 @@
         <id>/publications/2026-seer-self-consistency-advance-budget-estimation-for-adaptive-test-time-scaling/</id>
         
         <content type="html" xml:base="/publications/2026-seer-self-consistency-advance-budget-estimation-for-adaptive-test-time-scaling/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>When Does Language Matter Multilingual Instructions Reveal Step-wise Language Sensitivity in Vision-Language-Action Models</title>
-        <published>2026-04-01T00:00:00+00:00</published>
-        <updated>2026-04-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2026-when-does-language-matter-multilingual-instructions-reveal-step-wise-language-sensitivity-in-vision-language-action-models/"/>
-        <id>/publications/2026-when-does-language-matter-multilingual-instructions-reveal-step-wise-language-sensitivity-in-vision-language-action-models/</id>
-        
-        <content type="html" xml:base="/publications/2026-when-does-language-matter-multilingual-instructions-reveal-step-wise-language-sensitivity-in-vision-language-action-models/"></content>
         
     </entry>
     <entry xml:lang="en">

@@ -7,25 +7,6 @@
     <updated>2026-04-01T00:00:00+00:00</updated>
     <id>/publisher/acl-findings/atom.xml</id>
     <entry xml:lang="en">
-        <title>AutoVecCoder Teaching LLMs to Generate Explicitly Vectorized Code</title>
-        <published>2026-04-01T00:00:00+00:00</published>
-        <updated>2026-04-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/"/>
-        <id>/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/</id>
-        
-        <content type="html" xml:base="/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>Format-Adapter Improving Reasoning Capability of LLMs by Adapting Suitable Format</title>
         <published>2026-04-01T00:00:00+00:00</published>
         <updated>2026-04-01T00:00:00+00:00</updated>

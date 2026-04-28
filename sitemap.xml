@@ -160,9 +160,6 @@
         <loc>/authors/dong-li/</loc>
     </url>
     <url>
-        <loc>/authors/dong-xuan/</loc>
-    </url>
-    <url>
         <loc>/authors/dou-longxu/</loc>
     </url>
     <url>
@@ -178,9 +175,6 @@
         <loc>/authors/fan-yuantao/</loc>
     </url>
     <url>
-        <loc>/authors/fang-hengjie/</loc>
-    </url>
-    <url>
         <loc>/authors/fang-meng/</loc>
     </url>
     <url>
@@ -188,9 +182,6 @@
     </url>
     <url>
         <loc>/authors/feng-wang/</loc>
-    </url>
-    <url>
-        <loc>/authors/feng-xiachong/</loc>
     </url>
     <url>
         <loc>/authors/feng-xiaocheng/</loc>
@@ -256,12 +247,6 @@
         <loc>/authors/han-xu/</loc>
     </url>
     <url>
-        <loc>/authors/han-zhe/</loc>
-    </url>
-    <url>
-        <loc>/authors/han-ziyu/</loc>
-    </url>
-    <url>
         <loc>/authors/he-huang/</loc>
     </url>
     <url>
@@ -269,9 +254,6 @@
     </url>
     <url>
         <loc>/authors/he-wei/</loc>
-    </url>
-    <url>
-        <loc>/authors/he-ye/</loc>
     </url>
     <url>
         <loc>/authors/hongyuan-dong/</loc>
@@ -346,9 +328,6 @@
         <loc>/authors/jiang-jianmin/</loc>
     </url>
     <url>
-        <loc>/authors/jin-xuanyu/</loc>
-    </url>
-    <url>
         <loc>/authors/jun-xu/</loc>
     </url>
     <url>
@@ -391,9 +370,6 @@
         <loc>/authors/li-qixin/</loc>
     </url>
     <url>
-        <loc>/authors/li-shangzhan/</loc>
-    </url>
-    <url>
         <loc>/authors/li-sheng/</loc>
     </url>
     <url>
@@ -409,13 +385,7 @@
         <loc>/authors/li-yitong/</loc>
     </url>
     <url>
-        <loc>/authors/li-yizhuo/</loc>
-    </url>
-    <url>
         <loc>/authors/li-yongqiang/</loc>
-    </url>
-    <url>
-        <loc>/authors/li-yuxuan/</loc>
     </url>
     <url>
         <loc>/authors/li-zheng-hua/</loc>
@@ -512,9 +482,6 @@
     </url>
     <url>
         <loc>/authors/lu-yijuan/</loc>
-    </url>
-    <url>
-        <loc>/authors/luan-chengyu/</loc>
     </url>
     <url>
         <loc>/authors/luo-xianzhen/</loc>
@@ -640,9 +607,6 @@
         <loc>/authors/shachar-rosenman/</loc>
     </url>
     <url>
-        <loc>/authors/shan-baocai/</loc>
-    </url>
-    <url>
         <loc>/authors/shao-yanqiu/</loc>
     </url>
     <url>
@@ -700,9 +664,6 @@
         <loc>/authors/sun-bo/</loc>
     </url>
     <url>
-        <loc>/authors/sun-maosong/</loc>
-    </url>
-    <url>
         <loc>/authors/sun-qinghua/</loc>
     </url>
     <url>
@@ -734,9 +695,6 @@
     </url>
     <url>
         <loc>/authors/titov-ivan/</loc>
-    </url>
-    <url>
-        <loc>/authors/tong-jingqi/</loc>
     </url>
     <url>
         <loc>/authors/trevor-strohman/</loc>
@@ -868,9 +826,6 @@
         <loc>/authors/wu-hua/</loc>
     </url>
     <url>
-        <loc>/authors/wu-jiajun/</loc>
-    </url>
-    <url>
         <loc>/authors/wu-lijun/</loc>
     </url>
     <url>
@@ -937,9 +892,6 @@
         <loc>/authors/yang-xu/</loc>
     </url>
     <url>
-        <loc>/authors/yang-yi/</loc>
-    </url>
-    <url>
         <loc>/authors/yang-ziqing/</loc>
     </url>
     <url>
@@ -967,9 +919,6 @@
         <loc>/authors/yiming-cui/</loc>
     </url>
     <url>
-        <loc>/authors/yin-xinyu/</loc>
-    </url>
-    <url>
         <loc>/authors/yixuan-wang/</loc>
     </url>
     <url>
@@ -977,9 +926,6 @@
     </url>
     <url>
         <loc>/authors/yu-philip-s/</loc>
-    </url>
-    <url>
-        <loc>/authors/yu-qiming/</loc>
     </url>
     <url>
         <loc>/authors/yu-xiangzhan/</loc>
@@ -1139,9 +1085,6 @@
     </url>
     <url>
         <loc>/authors/zhou-yuhang/</loc>
-    </url>
-    <url>
-        <loc>/authors/zhou-yuxin/</loc>
     </url>
     <url>
         <loc>/authors/zhou-zhihan/</loc>
@@ -3283,10 +3226,6 @@
         <lastmod>2025-01-01</lastmod>
     </url>
     <url>
-        <loc>/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/</loc>
-        <lastmod>2026-04-01</lastmod>
-    </url>
-    <url>
         <loc>/publications/2026-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/</loc>
         <lastmod>2026-01-01</lastmod>
     </url>
@@ -3297,10 +3236,6 @@
     <url>
         <loc>/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/</loc>
         <lastmod>2026-01-01</lastmod>
-    </url>
-    <url>
-        <loc>/publications/2026-dashboard2code-evaluating-multimodal-models-on-reconstructing-interactive-dashboards/</loc>
-        <lastmod>2026-04-01</lastmod>
     </url>
     <url>
         <loc>/publications/2026-format-adapter-improving-reasoning-capability-of-llms-by-adapting-suitable-format/</loc>
@@ -3315,10 +3250,6 @@
         <lastmod>2026-01-01</lastmod>
     </url>
     <url>
-        <loc>/publications/2026-omibench-benchmarking-olympiad-level-multi-image-reasoning-in-large-vision-language-models/</loc>
-        <lastmod>2026-04-01</lastmod>
-    </url>
-    <url>
         <loc>/publications/2026-proxyattn-guided-sparse-attention-via-representative-heads/</loc>
         <lastmod>2026-01-01</lastmod>
     </url>
@@ -3328,10 +3259,6 @@
     </url>
     <url>
         <loc>/publications/2026-seer-self-consistency-advance-budget-estimation-for-adaptive-test-time-scaling/</loc>
-        <lastmod>2026-04-01</lastmod>
-    </url>
-    <url>
-        <loc>/publications/2026-when-does-language-matter-multilingual-instructions-reveal-step-wise-language-sensitivity-in-vision-language-action-models/</loc>
         <lastmod>2026-04-01</lastmod>
     </url>
     <url>
