@@ -52,7 +52,13 @@
         <loc>/authors/che-wanxiang/</loc>
     </url>
     <url>
+        <loc>/authors/chen-bingjin/</loc>
+    </url>
+    <url>
         <loc>/authors/chen-cheng/</loc>
+    </url>
+    <url>
+        <loc>/authors/chen-hao/</loc>
     </url>
     <url>
         <loc>/authors/chen-jingjing/</loc>
@@ -74,6 +80,9 @@
     </url>
     <url>
         <loc>/authors/chen-xi/</loc>
+    </url>
+    <url>
+        <loc>/authors/chen-yang/</loc>
     </url>
     <url>
         <loc>/authors/chen-zheng/</loc>
@@ -169,10 +178,16 @@
         <loc>/authors/duan-xingyi/</loc>
     </url>
     <url>
+        <loc>/authors/fan-shilong/</loc>
+    </url>
+    <url>
         <loc>/authors/fan-yang/</loc>
     </url>
     <url>
         <loc>/authors/fan-yuantao/</loc>
+    </url>
+    <url>
+        <loc>/authors/fan-yuchun/</loc>
     </url>
     <url>
         <loc>/authors/fang-meng/</loc>
@@ -253,7 +268,13 @@
         <loc>/authors/he-kun/</loc>
     </url>
     <url>
+        <loc>/authors/he-sijun/</loc>
+    </url>
+    <url>
         <loc>/authors/he-wei/</loc>
+    </url>
+    <url>
+        <loc>/authors/he-ye/</loc>
     </url>
     <url>
         <loc>/authors/hongyuan-dong/</loc>
@@ -335,6 +356,9 @@
     </url>
     <url>
         <loc>/authors/kang-bingbing/</loc>
+    </url>
+    <url>
+        <loc>/authors/kuang-zhaoqi/</loc>
     </url>
     <url>
         <loc>/authors/lai-yongkui/</loc>
@@ -427,6 +451,9 @@
         <loc>/authors/liu-huaijun/</loc>
     </url>
     <url>
+        <loc>/authors/liu-jing/</loc>
+    </url>
+    <url>
         <loc>/authors/liu-jinhao/</loc>
     </url>
     <url>
@@ -466,6 +493,9 @@
         <loc>/authors/liu-zeming/</loc>
     </url>
     <url>
+        <loc>/authors/liu-zhenghao/</loc>
+    </url>
+    <url>
         <loc>/authors/liu-zhiyuan/</loc>
     </url>
     <url>
@@ -494,6 +524,9 @@
     </url>
     <url>
         <loc>/authors/ma-yingwei/</loc>
+    </url>
+    <url>
+        <loc>/authors/ma-zhiyuan/</loc>
     </url>
     <url>
         <loc>/authors/mahamood-saad/</loc>
@@ -664,6 +697,9 @@
         <loc>/authors/sun-bo/</loc>
     </url>
     <url>
+        <loc>/authors/sun-maosong/</loc>
+    </url>
+    <url>
         <loc>/authors/sun-qinghua/</loc>
     </url>
     <url>
@@ -826,6 +862,9 @@
         <loc>/authors/wu-hua/</loc>
     </url>
     <url>
+        <loc>/authors/wu-jingjing/</loc>
+    </url>
+    <url>
         <loc>/authors/wu-lijun/</loc>
     </url>
     <url>
@@ -833,6 +872,9 @@
     </url>
     <url>
         <loc>/authors/xia-yingce/</loc>
+    </url>
+    <url>
+        <loc>/authors/xiao-chuan/</loc>
     </url>
     <url>
         <loc>/authors/xiao-li/</loc>
@@ -884,6 +926,9 @@
     </url>
     <url>
         <loc>/authors/yan-gao/</loc>
+    </url>
+    <url>
+        <loc>/authors/yan-yukun/</loc>
     </url>
     <url>
         <loc>/authors/yang-qing/</loc>
@@ -943,6 +988,12 @@
         <loc>/authors/yuanxing-liu/</loc>
     </url>
     <url>
+        <loc>/authors/yue-xing/</loc>
+    </url>
+    <url>
+        <loc>/authors/yue-yang/</loc>
+    </url>
+    <url>
         <loc>/authors/yue-zhang/</loc>
     </url>
     <url>
@@ -958,6 +1009,9 @@
         <loc>/authors/zeng-junyu/</loc>
     </url>
     <url>
+        <loc>/authors/zeng-wencong/</loc>
+    </url>
+    <url>
         <loc>/authors/zhan-dechen/</loc>
     </url>
     <url>
@@ -965,6 +1019,9 @@
     </url>
     <url>
         <loc>/authors/zhang-jin/</loc>
+    </url>
+    <url>
+        <loc>/authors/zhang-jingyuan/</loc>
     </url>
     <url>
         <loc>/authors/zhang-m/</loc>
@@ -1221,6 +1278,10 @@
     <url>
         <loc>/news/acl-2022-fan-xiang-yu-ce-geng-hao-ji-yu-fan-xiang-ti-shi-de-xiao-yang-ben-cao-wei-biao-zhu-fang-fa/</loc>
         <lastmod>2022-05-04</lastmod>
+    </url>
+    <url>
+        <loc>/news/aiqu-dong-cai-liao-xin-fan-shi-jiao-cha-cui-sheng-bian-ge-qiang-yin-qing-zhong-rong-ren-gong-zhi-neng-jiao-cha-xue-ke-lun-tan-zai-xiao-ju-xing/</loc>
+        <lastmod>2026-06-23</lastmod>
     </url>
     <url>
         <loc>/news/ccl2021xue-sheng-yan-tao-hui-ru-he-dan-sheng-idea-ru-he-gen-shen-gao-ren-rebuttal-ru-he-xie-zi-ji-de-di-yi-pian-ding-hui-wen-zhang-deng-qiang-xian-kan/</loc>
@@ -1600,6 +1661,10 @@
         <lastmod>2024-05-17</lastmod>
     </url>
     <url>
+        <loc>/news/sai-er-bi-ji-cong-zheng-ti-ping-fen-dao-jie-gou-hua-biao-zhun-llm-fa-zhan-quan-jing-xia-de-rubric-zong-shu/</loc>
+        <lastmod>2026-06-10</lastmod>
+    </url>
+    <url>
         <loc>/news/sai-er-bi-ji-da-mo-xing-shang-xia-wen-chang-du-kuo-zhan-zhong-de-jian-suo-zeng-qiang-ji-shu-jian-shu/</loc>
         <lastmod>2024-06-29</lastmod>
     </url>
@@ -1854,10 +1919,6 @@
         <lastmod>2025-02-10</lastmod>
     </url>
     <url>
-        <loc>/people/在读博士生/feng-yun-long/</loc>
-        <lastmod>2021-02-10</lastmod>
-    </url>
-    <url>
         <loc>/people/在读博士生/guan-jian-nan/</loc>
         <lastmod>2023-02-10</lastmod>
     </url>
@@ -2008,6 +2069,10 @@
     <url>
         <loc>/people/毕业博士/dou-long-xu/</loc>
         <lastmod>2024-09-10</lastmod>
+    </url>
+    <url>
+        <loc>/people/毕业博士/feng-yun-long/</loc>
+        <lastmod>2026-06-10</lastmod>
     </url>
     <url>
         <loc>/people/毕业博士/guo-jiang/</loc>
@@ -3238,6 +3303,10 @@
         <lastmod>2026-01-01</lastmod>
     </url>
     <url>
+        <loc>/publications/2026-cve-factory-scaling-expert-level-agentic-tasks-for-code-security-vulnerability/</loc>
+        <lastmod>2026-07-01</lastmod>
+    </url>
+    <url>
         <loc>/publications/2026-format-adapter-improving-reasoning-capability-of-llms-by-adapting-suitable-format/</loc>
         <lastmod>2026-04-01</lastmod>
     </url>
@@ -3248,6 +3317,14 @@
     <url>
         <loc>/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/</loc>
         <lastmod>2026-01-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2026-know-more-know-clearer-a-meta-cognitive-framework-for-knowledge-augmentation-in-large-language-models/</loc>
+        <lastmod>2026-07-01</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2026-menvagent-scalable-polyglot-environment-construction-for-verifiable-software-engineering/</loc>
+        <lastmod>2026-07-01</lastmod>
     </url>
     <url>
         <loc>/publications/2026-proxyattn-guided-sparse-attention-via-representative-heads/</loc>
@@ -3443,6 +3520,9 @@
     </url>
     <url>
         <loc>/publisher/icmcce/</loc>
+    </url>
+    <url>
+        <loc>/publisher/icml-2026/</loc>
     </url>
     <url>
         <loc>/publisher/ieee-audio-language/</loc>

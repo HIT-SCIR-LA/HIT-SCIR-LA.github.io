@@ -4,8 +4,27 @@
     <link rel="self" type="application/atom+xml" href="/authors/huang-jinyang/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-01-01T00:00:00+00:00</updated>
+    <updated>2026-07-01T00:00:00+00:00</updated>
     <id>/authors/huang-jinyang/atom.xml</id>
+    <entry xml:lang="en">
+        <title>CVE-Factory Scaling Expert-Level Agentic Tasks for Code Security Vulnerability</title>
+        <published>2026-07-01T00:00:00+00:00</published>
+        <updated>2026-07-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-cve-factory-scaling-expert-level-agentic-tasks-for-code-security-vulnerability/"/>
+        <id>/publications/2026-cve-factory-scaling-expert-level-agentic-tasks-for-code-security-vulnerability/</id>
+        
+        <content type="html" xml:base="/publications/2026-cve-factory-scaling-expert-level-agentic-tasks-for-code-security-vulnerability/"></content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>How Many Code and Test Cases Are Enough Evaluating Test Cases Generation from a Binary-Matrix Perspective</title>
         <published>2026-01-01T00:00:00+00:00</published>
