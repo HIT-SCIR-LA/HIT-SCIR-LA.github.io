@@ -4,31 +4,12 @@
     <link rel="self" type="application/atom+xml" href="/authors/zhou-yuhang/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-01-01T00:00:00+00:00</updated>
+    <updated>2025-11-05T00:00:00+00:00</updated>
     <id>/authors/zhou-yuhang/atom.xml</id>
     <entry xml:lang="en">
-        <title>A survey of multilingual large language models</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-a-survey-of-multilingual-large-language-models/"/>
-        <id>/publications/2025-a-survey-of-multilingual-large-language-models/</id>
-        
-        <content type="html" xml:base="/publications/2025-a-survey-of-multilingual-large-language-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>DLPO Towards a Robust Efficient and Generalizable Prompt Optimization Framework from a Deep-Learning Perspective</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
+        <published>2025-11-05T00:00:00+00:00</published>
+        <updated>2025-11-05T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -46,8 +27,8 @@
     </entry>
     <entry xml:lang="en">
         <title>Towards reasoning era A survey of long chain-of-thought for reasoning large language models</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
+        <published>2025-03-12T00:00:00+00:00</published>
+        <updated>2025-03-12T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -61,6 +42,25 @@
         <id>/publications/2025-towards-reasoning-era-a-survey-of-long-chain-of-thought-for-reasoning-large-language-models/</id>
         
         <content type="html" xml:base="/publications/2025-towards-reasoning-era-a-survey-of-long-chain-of-thought-for-reasoning-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A survey of multilingual large language models</title>
+        <published>2025-01-01T00:00:00+00:00</published>
+        <updated>2025-01-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-a-survey-of-multilingual-large-language-models/"/>
+        <id>/publications/2025-a-survey-of-multilingual-large-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2025-a-survey-of-multilingual-large-language-models/"></content>
         
     </entry>
 </feed>

@@ -4,12 +4,12 @@
     <link rel="self" type="application/atom+xml" href="/publish-year/2026/atom.xml"/>
     <link rel="alternate" type="text/html" href="/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-07-01T00:00:00+00:00</updated>
+    <updated>2026-07-06T00:00:00+00:00</updated>
     <id>/publish-year/2026/atom.xml</id>
     <entry xml:lang="en">
         <title>CVE-Factory Scaling Expert-Level Agentic Tasks for Code Security Vulnerability</title>
-        <published>2026-07-01T00:00:00+00:00</published>
-        <updated>2026-07-01T00:00:00+00:00</updated>
+        <published>2026-07-06T00:00:00+00:00</published>
+        <updated>2026-07-06T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -27,8 +27,8 @@
     </entry>
     <entry xml:lang="en">
         <title>Know more know clearer A meta-cognitive framework for knowledge augmentation in large language models</title>
-        <published>2026-07-01T00:00:00+00:00</published>
-        <updated>2026-07-01T00:00:00+00:00</updated>
+        <published>2026-07-06T00:00:00+00:00</published>
+        <updated>2026-07-06T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -46,8 +46,8 @@
     </entry>
     <entry xml:lang="en">
         <title>MEnvAgent Scalable Polyglot Environment Construction for Verifiable Software Engineering</title>
-        <published>2026-07-01T00:00:00+00:00</published>
-        <updated>2026-07-01T00:00:00+00:00</updated>
+        <published>2026-07-06T00:00:00+00:00</published>
+        <updated>2026-07-06T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -64,9 +64,47 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>AutoVecCoder Teaching LLMs to Generate Explicitly Vectorized Code</title>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <updated>2026-07-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/"/>
+        <id>/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/</id>
+        
+        <content type="html" xml:base="/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Dashboard2Code Evaluating Multimodal Models on Reconstructing Interactive Dashboards</title>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <updated>2026-07-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-dashboard2code-evaluating-multimodal-models-on-reconstructing-interactive-dashboards/"/>
+        <id>/publications/2026-dashboard2code-evaluating-multimodal-models-on-reconstructing-interactive-dashboards/</id>
+        
+        <content type="html" xml:base="/publications/2026-dashboard2code-evaluating-multimodal-models-on-reconstructing-interactive-dashboards/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Format-Adapter Improving Reasoning Capability of LLMs by Adapting Suitable Format</title>
-        <published>2026-04-01T00:00:00+00:00</published>
-        <updated>2026-04-01T00:00:00+00:00</updated>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <updated>2026-07-02T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -83,9 +121,28 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>OMIBench Benchmarking Olympiad-Level Multi-Image Reasoning in Large Vision-Language Models</title>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <updated>2026-07-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-omibench-benchmarking-olympiad-level-multi-image-reasoning-in-large-vision-language-models/"/>
+        <id>/publications/2026-omibench-benchmarking-olympiad-level-multi-image-reasoning-in-large-vision-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2026-omibench-benchmarking-olympiad-level-multi-image-reasoning-in-large-vision-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Scaling laws for code A more data-hungry regime</title>
-        <published>2026-04-01T00:00:00+00:00</published>
-        <updated>2026-04-01T00:00:00+00:00</updated>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <updated>2026-07-02T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -103,8 +160,8 @@
     </entry>
     <entry xml:lang="en">
         <title>Seer Self-Consistency Advance Budget Estimation for Adaptive Test-Time Scaling</title>
-        <published>2026-04-01T00:00:00+00:00</published>
-        <updated>2026-04-01T00:00:00+00:00</updated>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <updated>2026-07-02T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -121,9 +178,9 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Aware First Think Less Dynamic Boundary Self-Awareness Drives Extreme Reasoning Efficiency in Large Language Models</title>
-        <published>2026-01-01T00:00:00+00:00</published>
-        <updated>2026-01-01T00:00:00+00:00</updated>
+        <title>When Does Language Matter Multilingual Instructions Reveal Step-wise Language Sensitivity in Vision-Language-Action Models</title>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <updated>2026-07-02T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -133,16 +190,16 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="/publications/2026-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/"/>
-        <id>/publications/2026-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/</id>
+        <link rel="alternate" type="text/html" href="/publications/2026-when-does-language-matter-multilingual-instructions-reveal-step-wise-language-sensitivity-in-vision-language-action-models/"/>
+        <id>/publications/2026-when-does-language-matter-multilingual-instructions-reveal-step-wise-language-sensitivity-in-vision-language-action-models/</id>
         
-        <content type="html" xml:base="/publications/2026-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/"></content>
+        <content type="html" xml:base="/publications/2026-when-does-language-matter-multilingual-instructions-reveal-step-wise-language-sensitivity-in-vision-language-action-models/"></content>
         
     </entry>
     <entry xml:lang="en">
         <title>Bounds of Chain-of-Thought Robustness Reasoning Steps Embed Norms and Beyond</title>
-        <published>2026-01-01T00:00:00+00:00</published>
-        <updated>2026-01-01T00:00:00+00:00</updated>
+        <published>2026-04-23T00:00:00+00:00</published>
+        <updated>2026-04-23T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -159,28 +216,9 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>CAMERA Multi-Matrix Joint Compression for MoE Models via Micro-Expert Redundancy Analysis</title>
-        <published>2026-01-01T00:00:00+00:00</published>
-        <updated>2026-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/"/>
-        <id>/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/</id>
-        
-        <content type="html" xml:base="/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>How Many Code and Test Cases Are Enough Evaluating Test Cases Generation from a Binary-Matrix Perspective</title>
-        <published>2026-01-01T00:00:00+00:00</published>
-        <updated>2026-01-01T00:00:00+00:00</updated>
+        <published>2026-04-23T00:00:00+00:00</published>
+        <updated>2026-04-23T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -197,28 +235,9 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Judge Q Trainable Queries for Optimized Information Retention in KV Cache Eviction</title>
-        <published>2026-01-01T00:00:00+00:00</published>
-        <updated>2026-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/"/>
-        <id>/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/</id>
-        
-        <content type="html" xml:base="/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>ProxyAttn Guided Sparse Attention via Representative Heads</title>
-        <published>2026-01-01T00:00:00+00:00</published>
-        <updated>2026-01-01T00:00:00+00:00</updated>
+        <published>2026-04-23T00:00:00+00:00</published>
+        <updated>2026-04-23T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -232,6 +251,63 @@
         <id>/publications/2026-proxyattn-guided-sparse-attention-via-representative-heads/</id>
         
         <content type="html" xml:base="/publications/2026-proxyattn-guided-sparse-attention-via-representative-heads/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Aware First Think Less Dynamic Boundary Self-Awareness Drives Significant Gains in Reasoning Efficiency in Large Language Models</title>
+        <published>2026-03-01T00:00:00+00:00</published>
+        <updated>2026-03-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/"/>
+        <id>/publications/2026-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2026-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CAMERA Multi-Matrix Joint Compression for MoE Models via Micro-Expert Redundancy Analysis</title>
+        <published>2026-03-01T00:00:00+00:00</published>
+        <updated>2026-03-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/"/>
+        <id>/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/</id>
+        
+        <content type="html" xml:base="/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Judge Q Trainable Queries for Optimized Information Retention in KV Cache Eviction</title>
+        <published>2026-03-01T00:00:00+00:00</published>
+        <updated>2026-03-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/"/>
+        <id>/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/</id>
+        
+        <content type="html" xml:base="/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/"></content>
         
     </entry>
 </feed>

@@ -27,8 +27,8 @@
     </entry>
     <entry xml:lang="en">
         <title>Know more know clearer A meta-cognitive framework for knowledge augmentation in large language models</title>
-        <published>2026-07-01T00:00:00+00:00</published>
-        <updated>2026-07-01T00:00:00+00:00</updated>
+        <published>2026-07-06T00:00:00+00:00</published>
+        <updated>2026-07-06T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -45,9 +45,47 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>AutoVecCoder Teaching LLMs to Generate Explicitly Vectorized Code</title>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <updated>2026-07-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/"/>
+        <id>/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/</id>
+        
+        <content type="html" xml:base="/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Dashboard2Code Evaluating Multimodal Models on Reconstructing Interactive Dashboards</title>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <updated>2026-07-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-dashboard2code-evaluating-multimodal-models-on-reconstructing-interactive-dashboards/"/>
+        <id>/publications/2026-dashboard2code-evaluating-multimodal-models-on-reconstructing-interactive-dashboards/</id>
+        
+        <content type="html" xml:base="/publications/2026-dashboard2code-evaluating-multimodal-models-on-reconstructing-interactive-dashboards/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Format-Adapter Improving Reasoning Capability of LLMs by Adapting Suitable Format</title>
-        <published>2026-04-01T00:00:00+00:00</published>
-        <updated>2026-04-01T00:00:00+00:00</updated>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <updated>2026-07-02T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -64,9 +102,28 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>OMIBench Benchmarking Olympiad-Level Multi-Image Reasoning in Large Vision-Language Models</title>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <updated>2026-07-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-omibench-benchmarking-olympiad-level-multi-image-reasoning-in-large-vision-language-models/"/>
+        <id>/publications/2026-omibench-benchmarking-olympiad-level-multi-image-reasoning-in-large-vision-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2026-omibench-benchmarking-olympiad-level-multi-image-reasoning-in-large-vision-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>Scaling laws for code A more data-hungry regime</title>
-        <published>2026-04-01T00:00:00+00:00</published>
-        <updated>2026-04-01T00:00:00+00:00</updated>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <updated>2026-07-02T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -84,8 +141,8 @@
     </entry>
     <entry xml:lang="en">
         <title>Seer Self-Consistency Advance Budget Estimation for Adaptive Test-Time Scaling</title>
-        <published>2026-04-01T00:00:00+00:00</published>
-        <updated>2026-04-01T00:00:00+00:00</updated>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <updated>2026-07-02T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -102,9 +159,9 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Aware First Think Less Dynamic Boundary Self-Awareness Drives Extreme Reasoning Efficiency in Large Language Models</title>
-        <published>2026-01-01T00:00:00+00:00</published>
-        <updated>2026-01-01T00:00:00+00:00</updated>
+        <title>When Does Language Matter Multilingual Instructions Reveal Step-wise Language Sensitivity in Vision-Language-Action Models</title>
+        <published>2026-07-02T00:00:00+00:00</published>
+        <updated>2026-07-02T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -114,16 +171,16 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="/publications/2026-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/"/>
-        <id>/publications/2026-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/</id>
+        <link rel="alternate" type="text/html" href="/publications/2026-when-does-language-matter-multilingual-instructions-reveal-step-wise-language-sensitivity-in-vision-language-action-models/"/>
+        <id>/publications/2026-when-does-language-matter-multilingual-instructions-reveal-step-wise-language-sensitivity-in-vision-language-action-models/</id>
         
-        <content type="html" xml:base="/publications/2026-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/"></content>
+        <content type="html" xml:base="/publications/2026-when-does-language-matter-multilingual-instructions-reveal-step-wise-language-sensitivity-in-vision-language-action-models/"></content>
         
     </entry>
     <entry xml:lang="en">
         <title>Bounds of Chain-of-Thought Robustness Reasoning Steps Embed Norms and Beyond</title>
-        <published>2026-01-01T00:00:00+00:00</published>
-        <updated>2026-01-01T00:00:00+00:00</updated>
+        <published>2026-04-23T00:00:00+00:00</published>
+        <updated>2026-04-23T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -140,28 +197,9 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>CAMERA Multi-Matrix Joint Compression for MoE Models via Micro-Expert Redundancy Analysis</title>
-        <published>2026-01-01T00:00:00+00:00</published>
-        <updated>2026-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/"/>
-        <id>/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/</id>
-        
-        <content type="html" xml:base="/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>How Many Code and Test Cases Are Enough Evaluating Test Cases Generation from a Binary-Matrix Perspective</title>
-        <published>2026-01-01T00:00:00+00:00</published>
-        <updated>2026-01-01T00:00:00+00:00</updated>
+        <published>2026-04-23T00:00:00+00:00</published>
+        <updated>2026-04-23T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -178,28 +216,9 @@
         
     </entry>
     <entry xml:lang="en">
-        <title>Judge Q Trainable Queries for Optimized Information Retention in KV Cache Eviction</title>
-        <published>2026-01-01T00:00:00+00:00</published>
-        <updated>2026-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/"/>
-        <id>/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/</id>
-        
-        <content type="html" xml:base="/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
         <title>ProxyAttn Guided Sparse Attention via Representative Heads</title>
-        <published>2026-01-01T00:00:00+00:00</published>
-        <updated>2026-01-01T00:00:00+00:00</updated>
+        <published>2026-04-23T00:00:00+00:00</published>
+        <updated>2026-04-23T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -216,9 +235,85 @@
         
     </entry>
     <entry xml:lang="en">
+        <title>Aware First Think Less Dynamic Boundary Self-Awareness Drives Significant Gains in Reasoning Efficiency in Large Language Models</title>
+        <published>2026-03-01T00:00:00+00:00</published>
+        <updated>2026-03-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/"/>
+        <id>/publications/2026-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2026-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CAMERA Multi-Matrix Joint Compression for MoE Models via Micro-Expert Redundancy Analysis</title>
+        <published>2026-03-01T00:00:00+00:00</published>
+        <updated>2026-03-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/"/>
+        <id>/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/</id>
+        
+        <content type="html" xml:base="/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Judge Q Trainable Queries for Optimized Information Retention in KV Cache Eviction</title>
+        <published>2026-03-01T00:00:00+00:00</published>
+        <updated>2026-03-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/"/>
+        <id>/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/</id>
+        
+        <content type="html" xml:base="/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Visual thoughts A unified perspective of understanding multimodal chain-of-thought</title>
+        <published>2025-12-06T00:00:00+00:00</published>
+        <updated>2025-12-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-visual-thoughts-a-unified-perspective-of-understanding-multimodal-chain-of-thought/"/>
+        <id>/publications/2025-visual-thoughts-a-unified-perspective-of-understanding-multimodal-chain-of-thought/</id>
+        
+        <content type="html" xml:base="/publications/2025-visual-thoughts-a-unified-perspective-of-understanding-multimodal-chain-of-thought/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
         <title>CRVQ Channel-Relaxed Vector Quantization for Extreme Compression of LLMs</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
+        <published>2025-12-01T00:00:00+00:00</published>
+        <updated>2025-12-01T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -232,6 +327,253 @@
         <id>/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/</id>
         
         <content type="html" xml:base="/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Manager Aggregating Insights from Unimodal Experts in Two-Tower VLMs and MLLMs</title>
+        <published>2025-12-01T00:00:00+00:00</published>
+        <updated>2025-12-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-manager-aggregating-insights-from-unimodal-experts-in-two-tower-vlms-and-mllms/"/>
+        <id>/publications/2025-manager-aggregating-insights-from-unimodal-experts-in-two-tower-vlms-and-mllms/</id>
+        
+        <content type="html" xml:base="/publications/2025-manager-aggregating-insights-from-unimodal-experts-in-two-tower-vlms-and-mllms/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chart2Code53 A Large-Scale Diverse and Complex Dataset for Enhancing Chart-to-Code Generation</title>
+        <published>2025-11-05T00:00:00+00:00</published>
+        <updated>2025-11-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/"/>
+        <id>/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/</id>
+        
+        <content type="html" xml:base="/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DAC Decomposed Automation Correction for Text-to-SQL</title>
+        <published>2025-11-05T00:00:00+00:00</published>
+        <updated>2025-11-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-dac-decomposed-automation-correction-for-text-to-sql/"/>
+        <id>/publications/2025-dac-decomposed-automation-correction-for-text-to-sql/</id>
+        
+        <content type="html" xml:base="/publications/2025-dac-decomposed-automation-correction-for-text-to-sql/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DLPO Towards a Robust Efficient and Generalizable Prompt Optimization Framework from a Deep-Learning Perspective</title>
+        <published>2025-11-05T00:00:00+00:00</published>
+        <updated>2025-11-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/"/>
+        <id>/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/</id>
+        
+        <content type="html" xml:base="/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Lookahead Q-Cache Achieving More Consistent KV Cache Eviction via Pseudo Query</title>
+        <published>2025-11-05T00:00:00+00:00</published>
+        <updated>2025-11-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-lookahead-q-cache-achieving-more-consistent-kv-cache-eviction-via-pseudo-query/"/>
+        <id>/publications/2025-lookahead-q-cache-achieving-more-consistent-kv-cache-eviction-via-pseudo-query/</id>
+        
+        <content type="html" xml:base="/publications/2025-lookahead-q-cache-achieving-more-consistent-kv-cache-eviction-via-pseudo-query/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>MULTITAT Benchmarking Multilingual Table-and-Text Question Answering</title>
+        <published>2025-11-05T00:00:00+00:00</published>
+        <updated>2025-11-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-multitat-benchmarking-multilingual-table-and-text-question-answering/"/>
+        <id>/publications/2025-multitat-benchmarking-multilingual-table-and-text-question-answering/</id>
+        
+        <content type="html" xml:base="/publications/2025-multitat-benchmarking-multilingual-table-and-text-question-answering/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>RoT Enhancing Table Reasoning with Iterative Row-Wise Traversals</title>
+        <published>2025-11-05T00:00:00+00:00</published>
+        <updated>2025-11-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/"/>
+        <id>/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/</id>
+        
+        <content type="html" xml:base="/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>A survey of table reasoning with large language models</title>
+        <published>2025-09-01T00:00:00+00:00</published>
+        <updated>2025-09-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-a-survey-of-table-reasoning-with-large-language-models/"/>
+        <id>/publications/2025-a-survey-of-table-reasoning-with-large-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2025-a-survey-of-table-reasoning-with-large-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Abacus-SQL A Text-to-SQL System Empowering Cross-Domain and Open-Domain Database Retrieval</title>
+        <published>2025-07-27T00:00:00+00:00</published>
+        <updated>2025-07-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-abacus-sql-a-text-to-sql-system-empowering-cross-domain-and-open-domain-database-retrieval/"/>
+        <id>/publications/2025-abacus-sql-a-text-to-sql-system-empowering-cross-domain-and-open-domain-database-retrieval/</id>
+        
+        <content type="html" xml:base="/publications/2025-abacus-sql-a-text-to-sql-system-empowering-cross-domain-and-open-domain-database-retrieval/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CoMT A Novel Benchmark for Chain of Multi-modal Thought on Large Vision-Language Models</title>
+        <published>2025-04-01T00:00:00+00:00</published>
+        <updated>2025-04-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"/>
+        <id>/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/</id>
+        
+        <content type="html" xml:base="/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Mixpro Simple yet effective data augmentation for prompt-based learning</title>
+        <published>2025-02-01T00:00:00+00:00</published>
+        <updated>2025-02-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"/>
+        <id>/publications/2025-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/</id>
+        
+        <content type="html" xml:base="/publications/2025-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Can Large Language Models Understand You Better An MBTI Personality Detection Dataset Aligned with Population Traits</title>
+        <published>2025-01-19T00:00:00+00:00</published>
+        <updated>2025-01-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"/>
+        <id>/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</id>
+        
+        <content type="html" xml:base="/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>MURRE Multi-Hop Table Retrieval with Removal for Open-Domain Text-to-SQL</title>
+        <published>2025-01-19T00:00:00+00:00</published>
+        <updated>2025-01-19T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/publications/2025-murre-multi-hop-table-retrieval-with-removal-for-open-domain-text-to-sql/"/>
+        <id>/publications/2025-murre-multi-hop-table-retrieval-with-removal-for-open-domain-text-to-sql/</id>
+        
+        <content type="html" xml:base="/publications/2025-murre-multi-hop-table-retrieval-with-removal-for-open-domain-text-to-sql/"></content>
         
     </entry>
     <entry xml:lang="en">
@@ -251,272 +593,6 @@
         <id>/publications/2025-a-survey-of-multilingual-large-language-models/</id>
         
         <content type="html" xml:base="/publications/2025-a-survey-of-multilingual-large-language-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>A survey of table reasoning with large language models</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-a-survey-of-table-reasoning-with-large-language-models/"/>
-        <id>/publications/2025-a-survey-of-table-reasoning-with-large-language-models/</id>
-        
-        <content type="html" xml:base="/publications/2025-a-survey-of-table-reasoning-with-large-language-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Abacus-SQL A Text-to-SQL System Empowering Cross-Domain and Open-Domain Database Retrieval</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-abacus-sql-a-text-to-sql-system-empowering-cross-domain-and-open-domain-database-retrieval/"/>
-        <id>/publications/2025-abacus-sql-a-text-to-sql-system-empowering-cross-domain-and-open-domain-database-retrieval/</id>
-        
-        <content type="html" xml:base="/publications/2025-abacus-sql-a-text-to-sql-system-empowering-cross-domain-and-open-domain-database-retrieval/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Can Large Language Models Understand You Better An MBTI Personality Detection Dataset Aligned with Population Traits</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"/>
-        <id>/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</id>
-        
-        <content type="html" xml:base="/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Chart2Code53 A Large-Scale Diverse and Complex Dataset for Enhancing Chart-to-Code Generation</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/"/>
-        <id>/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/</id>
-        
-        <content type="html" xml:base="/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>CoMT A Novel Benchmark for Chain of Multi-modal Thought on Large Vision-Language Models</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"/>
-        <id>/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/</id>
-        
-        <content type="html" xml:base="/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>DAC Decomposed Automation Correction for Text-to-SQL</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-dac-decomposed-automation-correction-for-text-to-sql/"/>
-        <id>/publications/2025-dac-decomposed-automation-correction-for-text-to-sql/</id>
-        
-        <content type="html" xml:base="/publications/2025-dac-decomposed-automation-correction-for-text-to-sql/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>DLPO Towards a Robust Efficient and Generalizable Prompt Optimization Framework from a Deep-Learning Perspective</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/"/>
-        <id>/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/</id>
-        
-        <content type="html" xml:base="/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Lookahead Q-Cache Achieving More Consistent KV Cache Eviction via Pseudo Query</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-lookahead-q-cache-achieving-more-consistent-kv-cache-eviction-via-pseudo-query/"/>
-        <id>/publications/2025-lookahead-q-cache-achieving-more-consistent-kv-cache-eviction-via-pseudo-query/</id>
-        
-        <content type="html" xml:base="/publications/2025-lookahead-q-cache-achieving-more-consistent-kv-cache-eviction-via-pseudo-query/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Manager Aggregating Insights from Unimodal Experts in Two-Tower VLMs and MLLMs</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-manager-aggregating-insights-from-unimodal-experts-in-two-tower-vlms-and-mllms/"/>
-        <id>/publications/2025-manager-aggregating-insights-from-unimodal-experts-in-two-tower-vlms-and-mllms/</id>
-        
-        <content type="html" xml:base="/publications/2025-manager-aggregating-insights-from-unimodal-experts-in-two-tower-vlms-and-mllms/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Mixpro Simple yet effective data augmentation for prompt-based learning</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"/>
-        <id>/publications/2025-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/</id>
-        
-        <content type="html" xml:base="/publications/2025-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>MULTITAT Benchmarking Multilingual Table-and-Text Question Answering</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-multitat-benchmarking-multilingual-table-and-text-question-answering/"/>
-        <id>/publications/2025-multitat-benchmarking-multilingual-table-and-text-question-answering/</id>
-        
-        <content type="html" xml:base="/publications/2025-multitat-benchmarking-multilingual-table-and-text-question-answering/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>MURRE Multi-Hop Table Retrieval with Removal for Open-Domain Text-to-SQL</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-murre-multi-hop-table-retrieval-with-removal-for-open-domain-text-to-sql/"/>
-        <id>/publications/2025-murre-multi-hop-table-retrieval-with-removal-for-open-domain-text-to-sql/</id>
-        
-        <content type="html" xml:base="/publications/2025-murre-multi-hop-table-retrieval-with-removal-for-open-domain-text-to-sql/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>RoT Enhancing Table Reasoning with Iterative Row-Wise Traversals</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/"/>
-        <id>/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/</id>
-        
-        <content type="html" xml:base="/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/"></content>
-        
-    </entry>
-    <entry xml:lang="en">
-        <title>Visual thoughts A unified perspective of understanding multimodal chain-of-thought</title>
-        <published>2025-01-01T00:00:00+00:00</published>
-        <updated>2025-01-01T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Unknown
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="/publications/2025-visual-thoughts-a-unified-perspective-of-understanding-multimodal-chain-of-thought/"/>
-        <id>/publications/2025-visual-thoughts-a-unified-perspective-of-understanding-multimodal-chain-of-thought/</id>
-        
-        <content type="html" xml:base="/publications/2025-visual-thoughts-a-unified-perspective-of-understanding-multimodal-chain-of-thought/"></content>
         
     </entry>
     <entry xml:lang="en">

@@ -169,6 +169,9 @@
         <loc>/authors/dong-li/</loc>
     </url>
     <url>
+        <loc>/authors/dong-xuan/</loc>
+    </url>
+    <url>
         <loc>/authors/dou-longxu/</loc>
     </url>
     <url>
@@ -190,6 +193,9 @@
         <loc>/authors/fan-yuchun/</loc>
     </url>
     <url>
+        <loc>/authors/fang-hengjie/</loc>
+    </url>
+    <url>
         <loc>/authors/fang-meng/</loc>
     </url>
     <url>
@@ -197,6 +203,9 @@
     </url>
     <url>
         <loc>/authors/feng-wang/</loc>
+    </url>
+    <url>
+        <loc>/authors/feng-xiachong/</loc>
     </url>
     <url>
         <loc>/authors/feng-xiaocheng/</loc>
@@ -260,6 +269,12 @@
     </url>
     <url>
         <loc>/authors/han-xu/</loc>
+    </url>
+    <url>
+        <loc>/authors/han-zhe/</loc>
+    </url>
+    <url>
+        <loc>/authors/han-ziyu/</loc>
     </url>
     <url>
         <loc>/authors/he-huang/</loc>
@@ -349,6 +364,9 @@
         <loc>/authors/jiang-jianmin/</loc>
     </url>
     <url>
+        <loc>/authors/jin-xuanyu/</loc>
+    </url>
+    <url>
         <loc>/authors/jun-xu/</loc>
     </url>
     <url>
@@ -394,6 +412,9 @@
         <loc>/authors/li-qixin/</loc>
     </url>
     <url>
+        <loc>/authors/li-shangzhan/</loc>
+    </url>
+    <url>
         <loc>/authors/li-sheng/</loc>
     </url>
     <url>
@@ -409,7 +430,13 @@
         <loc>/authors/li-yitong/</loc>
     </url>
     <url>
+        <loc>/authors/li-yizhuo/</loc>
+    </url>
+    <url>
         <loc>/authors/li-yongqiang/</loc>
+    </url>
+    <url>
+        <loc>/authors/li-yuxuan/</loc>
     </url>
     <url>
         <loc>/authors/li-zheng-hua/</loc>
@@ -512,6 +539,9 @@
     </url>
     <url>
         <loc>/authors/lu-yijuan/</loc>
+    </url>
+    <url>
+        <loc>/authors/luan-chengyu/</loc>
     </url>
     <url>
         <loc>/authors/luo-xianzhen/</loc>
@@ -640,6 +670,9 @@
         <loc>/authors/shachar-rosenman/</loc>
     </url>
     <url>
+        <loc>/authors/shan-baocai/</loc>
+    </url>
+    <url>
         <loc>/authors/shao-yanqiu/</loc>
     </url>
     <url>
@@ -731,6 +764,9 @@
     </url>
     <url>
         <loc>/authors/titov-ivan/</loc>
+    </url>
+    <url>
+        <loc>/authors/tong-jingqi/</loc>
     </url>
     <url>
         <loc>/authors/trevor-strohman/</loc>
@@ -862,6 +898,9 @@
         <loc>/authors/wu-hua/</loc>
     </url>
     <url>
+        <loc>/authors/wu-jiajun/</loc>
+    </url>
+    <url>
         <loc>/authors/wu-jingjing/</loc>
     </url>
     <url>
@@ -937,6 +976,9 @@
         <loc>/authors/yang-xu/</loc>
     </url>
     <url>
+        <loc>/authors/yang-yi/</loc>
+    </url>
+    <url>
         <loc>/authors/yang-ziqing/</loc>
     </url>
     <url>
@@ -964,6 +1006,9 @@
         <loc>/authors/yiming-cui/</loc>
     </url>
     <url>
+        <loc>/authors/yin-xinyu/</loc>
+    </url>
+    <url>
         <loc>/authors/yixuan-wang/</loc>
     </url>
     <url>
@@ -971,6 +1016,9 @@
     </url>
     <url>
         <loc>/authors/yu-philip-s/</loc>
+    </url>
+    <url>
+        <loc>/authors/yu-qiming/</loc>
     </url>
     <url>
         <loc>/authors/yu-xiangzhan/</loc>
@@ -1142,6 +1190,9 @@
     </url>
     <url>
         <loc>/authors/zhou-yuhang/</loc>
+    </url>
+    <url>
+        <loc>/authors/zhou-yuxin/</loc>
     </url>
     <url>
         <loc>/authors/zhou-zhihan/</loc>
@@ -1919,6 +1970,10 @@
         <lastmod>2025-02-10</lastmod>
     </url>
     <url>
+        <loc>/people/在读博士生/dong-xuan/</loc>
+        <lastmod>2026-09-10</lastmod>
+    </url>
+    <url>
         <loc>/people/在读博士生/guan-jian-nan/</loc>
         <lastmod>2023-02-10</lastmod>
     </url>
@@ -1927,12 +1982,20 @@
         <lastmod>2024-09-25</lastmod>
     </url>
     <url>
+        <loc>/people/在读博士生/ji-shi-yu/</loc>
+        <lastmod>2026-09-10</lastmod>
+    </url>
+    <url>
         <loc>/people/在读博士生/li-bo-han/</loc>
         <lastmod>2021-02-10</lastmod>
     </url>
     <url>
         <loc>/people/在读博士生/li-shang-zhan/</loc>
         <lastmod>2025-02-10</lastmod>
+    </url>
+    <url>
+        <loc>/people/在读博士生/liu-jin-hao/</loc>
+        <lastmod>2026-09-10</lastmod>
     </url>
     <url>
         <loc>/people/在读博士生/liu-yi-jun/</loc>
@@ -1951,20 +2014,12 @@
         <lastmod>2026-03-10</lastmod>
     </url>
     <url>
-        <loc>/people/在读博士生/teng-de-chuan/</loc>
-        <lastmod>2017-02-10</lastmod>
-    </url>
-    <url>
         <loc>/people/在读博士生/wang-ding-zi-rui/</loc>
         <lastmod>2022-02-10</lastmod>
     </url>
     <url>
         <loc>/people/在读博士生/wang-yi-xuan/</loc>
         <lastmod>2025-02-10</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读博士生/xu-yang/</loc>
-        <lastmod>2019-02-10</lastmod>
     </url>
     <url>
         <loc>/people/在读博士生/xu-yu-zhuang/</loc>
@@ -1979,42 +2034,18 @@
         <lastmod>2026-03-11</lastmod>
     </url>
     <url>
+        <loc>/people/在读博士生/zheng-huan-yang/</loc>
+        <lastmod>2026-09-10</lastmod>
+    </url>
+    <url>
         <loc>/people/在读本科生/</loc>
     </url>
     <url>
-        <loc>/people/在读本科生/dong-xuan/</loc>
-        <lastmod>2025-09-10</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读本科生/fang-heng-jie/</loc>
-        <lastmod>2025-09-10</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读本科生/he-han/</loc>
-        <lastmod>2025-09-10</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读本科生/li-peng-zhan/</loc>
-        <lastmod>2025-09-10</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读本科生/liu-bo-fei/</loc>
-        <lastmod>2025-09-10</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读本科生/liu-jin-hao/</loc>
-        <lastmod>2025-09-10</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读本科生/shan-bao-cai/</loc>
-        <lastmod>2025-09-10</lastmod>
-    </url>
-    <url>
-        <loc>/people/在读本科生/zheng-huan-yang/</loc>
-        <lastmod>2025-09-10</lastmod>
-    </url>
-    <url>
         <loc>/people/在读硕士生/</loc>
+    </url>
+    <url>
+        <loc>/people/在读硕士生/fang-heng-jie/</loc>
+        <lastmod>2026-09-10</lastmod>
     </url>
     <url>
         <loc>/people/在读硕士生/guo-chuan-zhe/</loc>
@@ -2025,12 +2056,24 @@
         <lastmod>2024-09-25</lastmod>
     </url>
     <url>
-        <loc>/people/在读硕士生/ji-shi-yu/</loc>
-        <lastmod>2023-10-10</lastmod>
+        <loc>/people/在读硕士生/he-han/</loc>
+        <lastmod>2026-09-10</lastmod>
+    </url>
+    <url>
+        <loc>/people/在读硕士生/li-peng-zhan/</loc>
+        <lastmod>2026-09-10</lastmod>
+    </url>
+    <url>
+        <loc>/people/在读硕士生/liu-bo-fei/</loc>
+        <lastmod>2026-09-10</lastmod>
     </url>
     <url>
         <loc>/people/在读硕士生/peng-deng-yun/</loc>
         <lastmod>2024-09-25</lastmod>
+    </url>
+    <url>
+        <loc>/people/在读硕士生/shan-bao-cai/</loc>
+        <lastmod>2026-09-10</lastmod>
     </url>
     <url>
         <loc>/people/在读硕士生/xu-ke-yan/</loc>
@@ -2103,6 +2146,10 @@
         <lastmod>2022-02-10</lastmod>
     </url>
     <url>
+        <loc>/people/毕业博士/teng-de-chuan/</loc>
+        <lastmod>2026-09-10</lastmod>
+    </url>
+    <url>
         <loc>/people/毕业博士/wang-bao-xin/</loc>
         <lastmod>2025-03-04</lastmod>
     </url>
@@ -2121,6 +2168,10 @@
     <url>
         <loc>/people/毕业博士/xu-xiao/</loc>
         <lastmod>2025-09-04</lastmod>
+    </url>
+    <url>
+        <loc>/people/毕业博士/xu-yang/</loc>
+        <lastmod>2026-09-10</lastmod>
     </url>
     <url>
         <loc>/people/毕业博士/zhang-mei-shan/</loc>
@@ -3152,7 +3203,7 @@
     </url>
     <url>
         <loc>/publications/2024-crvq-channel-relaxed-vector-quantization-for-extreme-compression-of-llms/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-12-01</lastmod>
     </url>
     <url>
         <loc>/publications/2024-decoupling-breaks-data-barriers-a-decoupled-pre-training-framework-for-multi-intent-spoken-language-understanding/</loc>
@@ -3220,123 +3271,139 @@
     </url>
     <url>
         <loc>/publications/2025-a-survey-of-table-reasoning-with-large-language-models/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-09-01</lastmod>
     </url>
     <url>
         <loc>/publications/2025-abacus-sql-a-text-to-sql-system-empowering-cross-domain-and-open-domain-database-retrieval/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-07-27</lastmod>
     </url>
     <url>
         <loc>/publications/2025-can-large-language-models-understand-you-better-an-mbti-personality-detection-dataset-aligned-with-population-traits/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-01-19</lastmod>
     </url>
     <url>
         <loc>/publications/2025-chart2code53-a-large-scale-diverse-and-complex-dataset-for-enhancing-chart-to-code-generation/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-11-05</lastmod>
     </url>
     <url>
         <loc>/publications/2025-comt-a-novel-benchmark-for-chain-of-multi-modal-thought-on-large-vision-language-models/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-04-01</lastmod>
     </url>
     <url>
         <loc>/publications/2025-dac-decomposed-automation-correction-for-text-to-sql/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-11-05</lastmod>
     </url>
     <url>
         <loc>/publications/2025-dlpo-towards-a-robust-efficient-and-generalizable-prompt-optimization-framework-from-a-deep-learning-perspective/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-11-05</lastmod>
     </url>
     <url>
         <loc>/publications/2025-lookahead-q-cache-achieving-more-consistent-kv-cache-eviction-via-pseudo-query/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-11-05</lastmod>
     </url>
     <url>
         <loc>/publications/2025-manager-aggregating-insights-from-unimodal-experts-in-two-tower-vlms-and-mllms/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-12-01</lastmod>
     </url>
     <url>
         <loc>/publications/2025-mixpro-simple-yet-effective-data-augmentation-for-prompt-based-learning/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-02-01</lastmod>
     </url>
     <url>
         <loc>/publications/2025-multitat-benchmarking-multilingual-table-and-text-question-answering/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-11-05</lastmod>
     </url>
     <url>
         <loc>/publications/2025-murre-multi-hop-table-retrieval-with-removal-for-open-domain-text-to-sql/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-01-19</lastmod>
     </url>
     <url>
         <loc>/publications/2025-rot-enhancing-table-reasoning-with-iterative-row-wise-traversals/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-11-05</lastmod>
     </url>
     <url>
         <loc>/publications/2025-scitat-a-question-answering-benchmark-for-scientific-tables-and-text-covering-diverse-reasoning-types/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-07-27</lastmod>
     </url>
     <url>
         <loc>/publications/2025-tag-evol-achieving-efficient-instruction-evolving-via-tag-injection/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-07-27</lastmod>
     </url>
     <url>
         <loc>/publications/2025-towards-reasoning-era-a-survey-of-long-chain-of-thought-for-reasoning-large-language-models/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-03-12</lastmod>
     </url>
     <url>
         <loc>/publications/2025-turning-trash-into-treasure-accelerating-inference-of-large-language-models-with-token-recycling/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-07-27</lastmod>
     </url>
     <url>
         <loc>/publications/2025-visual-thoughts-a-unified-perspective-of-understanding-multimodal-chain-of-thought/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-12-06</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2026-autoveccoder-teaching-llms-to-generate-explicitly-vectorized-code/</loc>
+        <lastmod>2026-07-02</lastmod>
     </url>
     <url>
         <loc>/publications/2026-aware-first-think-less-dynamic-boundary-self-awareness-drives-extreme-reasoning-efficiency-in-large-language-models/</loc>
-        <lastmod>2026-01-01</lastmod>
+        <lastmod>2026-03-01</lastmod>
     </url>
     <url>
         <loc>/publications/2026-bounds-of-chain-of-thought-robustness-reasoning-steps-embed-norms-and-beyond/</loc>
-        <lastmod>2026-01-01</lastmod>
+        <lastmod>2026-04-23</lastmod>
     </url>
     <url>
         <loc>/publications/2026-camera-multi-matrix-joint-compression-for-moe-models-via-micro-expert-redundancy-analysis/</loc>
-        <lastmod>2026-01-01</lastmod>
+        <lastmod>2026-03-01</lastmod>
     </url>
     <url>
         <loc>/publications/2026-cve-factory-scaling-expert-level-agentic-tasks-for-code-security-vulnerability/</loc>
-        <lastmod>2026-07-01</lastmod>
+        <lastmod>2026-07-06</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2026-dashboard2code-evaluating-multimodal-models-on-reconstructing-interactive-dashboards/</loc>
+        <lastmod>2026-07-02</lastmod>
     </url>
     <url>
         <loc>/publications/2026-format-adapter-improving-reasoning-capability-of-llms-by-adapting-suitable-format/</loc>
-        <lastmod>2026-04-01</lastmod>
+        <lastmod>2026-07-02</lastmod>
     </url>
     <url>
         <loc>/publications/2026-how-many-code-and-test-cases-are-enough-evaluating-test-cases-generation-from-a-binary-matrix-perspective/</loc>
-        <lastmod>2026-01-01</lastmod>
+        <lastmod>2026-04-23</lastmod>
     </url>
     <url>
         <loc>/publications/2026-judge-q-trainable-queries-for-optimized-information-retention-in-kv-cache-eviction/</loc>
-        <lastmod>2026-01-01</lastmod>
+        <lastmod>2026-03-01</lastmod>
     </url>
     <url>
         <loc>/publications/2026-know-more-know-clearer-a-meta-cognitive-framework-for-knowledge-augmentation-in-large-language-models/</loc>
-        <lastmod>2026-07-01</lastmod>
+        <lastmod>2026-07-06</lastmod>
     </url>
     <url>
         <loc>/publications/2026-menvagent-scalable-polyglot-environment-construction-for-verifiable-software-engineering/</loc>
-        <lastmod>2026-07-01</lastmod>
+        <lastmod>2026-07-06</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2026-omibench-benchmarking-olympiad-level-multi-image-reasoning-in-large-vision-language-models/</loc>
+        <lastmod>2026-07-02</lastmod>
     </url>
     <url>
         <loc>/publications/2026-proxyattn-guided-sparse-attention-via-representative-heads/</loc>
-        <lastmod>2026-01-01</lastmod>
+        <lastmod>2026-04-23</lastmod>
     </url>
     <url>
         <loc>/publications/2026-scaling-laws-for-code-a-more-data-hungry-regime/</loc>
-        <lastmod>2026-04-01</lastmod>
+        <lastmod>2026-07-02</lastmod>
     </url>
     <url>
         <loc>/publications/2026-seer-self-consistency-advance-budget-estimation-for-adaptive-test-time-scaling/</loc>
-        <lastmod>2026-04-01</lastmod>
+        <lastmod>2026-07-02</lastmod>
+    </url>
+    <url>
+        <loc>/publications/2026-when-does-language-matter-multilingual-instructions-reveal-step-wise-language-sensitivity-in-vision-language-action-models/</loc>
+        <lastmod>2026-07-02</lastmod>
     </url>
     <url>
         <loc>/publish-year/</loc>
@@ -3522,7 +3589,7 @@
         <loc>/publisher/icmcce/</loc>
     </url>
     <url>
-        <loc>/publisher/icml-2026/</loc>
+        <loc>/publisher/icml/</loc>
     </url>
     <url>
         <loc>/publisher/ieee-audio-language/</loc>
